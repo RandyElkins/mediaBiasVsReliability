@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Media Sources Analysis Dashboard</title>
+        <link rel="stylesheet" href="styles.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <div class="container">
+                <h1>Media Sources Analysis Dashboard</h1>
+                <p>
+                    Explore reliability and bias data for various media sources
+                </p>
+                <p>
+                    Data sourced from
+                    <a
+                        href="https://app.adfontesmedia.com/chart/interactive"
+                        target="_blank"
+                        >ad fontes media</a
+                    >
+                </p>
+            </div>
+        </header>
+        <div
+            id="error-messages"
+            class="error-container"
+            style="color: red; margin: 10px 0; display: none"></div>
+        <div class="container">
+            <!-- "Import Data" area -->
+            <!-- "Import Data" area -->
+            <!-- "Import Data" area -->
+            <!-- <div class="file-upload card">
+                <div class="card-header">
+                    <div class="card-title">Import Data</div>
+                </div>
+                <p>Upload your CSV file with media source data:</p>
+                <input type="file" id="csv-file" accept=".csv" />
+                <button class="upload-btn" id="upload-btn">
+                    Upload and Process
+                </button>
+            </div> -->
+            <!-- ============================================================ -->
+            <!-- SCATTERPLOT ROW: chart left | filter/focus right              -->
+            <!-- ============================================================ -->
+            <div style="display:flex; gap:12px; align-items:flex-start; margin-bottom:12px;">
+
+                <!-- ── LEFT: Scatterplot card ────────────────────────────── -->
+                <div class="card" style="flex:1 1 0; min-width:0;">
+
+                    <!-- Card title only in header — buttons move below chart -->
+                    <div class="card-header">
+                        <div class="card-title">Reliability vs. Bias Scatterplot</div>
+                    </div>
+
+                    <!-- Summary stats above the chart -->
+                    <div class="summary-stats" style="display:flex; flex-direction:row; gap:8px; padding:8px 12px 4px; margin:0;">
+                        <div class="stat-box" style="flex:1;">
+                            <div class="stat-label">Total Sources</div>
+                            <div class="stat-value" id="total-sources">0</div>
+                        </div>
+                        <div class="stat-box" style="flex:1;">
+                            <div class="stat-label">Average Reliability</div>
+                            <div class="stat-value" id="avg-reliability">0</div>
+                        </div>
+                        <div class="stat-box" style="flex:1;">
+                            <div class="stat-label">Average Bias</div>
+                            <div class="stat-value" id="avg-bias">0</div>
+                        </div>
+                    </div>
+
+                    <!-- Threshold settings panel (hidden by default) -->
+                    <div id="threshold-panel" class="card" style="display:none; margin:4px 8px;">
+                        <div class="card-header">
+                            <div class="card-title">Reliability Threshold Settings</div>
+                        </div>
+                        <div style="padding:10px; display:flex; flex-wrap:wrap; align-items:center; gap:10px;">
+                            <label for="reliability-percentile">Top X% Threshold:</label>
+                            <input type="range" id="reliability-percentile" min="1" max="100" value="20" />
+                            <input type="number" id="reliability-percentile-value" min="1" max="100" value="20" style="width:60px;" />
+                            <label><input type="checkbox" id="toggle-background-shading" /> Enable Shading</label>
+                            <input type="color" id="threshold-line-color" value="#000000" title="Dashed Line Color" />
+                        </div>
+                        <div id="threshold-bias-breakdown" style="padding:6px 10px 10px; font-size:0.82em; overflow-x:auto;"></div>
+                    </div>
+
+                    <!-- The chart itself -->
+                    <div class="chart-container" style="position:relative; height:500px;">
+                        <canvas id="scatter-chart"></canvas>
+                    </div>
+
+                    <!-- Toggle buttons below the chart -->
+                    <div style="display:flex; flex-wrap:wrap; gap:6px; padding:8px 12px 12px;">
+                        <button id="toggle-categories" class="upload-btn"
+                                style="padding:5px 10px; font-size:12px; background-color:#27ae60;">
+                            Hide Category Labels
+                        </button>
+                        <button id="toggle-bias-strips" class="upload-btn"
+                                style="padding:5px 10px; font-size:12px;">
+                            Show Bias Strips
+                        </button>
+                        <button id="toggle-reliability-strips" class="upload-btn"
+                                style="padding:5px 10px; font-size:12px;">
+                            Show Reliability Strips
+                        </button>
+                        <button id="toggle-cg" class="upload-btn"
+                                style="padding:5px 10px; font-size:12px; background-color:#e67e22;">
+                            Hide Centers of Gravity
+                        </button>
+                        <button id="toggle-cg-line" class="upload-btn"
+                                style="padding:5px 10px; font-size:12px;">
+                            Show Overall CG Line
+                        </button>
+                        <button id="toggle-threshold-panel" class="upload-btn"
+                                style="padding:5px 10px; font-size:12px;">
+                            Show Threshold Settings
+                        </button>
+                    </div>
+
+                </div><!-- end left scatterplot card -->
+
+                <!-- ── RIGHT: Filter Data + Focus Sources (scrollable) ───── -->
+                <div style="width:300px; flex-shrink:0; display:flex; flex-direction:column; gap:8px; max-height:640px; overflow-y:auto;">
+
+                    <!-- Filter Data -->
+                    <div class="filters card" style="margin:0;">
+                        <div class="card-header">
+                            <div class="card-title">Filter Data</div>
+                        </div>
+                        <div class="filters" style="flex-direction:column; gap:8px; padding:8px;">
+                            <div class="filter-group">
+                                <label for="bias-filter">Bias Category: <span style="font-weight:normal;font-size:0.8em;opacity:0.7;">(Ctrl/Shift to multi-select)</span></label>
+                                <div style="display:flex;gap:4px;align-items:flex-start;">
+                                    <select id="bias-filter" multiple size="5" style="width:100%;font-size:0.9em;">
+                                        <option value="Most Extreme Left">Most Extreme Left</option>
+                                        <option value="Hyper-Partisan Left">Hyper-Partisan Left</option>
+                                        <option value="Strong Left">Strong Left</option>
+                                        <option value="Skews Left">Skews Left</option>
+                                        <option value="Middle">Middle or Relatively Balanced Bias</option>
+                                        <option value="Skews Right">Skews Right</option>
+                                        <option value="Strong Right">Strong Right</option>
+                                        <option value="Hyper-Partisan Right">Hyper-Partisan Right</option>
+                                        <option value="Most Extreme Right">Most Extreme Right</option>
+                                    </select>
+                                    <button id="clear-bias-filter" title="Clear bias filter"
+                                        style="padding:2px 7px;font-size:13px;cursor:pointer;flex-shrink:0;">✕</button>
+                                </div>
+                            </div>
+                            <div class="filter-group">
+                                <label for="reliability-filter">Reliability: <span style="font-weight:normal;font-size:0.8em;opacity:0.7;">(Ctrl/Shift to multi-select)</span></label>
+                                <div style="display:flex;gap:4px;align-items:flex-start;">
+                                    <select id="reliability-filter" multiple size="5" style="width:100%;font-size:0.9em;">
+                                        <option value="Reliable; Fact Reporting">Reliable; Fact Reporting</option>
+                                        <option value="Reliable; Analysis/Fact Reporting">Reliable; Analysis/Fact Reporting</option>
+                                        <option value="Generally Reliable/Analysis OR Other Issues">Generally Reliable/Analysis OR Other Issues</option>
+                                        <option value="Mixed Reliability/Opinion OR Other Issues">Mixed Reliability/Opinion OR Other Issues</option>
+                                        <option value="Unreliable; Problematic">Unreliable; Problematic</option>
+                                        <option value="Unreliable; Misleading">Unreliable; Misleading</option>
+                                        <option value="Unreliable; Inaccurate">Unreliable; Inaccurate</option>
+                                    </select>
+                                    <button id="clear-reliability-filter" title="Clear reliability filter"
+                                        style="padding:2px 7px;font-size:13px;cursor:pointer;flex-shrink:0;">✕</button>
+                                </div>
+                            </div>
+                            <div class="filter-group search-container">
+                                <label for="search">Search:</label>
+                                <div class="combo-search">
+                                    <input type="text" id="search"
+                                        placeholder="Search by name or domain..."
+                                        list="source-suggestions" style="width:100%;" />
+                                    <datalist id="source-suggestions"></datalist>
+                                    <div class="dropdown-wrapper">
+                                        <button id="show-all-sources" class="dropdown-toggle">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" viewBox="0 0 16 16">
+                                                <path d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+                                            </svg>
+                                        </button>
+                                        <div id="sources-dropdown" class="dropdown-menu">
+                                            <div class="dropdown-search">
+                                                <input type="text" id="dropdown-filter" placeholder="Filter sources..." />
+                                            </div>
+                                            <div class="dropdown-content"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Focus Sources -->
+                    <div class="card" style="margin:0;">
+                        <div class="card-header">
+                            <div class="card-title">Focus Sources</div>
+                        </div>
+                        <div class="filters" style="flex-direction:column; padding:8px;">
+                            <div class="filter-group search-container">
+                                <label for="focus-search">Highlight Source:</label>
+                                <div class="combo-search">
+                                    <input type="text" id="focus-search"
+                                        placeholder="Search for source to highlight..."
+                                        list="focus-suggestions" />
+                                    <datalist id="focus-suggestions"></datalist>
+                                    <button id="add-focus" class="upload-btn"
+                                        style="border-top-left-radius:0; border-bottom-left-radius:0; padding:8px 12px;">
+                                        Add
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="focused-sources-list" style="padding:0 8px 8px;">
+                            <div style="font-weight:600; margin-bottom:6px;">Highlighted Sources:</div>
+                            <div id="focus-tags" style="display:flex; flex-wrap:wrap; gap:6px;"></div>
+                        </div>
+                    </div>
+
+                </div><!-- end right panel -->
+            </div><!-- end scatterplot row -->
+
+            <!-- ============================================================ -->
+            <!-- SECONDARY CHARTS: Bias Distribution + Heatmap                -->
+            <!-- ============================================================ -->
+            <div class="dashboard">
+                <!-- Bias Distribution -->
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-title">Bias Distribution</div>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="bias-chart"></canvas>
+                    </div>
+                </div>
+                <!-- Bias vs. Reliability Heatmap -->
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-title">Bias vs. Reliability Heatmap</div>
+                        <label style="margin-left:auto;">
+                            <input type="checkbox" id="toggle-heatmap" checked />
+                            Show Heatmap
+                        </label>
+                    </div>
+                    <div id="heatmap-container" style="width:100%; overflow-x:auto; display:block;">
+                        <table id="heatmap-table" style="border-collapse:collapse; width:100%;"></table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ============================================================ -->
+            <!-- MEDIA SOURCES TABLE                                           -->
+            <!-- ============================================================ -->
+            <div class="card">
+                <div class="card-header">
+                    <div class="card-title">Media Sources Table</div>
+                </div>
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th style="cursor:default;">#</th>
+                            <th data-sort="id">ID</th>
+                            <th data-sort="moniker_name">Name</th>
+                            <th data-sort="domain">Domain</th>
+                            <th data-sort="reliability_mean">Reliability Score</th>
+                            <th data-sort="reliability_label">Reliability Label</th>
+                            <th data-sort="bias_mean">Bias Score</th>
+                            <th data-sort="bias_label">Bias Label</th>
+                        </tr>
+                    </thead>
+                    <tbody id="data-table-body">
+                        <!-- Data rows populated by data-table.js -->
+                    </tbody>
+                </table>
+                <div class="pagination" id="pagination"></div>
+            </div>
+
+        </div><!-- end .container -->
+        </div>
+                <script src="constants.js"></script>
+        <script src="data.js"></script>
+        <script src="main.js"></script>
+        <script src="filters.js"></script>
+        <script src="search.js"></script>
+        <script src="csv-loader.js"></script>
+        <script src="heatmap.js"></script>
+        <script src="bias-distribution.js"></script>
+        <script src="data-table.js"></script>
+        <script src="focus.js"></script>
+        <script src="scatterplot.js"></script>
+        <script>init();</script>
+    </body>
+</html>
