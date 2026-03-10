@@ -78,14 +78,24 @@
             },
             options: {
                 animation: useAnimation,
+                responsive: true,
+                maintainAspectRatio: false,
                 scales: {
                     y: {
                         beginAtZero: true,
-                        title: { display: true, text: "Number of Sources" },
+                        title: { display: true, text: "Count", font: { size: 10 } },
+                        ticks: { font: { size: 10 } },
                     },
                     x: {
-                        title: { display: true, text: "Bias Category" },
+                        ticks: {
+                            font: { size: 9 },
+                            maxRotation: 30,
+                            minRotation: 20,
+                        },
                     },
+                },
+                plugins: {
+                    legend: { display: false },
                 },
             },
         });

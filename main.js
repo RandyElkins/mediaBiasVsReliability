@@ -43,8 +43,12 @@ function getSelectedValues(selectId) {
 // Core pipeline
 // ---------------------------------------------------------------------------
 function applyFilters() {
-    const biasSelected        = getSelectedValues("bias-filter");        // [] = show all
-    const reliabilitySelected = getSelectedValues("reliability-filter"); // [] = show all
+    const selections = (typeof window.getFilterSelections === "function")
+        ? window.getFilterSelections()
+        : { bias: [], reliability: [] };
+
+    const biasSelected        = selections.bias;        // [] = show all
+    const reliabilitySelected = selections.reliability; // [] = show all
     const searchTerm          = document.getElementById("search").value.toLowerCase();
 
     filteredData = mediaSourcesData.filter((source) => {

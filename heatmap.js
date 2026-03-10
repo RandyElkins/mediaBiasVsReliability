@@ -174,67 +174,66 @@
         renderSummary(matrix);
     }
 
-    // Which BIAS_CATEGORIES indices fall into each summary column
-    const LEFT_INDICES   = BIAS_CATEGORIES.reduce((acc, cat, i) => { if (cat.includes("Left"))   acc.push(i); return acc; }, []);
-    const MIDDLE_INDICES = BIAS_CATEGORIES.reduce((acc, cat, i) => { if (cat.includes("Middle")) acc.push(i); return acc; }, []);
-    const RIGHT_INDICES  = BIAS_CATEGORIES.reduce((acc, cat, i) => { if (cat.includes("Right"))  acc.push(i); return acc; }, []);
+    // Which BIAS_CATEGORIES indices fall into Left / Right
+    const LEFT_INDICES  = BIAS_CATEGORIES.reduce((acc, cat, i) => { if (cat.includes("Left"))  acc.push(i); return acc; }, []);
+    const RIGHT_INDICES = BIAS_CATEGORIES.reduce((acc, cat, i) => { if (cat.includes("Right")) acc.push(i); return acc; }, []);
+
+    // Upper 3 reliability rows = indices 0,1,2 (most reliable first)
+    // Lower 4 reliability rows = indices 3,4,5,6
+    const UPPER_REL = [0, 1, 2];
+    const LOWER_REL = [3, 4, 5, 6];
+
+    function renderSidePanel(containerId, indices, matrix, headerBg, headerFg, headerLabel) {
+        const el = document.getElementById(containerId);
+        if (!el) return;
+
+        const pct = (n, t) => t === 0 ? "—" : `${Math.round(n / t * 100)}%`;
+
+        // Total sources in this group across all reliability rows
+        const totalAll = matrix.reduce((sum, row) =>
+            sum + indices.reduce((s, bi) => s + row[bi].length, 0), 0);
+
+        // Upper 3 rows
+        const upperCount = UPPER_REL.reduce((sum, ri) =>
+            sum + indices.reduce((s, bi) => s + matrix[ri][bi].length, 0), 0);
+
+        // Lower 4 rows
+        const lowerCount = LOWER_REL.reduce((sum, ri) =>
+            sum + indices.reduce((s, bi) => s + matrix[ri][bi].length, 0), 0);
+
+        const cs = "padding:5px 10px; border:1px solid #ccc; text-align:center; font-size:0.85em; white-space:nowrap;";
+        const hdrStyle = `background:${headerBg}; color:${headerFg}; ${cs} font-weight:bold;`;
+
+        // Colors for upper (reliable) and lower (unreliable) rows
+        const upperBg = getReliabilityLabelColor(0); // most reliable color
+        const upperFg = getContrastColor(upperBg);
+        const lowerBg = getReliabilityLabelColor(6); // least reliable color
+        const lowerFg = getContrastColor(lowerBg);
+
+        el.innerHTML = `
+            <table style="border-collapse:collapse; font-size:0.85em;">
+                <tr><th colspan="2" style="${hdrStyle}">${headerLabel}</th></tr>
+                <tr><th colspan="2" style="${hdrStyle} font-size:0.8em;">Total: ${totalAll}</th></tr>
+                <tr>
+                    <td style="background:${upperBg};color:${upperFg};${cs} font-weight:bold;">Upper 3<br/><span style="font-size:0.85em;opacity:0.8;">Reliable</span></td>
+                    <td style="background:${upperBg};color:${upperFg};${cs}">${upperCount}<br/>${pct(upperCount, totalAll)}</td>
+                </tr>
+                <tr>
+                    <td style="background:${lowerBg};color:${lowerFg};${cs} font-weight:bold;">Lower 4<br/><span style="font-size:0.85em;opacity:0.8;">Less Reliable</span></td>
+                    <td style="background:${lowerBg};color:${lowerFg};${cs}">${lowerCount}<br/>${pct(lowerCount, totalAll)}</td>
+                </tr>
+            </table>`;
+    }
 
     function renderSummary(matrix) {
-        // Ensure the wrapper exists — create it once and reuse
-        let wrapper = document.getElementById("heatmap-wrapper");
-        if (!wrapper) {
-            const container = document.getElementById("heatmap-container");
-            const mainTable = document.getElementById("heatmap-table");
-            // Wrap both tables in a flex row
-            wrapper = document.createElement("div");
-            wrapper.id = "heatmap-wrapper";
-            wrapper.style.cssText = "display:flex; align-items:flex-start; gap:12px;";
-            container.appendChild(wrapper);
-            wrapper.appendChild(mainTable);
-            const summaryTable = document.createElement("table");
-            summaryTable.id = "heatmap-summary";
-            summaryTable.style.cssText = "border-collapse:collapse; flex-shrink:0;";
-            wrapper.appendChild(summaryTable);
-        }
-
-        const summaryTable = document.getElementById("heatmap-summary");
-        if (!summaryTable) return;
-
-        const rowTotal = (row, indices) =>
-            indices.reduce((sum, i) => sum + row[i].length, 0);
-
-        const pct = (n, total) =>
-            total === 0 ? "0%" : `${Math.round((n / total) * 100)}%`;
-
-        const cellStyle = (bg) => {
-            const fg = getContrastColor(bg);
-            return `style="background:${bg}; color:${fg}; padding:4px 8px; border:1px solid #ccc; text-align:center; font-size:0.85em; white-space:nowrap;"`;
-        };
-
-        const headerStyle = (bg, fg) =>
-            `style="background:${bg}; color:${fg}; padding:4px 8px; border:1px solid #ccc; text-align:center; font-weight:bold; font-size:0.85em;"`;
-
-        let html = `<tr>
-            <th ${headerStyle("rgba(65,105,225,0.85)", "#fff")}>Left</th>
-            <th ${headerStyle("rgba(180,180,180,0.85)", "#000")}>Middle</th>
-            <th ${headerStyle("rgba(200,0,0,0.85)",    "#fff")}>Right</th>
-        </tr>`;
-
-        matrix.forEach((row, relIdx) => {
-            const left   = rowTotal(row, LEFT_INDICES);
-            const middle = rowTotal(row, MIDDLE_INDICES);
-            const right  = rowTotal(row, RIGHT_INDICES);
-            const total  = left + middle + right;
-            const bg     = getReliabilityLabelColor(relIdx);
-
-            html += `<tr>
-                <td ${cellStyle(bg)}>${left} (${pct(left, total)})</td>
-                <td ${cellStyle(bg)}>${middle} (${pct(middle, total)})</td>
-                <td ${cellStyle(bg)}>${right} (${pct(right, total)})</td>
-            </tr>`;
-        });
-
-        summaryTable.innerHTML = html;
+        renderSidePanel(
+            "heatmap-left-panel", LEFT_INDICES, matrix,
+            "rgba(65,105,225,0.85)", "#fff", "Left"
+        );
+        renderSidePanel(
+            "heatmap-right-panel", RIGHT_INDICES, matrix,
+            "rgba(200,0,0,0.85)", "#fff", "Right"
+        );
     }
 
     // ---------------------------------------------------------------------------
