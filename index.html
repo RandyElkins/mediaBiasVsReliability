@@ -8,6 +8,8 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-zoom/1.2.1/chartjs-plugin-zoom.min.js"></script>
     </head>
 
     <body>
@@ -104,6 +106,15 @@
                                 style="padding:5px 10px; font-size:12px;">
                             Show Threshold Settings
                         </button>
+                    </div>
+
+                    <!-- Zoom controls -->
+                    <div style="display:flex; align-items:center; gap:6px; padding:2px 12px 8px; flex-wrap:wrap;">
+                        <span style="font-size:11px; opacity:0.6; margin-right:2px;">Zoom:</span>
+                        <button id="zoom-in"    class="upload-btn" style="padding:3px 10px; font-size:13px;" title="Zoom in">＋</button>
+                        <button id="zoom-out"   class="upload-btn" style="padding:3px 10px; font-size:13px;" title="Zoom out">－</button>
+                        <button id="zoom-reset" class="upload-btn" style="padding:3px 10px; font-size:12px;" title="Reset zoom">Reset</button>
+                        <span style="font-size:11px; opacity:0.55; margin-left:4px;">· scroll wheel or pinch to zoom · drag to pan</span>
                     </div>
 
                     <!-- Threshold settings panel (hidden by default, below buttons) -->
@@ -224,10 +235,21 @@
             <div class="card" style="margin-bottom:12px;">
                 <div class="card-header">
                     <div class="card-title">Bias vs. Reliability Heatmap</div>
-                    <label style="margin-left:auto;">
-                        <input type="checkbox" id="toggle-heatmap" checked />
-                        Show Heatmap
-                    </label>
+                    <div style="display:flex; align-items:center; gap:12px; margin-left:auto; flex-wrap:wrap;">
+                        <span style="font-size:0.85em; font-weight:600; opacity:0.7;">Cell click:</span>
+                        <label style="font-size:0.85em; cursor:pointer; display:flex; align-items:center; gap:4px;">
+                            <input type="radio" name="heatmap-mode" id="heatmap-mode-highlight" value="highlight" checked />
+                            Highlight
+                        </label>
+                        <label style="font-size:0.85em; cursor:pointer; display:flex; align-items:center; gap:4px;">
+                            <input type="radio" name="heatmap-mode" id="heatmap-mode-focus" value="focus" />
+                            Focus
+                        </label>
+                        <label style="font-size:0.85em;">
+                            <input type="checkbox" id="toggle-heatmap" checked />
+                            Show Heatmap
+                        </label>
+                    </div>
                 </div>
                 <div id="heatmap-container" style="width:100%; overflow-x:auto; display:block;">
                     <div id="heatmap-outer" style="display:flex; gap:12px; align-items:flex-start;">

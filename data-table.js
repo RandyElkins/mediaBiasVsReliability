@@ -135,10 +135,12 @@
             const row = document.createElement("tr");
             const relStyle  = getReliabilityCellStyle(source.reliability_mean);
             const biasStyle = getBiasCellStyle(source.bias_mean);
+            const isHM      = heatmapNames.has(source.moniker_name);
+            if (isHM) row.style.cssText = "background:rgba(0,210,210,0.18); outline:2px solid rgba(0,170,170,0.6); outline-offset:-1px;";
             row.innerHTML = `
 <td style="color:#888;font-size:0.85em;text-align:right;padding-right:6px;">${pageOffset + idx + 1}</td>
 <td>${source.id}</td>
-<td>${source.moniker_name}</td>
+<td style="${isHM ? 'font-weight:600;' : ''}">${source.moniker_name}</td>
 <td>${source.domain}</td>
 <td style="${relStyle}">${source.reliability_mean.toFixed(2)}</td>
 <td>${source.reliability_label}</td>
@@ -205,10 +207,56 @@
     }
 
     // -----------------------------------------------------------------------
+    // Heatmap selection state
+    // -----------------------------------------------------------------------
+    let heatmapNames    = new Set();
+    let fullDataBackup  = null;   // holds full currentData during focus mode
+
+    // -----------------------------------------------------------------------
     // Listen for data updates from the main script
     // -----------------------------------------------------------------------
     document.addEventListener("data-table:update", (e) => {
+        heatmapNames   = new Set();
+        fullDataBackup = null;   // discard any heatmap focus on real filter change
         update((e.detail && e.detail.filteredData) || []);
+    });
+
+    // Heatmap cell click — highlight matching rows, or focus (show only those rows)
+    document.addEventListener("heatmap:cell-click", e => {
+        const { names = [], mode = "highlight" } = e.detail || {};
+
+        if (mode === "clear" || names.length === 0) {
+            // Restore full data if we were in focus mode
+            if (fullDataBackup !== null) {
+                currentData    = fullDataBackup;
+                fullDataBackup = null;
+            }
+            heatmapNames = new Set();
+            currentPage  = 1;
+        } else if (mode === "focus") {
+            // Save full data (only once — don't overwrite a previous backup)
+            if (fullDataBackup === null) fullDataBackup = currentData.slice();
+            const nameSet = new Set(names);
+            heatmapNames  = nameSet;
+            currentData   = fullDataBackup.filter(s => nameSet.has(s.moniker_name));
+            currentPage   = 1;
+        } else {
+            // highlight — restore full data if coming from focus, then jump to first match
+            if (fullDataBackup !== null) {
+                currentData    = fullDataBackup;
+                fullDataBackup = null;
+            }
+            heatmapNames = new Set(names);
+            const firstIdx = currentData.findIndex(s => heatmapNames.has(s.moniker_name));
+            if (firstIdx !== -1) currentPage = Math.floor(firstIdx / rowsPerPage) + 1;
+        }
+
+        renderTable();
+        renderPagination();
+        if (names.length > 0) {
+            const tableEl = document.querySelector(".data-table");
+            if (tableEl) tableEl.closest(".card")?.scrollIntoView({ behavior:"smooth", block:"nearest" });
+        }
     });
 
     // -----------------------------------------------------------------------

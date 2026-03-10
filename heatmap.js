@@ -152,7 +152,9 @@
                 const tooltip = sources.length
                     ? `${sources.length} source(s):\n${sources.map((s) => s.moniker_name).join("\n")}`
                     : "0 sources";
-                html += `<td class="heatmap-cell" style="background:${cellBg}" title="${tooltip}">${sources.length}</td>`;
+                const names = JSON.stringify(sources.map(s => s.moniker_name));
+                const cursor = sources.length ? "cursor:pointer;" : "";
+                html += `<td class="heatmap-cell" style="background:${cellBg};${cursor}" title="${tooltip}" data-rel="${relIdx}" data-bias="${biasIdx}" data-names='${names.replace(/'/g,"&#39;")}'>${sources.length}</td>`;
             });
             html += `<td class="heatmap-cell" style="background:${bg};color:${fg};font-weight:bold;">${rowTotals[relIdx]}</td></tr>`;
         });
@@ -168,10 +170,52 @@
 
         table.innerHTML = html;
 
+        // Wire click delegation on the table for data cells
+        initCellClicks(table);
+
         // -------------------------------------------------------------------
         // Summary table — Left / Middle / Right totals per reliability row
         // -------------------------------------------------------------------
         renderSummary(matrix);
+    }
+
+    // Track which cell is currently selected (outline highlight)
+    let activeCellEl = null;
+
+    function clearCellHighlight() {
+        if (activeCellEl) { activeCellEl.style.outline = ""; activeCellEl = null; }
+    }
+
+    function getHeatmapMode() {
+        const el = document.querySelector('input[name="heatmap-mode"]:checked');
+        return el ? el.value : "highlight";
+    }
+
+    function initCellClicks(table) {
+        table.addEventListener("click", e => {
+            const td = e.target.closest("td.heatmap-cell[data-names]");
+            if (!td) return;
+
+            // Toggle: clicking the same cell again clears selection
+            if (td === activeCellEl) {
+                clearCellHighlight();
+                document.dispatchEvent(new CustomEvent("heatmap:cell-click", { detail: { names: [], mode: "clear" } }));
+                return;
+            }
+
+            // Remove outline from previous active cell
+            if (activeCellEl) activeCellEl.style.outline = "";
+
+            // Highlight new cell
+            td.style.outline = "3px solid #ff6600";
+            td.style.outlineOffset = "-2px";
+            activeCellEl = td;
+
+            let names = [];
+            try { names = JSON.parse(td.dataset.names); } catch(e) {}
+            const mode = getHeatmapMode();
+            document.dispatchEvent(new CustomEvent("heatmap:cell-click", { detail: { names, mode } }));
+        });
     }
 
     // Which BIAS_CATEGORIES indices fall into Left / Right
@@ -254,6 +298,7 @@
     // ---------------------------------------------------------------------------
     document.addEventListener("heatmap:update", (e) => {
         const filteredData = (e.detail && e.detail.filteredData) || [];
+        activeCellEl = null;   // table rebuilds, old ref is gone
         renderHeatmap(filteredData);
     });
 

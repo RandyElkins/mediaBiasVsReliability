@@ -15,6 +15,8 @@
     let reliabilityStripsEnabled = false;
     let cgEnabled                = true;    // on by default
     let cgOverallLineEnabled     = false;   // overall CG horizontal line
+    let heatmapHighlighted       = [];      // names highlighted by heatmap cell click
+    let heatmapFocused           = false;   // true when heatmap is in focus mode
 
     // -----------------------------------------------------------------------
     // Category boundaries
@@ -90,6 +92,7 @@
             if (!biasStripsEnabled) return;
             const { ctx, chartArea, scales } = chart;
             ctx.save();
+            ctx.beginPath(); ctx.rect(chartArea.left,chartArea.top,chartArea.width,chartArea.height); ctx.clip();
             BIAS_CATEGORIES.forEach((_,i) => {
                 const lx=scales.x.getPixelForValue(BIAS_BOUNDARIES[i]);
                 const rx=scales.x.getPixelForValue(BIAS_BOUNDARIES[i+1]);
@@ -110,6 +113,7 @@
             if (!reliabilityStripsEnabled) return;
             const { ctx, chartArea, scales } = chart;
             ctx.save();
+            ctx.beginPath(); ctx.rect(chartArea.left,chartArea.top,chartArea.width,chartArea.height); ctx.clip();
             RELIABILITY_CATEGORIES.forEach((_,i) => {
                 const scoreLow =RELIABILITY_BOUNDARIES[N_REL-1-i];
                 const scoreHigh=RELIABILITY_BOUNDARIES[N_REL-i];
@@ -131,6 +135,10 @@
         afterDraw(chart) {
             const { ctx, chartArea, scales } = chart;
             ctx.save();
+            // Clip to the chart plot area so lines outside the zoomed view are invisible
+            ctx.beginPath();
+            ctx.rect(chartArea.left, chartArea.top, chartArea.width, chartArea.height);
+            ctx.clip();
             ctx.strokeStyle="rgba(0,0,0,0.20)"; ctx.lineWidth=1; ctx.setLineDash([4,4]);
             BIAS_INNER.forEach(v => {
                 const px=scales.x.getPixelForValue(v);
@@ -380,17 +388,15 @@
         return {
             x: {
                 title: { display:true, text:"Bias Score (Negative = Left, Positive = Right)" },
-                min:-40, max:40,
-                ticks: { font:{size:9}, maxRotation:45, autoSkip:false },
+                suggestedMin:-40, suggestedMax:40,
+                ticks: { font:{size:9}, maxRotation:45, autoSkip:true, maxTicksLimit:9 },
                 grid:  { color:()=>"rgba(0,0,0,0)" },
-                afterBuildTicks(axis) { axis.ticks=BIAS_INNER.map(v=>({value:v})); },
             },
             y: {
                 title: { display:true, text:"Reliability Score (Higher = More Reliable)" },
-                min:0, max:60,
-                ticks: { font:{size:9}, autoSkip:false },
+                suggestedMin:0, suggestedMax:60,
+                ticks: { font:{size:9}, autoSkip:true, maxTicksLimit:7 },
                 grid:  { color:()=>"rgba(0,0,0,0)" },
-                afterBuildTicks(axis) { axis.ticks=RELIABILITY_INNER.map(v=>({value:v})); },
             },
         };
     }
@@ -410,9 +416,13 @@
         }
 
         const scatterData=dataForScatter.map(s=>({x:s.bias_mean,y:s.reliability_mean,label:s.moniker_name}));
-        const focused    =window.focusedSources||[];
-        const regularData=scatterData.filter(p=>!focused.includes(p.label));
-        const focusedData=scatterData.filter(p=> focused.includes(p.label));
+        const focused    = window.focusedSources || [];
+        const hmNames    = new Set(heatmapHighlighted);
+        const focusSet   = new Set(focused);
+
+        const regularData  = scatterData.filter(p => !focusSet.has(p.label) && !hmNames.has(p.label));
+        const focusedData  = scatterData.filter(p =>  focusSet.has(p.label));
+        const hmData       = scatterData.filter(p => !focusSet.has(p.label) && hmNames.has(p.label));
 
         const relVals  =filteredData.map(s=>s.reliability_mean).sort((a,b)=>a-b);
         const tIdx     =Math.floor(relVals.length*((100-thresholdPercentile)/100));
@@ -422,14 +432,19 @@
 
         const datasets=[];
         if (regularData.length>0) datasets.push({
-            label:"Media Sources",data:regularData,
+            label:"Media Sources", data:regularData,
             backgroundColor:getPointColors(regularData),
-            pointRadius:4,pointHoverRadius:8,order:2,
+            pointRadius:4, pointHoverRadius:8, order:3,
+        });
+        if (hmData.length>0) datasets.push({
+            label:"Heatmap Selection", data:hmData,
+            backgroundColor:"rgba(0,210,210,0.85)", borderColor:"rgba(0,140,140,1)",
+            borderWidth:2, pointRadius:6, pointHoverRadius:10, order:2,
         });
         if (focusedData.length>0) datasets.push({
-            label:"Highlighted Sources",data:focusedData,
-            backgroundColor:"rgba(255,215,0,0.9)",borderColor:"rgba(255,140,0,1)",
-            borderWidth:2,pointRadius:8,pointHoverRadius:12,order:1,
+            label:"Highlighted Sources", data:focusedData,
+            backgroundColor:"rgba(255,215,0,0.9)", borderColor:"rgba(255,140,0,1)",
+            borderWidth:2, pointRadius:8, pointHoverRadius:12, order:1,
         });
 
         scatterChart=new Chart(canvas.getContext("2d"),{
@@ -443,16 +458,32 @@
                     tooltip:{
                         callbacks:{
                             label:ctx=>{
-                                const p=ctx.raw,tag=focused.includes(p.label)?" (HIGHLIGHTED)":"";
+                                const p=ctx.raw;
+                                const tag = focusSet.has(p.label) ? " ★" : hmNames.has(p.label) ? " ◆" : "";
                                 return `${p.label}${tag}: Reliability: ${p.y.toFixed(2)}, Bias: ${p.x.toFixed(2)}`;
                             },
                         },
                     },
-                    legend:{ display:focusedData.length>0 },
+                    legend:{ display: focusedData.length>0 || hmData.length>0 },
                     backgroundShading:{
                         thresholdY:relThresh,
                         aboveColor:"rgba(144,238,144,0.2)",
                         belowColor:"rgba(255,182,193,0.2)",
+                    },
+                    zoom:{
+                        zoom:{
+                            wheel:{ enabled:true, speed:0.08 },
+                            pinch:{ enabled:true },
+                            mode:"xy",
+                        },
+                        pan:{
+                            enabled:true,
+                            mode:"xy",
+                        },
+                        limits:{
+                            x:{ min:-40, max:40, minRange:2 },
+                            y:{ min:0,   max:60, minRange:2 },
+                        },
                     },
                 },
             },
@@ -615,11 +646,47 @@
     // -----------------------------------------------------------------------
     // Event listeners
     // -----------------------------------------------------------------------
-    document.addEventListener("scatterplot:update",e=>{
-        currentData=(e.detail&&e.detail.filteredData)||[];
+    document.addEventListener("scatterplot:update", e => {
+        currentData        = (e.detail && e.detail.filteredData) || [];
+        heatmapHighlighted = [];
+        heatmapFocused     = false;
         render(currentData);
     });
-    document.addEventListener("focus:changed",()=>render(currentData));
+    document.addEventListener("focus:changed", () => render(currentData));
+
+    // Heatmap cell click — highlight (teal overlay) or focus (show only those sources)
+    document.addEventListener("heatmap:cell-click", e => {
+        const { names = [], mode = "highlight" } = e.detail || {};
+        if (mode === "clear" || names.length === 0) {
+            heatmapHighlighted = [];
+            heatmapFocused     = false;
+            render(currentData);
+        } else if (mode === "focus") {
+            heatmapHighlighted = [];
+            heatmapFocused     = true;
+            // Render only the named sources, preserving their full source objects
+            const nameSet = new Set(names);
+            render(currentData.filter(s => nameSet.has(s.moniker_name)));
+        } else {
+            // highlight mode
+            heatmapHighlighted = names;
+            heatmapFocused     = false;
+            render(currentData);
+        }
+    });
+
+    // -----------------------------------------------------------------------
+    // Zoom button wiring (after chart exists — delegated via click on buttons)
+    // -----------------------------------------------------------------------
+    document.getElementById("zoom-in")?.addEventListener("click", () => {
+        if (scatterChart) scatterChart.zoom(1.25);
+    });
+    document.getElementById("zoom-out")?.addEventListener("click", () => {
+        if (scatterChart) scatterChart.zoom(0.8);
+    });
+    document.getElementById("zoom-reset")?.addEventListener("click", () => {
+        if (scatterChart) scatterChart.resetZoom();
+    });
 
     // -----------------------------------------------------------------------
     // Init
