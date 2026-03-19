@@ -41,7 +41,7 @@
                 valA = valA.toLowerCase();
                 valB = valB.toLowerCase();
             }
-            if (column === "reliability_mean" || column === "bias_mean" || column === "id") {
+            if (column === "reliability_mean" || column === "bias_mean" || column === "id" || column === "_reliabilityRank") {
                 valA = parseFloat(valA) || 0;
                 valB = parseFloat(valB) || 0;
             }
@@ -143,6 +143,7 @@
 <td style="${isHM ? 'font-weight:600;' : ''}">${source.moniker_name}</td>
 <td>${source.domain}</td>
 <td style="${relStyle}">${source.reliability_mean.toFixed(2)}</td>
+<td style="${relStyle}text-align:center;">${source._reliabilityRank != null ? source._reliabilityRank : '—'}</td>
 <td>${source.reliability_label}</td>
 <td style="${biasStyle}">${source.bias_mean.toFixed(2)}</td>
 <td>${source.bias_label}</td>`;

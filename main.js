@@ -64,6 +64,15 @@ function applyFilters() {
             (typeof source.domain       === "string" && source.domain.toLowerCase().includes(searchTerm));
         return matchesBias && matchesReliability && matchesSearch;
     });
+
+    // Stamp dense reliability rank (1 = highest score) onto each source object.
+    // Ties share the same rank. Rank persists on the object so all modules can read it.
+    const sorted = filteredData.slice().sort((a, b) => b.reliability_mean - a.reliability_mean);
+    let rank = 1;
+    sorted.forEach((s, i) => {
+        if (i > 0 && s.reliability_mean < sorted[i - 1].reliability_mean) rank = i + 1;
+        s._reliabilityRank = rank;
+    });
 }
 
 function updateSummaryStats() {

@@ -415,7 +415,7 @@
             dataForScatter=filteredData.filter((_,i)=>i%rate===0);
         }
 
-        const scatterData=dataForScatter.map(s=>({x:s.bias_mean,y:s.reliability_mean,label:s.moniker_name}));
+        const scatterData=dataForScatter.map(s=>({x:s.bias_mean, y:s.reliability_mean, label:s.moniker_name, rank:s._reliabilityRank}));
         const focused    = window.focusedSources || [];
         const hmNames    = new Set(heatmapHighlighted);
         const focusSet   = new Set(focused);
@@ -456,11 +456,13 @@
                 scales:buildScales(),
                 plugins:{
                     tooltip:{
+                        itemSort: (a, b) => (a.raw.rank ?? Infinity) - (b.raw.rank ?? Infinity),
                         callbacks:{
                             label:ctx=>{
                                 const p=ctx.raw;
                                 const tag = focusSet.has(p.label) ? " ★" : hmNames.has(p.label) ? " ◆" : "";
-                                return `${p.label}${tag}: Reliability: ${p.y.toFixed(2)}, Bias: ${p.x.toFixed(2)}`;
+                                const rankStr = p.rank != null ? ` · Rank #${p.rank}` : "";
+                                return `${p.label}${tag}: Reliability: ${p.y.toFixed(2)}${rankStr}, Bias: ${p.x.toFixed(2)}`;
                             },
                         },
                     },
