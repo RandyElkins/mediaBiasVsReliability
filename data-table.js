@@ -143,7 +143,7 @@
 <td style="${isHM ? 'font-weight:600;' : ''}">${source.moniker_name}</td>
 <td>${source.domain}</td>
 <td style="${relStyle}">${source.reliability_mean.toFixed(2)}</td>
-<td style="${relStyle}text-align:center;">${source._reliabilityRank != null ? source._reliabilityRank : '—'}</td>
+<td style="${relStyle}text-align:center; white-space:nowrap; font-size:0.9em;">${source._reliabilityRank != null ? `#${source._reliabilityRank}<span style="opacity:0.55;font-size:0.85em;"> /${mediaSourcesData.length}</span>` : '—'}</td>
 <td>${source.reliability_label}</td>
 <td style="${biasStyle}">${source.bias_mean.toFixed(2)}</td>
 <td>${source.bias_label}</td>`;

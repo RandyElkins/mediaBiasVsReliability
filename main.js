@@ -64,15 +64,6 @@ function applyFilters() {
             (typeof source.domain       === "string" && source.domain.toLowerCase().includes(searchTerm));
         return matchesBias && matchesReliability && matchesSearch;
     });
-
-    // Stamp dense reliability rank (1 = highest score) onto each source object.
-    // Ties share the same rank. Rank persists on the object so all modules can read it.
-    const sorted = filteredData.slice().sort((a, b) => b.reliability_mean - a.reliability_mean);
-    let rank = 1;
-    sorted.forEach((s, i) => {
-        if (i > 0 && s.reliability_mean < sorted[i - 1].reliability_mean) rank = i + 1;
-        s._reliabilityRank = rank;
-    });
 }
 
 function updateSummaryStats() {
@@ -104,9 +95,22 @@ function processData() {
 }
 
 // ---------------------------------------------------------------------------
+// Global rank — computed once from the full dataset, never changes on filter
+// ---------------------------------------------------------------------------
+function stampGlobalRanks(data) {
+    const sorted = data.slice().sort((a, b) => b.reliability_mean - a.reliability_mean);
+    let rank = 1;
+    sorted.forEach((s, i) => {
+        if (i > 0 && s.reliability_mean < sorted[i - 1].reliability_mean) rank = i + 1;
+        s._reliabilityRank = rank;
+    });
+}
+
+// ---------------------------------------------------------------------------
 // Bootstrap — called by index.html after all modules have loaded
 // ---------------------------------------------------------------------------
 function init() {
     mediaSourcesData = sampleData;
+    stampGlobalRanks(mediaSourcesData);
     processData();
 }
