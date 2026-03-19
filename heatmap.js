@@ -98,18 +98,36 @@
         );
 
         filteredData.forEach((source) => {
-            const biasIdx = BIAS_CATEGORIES.findIndex(
-                (cat) =>
-                    (source.bias_label || "").trim().toLowerCase() ===
-                    cat.toLowerCase(),
+            const rawBias = (source.bias_label || "").trim();
+            const rawRel  = (source.reliability_label || "").trim();
+
+            let biasIdx = BIAS_CATEGORIES.findIndex(
+                cat => rawBias.toLowerCase() === cat.toLowerCase()
             );
-            const relIdx = RELIABILITY_CATEGORIES.findIndex(
-                (cat) =>
-                    (source.reliability_label || "").trim().toLowerCase() ===
-                    cat.toLowerCase(),
+            let relIdx = RELIABILITY_CATEGORIES.findIndex(
+                cat => rawRel.toLowerCase() === cat.toLowerCase()
             );
+
+            // Fallback: try contains match for labels with extra whitespace or minor differences
+            if (biasIdx === -1 && rawBias) {
+                biasIdx = BIAS_CATEGORIES.findIndex(
+                    cat => rawBias.toLowerCase().includes(cat.toLowerCase()) ||
+                           cat.toLowerCase().includes(rawBias.toLowerCase())
+                );
+            }
+            if (relIdx === -1 && rawRel) {
+                relIdx = RELIABILITY_CATEGORIES.findIndex(
+                    cat => rawRel.toLowerCase().includes(cat.toLowerCase()) ||
+                           cat.toLowerCase().includes(rawRel.toLowerCase())
+                );
+            }
+
             if (biasIdx !== -1 && relIdx !== -1) {
                 matrix[relIdx][biasIdx].push(source);
+            } else {
+                console.warn("heatmap: unmatched source", source.moniker_name,
+                    "| bias_label:", JSON.stringify(source.bias_label),
+                    "| reliability_label:", JSON.stringify(source.reliability_label));
             }
         });
 
@@ -125,7 +143,11 @@
         const rowTotals  = matrix.map(row => row.reduce((s, cell) => s + cell.length, 0));
         const colTotals  = BIAS_CATEGORIES.map((_, bi) =>
             matrix.reduce((s, row) => s + row[bi].length, 0));
-        const grandTotal = rowTotals.reduce((s, n) => s + n, 0);
+        // Grand total always equals filteredData.length — unmatched sources are counted
+        // in the total even if they don't fit a matrix cell.
+        const matrixTotal = rowTotals.reduce((s, n) => s + n, 0);
+        const grandTotal  = filteredData.length;
+        const unmatched   = grandTotal - matrixTotal;
 
         // Header row — bias column labels + "Total" header
         let html = '<tr><th class="heatmap-label"></th>';
@@ -166,7 +188,7 @@
             const fg = getContrastColor(bg);
             html += `<td class="heatmap-cell" style="background:${bg};color:${fg};font-weight:bold;">${colTotals[biasIdx]}</td>`;
         });
-        html += `<td class="heatmap-cell" style="background:#222;color:#fff;font-weight:bold;">${grandTotal}</td></tr>`;
+        html += `<td class="heatmap-cell" style="background:#222;color:#fff;font-weight:bold;">${grandTotal}${unmatched > 0 ? `<span title="${unmatched} source(s) have unrecognised labels and are excluded from cells but counted in this total" style="font-size:0.8em;opacity:0.7;"> (${unmatched} unmatched)</span>` : ''}</td></tr>`;
 
         table.innerHTML = html;
 

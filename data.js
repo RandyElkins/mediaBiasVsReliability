@@ -120,27 +120,27 @@ const sampleData = [
         id: 14,
         moniker_name: "Fox News (website)",
         domain: ".foxnews.com",
-        reliability_mean: 34.43930150099401,
+        reliability_mean: 34.43952728897714,
         reliability_label: "Generally Reliable/Analysis OR Other Issues",
-        bias_mean: 11.23134035810206,
+        bias_mean: 11.224525440715883,
         bias_label: "Skews Right",
     },
     {
         id: 15,
         moniker_name: "Vox",
         domain: ".vox.com",
-        reliability_mean: 39.621441685082885,
+        reliability_mean: 39.627994187327836,
         reliability_label: "Generally Reliable/Analysis OR Other Issues",
-        bias_mean: -9.969990391498882,
+        bias_mean: -9.965182212290504,
         bias_label: "Skews Left",
     },
     {
         id: 16,
         moniker_name: "Politico",
         domain: ".politico.com",
-        reliability_mean: 42.31689838582675,
+        reliability_mean: 42.32545956862742,
         reliability_label: "Reliable; Analysis/Fact Reporting",
-        bias_mean: -5.421072499999995,
+        bias_mean: -5.4133054176610935,
         bias_label: "Middle",
     },
     {
@@ -300,9 +300,9 @@ const sampleData = [
         id: 34,
         moniker_name: "The Guardian",
         domain: ".theguardian.com",
-        reliability_mean: 40.10704078809109,
+        reliability_mean: 40.11268115384618,
         reliability_label: "Reliable; Analysis/Fact Reporting",
-        bias_mean: -8.189020275988964,
+        bias_mean: -8.186395560661769,
         bias_label: "Skews Left",
     },
     {
@@ -372,9 +372,9 @@ const sampleData = [
         id: 42,
         moniker_name: "Bloomberg News",
         domain: ".bloomberg.com",
-        reliability_mean: 42.27189802919707,
+        reliability_mean: 42.28925144927535,
         reliability_label: "Reliable; Analysis/Fact Reporting",
-        bias_mean: -2.9609730434782615,
+        bias_mean: -2.932407345679013,
         bias_label: "Middle",
     },
     {
@@ -417,9 +417,9 @@ const sampleData = [
         id: 47,
         moniker_name: "Washington Examiner",
         domain: ".washingtonexaminer.com",
-        reliability_mean: 34.154758861985464,
+        reliability_mean: 34.14391806763284,
         reliability_label: "Generally Reliable/Analysis OR Other Issues",
-        bias_mean: 11.14180579229122,
+        bias_mean: 11.16963037313433,
         bias_label: "Skews Right",
     },
     {
@@ -534,9 +534,9 @@ const sampleData = [
         id: 60,
         moniker_name: "Portland Tribune",
         domain: ".portlandtribune.com",
-        reliability_mean: 44.882353529411766,
+        reliability_mean: 44.74074111111111,
         reliability_label: "Reliable; Analysis/Fact Reporting",
-        bias_mean: -2.583334,
+        bias_mean: -2.460318095238095,
         bias_label: "Middle",
     },
     {
@@ -651,18 +651,18 @@ const sampleData = [
         id: 73,
         moniker_name: "Reason",
         domain: ".reason.com",
-        reliability_mean: 35.78838802139038,
+        reliability_mean: 35.770010053191506,
         reliability_label: "Generally Reliable/Analysis OR Other Issues",
-        bias_mean: 4.137887216748768,
+        bias_mean: 4.159306170731707,
         bias_label: "Middle",
     },
     {
         id: 74,
         moniker_name: "The Hill",
         domain: ".thehill.com",
-        reliability_mean: 41.63433998087954,
+        reliability_mean: 41.635217855787474,
         reliability_label: "Reliable; Analysis/Fact Reporting",
-        bias_mean: -1.4879823512336714,
+        bias_mean: -1.4784317171717163,
         bias_label: "Middle",
     },
     {
@@ -678,9 +678,9 @@ const sampleData = [
         id: 76,
         moniker_name: "Slate",
         domain: ".slate.com",
-        reliability_mean: 35.26619486274509,
+        reliability_mean: 35.25864460937499,
         reliability_label: "Generally Reliable/Analysis OR Other Issues",
-        bias_mean: -12.795725054495913,
+        bias_mean: -12.793218848238483,
         bias_label: "Strong Left",
     },
     {
@@ -1434,9 +1434,9 @@ const sampleData = [
         id: 160,
         moniker_name: "Newsmax (website)",
         domain: ".newsmax.com",
-        reliability_mean: 28.16645276923074,
+        reliability_mean: 28.189479561403484,
         reliability_label: "Mixed Reliability/Opinion OR Other Issues",
-        bias_mean: 13.425240548469388,
+        bias_mean: 13.394317144670051,
         bias_label: "Strong Right",
     },
     {
@@ -1560,9 +1560,9 @@ const sampleData = [
         id: 174,
         moniker_name: "Washington Post",
         domain: ".washingtonpost.com",
-        reliability_mean: 38.664295740131536,
+        reliability_mean: 38.6692257471264,
         reliability_label: "Generally Reliable/Analysis OR Other Issues",
-        bias_mean: -7.009614679245276,
+        bias_mean: -7.0133379323308205,
         bias_label: "Skews Left",
     },
     {
@@ -1596,9 +1596,9 @@ const sampleData = [
         id: 178,
         moniker_name: "CBS News (website)",
         domain: ".cbsnews.com",
-        reliability_mean: 41.94603157622737,
+        reliability_mean: 41.97807064102562,
         reliability_label: "Reliable; Analysis/Fact Reporting",
-        bias_mean: -2.889450398126463,
+        bias_mean: -2.8700666279069758,
         bias_label: "Middle",
     },
     {
@@ -1974,9 +1974,9 @@ const sampleData = [
         id: 220,
         moniker_name: "BBC",
         domain: ".bbc.com",
-        reliability_mean: 44.65664195918369,
+        reliability_mean: 44.65734126272914,
         reliability_label: "Reliable; Analysis/Fact Reporting",
-        bias_mean: -1.3482731015037588,
+        bias_mean: -1.345743508442776,
         bias_label: "Middle",
     },
     {
@@ -2019,9 +2019,9 @@ const sampleData = [
         id: 225,
         moniker_name: "TMZ",
         domain: ".tmz.com",
-        reliability_mean: 34.75544857692307,
+        reliability_mean: 34.7691569348659,
         reliability_label: "Generally Reliable/Analysis OR Other Issues",
-        bias_mean: -4.224227682119205,
+        bias_mean: -4.210286336633662,
         bias_label: "Middle",
     },
     {
@@ -2190,9 +2190,9 @@ const sampleData = [
         id: 244,
         moniker_name: "AP | Associated Press",
         domain: ".apnews.com",
-        reliability_mean: 44.80047402597401,
+        reliability_mean: 44.7971398148148,
         reliability_label: "Reliable; Analysis/Fact Reporting",
-        bias_mean: -2.5007654943273896,
+        bias_mean: -2.505348932038834,
         bias_label: "Middle",
     },
     {
@@ -2217,9 +2217,9 @@ const sampleData = [
         id: 247,
         moniker_name: "MS NOW | MSNBC (website)",
         domain: ".ms.now",
-        reliability_mean: 34.34394377906977,
+        reliability_mean: 34.340048289855076,
         reliability_label: "Generally Reliable/Analysis OR Other Issues",
-        bias_mean: -13.951248521870296,
+        bias_mean: -13.948387624060159,
         bias_label: "Strong Left",
     },
     {
@@ -2406,9 +2406,9 @@ const sampleData = [
         id: 268,
         moniker_name: "ABC: This Week with George Stephanopoulos",
         domain: ".tv.abcthisweekwithgeorgestephanopoulos.adfontesmedia.com",
-        reliability_mean: 24.54285914285714,
+        reliability_mean: 24.861113055555553,
         reliability_label: "Mixed Reliability/Opinion OR Other Issues",
-        bias_mean: -9.784615538461537,
+        bias_mean: -9.835749130434781,
         bias_label: "Skews Left",
     },
     {
@@ -2559,9 +2559,9 @@ const sampleData = [
         id: 285,
         moniker_name: "Wall Street Journal",
         domain: ".wsj.com",
-        reliability_mean: 43.08994864444446,
+        reliability_mean: 43.12300862527718,
         reliability_label: "Reliable; Analysis/Fact Reporting",
-        bias_mean: 4.347870418760469,
+        bias_mean: 4.3394848996655515,
         bias_label: "Middle",
     },
     {
@@ -2929,9 +2929,9 @@ const sampleData = [
         id: 326,
         moniker_name: "ABC News (website)",
         domain: ".abcnews.go.com",
-        reliability_mean: 44.35035386454182,
+        reliability_mean: 44.33178623529411,
         reliability_label: "Reliable; Analysis/Fact Reporting",
-        bias_mean: -2.885678649517685,
+        bias_mean: -2.8543261269841267,
         bias_label: "Middle",
     },
     {
@@ -3028,9 +3028,9 @@ const sampleData = [
         id: 337,
         moniker_name: "NBC News (website)",
         domain: ".nbcnews.com",
-        reliability_mean: 42.85546943137255,
+        reliability_mean: 42.864398323699426,
         reliability_label: "Reliable; Analysis/Fact Reporting",
-        bias_mean: -5.427729412532639,
+        bias_mean: -5.369428890322584,
         bias_label: "Middle",
     },
     {
@@ -3073,27 +3073,27 @@ const sampleData = [
         id: 342,
         moniker_name: "National Review",
         domain: ".nationalreview.com",
-        reliability_mean: 31.356599975786914,
+        reliability_mean: 31.364595314009655,
         reliability_label: "Mixed Reliability/Opinion OR Other Issues",
-        bias_mean: 12.69563184866724,
+        bias_mean: 12.689306847079038,
         bias_label: "Strong Right",
     },
     {
         id: 343,
         moniker_name: "New York Post",
         domain: ".nypost.com",
-        reliability_mean: 31.03686487272728,
+        reliability_mean: 31.004713649503167,
         reliability_label: "Mixed Reliability/Opinion OR Other Issues",
-        bias_mean: 9.436205144083399,
+        bias_mean: 9.4546536374696,
         bias_label: "Skews Right",
     },
     {
         id: 344,
         moniker_name: "WGN TV Chicago",
         domain: ".wgntv.com",
-        reliability_mean: 43.63333349999999,
+        reliability_mean: 43.587301904761894,
         reliability_label: "Reliable; Analysis/Fact Reporting",
-        bias_mean: -0.616667,
+        bias_mean: -0.5873019047619048,
         bias_label: "Middle",
     },
     {
@@ -3109,9 +3109,9 @@ const sampleData = [
         id: 346,
         moniker_name: "Al Jazeera (website)",
         domain: ".aljazeera.com",
-        reliability_mean: 41.303282166301976,
+        reliability_mean: 41.303347772925775,
         reliability_label: "Reliable; Analysis/Fact Reporting",
-        bias_mean: -7.2725228978979,
+        bias_mean: -7.272885925373137,
         bias_label: "Skews Left",
     },
     {
@@ -3532,9 +3532,9 @@ const sampleData = [
         id: 393,
         moniker_name: "HuffPost",
         domain: ".huffpost.com",
-        reliability_mean: 38.03699397435899,
+        reliability_mean: 38.00848582089554,
         reliability_label: "Generally Reliable/Analysis OR Other Issues",
-        bias_mean: -10.68461321672355,
+        bias_mean: -10.695890042517007,
         bias_label: "Skews Left",
     },
     {
@@ -3685,9 +3685,9 @@ const sampleData = [
         id: 410,
         moniker_name: "Yahoo News",
         domain: ".yahoo.com",
-        reliability_mean: 40.073744625850345,
+        reliability_mean: 40.07366110985278,
         reliability_label: "Reliable; Analysis/Fact Reporting",
-        bias_mean: -5.684321204460965,
+        bias_mean: -5.680098083209508,
         bias_label: "Middle",
     },
     {
@@ -3748,9 +3748,9 @@ const sampleData = [
         id: 417,
         moniker_name: "The New Yorker",
         domain: ".newyorker.com",
-        reliability_mean: 40.973437249999996,
+        reliability_mean: 41.10133716049382,
         reliability_label: "Reliable; Analysis/Fact Reporting",
-        bias_mean: -12.44444469483568,
+        bias_mean: -12.414330467289718,
         bias_label: "Strong Left",
     },
     {
@@ -3874,9 +3874,9 @@ const sampleData = [
         id: 431,
         moniker_name: "New Republic",
         domain: ".newrepublic.com",
-        reliability_mean: 29.51579650793651,
+        reliability_mean: 29.558979212598427,
         reliability_label: "Mixed Reliability/Opinion OR Other Issues",
-        bias_mean: -16.79203866520788,
+        bias_mean: -16.79384310195228,
         bias_label: "Strong Left",
     },
     {
@@ -3919,9 +3919,9 @@ const sampleData = [
         id: 436,
         moniker_name: "PBS",
         domain: ".pbs.org",
-        reliability_mean: 43.315624930555565,
+        reliability_mean: 43.31574703448277,
         reliability_label: "Reliable; Analysis/Fact Reporting",
-        bias_mean: -4.26249984375,
+        bias_mean: -4.245595699481865,
         bias_label: "Middle",
     },
     {
@@ -3982,9 +3982,9 @@ const sampleData = [
         id: 443,
         moniker_name: "Georgetowner",
         domain: ".georgetowner.com",
-        reliability_mean: 42.822222000000004,
+        reliability_mean: 42.666666250000006,
         reliability_label: "Reliable; Analysis/Fact Reporting",
-        bias_mean: -6.753085925925927,
+        bias_mean: -6.511904285714286,
         bias_label: "Skews Left",
     },
     {
@@ -4081,9 +4081,9 @@ const sampleData = [
         id: 454,
         moniker_name: "Common Dreams",
         domain: ".commondreams.org",
-        reliability_mean: 37.226521940298504,
+        reliability_mean: 37.09083779411764,
         reliability_label: "Generally Reliable/Analysis OR Other Issues",
-        bias_mean: -17.156601833810893,
+        bias_mean: -17.190440896358545,
         bias_label: "Strong Left",
     },
     {
@@ -4432,9 +4432,9 @@ const sampleData = [
         id: 493,
         moniker_name: "Yellow Stripes & Dead Armadillos",
         domain: ".yellowstripsdeadarmadillos.org",
-        reliability_mean: 33.92222133333333,
+        reliability_mean: 33.843749374999994,
         reliability_label: "Generally Reliable/Analysis OR Other Issues",
-        bias_mean: -5.767678181818181,
+        bias_mean: -5.656864117647058,
         bias_label: "Middle",
     },
     {
@@ -4522,9 +4522,9 @@ const sampleData = [
         id: 503,
         moniker_name: "PJ Media",
         domain: ".pjmedia.com",
-        reliability_mean: 18.642557723880593,
+        reliability_mean: 18.642912316176467,
         reliability_label: "Unreliable; Problematic",
-        bias_mean: 21.391211304347816,
+        bias_mean: 21.415912337042915,
         bias_label: "Hyper-Partisan Right",
     },
     {
@@ -4758,9 +4758,9 @@ const sampleData = [
         id: 529,
         moniker_name: "Forbes",
         domain: ".forbes.com",
-        reliability_mean: 40.730129522058846,
+        reliability_mean: 40.74088608058611,
         reliability_label: "Reliable; Analysis/Fact Reporting",
-        bias_mean: -2.869542373887241,
+        bias_mean: -2.861052603550297,
         bias_label: "Middle",
     },
     {
@@ -4956,9 +4956,9 @@ const sampleData = [
         id: 551,
         moniker_name: "The Epoch Times",
         domain: ".theepochtimes.com",
-        reliability_mean: 35.34067713244231,
+        reliability_mean: 35.344922823315144,
         reliability_label: "Generally Reliable/Analysis OR Other Issues",
-        bias_mean: 8.212402568881675,
+        bias_mean: 8.209616391251508,
         bias_label: "Skews Right",
     },
     {
@@ -5244,9 +5244,9 @@ const sampleData = [
         id: 583,
         moniker_name: "Aol.com",
         domain: ".aol.com",
-        reliability_mean: 42.56543957055215,
+        reliability_mean: 42.56402426829269,
         reliability_label: "Reliable; Analysis/Fact Reporting",
-        bias_mean: -0.010152233502537947,
+        bias_mean: -0.010100959595959472,
         bias_label: "Middle",
     },
     {
@@ -6630,9 +6630,9 @@ const sampleData = [
         id: 737,
         moniker_name: "The Times of India | The Economic Times",
         domain: ".indiatimes.com",
-        reliability_mean: 20.842490659340662,
+        reliability_mean: 20.262626363636368,
         reliability_label: "Unreliable; Problematic",
-        bias_mean: -5.075269193548388,
+        bias_mean: -4.947090317460318,
         bias_label: "Middle",
     },
     {
@@ -7017,9 +7017,9 @@ const sampleData = [
         id: 780,
         moniker_name: "Cato Institute",
         domain: ".cato.org",
-        reliability_mean: 41.410256153846156,
+        reliability_mean: 41.32098740740741,
         reliability_label: "Reliable; Analysis/Fact Reporting",
-        bias_mean: 5.409090681818182,
+        bias_mean: 5.348148000000001,
         bias_label: "Middle",
     },
     {
@@ -9502,9 +9502,9 @@ const sampleData = [
         id: 1056,
         moniker_name: "YourCentralValley | KSEE | KGPE",
         domain: ".yourcentralvalley.com",
-        reliability_mean: 44.38666640000001,
+        reliability_mean: 44.30769192307693,
         reliability_label: "Reliable; Analysis/Fact Reporting",
-        bias_mean: 0.1333336,
+        bias_mean: 0.1282053846153846,
         bias_label: "Middle",
     },
     {
@@ -9745,9 +9745,9 @@ const sampleData = [
         id: 1083,
         moniker_name: "Project Syndicate",
         domain: ".project-syndicate.org",
-        reliability_mean: 36.688888,
+        reliability_mean: 36.5208325,
         reliability_label: "Generally Reliable/Analysis OR Other Issues",
-        bias_mean: -8.431373333333333,
+        bias_mean: -8.278788363636362,
         bias_label: "Skews Left",
     },
     {
@@ -10015,9 +10015,9 @@ const sampleData = [
         id: 1113,
         moniker_name: "Quanta Magazine",
         domain: ".quantamagazine.org",
-        reliability_mean: 45.770833125,
+        reliability_mean: 45.9019605882353,
         reliability_label: "Reliable; Analysis/Fact Reporting",
-        bias_mean: 0,
+        bias_mean: -0.27451,
         bias_label: "Middle",
     },
     {
@@ -10231,9 +10231,9 @@ const sampleData = [
         id: 1137,
         moniker_name: "Tallahassee Reports",
         domain: ".tallahasseereports.com",
-        reliability_mean: 44.803920000000005,
+        reliability_mean: 40.65079238095238,
         reliability_label: "Reliable; Analysis/Fact Reporting",
-        bias_mean: 0.11764764705882351,
+        bias_mean: 0.11111166666666665,
         bias_label: "Middle",
     },
     {
@@ -10790,9 +10790,9 @@ const sampleData = [
         id: 1199,
         moniker_name: "CBC News: The World This Hour",
         domain: ".pod.cbcnewsworldhourtom.adfontesmedia.com",
-        reliability_mean: 48.11111333333334,
-        reliability_label: "Reliable; Fact Reporting",
-        bias_mean: 0,
+        reliability_mean: 46.6666675,
+        reliability_label: "Reliable; Analysis/Fact Reporting",
+        bias_mean: 0.2083325,
         bias_label: "Middle",
     },
     {
@@ -13544,7 +13544,7 @@ const sampleData = [
         id: 1505,
         moniker_name: "Spaceflight Now",
         domain: ".spaceflightnow.com",
-        reliability_mean: 46.88888866666666,
+        reliability_mean: 46.79166625,
         reliability_label: "Reliable; Analysis/Fact Reporting",
         bias_mean: 0,
         bias_label: "Middle",
@@ -14139,9 +14139,9 @@ const sampleData = [
         id: 1571,
         moniker_name: "IFLScience",
         domain: ".iflscience.com",
-        reliability_mean: 43.733333333333334,
+        reliability_mean: 43.25,
         reliability_label: "Reliable; Analysis/Fact Reporting",
-        bias_mean: -0.6888893333333334,
+        bias_mean: -2.4385968421052633,
         bias_label: "Middle",
     },
     {
@@ -14419,9 +14419,9 @@ const sampleData = [
         id: 1602,
         moniker_name: "Treehugger",
         domain: ".treehugger.com",
-        reliability_mean: 40.697778666666665,
+        reliability_mean: 40.820834375,
         reliability_label: "Reliable; Analysis/Fact Reporting",
-        bias_mean: -7.097776666666667,
+        bias_mean: -6.911826774193549,
         bias_label: "Skews Left",
     },
     {
@@ -14464,10 +14464,10 @@ const sampleData = [
         id: 1607,
         moniker_name: "Big News Network",
         domain: ".bignewsnetwork.com",
-        reliability_mean: 43.555556,
+        reliability_mean: 43.55208375,
         reliability_label: "Reliable; Analysis/Fact Reporting",
-        bias_mean: -12.321839310344828,
-        bias_label: "Strong Left",
+        bias_mean: -11.911111333333334,
+        bias_label: "Skews Left",
     },
     {
         id: 1608,
@@ -14905,9 +14905,9 @@ const sampleData = [
         id: 1656,
         moniker_name: "Louisiana Illuminator",
         domain: ".lailluminator.com",
-        reliability_mean: 44.236458125,
+        reliability_mean: 44.242156470588235,
         reliability_label: "Reliable; Analysis/Fact Reporting",
-        bias_mean: -5.779165714285715,
+        bias_mean: -5.579884137931034,
         bias_label: "Middle",
     },
     {
@@ -16912,9 +16912,9 @@ const sampleData = [
         id: 1879,
         moniker_name: "Letters from an American by Heather Cox Richardson",
         domain: ".heathercoxrichardson.substack.com",
-        reliability_mean: 27.196427500000002,
+        reliability_mean: 27.280700701754387,
         reliability_label: "Mixed Reliability/Opinion OR Other Issues",
-        bias_mean: -13.814814502923976,
+        bias_mean: -14.091247374301675,
         bias_label: "Strong Left",
     },
     {
@@ -17505,6 +17505,15 @@ const sampleData = [
     },
     {
         id: 1945,
+        moniker_name: "CoinDesk",
+        domain: ".coindesk.com",
+        reliability_mean: 40.94666600000001,
+        reliability_label: "Reliable; Analysis/Fact Reporting",
+        bias_mean: -0.066666,
+        bias_label: "Middle",
+    },
+    {
+        id: 1946,
         moniker_name: "CBS 47 WJAX | FOX 30 WFOX | Action News Jax",
         domain: ".actionnewsjax.com",
         reliability_mean: 45.29122789473684,
@@ -17513,7 +17522,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 1946,
+        id: 1947,
         moniker_name: "CBS Portland KOIN 6",
         domain: ".koin.com",
         reliability_mean: 44.46153807692308,
@@ -17522,7 +17531,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 1947,
+        id: 1948,
         moniker_name: "Hagmann Report",
         domain: ".pod.hagmannreport.adfontesmedia.com",
         reliability_mean: 6.962963333333333,
@@ -17531,7 +17540,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 1948,
+        id: 1949,
         moniker_name: "GZERO World with Ian Bremmer",
         domain: ".pod.gzeroworld.adfontesmedia.com",
         reliability_mean: 38.666666666666664,
@@ -17540,7 +17549,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 1949,
+        id: 1950,
         moniker_name: "NPR: It's Been a Minute",
         domain: ".pod.itsbeenaminute.adfontesmedia.com",
         reliability_mean: 35.333333333333336,
@@ -17549,7 +17558,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 1950,
+        id: 1951,
         moniker_name: "Daily Kos' The Brief",
         domain: ".pod.dailykosthebrief.adfontesmedia.com",
         reliability_mean: 29.777776666666668,
@@ -17558,7 +17567,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 1951,
+        id: 1952,
         moniker_name: "BASED Politics Podcast",
         domain: ".pod.basedpolitics.adfontesmedia.com",
         reliability_mean: 30.111109999999996,
@@ -17567,7 +17576,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 1952,
+        id: 1953,
         moniker_name: "The Re-Education with Eli Lake",
         domain: ".pod.thereeducationwithelilake.adfontesmedia.com",
         reliability_mean: 35.44444333333333,
@@ -17576,7 +17585,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 1953,
+        id: 1954,
         moniker_name: "Radio Atlantic",
         domain: ".pod.radioatlantic.adfontesmedia.com",
         reliability_mean: 40.88889,
@@ -17585,7 +17594,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 1954,
+        id: 1955,
         moniker_name: "Unruly with Ryan & Rob",
         domain: ".pod.unrulywithryanandrob.adfontesmedia.com",
         reliability_mean: 17.777776666666668,
@@ -17594,7 +17603,7 @@ const sampleData = [
         bias_label: "Most Extreme Left",
     },
     {
-        id: 1955,
+        id: 1956,
         moniker_name: "In the Litter Box",
         domain: ".pod.inthelitterbox.adfontesmedia.com",
         reliability_mean: 11.933334,
@@ -17603,7 +17612,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 1956,
+        id: 1957,
         moniker_name: "KSL",
         domain: ".ksl.com",
         reliability_mean: 44.555555,
@@ -17612,7 +17621,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 1957,
+        id: 1958,
         moniker_name: "Net Assessment",
         domain: ".pod.netassessment.adfontesmedia.com",
         reliability_mean: 37.77778,
@@ -17621,7 +17630,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 1958,
+        id: 1959,
         moniker_name: "Politically Georgia",
         domain: ".pod.politicallygeorgia.adfontesmedia.com",
         reliability_mean: 36.22222333333334,
@@ -17630,7 +17639,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 1959,
+        id: 1960,
         moniker_name: "That Trippi Show - Joe Trippi",
         domain: ".pod.thattrippishow.adfontesmedia.com",
         reliability_mean: 32.666666666666664,
@@ -17639,7 +17648,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 1960,
+        id: 1961,
         moniker_name: "One Decision",
         domain: ".pod.onedecision.adfontesmedia.com",
         reliability_mean: 38.55555666666667,
@@ -17648,7 +17657,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 1961,
+        id: 1962,
         moniker_name: "Monsanto News",
         domain: ".monsanto.news",
         reliability_mean: 17.70588137254902,
@@ -17657,7 +17666,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 1962,
+        id: 1963,
         moniker_name: "TGP FactCheck",
         domain: ".tgpfactcheck.com",
         reliability_mean: 17.72916671875,
@@ -17666,7 +17675,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 1963,
+        id: 1964,
         moniker_name: "Vision Times",
         domain: ".visiontimes.com",
         reliability_mean: 24.937500625000002,
@@ -17675,7 +17684,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 1964,
+        id: 1965,
         moniker_name: "unDivided with Brandi Kruse",
         domain: ".pod.undividedwithbrandikruse.adfontesmedia.com",
         reliability_mean: 28.555556666666664,
@@ -17684,7 +17693,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 1965,
+        id: 1966,
         moniker_name:
             "The Rest is Politics - Alastair Campbell and Rory Stewart",
         domain: ".pod.therestispolitics.adfontesmedia.com",
@@ -17694,7 +17703,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 1966,
+        id: 1967,
         moniker_name: "Gender News",
         domain: ".gender.news",
         reliability_mean: 17.865385384615386,
@@ -17703,7 +17712,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 1967,
+        id: 1968,
         moniker_name: "Womens Health News",
         domain: ".womenshealth.news",
         reliability_mean: 9.463104885496183,
@@ -17712,7 +17721,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 1968,
+        id: 1969,
         moniker_name: "Natural Health News",
         domain: ".naturalhealth.news",
         reliability_mean: 14.106061136363639,
@@ -17721,7 +17730,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 1969,
+        id: 1970,
         moniker_name: "Natural Medicine News",
         domain: ".naturalmedicine.news",
         reliability_mean: 17.805557083333333,
@@ -17730,7 +17739,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 1970,
+        id: 1971,
         moniker_name: "Vaccines News",
         domain: ".vaccines.news",
         reliability_mean: 13.264150188679245,
@@ -17739,7 +17748,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 1971,
+        id: 1972,
         moniker_name: "Fake Science News",
         domain: ".fakescience.news",
         reliability_mean: 12.415808144329898,
@@ -17748,7 +17757,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 1972,
+        id: 1973,
         moniker_name: "Science Clowns",
         domain: ".scienceclowns.com",
         reliability_mean: 10.161203278688525,
@@ -17757,7 +17766,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 1973,
+        id: 1974,
         moniker_name: "Real Science News",
         domain: ".realsciencenews.com",
         reliability_mean: 12.72548882352941,
@@ -17766,7 +17775,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 1974,
+        id: 1975,
         moniker_name: "Heavy Metals News",
         domain: ".heavymetals.news",
         reliability_mean: 12.489959638554216,
@@ -17775,7 +17784,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 1975,
+        id: 1976,
         moniker_name: "Richmond Free Press",
         domain: ".richmondfreepress.com",
         reliability_mean: 42.166665555555554,
@@ -17784,7 +17793,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 1976,
+        id: 1977,
         moniker_name: "Capital B",
         domain: ".capitalbnews.org",
         reliability_mean: 41.456140526315785,
@@ -17793,7 +17802,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 1977,
+        id: 1978,
         moniker_name: "RFK Jr The Defender Podcast",
         domain: ".pod.rfkjrthedefenderpodcast.adfontesmedia.com",
         reliability_mean: 16.6333305,
@@ -17802,7 +17811,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 1978,
+        id: 1979,
         moniker_name: "ABC News TV Network",
         domain: ".tv.abctvnetwork.adfontesmedia.com",
         reliability_mean: 41,
@@ -17811,7 +17820,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 1979,
+        id: 1980,
         moniker_name: "Al Jazeera TV Network",
         domain: ".tv.aljazeeratvnetwork.adfontesmedia.com",
         reliability_mean: 39.66667,
@@ -17820,7 +17829,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 1980,
+        id: 1981,
         moniker_name: "CBS News TV Network",
         domain: ".tv.cbstvnetwork.adfontesmedia.com",
         reliability_mean: 43,
@@ -17829,7 +17838,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 1981,
+        id: 1982,
         moniker_name: "NBC News TV Network",
         domain: ".tv.nbcnewstvnetwork.adfontesmedia.com",
         reliability_mean: 42.16667,
@@ -17838,7 +17847,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 1982,
+        id: 1983,
         moniker_name: "TYT TV Network",
         domain: ".tv.tyttvnetwork.adfontesmedia.com",
         reliability_mean: 23.5,
@@ -17847,7 +17856,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 1983,
+        id: 1984,
         moniker_name: "Horns of a Dilemma",
         domain: ".pod.hornsofadilemma.adfontesmedia.com",
         reliability_mean: 40.11111,
@@ -17856,7 +17865,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 1984,
+        id: 1985,
         moniker_name: "Daily News Brief",
         domain: ".pod.trtdailynewsbrief.adfontesmedia.com",
         reliability_mean: 47.88888666666666,
@@ -17865,7 +17874,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 1985,
+        id: 1986,
         moniker_name: "Buckrail",
         domain: ".buckrail.com",
         reliability_mean: 44.175438421052625,
@@ -17874,7 +17883,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 1986,
+        id: 1987,
         moniker_name: "Stacker",
         domain: ".stacker.com",
         reliability_mean: 41.49019588235295,
@@ -17883,7 +17892,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 1987,
+        id: 1988,
         moniker_name: "Posse Comitatus by Jessica Pishko",
         domain: ".sheriffs.substack.com",
         reliability_mean: 25.138887916666665,
@@ -17892,7 +17901,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 1988,
+        id: 1989,
         moniker_name: "Filter Magazine",
         domain: ".filtermag.org",
         reliability_mean: 32.07407388888888,
@@ -17901,7 +17910,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 1989,
+        id: 1990,
         moniker_name: "Medical Daily",
         domain: ".medicaldaily.com",
         reliability_mean: 42.066666000000005,
@@ -17910,7 +17919,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 1990,
+        id: 1991,
         moniker_name: "Democracy-ish - Danielle Moodie & Wajahat Ali",
         domain: ".pod.democracyish.adfontesmedia.com",
         reliability_mean: 19.814813333333333,
@@ -17919,7 +17928,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 1991,
+        id: 1992,
         moniker_name: "Lever Time",
         domain: ".pod.levertime.adfontesmedia.com",
         reliability_mean: 31.7500025,
@@ -17928,7 +17937,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 1992,
+        id: 1993,
         moniker_name: "SCOTUStalk",
         domain: ".podscotustalk.adfontesmedia.com",
         reliability_mean: 40.333333333333336,
@@ -17937,7 +17946,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 1993,
+        id: 1994,
         moniker_name: "Capital Record",
         domain: ".pod.capitalrecord.adfontesmedia.com",
         reliability_mean: 32.888886666666664,
@@ -17946,7 +17955,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 1994,
+        id: 1995,
         moniker_name: "The Toast",
         domain: ".pod.themorningtoast.adfontesmedia.com",
         reliability_mean: 27.88889,
@@ -17955,7 +17964,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 1995,
+        id: 1996,
         moniker_name: "NYT: First Person",
         domain: ".pod.firstperson.adfontesmedia.com",
         reliability_mean: 37.88889,
@@ -17964,7 +17973,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 1996,
+        id: 1997,
         moniker_name: "NPR: Life Kit",
         domain: ".pod.lifekit.adfontesmedia.com",
         reliability_mean: 31.777779999999996,
@@ -17973,7 +17982,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 1997,
+        id: 1998,
         moniker_name: "Marketplace Tech",
         domain: ".pod.marketplacetech.adfontesmedia.com",
         reliability_mean: 40.25,
@@ -17982,7 +17991,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 1998,
+        id: 1999,
         moniker_name: "Money Rehab with Nicole Lapin",
         domain: ".pod.moneyrehabwithnicolelapin.adfontesmedia.com",
         reliability_mean: 38.22222333333334,
@@ -17991,7 +18000,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 1999,
+        id: 2000,
         moniker_name: "The Emily Show - Emily D Baker",
         domain: ".pod.theemilyshow.adfontesmedia.com",
         reliability_mean: 43.22222333333334,
@@ -18000,7 +18009,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2000,
+        id: 2001,
         moniker_name: "Real Vision Podcast",
         domain: ".pod.realvisionsdailybriefing.adfontesmedia.com",
         reliability_mean: 36.55555666666667,
@@ -18009,7 +18018,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2001,
+        id: 2002,
         moniker_name: "The TMZ Podcast",
         domain: ".pod.thetmzpodcast.adfontesmedia.com",
         reliability_mean: 30.11111,
@@ -18018,7 +18027,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2002,
+        id: 2003,
         moniker_name: "The Jordan Harbinger Show",
         domain: ".pod.thejordanharbingershow.adfontesmedia.com",
         reliability_mean: 36.88888666666666,
@@ -18027,7 +18036,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2003,
+        id: 2004,
         moniker_name: "Feminine Chaos - Phoebe Maltz Bovy and Kat Rosenfield",
         domain: ".pod.femininechaos.adfontesmedia.com",
         reliability_mean: 29.555553333333336,
@@ -18036,7 +18045,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 2004,
+        id: 2005,
         moniker_name: "Jenna Ellis Tonight",
         domain: ".pod.thejennaellisshow.adfontesmedia.com",
         reliability_mean: 17.266669999999998,
@@ -18045,7 +18054,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 2005,
+        id: 2006,
         moniker_name: "Limited Liability Podcast",
         domain: ".pod.limitedliabilitypodcast.adfontesmedia.com",
         reliability_mean: 35.88888666666666,
@@ -18054,7 +18063,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2006,
+        id: 2007,
         moniker_name: "The Readout Loud",
         domain: ".pod.thereadoutloud.adfontesmedia.com",
         reliability_mean: 40.333333333333336,
@@ -18063,7 +18072,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 2007,
+        id: 2008,
         moniker_name: "The Day",
         domain: ".theday.com",
         reliability_mean: 42.083333125,
@@ -18072,7 +18081,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2008,
+        id: 2009,
         moniker_name: "Univision News",
         domain: ".univision.com",
         reliability_mean: 40.52176836734692,
@@ -18081,7 +18090,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2009,
+        id: 2010,
         moniker_name: "Conversations with Bill Kristol",
         domain: ".pod.conversationswithbillkristol.adfontesmedia.com",
         reliability_mean: 37.388888333333334,
@@ -18090,7 +18099,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2010,
+        id: 2011,
         moniker_name: "Conversations with Tyler - Tyler Cowen",
         domain: ".pod.conversationswithtyler.adfontesmedia.com",
         reliability_mean: 39.25,
@@ -18099,7 +18108,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2011,
+        id: 2012,
         moniker_name: "The Ohio Press Network",
         domain: ".theohiopressnetwork.com",
         reliability_mean: 33.98148166666667,
@@ -18108,7 +18117,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 2012,
+        id: 2013,
         moniker_name: "Liberty Sentinel",
         domain: ".libertysentinel.org",
         reliability_mean: 12.682539523809524,
@@ -18117,7 +18126,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 2013,
+        id: 2014,
         moniker_name: "The Humanist",
         domain: ".thehumanist.com",
         reliability_mean: 35.93333333333333,
@@ -18126,7 +18135,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 2014,
+        id: 2015,
         moniker_name: "Trial Site News",
         domain: ".trialsitenews.com",
         reliability_mean: 18.79532298245614,
@@ -18135,7 +18144,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 2015,
+        id: 2016,
         moniker_name: "The Lima News",
         domain: ".limaohio.com",
         reliability_mean: 42.42105315789474,
@@ -18144,7 +18153,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2016,
+        id: 2017,
         moniker_name: "FOX Boston 25 News WFXT",
         domain: ".boston25news.com",
         reliability_mean: 45.33333285714286,
@@ -18153,7 +18162,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2017,
+        id: 2018,
         moniker_name: "KMTV 3 News Now",
         domain: ".3newsnow.com",
         reliability_mean: 44.9833335,
@@ -18162,7 +18171,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2018,
+        id: 2019,
         moniker_name: "ABC 6 Indianapolis WRTV",
         domain: ".wrtv.com",
         reliability_mean: 44.509803529411776,
@@ -18171,7 +18180,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2019,
+        id: 2020,
         moniker_name: "Press of Atlantic City",
         domain: ".pressofatlanticcity.com",
         reliability_mean: 42.12962888888888,
@@ -18180,7 +18189,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2020,
+        id: 2021,
         moniker_name: "ABC 27 Harrisburg WHTM",
         domain: ".abc27.com",
         reliability_mean: 44.93827148148148,
@@ -18189,7 +18198,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2021,
+        id: 2022,
         moniker_name: "CenLA Now - WNTZ FOX 48",
         domain: ".cenlanow.com",
         reliability_mean: 42.205128076923074,
@@ -18198,7 +18207,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2022,
+        id: 2023,
         moniker_name: "KRQE News 13",
         domain: ".krqe.com",
         reliability_mean: 43.948718461538455,
@@ -18207,7 +18216,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2023,
+        id: 2024,
         moniker_name: "FOX 8 New Orleans WVUE",
         domain: ".fox8live.com",
         reliability_mean: 45.611110555555555,
@@ -18216,7 +18225,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2024,
+        id: 2025,
         moniker_name: "KWTV - NEWS 9",
         domain: ".news9.com",
         reliability_mean: 46.199999,
@@ -18225,7 +18234,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2025,
+        id: 2026,
         moniker_name: "Political Breakdown",
         domain: ".pod.politicalbreakdown.adfontesmedia.com",
         reliability_mean: 39.22222333333334,
@@ -18234,7 +18243,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 2026,
+        id: 2027,
         moniker_name: "NPR: Pop Culture Happy Hour",
         domain: ".pod.popculturehappyhour.adfontesmedia.com",
         reliability_mean: 36.333333333333336,
@@ -18243,7 +18252,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 2027,
+        id: 2028,
         moniker_name: "10 Blocks",
         domain: ".pod.10blocks.adfontesmedia.com",
         reliability_mean: 39.77777666666666,
@@ -18252,7 +18261,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 2028,
+        id: 2029,
         moniker_name: "NBC 10 Rochester - WHEC",
         domain: ".whec.com",
         reliability_mean: 45.84444466666667,
@@ -18261,7 +18270,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2029,
+        id: 2030,
         moniker_name: "ABC 6 Rochester KAAL",
         domain: ".kaaltv.com",
         reliability_mean: 46.777778666666656,
@@ -18270,7 +18279,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2030,
+        id: 2031,
         moniker_name: "Pahrump Valley Times",
         domain: ".pvtimes.com",
         reliability_mean: 45.444444000000004,
@@ -18279,16 +18288,16 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2031,
+        id: 2032,
         moniker_name: "WTEN NEWS10",
         domain: ".news10.com",
-        reliability_mean: 44.083332999999996,
+        reliability_mean: 44.03174571428571,
         reliability_label: "Reliable; Analysis/Fact Reporting",
-        bias_mean: -0.3,
+        bias_mean: -0.2857142857142857,
         bias_label: "Middle",
     },
     {
-        id: 2032,
+        id: 2033,
         moniker_name: "The Daily Reflector",
         domain: ".reflector.com",
         reliability_mean: 44.066666000000005,
@@ -18297,7 +18306,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2033,
+        id: 2034,
         moniker_name: "Rocky Mount Telegram",
         domain: ".rockymounttelegram.com",
         reliability_mean: 45.083331875000006,
@@ -18306,7 +18315,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2034,
+        id: 2035,
         moniker_name: "The Daily Advance",
         domain: ".dailyadvance.com",
         reliability_mean: 42.688889333333336,
@@ -18315,7 +18324,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2035,
+        id: 2036,
         moniker_name: "GazetteXtra",
         domain: ".gazettextra.com",
         reliability_mean: 45.126984761904765,
@@ -18324,7 +18333,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2036,
+        id: 2037,
         moniker_name: "Cleburne Times-Review",
         domain: ".cleburnetimesreview.com",
         reliability_mean: 43.875,
@@ -18333,7 +18342,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2037,
+        id: 2038,
         moniker_name: "Woodward News",
         domain: ".woodwardnews.net",
         reliability_mean: 46.13725411764706,
@@ -18342,7 +18351,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2038,
+        id: 2039,
         moniker_name: "Millennials Are Killing Capitalism",
         domain: ".pod.millennialsarekillingcapitalism.adfontesmedia.com",
         reliability_mean: 29.222220000000004,
@@ -18351,7 +18360,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 2039,
+        id: 2040,
         moniker_name:
             "The Muckrake Political Podcast - Jared Yates Sexton and Nick Hauselman",
         domain: ".pod.muckrakepoliticalpodcast.adfontesmedia.com",
@@ -18361,7 +18370,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 2040,
+        id: 2041,
         moniker_name: "The Foreign Affairs Interview",
         domain: ".pod.theforeignaffairsinterview.adfontesmedia.com",
         reliability_mean: 37.33333,
@@ -18370,7 +18379,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 2041,
+        id: 2042,
         moniker_name: "Betches Sup",
         domain: ".pod.betchessup.adfontesmedia.com",
         reliability_mean: 25.611108333333334,
@@ -18379,7 +18388,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 2042,
+        id: 2043,
         moniker_name: "Let's Talk Elections (YouTube)",
         domain: ".tv.letstalkelections-youtube.adfontesmedia.com",
         reliability_mean: 39.151514545454546,
@@ -18388,7 +18397,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 2043,
+        id: 2044,
         moniker_name: "LegalEagle (YouTube) - Devin Stone",
         domain: ".tv.legaleagle-youtube.adfontesmedia.com",
         reliability_mean: 37.333332,
@@ -18397,7 +18406,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 2044,
+        id: 2045,
         moniker_name: "The Ring of Fire (YouTube) - Farron Cousins",
         domain: ".tv.theringoffire-youtube.adfontesmedia.com",
         reliability_mean: 28.00252454545455,
@@ -18406,7 +18415,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 2045,
+        id: 2046,
         moniker_name: "Jacksonville Daily Record",
         domain: ".jaxdailyrecord.com",
         reliability_mean: 45.66666611111111,
@@ -18415,7 +18424,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2046,
+        id: 2047,
         moniker_name: "The Alpena News",
         domain: ".thealpenanews.com",
         reliability_mean: 41.9264705882353,
@@ -18424,7 +18433,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2047,
+        id: 2048,
         moniker_name: "WPSD Local 6",
         domain: ".wpsdlocal6.com",
         reliability_mean: 45.01587238095239,
@@ -18433,7 +18442,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2048,
+        id: 2049,
         moniker_name: "Shaw Local",
         domain: ".shawlocal.com",
         reliability_mean: 43.57894684210527,
@@ -18442,7 +18451,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2049,
+        id: 2050,
         moniker_name: "KTXS News",
         domain: ".ktxs.com",
         reliability_mean: 44.94117705882353,
@@ -18451,7 +18460,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2050,
+        id: 2051,
         moniker_name: "Johnson City Press",
         domain: ".johnsoncitypress.com",
         reliability_mean: 43.509804117647064,
@@ -18460,7 +18469,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2051,
+        id: 2052,
         moniker_name: "Albany Herald",
         domain: ".albanyherald.com",
         reliability_mean: 44.933334666666674,
@@ -18469,7 +18478,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2052,
+        id: 2053,
         moniker_name: "Bakersfield.com",
         domain: ".bakersfield.com",
         reliability_mean: 42.784946129032264,
@@ -18478,7 +18487,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2053,
+        id: 2054,
         moniker_name: "13 WMAZ",
         domain: ".13wmaz.com",
         reliability_mean: 45.083333124999996,
@@ -18487,7 +18496,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2054,
+        id: 2055,
         moniker_name: "The Peterborough Examiner",
         domain: ".thepeterboroughexaminer.com",
         reliability_mean: 43.08695652173913,
@@ -18496,7 +18505,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2055,
+        id: 2056,
         moniker_name: "The San Fernando Valley Sun",
         domain: ".sanfernandosun.com",
         reliability_mean: 45,
@@ -18505,7 +18514,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2056,
+        id: 2057,
         moniker_name: "Big Bear Grizzly",
         domain: ".bigbeargrizzly.net",
         reliability_mean: 41.55555533333333,
@@ -18514,7 +18523,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2057,
+        id: 2058,
         moniker_name: "WBOC TV 16",
         domain: ".wboc.com",
         reliability_mean: 46.38596473684212,
@@ -18523,7 +18532,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2058,
+        id: 2059,
         moniker_name: "The Biz Minneapolis - AM 1440",
         domain: ".twincitiesbusinessradio.com",
         reliability_mean: 35.98550695652174,
@@ -18532,7 +18541,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 2059,
+        id: 2060,
         moniker_name: "Narcity",
         domain: ".narcity.com",
         reliability_mean: 40.31372470588235,
@@ -18541,7 +18550,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2060,
+        id: 2061,
         moniker_name: "ThePatriotNurse (YouTube)",
         domain: ".tv.thepatriotnurse-youtube.adfontesmedia.com",
         reliability_mean: 18.579710217391305,
@@ -18550,7 +18559,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 2061,
+        id: 2062,
         moniker_name: "Alaska Magazine",
         domain: ".alaskamagazine.com",
         reliability_mean: 40.708333124999996,
@@ -18559,7 +18568,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2062,
+        id: 2063,
         moniker_name: "Sun Journal",
         domain: ".sunjournal.com",
         reliability_mean: 43.75555466666667,
@@ -18568,7 +18577,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2063,
+        id: 2064,
         moniker_name: "Central Maine - Kennebec Journal & Morning Sentinel",
         domain: ".centralmaine.com",
         reliability_mean: 44.333332272727276,
@@ -18577,7 +18586,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2064,
+        id: 2065,
         moniker_name: "The Roanoke Times",
         domain: ".roanoke.com",
         reliability_mean: 42.91111066666667,
@@ -18586,7 +18595,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2065,
+        id: 2066,
         moniker_name: "AgUpdate",
         domain: ".agupdate.com",
         reliability_mean: 42.22222222222222,
@@ -18595,7 +18604,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2066,
+        id: 2067,
         moniker_name: "WNYT NewsChannel 13",
         domain: ".wnyt.com",
         reliability_mean: 43.044445333333336,
@@ -18604,7 +18613,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2067,
+        id: 2068,
         moniker_name: "ABC 5 Minneapolis-St. Paul KSTP",
         domain: ".kstp.com",
         reliability_mean: 44.95833499999999,
@@ -18613,7 +18622,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2068,
+        id: 2069,
         moniker_name: "KOTV - News On 6",
         domain: ".newson6.com",
         reliability_mean: 45.02222266666668,
@@ -18622,7 +18631,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2069,
+        id: 2070,
         moniker_name: "Boulder City Review",
         domain: ".bouldercityreview.com",
         reliability_mean: 45.777778000000005,
@@ -18631,7 +18640,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2070,
+        id: 2071,
         moniker_name: "ClickOnDetroit - NBC WDIV Local 4 Detroit",
         domain: ".clickondetroit.com",
         reliability_mean: 42.499999375,
@@ -18640,7 +18649,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2071,
+        id: 2072,
         moniker_name: "CBS ClickOrlando News 6 WKMG",
         domain: ".clickorlando.com",
         reliability_mean: 44.895833749999994,
@@ -18649,7 +18658,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2072,
+        id: 2073,
         moniker_name: "WTOC 11",
         domain: ".wtoc.com",
         reliability_mean: 45.08888866666666,
@@ -18658,7 +18667,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2073,
+        id: 2074,
         moniker_name: "K8 News Region 8 KAIT",
         domain: ".kait8.com",
         reliability_mean: 45.822223333333326,
@@ -18667,7 +18676,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2074,
+        id: 2075,
         moniker_name: "The Gazette",
         domain: ".thegazette.com",
         reliability_mean: 40.85555633333333,
@@ -18676,7 +18685,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2075,
+        id: 2076,
         moniker_name: "The Newport Daily News",
         domain: ".newportri.com",
         reliability_mean: 43.133334,
@@ -18685,7 +18694,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2076,
+        id: 2077,
         moniker_name: "The Apalachicola Times",
         domain: ".franklincounty.news",
         reliability_mean: 42.59999933333332,
@@ -18694,7 +18703,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2077,
+        id: 2078,
         moniker_name: "California Globe",
         domain: ".californiaglobe.com",
         reliability_mean: 21.82795661290323,
@@ -18703,7 +18712,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 2078,
+        id: 2079,
         moniker_name: "Strive | Kettering Health",
         domain: ".ketteringhealth.org/strive",
         reliability_mean: 40.82222266666666,
@@ -18712,7 +18721,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2079,
+        id: 2080,
         moniker_name: "Leesville Daily Leader",
         domain: ".theleesvilleleader.com",
         reliability_mean: 44.13333333333334,
@@ -18721,7 +18730,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2080,
+        id: 2081,
         moniker_name: "Review Atlas",
         domain: ".reviewatlas.com",
         reliability_mean: 43.458332500000004,
@@ -18730,7 +18739,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2081,
+        id: 2082,
         moniker_name: "Bowen Island Undercurrent",
         domain: ".bowenislandundercurrent.com",
         reliability_mean: 44.62499875,
@@ -18739,7 +18748,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2082,
+        id: 2083,
         moniker_name: "Prince George Citizen",
         domain: ".princegeorgecitizen.com",
         reliability_mean: 43.06666666666667,
@@ -18748,7 +18757,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2083,
+        id: 2084,
         moniker_name: "Too Many Lawyers",
         domain: ".pod.twomanylawyers.adfontesmedia.com",
         reliability_mean: 30.333335,
@@ -18757,7 +18766,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2084,
+        id: 2085,
         moniker_name: "Brown & Black",
         domain: ".pod.brownandblack.adfontesmedia.com",
         reliability_mean: 15.564099230769228,
@@ -18766,7 +18775,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 2085,
+        id: 2086,
         moniker_name: "The Problem With Jon Stewart (Podcast)",
         domain: ".pod.theproblemwithjonstewart.adfontesmedia.com",
         reliability_mean: 34.11111,
@@ -18775,7 +18784,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 2086,
+        id: 2087,
         moniker_name: "Aggressive Progressive with Chris Hahn",
         domain: ".pod.aggressiveprogressive.adfontesmedia.com",
         reliability_mean: 27.666666666666668,
@@ -18784,7 +18793,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 2087,
+        id: 2088,
         moniker_name: "The Political Orphanage with Andrew Heaton",
         domain: ".pod.politicalorphanage.adfontesmedia.com",
         reliability_mean: 31.666666666666668,
@@ -18793,7 +18802,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2088,
+        id: 2089,
         moniker_name: "Bo Snerdley's Rush Hour",
         domain: ".pod.bosnerdleysrushhour.adfontesmedia.com",
         reliability_mean: 16.733334000000003,
@@ -18802,7 +18811,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 2089,
+        id: 2090,
         moniker_name: "iGen Politics",
         domain: ".pod.igenpolitics.adfontesmedia.com",
         reliability_mean: 30.333333333333332,
@@ -18811,7 +18820,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 2090,
+        id: 2091,
         moniker_name: "KALB News Channel 5",
         domain: ".kalb.com",
         reliability_mean: 43.76190523809524,
@@ -18820,7 +18829,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2091,
+        id: 2092,
         moniker_name: "KFDA NewsChannel 10",
         domain: ".newschannel10.com",
         reliability_mean: 43.80952380952382,
@@ -18829,7 +18838,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2092,
+        id: 2093,
         moniker_name: "KTVF Webcenter Fairbanks",
         domain: ".webcenterfairbanks.com",
         reliability_mean: 45.91176470588235,
@@ -18838,7 +18847,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2093,
+        id: 2094,
         moniker_name: "ABC 12 WJRT",
         domain: ".abc12.com",
         reliability_mean: 45.92157,
@@ -18847,7 +18856,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2094,
+        id: 2095,
         moniker_name: "KOLD News 13",
         domain: ".kold.com",
         reliability_mean: 46.39215705882353,
@@ -18856,7 +18865,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2095,
+        id: 2096,
         moniker_name: "KSWO 7 News",
         domain: ".kswo.com",
         reliability_mean: 44.701754210526325,
@@ -18865,7 +18874,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2096,
+        id: 2097,
         moniker_name: "Palm Beach Daily News",
         domain: ".palmbeachdailynews.com",
         reliability_mean: 43.822222,
@@ -18874,7 +18883,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2097,
+        id: 2098,
         moniker_name: "The Patriot Ledger",
         domain: ".patriotledger.com",
         reliability_mean: 43.54166625,
@@ -18883,7 +18892,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2098,
+        id: 2099,
         moniker_name: "Tri-County Tribune",
         domain: ".tricountytribune.news",
         reliability_mean: 41.033333333333324,
@@ -18892,7 +18901,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2099,
+        id: 2100,
         moniker_name: "Beauregard News",
         domain: ".beauregardnews.com",
         reliability_mean: 45.08333333333333,
@@ -18901,7 +18910,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2100,
+        id: 2101,
         moniker_name: "Columbia Daily Herald",
         domain: ".columbiadailyherald.com",
         reliability_mean: 42.979166875,
@@ -18910,7 +18919,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2101,
+        id: 2102,
         moniker_name: "Donaldsonville Chief",
         domain: ".donaldsonvillechief.com",
         reliability_mean: 42.555556,
@@ -18919,7 +18928,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2102,
+        id: 2103,
         moniker_name: "Gaston Gazette",
         domain: ".gastongazette.com",
         reliability_mean: 42.75675648648649,
@@ -18928,7 +18937,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2103,
+        id: 2104,
         moniker_name: "Queen City News WJZY Charlotte",
         domain: ".qcnews.com",
         reliability_mean: 43.90090135135135,
@@ -18937,7 +18946,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2104,
+        id: 2105,
         moniker_name: "KATC-TV 3",
         domain: ".katc.com",
         reliability_mean: 45.93333333333333,
@@ -18946,7 +18955,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2105,
+        id: 2106,
         moniker_name: "FOX 47 News WSYM",
         domain: ".fox47news.com",
         reliability_mean: 44.69696954545454,
@@ -18955,7 +18964,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2106,
+        id: 2107,
         moniker_name: "NBC Milwaukee WTMJ 4",
         domain: ".tmj4.com",
         reliability_mean: 44.333332857142864,
@@ -18964,7 +18973,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2107,
+        id: 2108,
         moniker_name: "Inland Valley Daily Bulletin",
         domain: ".dailybulletin.com",
         reliability_mean: 42.092593888888885,
@@ -18973,7 +18982,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2108,
+        id: 2109,
         moniker_name: "Daily Local News",
         domain: ".dailylocal.com",
         reliability_mean: 44.333333333333336,
@@ -18982,7 +18991,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2109,
+        id: 2110,
         moniker_name: "The Fort Morgan Times",
         domain: ".fortmorgantimes.com",
         reliability_mean: 43.95555533333333,
@@ -18991,7 +19000,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2110,
+        id: 2111,
         moniker_name: "23ABC Bakersfield KERO",
         domain: ".turnto23.com",
         reliability_mean: 43.77777761904762,
@@ -19000,7 +19009,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2111,
+        id: 2112,
         moniker_name: "NewsChannel 5 Nashville WTVF CBS",
         domain: ".newschannel5.com",
         reliability_mean: 42.55882352941177,
@@ -19009,7 +19018,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2112,
+        id: 2113,
         moniker_name: "ABC 6 Providence WLNE",
         domain: ".abc6.com",
         reliability_mean: 45.104167499999996,
@@ -19018,7 +19027,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2113,
+        id: 2114,
         moniker_name: "ABC FOX Montana KTMF",
         domain: ".montanarightnow.com",
         reliability_mean: 43.13333333333333,
@@ -19027,7 +19036,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2114,
+        id: 2115,
         moniker_name: "KDRV NewsWatch 12",
         domain: ".kdrv.com",
         reliability_mean: 42.488887999999996,
@@ -19036,7 +19045,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2115,
+        id: 2116,
         moniker_name: "News 12 New York",
         domain: ".news12.com",
         reliability_mean: 44.375000625000006,
@@ -19045,7 +19054,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2116,
+        id: 2117,
         moniker_name: "Newsradio 620 WTMJ",
         domain: ".wtmj.com",
         reliability_mean: 46.10526315789474,
@@ -19054,7 +19063,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2117,
+        id: 2118,
         moniker_name: "Sask Today",
         domain: ".sasktoday.ca",
         reliability_mean: 42.355556,
@@ -19063,7 +19072,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2118,
+        id: 2119,
         moniker_name: "Times Colonist",
         domain: ".timescolonist.com",
         reliability_mean: 44.29824578947368,
@@ -19072,7 +19081,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2119,
+        id: 2120,
         moniker_name: "Shelby Star",
         domain: ".shelbystar.com",
         reliability_mean: 44.114583125,
@@ -19081,7 +19090,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2120,
+        id: 2121,
         moniker_name: "Ionia Sentinel-Standard",
         domain: ".sentinel-standard.com",
         reliability_mean: 43.833335,
@@ -19090,7 +19099,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2121,
+        id: 2122,
         moniker_name: "The McDonough County Voice",
         domain: ".mcdonoughvoice.com",
         reliability_mean: 45.453703888888896,
@@ -19099,7 +19108,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2122,
+        id: 2123,
         moniker_name: "Holland Sentinel",
         domain: ".hollandsentinel.com",
         reliability_mean: 43.24561421052631,
@@ -19108,7 +19117,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2123,
+        id: 2124,
         moniker_name: "Zanesville Times Recorder",
         domain: ".zanesvilletimesrecorder.com",
         reliability_mean: 45.02222199999999,
@@ -19117,7 +19126,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2124,
+        id: 2125,
         moniker_name: "The Jackson Sun",
         domain: ".jacksonsun.com",
         reliability_mean: 44.80208312500001,
@@ -19126,7 +19135,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2125,
+        id: 2126,
         moniker_name: "Florida Today",
         domain: ".floridatoday.com",
         reliability_mean: 45.770833124999996,
@@ -19135,7 +19144,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2126,
+        id: 2127,
         moniker_name: "Abilene Reporter News",
         domain: ".reporternews.com",
         reliability_mean: 42.52777833333332,
@@ -19144,7 +19153,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2127,
+        id: 2128,
         moniker_name: "Alamogordo News",
         domain: ".alamogordonews.com",
         reliability_mean: 42.283333500000005,
@@ -19153,7 +19162,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2128,
+        id: 2129,
         moniker_name: "The Town Talk",
         domain: ".thetowntalk.com",
         reliability_mean: 45.416666875000004,
@@ -19162,7 +19171,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2129,
+        id: 2130,
         moniker_name: "Anderson Independent Mail",
         domain: ".independentmail.com",
         reliability_mean: 45.02083250000001,
@@ -19171,7 +19180,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2130,
+        id: 2131,
         moniker_name: "The Post-Crescent",
         domain: ".postcrescent.com",
         reliability_mean: 45.062500624999984,
@@ -19180,7 +19189,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2131,
+        id: 2132,
         moniker_name: "Asbury Park Press",
         domain: ".app.com",
         reliability_mean: 42.49019647058824,
@@ -19189,7 +19198,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2132,
+        id: 2133,
         moniker_name: "Asheville Citizen-Times",
         domain: ".citizen-times.com",
         reliability_mean: 42.25000000000001,
@@ -19198,7 +19207,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2133,
+        id: 2134,
         moniker_name: "Battle Creek Enquirer",
         domain: ".battlecreekenquirer.com",
         reliability_mean: 43.5625,
@@ -19207,7 +19216,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2134,
+        id: 2135,
         moniker_name: "Binghamton Press & Sun-Bulletin",
         domain: ".pressconnects.com",
         reliability_mean: 44.59259277777778,
@@ -19216,7 +19225,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2135,
+        id: 2136,
         moniker_name: "Black Mountain News",
         domain: ".blackmountainnews.com",
         reliability_mean: 46.199999999999996,
@@ -19225,7 +19234,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2136,
+        id: 2137,
         moniker_name: "My Central Jersey",
         domain: ".mycentraljersey.com",
         reliability_mean: 43.48888933333333,
@@ -19234,7 +19243,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2137,
+        id: 2138,
         moniker_name: "Bucyrus Telegraph-Forum",
         domain: ".bucyrustelegraphforum.com",
         reliability_mean: 43.44444466666666,
@@ -19243,7 +19252,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2138,
+        id: 2139,
         moniker_name: "Burlington Free Press",
         domain: ".burlingtonfreepress.com",
         reliability_mean: 44.74603190476191,
@@ -19252,7 +19261,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2139,
+        id: 2140,
         moniker_name: "Carlsbad Current-Argus",
         domain: ".currentargus.com",
         reliability_mean: 43.803921764705876,
@@ -19261,7 +19270,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2140,
+        id: 2141,
         moniker_name: "Chambersburg Public Opinion",
         domain: ".publicopiniononline.com",
         reliability_mean: 42.18518555555555,
@@ -19270,7 +19279,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2141,
+        id: 2142,
         moniker_name: "Red Eagle Politics (YouTube)",
         domain: ".tv.redeagletv-youtube.adfontesmedia.com",
         reliability_mean: 26.866666666666667,
@@ -19279,7 +19288,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 2142,
+        id: 2143,
         moniker_name: "Paint The Trump (YouTube)",
         domain: ".tv.paintthetrump-youtube.adfontesmedia.com",
         reliability_mean: 10.884614871794872,
@@ -19288,7 +19297,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 2143,
+        id: 2144,
         moniker_name: "Dronetek (YouTube)",
         domain: ".tv.dronetek-youtube.adfontesmedia.com",
         reliability_mean: 18.3066661,
@@ -19297,7 +19306,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 2144,
+        id: 2145,
         moniker_name: "Peak Prosperity (YouTube) - Chris Martenson",
         domain: ".tv.peakprosperity-youtube.adfontesmedia.com",
         reliability_mean: 19.313725294117646,
@@ -19306,7 +19315,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 2145,
+        id: 2146,
         moniker_name: "Courier Post - South Jersey",
         domain: ".courierpostonline.com",
         reliability_mean: 43.73333266666667,
@@ -19315,7 +19324,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2146,
+        id: 2147,
         moniker_name: "Chillicothe Gazette",
         domain: ".chillicothegazette.com",
         reliability_mean: 41.57407388888889,
@@ -19324,7 +19333,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2147,
+        id: 2148,
         moniker_name: "Leaf Chronicle",
         domain: ".theleafchronicle.com",
         reliability_mean: 43.22395875,
@@ -19333,7 +19342,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2148,
+        id: 2149,
         moniker_name: "Star-Gazette",
         domain: ".stargazette.com",
         reliability_mean: 44,
@@ -19342,7 +19351,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2149,
+        id: 2150,
         moniker_name: "Greenville News",
         domain: ".greenvilleonline.com",
         reliability_mean: 42.037035555555555,
@@ -19351,7 +19360,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2150,
+        id: 2151,
         moniker_name: "Iowa City Press-Citizen",
         domain: ".press-citizen.com",
         reliability_mean: 44.911111333333324,
@@ -19360,7 +19369,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2151,
+        id: 2152,
         moniker_name: "The Star Press",
         domain: ".thestarpress.com",
         reliability_mean: 42.977776666666664,
@@ -19369,7 +19378,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2152,
+        id: 2153,
         moniker_name: "Newark Advocate",
         domain: ".newarkadvocate.com",
         reliability_mean: 44.06249937500001,
@@ -19378,7 +19387,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2153,
+        id: 2154,
         moniker_name: "Wisconsin State Farmer",
         domain: ".wisfarmer.com",
         reliability_mean: 45.35416687499999,
@@ -19387,7 +19396,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2154,
+        id: 2155,
         moniker_name: "Visalia Times-Delta",
         domain: ".visaliatimesdelta.com",
         reliability_mean: 44.25490176470589,
@@ -19396,7 +19405,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2155,
+        id: 2156,
         moniker_name: "The News Leader",
         domain: ".newsleader.com",
         reliability_mean: 43.218750625,
@@ -19405,7 +19414,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2156,
+        id: 2157,
         moniker_name: "Shreveport Times",
         domain: ".shreveporttimes.com",
         reliability_mean: 42.124999375,
@@ -19414,7 +19423,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2157,
+        id: 2158,
         moniker_name: "Argus Leader",
         domain: ".argusleader.com",
         reliability_mean: 44.27083249999999,
@@ -19423,7 +19432,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2158,
+        id: 2159,
         moniker_name: "The Iowa Torch",
         domain: ".iowatorch.com",
         reliability_mean: 41.133334,
@@ -19432,7 +19441,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2159,
+        id: 2160,
         moniker_name: "The News Chief",
         domain: ".newschief.com",
         reliability_mean: 43.46666733333334,
@@ -19441,7 +19450,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2160,
+        id: 2161,
         moniker_name: "Nebraska City News-Press",
         domain: ".ncnewspress.com",
         reliability_mean: 40.07843117647059,
@@ -19450,7 +19459,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2161,
+        id: 2162,
         moniker_name: "Times-News - Twin Falls",
         domain: ".magicvalley.com",
         reliability_mean: 40.266666666666666,
@@ -19459,7 +19468,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2162,
+        id: 2163,
         moniker_name: "ABC24 WATN Memphis",
         domain: ".localmemphis.com",
         reliability_mean: 46.311112,
@@ -19468,7 +19477,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2163,
+        id: 2164,
         moniker_name: "NEWS CENTER Maine WCSH",
         domain: ".newscentermaine.com",
         reliability_mean: 45.19047571428571,
@@ -19477,7 +19486,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2164,
+        id: 2165,
         moniker_name: "Tehachapi News",
         domain: ".tehachapinews.com",
         reliability_mean: 46.01960705882352,
@@ -19486,7 +19495,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2165,
+        id: 2166,
         moniker_name: "ABC 13 Norfolk WVEC",
         domain: ".13newsnow.com",
         reliability_mean: 45.507936190476194,
@@ -19495,7 +19504,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2166,
+        id: 2167,
         moniker_name: "Newsmax: Wendy Bell Common Sense",
         domain: ".tv.wendybellcommonsense.adfontesmedia.com",
         reliability_mean: 7.703700555555555,
@@ -19504,7 +19513,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 2167,
+        id: 2168,
         moniker_name: "Newsmax: The Record with Greta Van Susteren",
         domain: ".tv.therecordwithgretavansusteren.adfontesmedia.com",
         reliability_mean: 33.111111666666666,
@@ -19513,7 +19522,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 2168,
+        id: 2169,
         moniker_name: "Election Time (YouTube)",
         domain: ".tv.electiontime-youtube.adfontesmedia.com",
         reliability_mean: 41.194445,
@@ -19522,7 +19531,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2169,
+        id: 2170,
         moniker_name: "ABC 10 Sacramento KXTV",
         domain: ".abc10.com",
         reliability_mean: 45.42222133333333,
@@ -19531,7 +19540,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2170,
+        id: 2171,
         moniker_name: "The Union",
         domain: ".theunion.com",
         reliability_mean: 37.72916562499999,
@@ -19540,7 +19549,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2171,
+        id: 2172,
         moniker_name: "Tahoe Daily Tribune",
         domain: ".tahoedailytribune.com",
         reliability_mean: 44.15555466666667,
@@ -19549,7 +19558,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2172,
+        id: 2173,
         moniker_name: "The Warren Record",
         domain: ".warrenrecord.com",
         reliability_mean: 44.533333999999996,
@@ -19558,7 +19567,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2173,
+        id: 2174,
         moniker_name: "The Kent Stater",
         domain: ".kentstater.com",
         reliability_mean: 45.17777666666667,
@@ -19567,7 +19576,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2174,
+        id: 2175,
         moniker_name: "We Are Iowa - WOI/KCWI",
         domain: ".weareiowa.com",
         reliability_mean: 45.577777999999995,
@@ -19576,7 +19585,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2175,
+        id: 2176,
         moniker_name: "5 News KFSM Fayetteville",
         domain: ".5newsonline.com",
         reliability_mean: 46.72619107142857,
@@ -19585,7 +19594,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2176,
+        id: 2177,
         moniker_name: "WQAD News 8 - Quad Cities",
         domain: ".wqad.com",
         reliability_mean: 45.64444333333334,
@@ -19594,7 +19603,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2177,
+        id: 2178,
         moniker_name: "WNEP 16",
         domain: ".wnep.com",
         reliability_mean: 45.253967619047614,
@@ -19603,7 +19612,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2178,
+        id: 2179,
         moniker_name: "FOX 43 Harrisburg WPMT",
         domain: ".fox43.com",
         reliability_mean: 44.944444444444436,
@@ -19612,7 +19621,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2179,
+        id: 2180,
         moniker_name: "CBS 10TV Columbus WBNS",
         domain: ".10tv.com",
         reliability_mean: 45.20000000000001,
@@ -19621,7 +19630,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2180,
+        id: 2181,
         moniker_name: "FOX61 WTIC",
         domain: ".fox61.com",
         reliability_mean: 44.66666588235294,
@@ -19630,7 +19639,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2181,
+        id: 2182,
         moniker_name: "FOX West Texas KIDY | KXVA",
         domain: ".myfoxzone.com",
         reliability_mean: 45.749998749999996,
@@ -19639,7 +19648,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2182,
+        id: 2183,
         moniker_name: "CBS WTOL 11 Toledo",
         domain: ".wtol.com",
         reliability_mean: 45.355556,
@@ -19648,7 +19657,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2183,
+        id: 2184,
         moniker_name: "CBS 8 San Diego KFMB",
         domain: ".cbs8.com",
         reliability_mean: 44.97878863636364,
@@ -19657,7 +19666,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 2184,
+        id: 2185,
         moniker_name: "First Coast News WTLV-WJXX",
         domain: ".firstcoastnews.com",
         reliability_mean: 44.02222266666667,
@@ -19666,7 +19675,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2185,
+        id: 2186,
         moniker_name: "CBS San Antonio KENS 5",
         domain: ".kens5.com",
         reliability_mean: 45.444444000000004,
@@ -19675,7 +19684,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2186,
+        id: 2187,
         moniker_name: "WHAS11 News",
         domain: ".whas11.com",
         reliability_mean: 46.37036944444444,
@@ -19684,7 +19693,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2187,
+        id: 2188,
         moniker_name: "The Redstone Rocket",
         domain: ".theredstonerocket.com",
         reliability_mean: 44.33333222222223,
@@ -19693,7 +19702,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2188,
+        id: 2189,
         moniker_name: "MS NOW: Chris Jansing Reports (MSNBC)",
         domain: ".tv.chrisjansingreports.adfontesmedia.com",
         reliability_mean: 34.533334,
@@ -19702,7 +19711,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 2189,
+        id: 2190,
         moniker_name: "The Durango Herald",
         domain: ".durangoherald.com",
         reliability_mean: 41.50000055555555,
@@ -19711,7 +19720,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2190,
+        id: 2191,
         moniker_name: "The Paducah Sun",
         domain: ".paducahsun.com",
         reliability_mean: 44.88888866666666,
@@ -19720,7 +19729,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2191,
+        id: 2192,
         moniker_name: "Metropolis Planet",
         domain: ".metropolisplanet.com",
         reliability_mean: 43.166667499999996,
@@ -19729,7 +19738,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2192,
+        id: 2193,
         moniker_name: "KSN Wichita KSNW",
         domain: ".ksn.com",
         reliability_mean: 44.03968238095238,
@@ -19738,7 +19747,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2193,
+        id: 2194,
         moniker_name: "ValleyCentral.com | KVEO & CBS4 | Rio Grande Valley",
         domain: ".valleycentral.com",
         reliability_mean: 43.909091363636364,
@@ -19747,7 +19756,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2194,
+        id: 2195,
         moniker_name: "KNWA & FOX24 - Northwest Arkansas and River Valley News",
         domain: ".nwahomepage.com",
         reliability_mean: 44.07936523809523,
@@ -19756,7 +19765,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2195,
+        id: 2196,
         moniker_name: "KOLR Ozarks First",
         domain: ".ozarksfirst.com",
         reliability_mean: 43.642856785714294,
@@ -19765,7 +19774,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2196,
+        id: 2197,
         moniker_name: "ABC22 & FOX44 | MyChamplainValley.com | WFFF | WVNY",
         domain: ".mychamplainvalley.com",
         reliability_mean: 43.09523857142856,
@@ -19774,7 +19783,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2197,
+        id: 2198,
         moniker_name: "MyStateline - WTVO/WQRF",
         domain: ".mystateline.com",
         reliability_mean: 43.929292424242426,
@@ -19783,7 +19792,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2198,
+        id: 2199,
         moniker_name: "MyPanhandle | WMBB 13",
         domain: ".mypanhandle.com",
         reliability_mean: 44.12121181818182,
@@ -19792,7 +19801,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2199,
+        id: 2200,
         moniker_name: "Channel 4: Channel 4 News",
         domain: ".tv.channel4news.adftonesmedia.com",
         reliability_mean: 44.77777666666666,
@@ -19801,7 +19810,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 2200,
+        id: 2201,
         moniker_name: "ABC (Australia): The World",
         domain: ".tv.theworld-australia.adfontesmedia.com",
         reliability_mean: 45,
@@ -19810,7 +19819,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2201,
+        id: 2202,
         moniker_name: "CGTN",
         domain: ".cgtn.com",
         reliability_mean: 29.791667187499996,
@@ -19819,7 +19828,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2202,
+        id: 2203,
         moniker_name: "DC News Now WDVM",
         domain: ".dcnewsnow.com",
         reliability_mean: 44.55072347826086,
@@ -19828,7 +19837,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2203,
+        id: 2204,
         moniker_name: "KCAU 9 Sioux City",
         domain: ".kcau9.com",
         reliability_mean: 44.46031666666667,
@@ -19837,7 +19846,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2204,
+        id: 2205,
         moniker_name: "i24: Beyond the Headlines",
         domain: ".tv.beyondtheheadlines.adfontesmedia.com",
         reliability_mean: 43.55555666666667,
@@ -19846,16 +19855,16 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2205,
+        id: 2206,
         moniker_name: "WKBN 27",
         domain: ".wkbn.com",
-        reliability_mean: 44.92753565217392,
+        reliability_mean: 44.76388833333334,
         reliability_label: "Reliable; Analysis/Fact Reporting",
-        bias_mean: 0.014493043478260869,
+        bias_mean: 0.013889166666666666,
         bias_label: "Middle",
     },
     {
-        id: 2206,
+        id: 2207,
         moniker_name: "Epic Economist (YouTube)",
         domain: ".tv.epiceconomist-youtube.adfontesmedia.com",
         reliability_mean: 25.85714428571428,
@@ -19864,7 +19873,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 2207,
+        id: 2208,
         moniker_name: "WXOW News 19",
         domain: ".wxow.com",
         reliability_mean: 46.044444000000006,
@@ -19873,7 +19882,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2208,
+        id: 2209,
         moniker_name: "CBS4 Local El Paso KDBC",
         domain: ".cbs4local.com",
         reliability_mean: 42.68888866666667,
@@ -19882,7 +19891,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2209,
+        id: 2210,
         moniker_name: "KDSM Fox 17 - Des Moines",
         domain: ".kdsm17.com",
         reliability_mean: 46.24444466666666,
@@ -19891,7 +19900,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2210,
+        id: 2211,
         moniker_name: "Fox on Tech",
         domain: ".pod.foxontech.adfontesmedia.com",
         reliability_mean: 41.77777666666666,
@@ -19900,7 +19909,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2211,
+        id: 2212,
         moniker_name: "BBC: The Context with Christian Fraser",
         domain: ".tv.thecontextwithchristianfraser.adfontesmedia.com",
         reliability_mean: 38.666666666666664,
@@ -19909,7 +19918,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 2212,
+        id: 2213,
         moniker_name: "CBS 3 Kalamazoo WWMT",
         domain: ".wwmt.com",
         reliability_mean: 44.033333999999996,
@@ -19918,7 +19927,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2213,
+        id: 2214,
         moniker_name: "WLUK-TV FOX 11",
         domain: ".fox11online.com",
         reliability_mean: 45.35087789473684,
@@ -19927,7 +19936,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2214,
+        id: 2215,
         moniker_name: "ABC 45 News WXLV",
         domain: ".abc45.com",
         reliability_mean: 43.71111066666666,
@@ -19936,7 +19945,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2215,
+        id: 2216,
         moniker_name: "CBS 21 Harrisburg WHP",
         domain: ".local21news.com",
         reliability_mean: 43.06666666666667,
@@ -19945,7 +19954,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2216,
+        id: 2217,
         moniker_name: "KATV Channel 7 News",
         domain: ".katv.com",
         reliability_mean: 44.22222266666667,
@@ -19954,7 +19963,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2217,
+        id: 2218,
         moniker_name: "WGXA News",
         domain: ".wgxa.tv",
         reliability_mean: 43.33333352941175,
@@ -19963,7 +19972,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2218,
+        id: 2219,
         moniker_name: "KOAT 7 - Albuquerque",
         domain: ".koat.com",
         reliability_mean: 45.249999374999994,
@@ -19972,7 +19981,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2219,
+        id: 2220,
         moniker_name: "WMUR News 9",
         domain: ".wmur.com",
         reliability_mean: 44.91228105263158,
@@ -19981,7 +19990,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2220,
+        id: 2221,
         moniker_name: "NBC Montana KECI | KCFW | KTVM",
         domain: ".nbcmontana.com",
         reliability_mean: 45.560605,
@@ -19990,7 +19999,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2221,
+        id: 2222,
         moniker_name: "CW18 Milwaukee WVTV",
         domain: ".cw18milwaukee.com",
         reliability_mean: 41.77777777777778,
@@ -19999,7 +20008,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2222,
+        id: 2223,
         moniker_name: "CBS 6 Albany WRGB",
         domain: ".cbs6albany.com",
         reliability_mean: 43.95833437499999,
@@ -20008,7 +20017,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2223,
+        id: 2224,
         moniker_name: "CBS Austin KEYE",
         domain: ".cbsaustin.com",
         reliability_mean: 45.86666533333334,
@@ -20017,7 +20026,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2224,
+        id: 2225,
         moniker_name: "BakersfieldNow KBAK-CBS and FOX58",
         domain: ".bakersfieldnow.com",
         reliability_mean: 41.98550695652174,
@@ -20026,7 +20035,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2225,
+        id: 2226,
         moniker_name: "CBS 2 Idaho News KBOI",
         domain: ".idahonews.com",
         reliability_mean: 44.24444533333333,
@@ -20035,7 +20044,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2226,
+        id: 2227,
         moniker_name: "FOX 45 Baltimore WBFF",
         domain: ".foxbaltimore.com",
         reliability_mean: 44.92592555555555,
@@ -20044,7 +20053,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2227,
+        id: 2228,
         moniker_name: "ABC News 4 Charleston WCIV",
         domain: ".abcnews4.com",
         reliability_mean: 44.47368315789474,
@@ -20053,7 +20062,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2228,
+        id: 2229,
         moniker_name: "FOX Chattanooga WTVC",
         domain: ".foxchattanooga.com",
         reliability_mean: 44.911110666666666,
@@ -20062,7 +20071,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2229,
+        id: 2230,
         moniker_name: "ABC 6 Columbus WSYX",
         domain: ".abc6onyourside.com",
         reliability_mean: 45.79365095238096,
@@ -20071,7 +20080,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2230,
+        id: 2231,
         moniker_name: "FOX 38 Corpus Christi KSCC",
         domain: ".fox38corpuschristi.com",
         reliability_mean: 44.08333375,
@@ -20080,7 +20089,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2231,
+        id: 2232,
         moniker_name: "Dayton 24/7 Now | ABC22 WKEF | FOX45 WRGT",
         domain: ".dayton247now.com",
         reliability_mean: 45.37777733333334,
@@ -20089,7 +20098,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2232,
+        id: 2233,
         moniker_name: "KOCB OKC",
         domain: ".kocb.com",
         reliability_mean: 43.278182666666666,
@@ -20098,7 +20107,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2233,
+        id: 2234,
         moniker_name: "KHQA News",
         domain: ".khqa.com",
         reliability_mean: 44.91666625,
@@ -20107,7 +20116,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2234,
+        id: 2235,
         moniker_name: "ABC 13 Lynchburg WSET",
         domain: ".wset.com",
         reliability_mean: 44.86666733333334,
@@ -20116,7 +20125,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2235,
+        id: 2236,
         moniker_name: "Steamboat Pilot & Today",
         domain: ".steamboatpilot.com",
         reliability_mean: 43.91111133333334,
@@ -20125,7 +20134,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2236,
+        id: 2237,
         moniker_name: "SmartHER News",
         domain: ".smarthernews.com",
         reliability_mean: 45.354166875000004,
@@ -20134,7 +20143,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2237,
+        id: 2238,
         moniker_name: "NBC 11 Minneapolis KARE",
         domain: ".kare11.com",
         reliability_mean: 44.44444533333332,
@@ -20143,7 +20152,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2238,
+        id: 2239,
         moniker_name: "NewsWest 9 KWES",
         domain: ".newswest9.com",
         reliability_mean: 44.43750000000001,
@@ -20152,7 +20161,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2239,
+        id: 2240,
         moniker_name: "WFMY News 2",
         domain: ".wfmynews2.com",
         reliability_mean: 46.933334666666674,
@@ -20161,7 +20170,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2240,
+        id: 2241,
         moniker_name: "KTVB 7",
         domain: ".ktvb.com",
         reliability_mean: 45.222222,
@@ -20170,7 +20179,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2241,
+        id: 2242,
         moniker_name: "WWL-TV 4",
         domain: ".wwltv.com",
         reliability_mean: 45.111110666666654,
@@ -20179,7 +20188,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2242,
+        id: 2243,
         moniker_name: "CBS KREM 2 News Spokane",
         domain: ".krem.com",
         reliability_mean: 45.687719473684204,
@@ -20188,7 +20197,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2243,
+        id: 2244,
         moniker_name: "Revolutionary Left Radio",
         domain: ".pod.revolutionaryleftradio.adfontesmedia.com",
         reliability_mean: 10.38095,
@@ -20197,7 +20206,7 @@ const sampleData = [
         bias_label: "Most Extreme Left",
     },
     {
-        id: 2244,
+        id: 2245,
         moniker_name: "Niagara Falls Review",
         domain: ".niagarafallsreview.ca",
         reliability_mean: 44.1296288888889,
@@ -20206,7 +20215,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2245,
+        id: 2246,
         moniker_name: "Ashland Source",
         domain: ".ashlandsource.com",
         reliability_mean: 43.51851944444445,
@@ -20215,7 +20224,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2246,
+        id: 2247,
         moniker_name: "Aspen Daily News",
         domain: ".aspendailynews.com",
         reliability_mean: 43.266666666666666,
@@ -20224,7 +20233,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2247,
+        id: 2248,
         moniker_name: "The Chariton Newspapers",
         domain: ".charitonleader.com",
         reliability_mean: 43.57777733333332,
@@ -20233,7 +20242,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2248,
+        id: 2249,
         moniker_name: "Chatham Star-Tribune",
         domain: ".chathamstartribune.com",
         reliability_mean: 44.466666000000004,
@@ -20242,7 +20251,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2249,
+        id: 2250,
         moniker_name: "Atlanta News First WANF",
         domain: ".atlantanewsfirst.com",
         reliability_mean: 42.95495486486486,
@@ -20251,7 +20260,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2250,
+        id: 2251,
         moniker_name: "Capital Press",
         domain: ".capitalpress.com",
         reliability_mean: 45.562500625,
@@ -20260,7 +20269,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2251,
+        id: 2252,
         moniker_name: "El Defensor Chieftain",
         domain: ".dchieftain.com",
         reliability_mean: 46.21929842105262,
@@ -20269,7 +20278,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2252,
+        id: 2253,
         moniker_name: "Magnolia Banner News",
         domain: ".magnoliabannernews.com",
         reliability_mean: 43.596491052631585,
@@ -20278,7 +20287,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2253,
+        id: 2254,
         moniker_name: "myRDC",
         domain: ".myrdctv.com",
         reliability_mean: 44.03333333333334,
@@ -20287,7 +20296,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2254,
+        id: 2255,
         moniker_name: "WPFO FOX23",
         domain: ".fox23maine.com",
         reliability_mean: 45.083332500000004,
@@ -20296,7 +20305,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2255,
+        id: 2256,
         moniker_name: "FOX 42 KTPM - Omaha",
         domain: ".fox42kptm.com",
         reliability_mean: 44.29411764705881,
@@ -20305,7 +20314,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2256,
+        id: 2257,
         moniker_name: "FOX 25 Oklahoma City KOKH",
         domain: ".okcfox.com",
         reliability_mean: 45.40351,
@@ -20314,7 +20323,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2257,
+        id: 2258,
         moniker_name: "KTVO",
         domain: ".ktvo.com",
         reliability_mean: 45.27450999999999,
@@ -20323,7 +20332,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2258,
+        id: 2259,
         moniker_name: "Bulletin Review",
         domain: ".dbrnews.com",
         reliability_mean: 43.26315736842104,
@@ -20332,7 +20341,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2259,
+        id: 2260,
         moniker_name: "Grand Rapids Herald-Review",
         domain: ".grandrapidsmn.com",
         reliability_mean: 42.260415625,
@@ -20341,7 +20350,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2260,
+        id: 2261,
         moniker_name: "Hanford Sentinel",
         domain: ".hanfordsentinel.com",
         reliability_mean: 43.177777999999996,
@@ -20350,7 +20359,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2261,
+        id: 2262,
         moniker_name: "Atlantic City Weekly",
         domain: ".atlanticcityweekly.com",
         reliability_mean: 32.74444366666667,
@@ -20359,7 +20368,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2262,
+        id: 2263,
         moniker_name: "NBC 36 Austin KXAN",
         domain: ".kxan.com",
         reliability_mean: 45.34615461538461,
@@ -20368,16 +20377,16 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2263,
+        id: 2264,
         moniker_name: "WTWO News | My Wabash Valley",
         domain: ".mywabashvalley.com",
-        reliability_mean: 43.783333500000005,
+        reliability_mean: 43.73015904761905,
         reliability_label: "Reliable; Analysis/Fact Reporting",
-        bias_mean: -0.08333349999999999,
+        bias_mean: -0.07936523809523809,
         bias_label: "Middle",
     },
     {
-        id: 2264,
+        id: 2265,
         moniker_name: "CBS WJTV 12 News",
         domain: ".wjtv.com",
         reliability_mean: 41.13636363636364,
@@ -20386,7 +20395,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2265,
+        id: 2266,
         moniker_name: "The Avenue News",
         domain: ".avenuenews.com",
         reliability_mean: 44.81481555555555,
@@ -20395,7 +20404,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2266,
+        id: 2267,
         moniker_name: "The Herald-News - Dayton, TN",
         domain: ".rheaheraldnews.com",
         reliability_mean: 42.72548941176472,
@@ -20404,7 +20413,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2267,
+        id: 2268,
         moniker_name: "Idaho Press",
         domain: ".idahopress.com",
         reliability_mean: 42.16666562499999,
@@ -20413,7 +20422,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2268,
+        id: 2269,
         moniker_name: "ABC 9 Charlotte WSOC",
         domain: ".wsoctv.com",
         reliability_mean: 45.44444466666666,
@@ -20422,7 +20431,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2269,
+        id: 2270,
         moniker_name: "Springfield News-Sun",
         domain: ".springfieldnewssun.com",
         reliability_mean: 44.11111133333334,
@@ -20431,7 +20440,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2270,
+        id: 2271,
         moniker_name: "GeekWire",
         domain: ".geekwire.com",
         reliability_mean: 43.377778,
@@ -20440,7 +20449,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2271,
+        id: 2272,
         moniker_name: "The Burlington Record",
         domain: ".burlington-record.com",
         reliability_mean: 42.42222266666667,
@@ -20449,7 +20458,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2272,
+        id: 2273,
         moniker_name: "Daily Freeman",
         domain: ".dailyfreeman.com",
         reliability_mean: 40.51111133333334,
@@ -20458,7 +20467,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2273,
+        id: 2274,
         moniker_name: "The Daily Signal Podcast",
         domain: ".pod.dailysignalpodcast.adfontesmedia.com",
         reliability_mean: 34.77777666666666,
@@ -20467,7 +20476,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 2274,
+        id: 2275,
         moniker_name: "Reactionary Times",
         domain: ".reactionarytimes.com",
         reliability_mean: 19.277779444444448,
@@ -20476,7 +20485,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 2275,
+        id: 2276,
         moniker_name: "Decoder with Nilay Patel",
         domain: ".pod.decoderwithnilaypatel.adfontesmedia.com",
         reliability_mean: 43.11111,
@@ -20485,7 +20494,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2276,
+        id: 2277,
         moniker_name: "The Michael Steele Podcast",
         domain: ".pod.themichaelsteelepodcast.adfontesmedia.com",
         reliability_mean: 32,
@@ -20494,7 +20503,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 2277,
+        id: 2278,
         moniker_name: "Flyover Country with Scott Jennings",
         domain: ".pod.flyovercountrywithscottjennings.adfontesmedia.com",
         reliability_mean: 32.583335000000005,
@@ -20503,7 +20512,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 2278,
+        id: 2279,
         moniker_name: "TrueAnon",
         domain: ".pod.trueanonpod.adfontesmedia.com",
         reliability_mean: 25.95833125,
@@ -20512,7 +20521,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 2279,
+        id: 2280,
         moniker_name: "The Suburban Women Problem",
         domain: ".pod.thesuburbanwomenproblem.adfontesmedia.com",
         reliability_mean: 33.44444333333333,
@@ -20521,7 +20530,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 2280,
+        id: 2281,
         moniker_name: "SmartHER News Podcast",
         domain: ".pod.smarthernews.adfontesmedia.com",
         reliability_mean: 38.88889,
@@ -20530,7 +20539,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2281,
+        id: 2282,
         moniker_name: "The Chris Cuomo Project",
         domain: ".pod.thechriscuomoproject.adfontesmedia.com",
         reliability_mean: 30.666666666666668,
@@ -20539,7 +20548,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 2282,
+        id: 2283,
         moniker_name: "The Josh Hammer Show",
         domain: ".pod.thejoshhammershow.adfontesmedia.com",
         reliability_mean: 28.733332,
@@ -20548,7 +20557,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 2283,
+        id: 2284,
         moniker_name: "American Conservative University",
         domain: ".pod.americanconservativeuniversity.adfontesmedia.com",
         reliability_mean: 17.35897307692308,
@@ -20557,7 +20566,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 2284,
+        id: 2285,
         moniker_name: "The Janice Dean Podcast",
         domain: ".pod.thejanicedeanpodcast.adfontesmedia.com",
         reliability_mean: 36.77778,
@@ -20566,7 +20575,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 2285,
+        id: 2286,
         moniker_name: "The Morgan Zegers Show",
         domain: ".pod.themorganzegersshow.adfontesmedia.com",
         reliability_mean: 24.555558333333334,
@@ -20575,7 +20584,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 2286,
+        id: 2287,
         moniker_name: "The DEBRIEF With Briahna Joy Gray",
         domain: ".pod.thedebriefwithbriahnajoygray.adfontesmedia.com",
         reliability_mean: 30.666666666666668,
@@ -20584,7 +20593,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 2287,
+        id: 2288,
         moniker_name: "The Pillar Podcast",
         domain: ".pod.thepillarpodcast.adfontesmedia.com",
         reliability_mean: 32.888889999999996,
@@ -20593,7 +20602,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2288,
+        id: 2289,
         moniker_name: "The Lobby Shop",
         domain: ".pod.thelobbyshop.adfontesmedia.com",
         reliability_mean: 36.666666666666664,
@@ -20602,7 +20611,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 2289,
+        id: 2290,
         moniker_name: "The Brendan O'Neill Show",
         domain: ".pod.thebrendanoneillshow.adfontesmedia.com",
         reliability_mean: 25.333333333333332,
@@ -20611,7 +20620,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 2290,
+        id: 2291,
         moniker_name: "Bloomberg Originals (YouTube)",
         domain: ".tv.bloombergoriginals.adfontesmedia.com",
         reliability_mean: 44.47222083333333,
@@ -20620,7 +20629,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2291,
+        id: 2292,
         moniker_name: "Interesting Engineering",
         domain: ".interestingengineering.com",
         reliability_mean: 43.19999933333333,
@@ -20629,7 +20638,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2292,
+        id: 2293,
         moniker_name: "San Antonio Report",
         domain: ".sanantonioreport.org",
         reliability_mean: 44.31111066666666,
@@ -20638,7 +20647,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2293,
+        id: 2294,
         moniker_name: "Sabby Sabs",
         domain: ".pod.sabbysabs.adfontesmedia.com",
         reliability_mean: 21.166667,
@@ -20647,7 +20656,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 2294,
+        id: 2295,
         moniker_name: "Business Insider (YouTube)",
         domain: ".tv.businessinsider-youtube.adfontesmedia.com",
         reliability_mean: 44.86111,
@@ -20656,7 +20665,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2295,
+        id: 2296,
         moniker_name: "CBS 4 Boston WBZ",
         domain: ".cbsnews.com/boston",
         reliability_mean: 44.24444533333333,
@@ -20665,7 +20674,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2296,
+        id: 2297,
         moniker_name: "USAWatchdog",
         domain: ".usawatchdog.com",
         reliability_mean: 9.197530105820107,
@@ -20674,7 +20683,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 2297,
+        id: 2298,
         moniker_name: "Wendy Bell Radio",
         domain: ".pod.WendyBellRadio.adfontesmedia.com",
         reliability_mean: 15.0000025,
@@ -20683,7 +20692,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 2298,
+        id: 2299,
         moniker_name: "The Electorette",
         domain: ".pod.electorette.adfontesmedia.com",
         reliability_mean: 32.333333333333336,
@@ -20692,7 +20701,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 2299,
+        id: 2300,
         moniker_name: "Wall Street Journal (YouTube)",
         domain: ".tv.wsj-youtube.adfontesmedia.com",
         reliability_mean: 45.194444999999995,
@@ -20701,7 +20710,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2300,
+        id: 2301,
         moniker_name: "Straight Arrow News",
         domain: ".san.com",
         reliability_mean: 39.908396793893125,
@@ -20710,7 +20719,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2301,
+        id: 2302,
         moniker_name: "The Spiked Podcast",
         domain: ".pod.thespikedpodcast.adfontesmedia.com",
         reliability_mean: 32.833332500000004,
@@ -20719,7 +20728,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 2302,
+        id: 2303,
         moniker_name: "Last Orders",
         domain: ".pod.lastorders.adfontesmedia.com",
         reliability_mean: 29,
@@ -20728,7 +20737,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 2303,
+        id: 2304,
         moniker_name: "Politics Unpacked",
         domain: ".pod.politicsunpackedpodcast.adfontesmedia.com",
         reliability_mean: 37.666666666666664,
@@ -20737,7 +20746,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 2304,
+        id: 2305,
         moniker_name: "REAL AF with Andy Frisella",
         domain: ".pod.realafwithandyfrisella.adfontesmedia.com",
         reliability_mean: 6.533332400000001,
@@ -20746,7 +20755,7 @@ const sampleData = [
         bias_label: "Most Extreme Right",
     },
     {
-        id: 2305,
+        id: 2306,
         moniker_name: "The New Abnormal",
         domain: ".pod.thenewabnormal.adfontesmedia.com",
         reliability_mean: 15.416664999999998,
@@ -20755,7 +20764,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 2306,
+        id: 2307,
         moniker_name:
             "Real America's Voice: Outside the Beltway with John Fredericks",
         domain: ".tv.outsidethebeltwaywithjohnfredericks.adfontesmedia.com",
@@ -20765,7 +20774,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 2307,
+        id: 2308,
         moniker_name: "The Kitsap Sun",
         domain: ".kitsapsun.com",
         reliability_mean: 44.31111066666667,
@@ -20774,7 +20783,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2308,
+        id: 2309,
         moniker_name: "CNN: Who’s Talking to Chris Wallace?",
         domain: ".tv.whostalkingtochriswallace.adfontesmedia.com",
         reliability_mean: 39.44444333333333,
@@ -20783,7 +20792,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 2309,
+        id: 2310,
         moniker_name: "FOX Carolina WHNS",
         domain: ".foxcarolina.com",
         reliability_mean: 43.111112000000006,
@@ -20792,7 +20801,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2310,
+        id: 2311,
         moniker_name: "EWTN: The World Over with Raymond Arroyo",
         domain: ".tv.theworldover.adfontesmedia.com",
         reliability_mean: 33.666665,
@@ -20801,7 +20810,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 2311,
+        id: 2312,
         moniker_name: "ABC (Australia): Foreign Correspondent",
         domain: ".tv.abcaustraliaforeigncorrespondent.adfontesmedia.com",
         reliability_mean: 48.666666666666664,
@@ -20810,7 +20819,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2312,
+        id: 2313,
         moniker_name: "WITN News",
         domain: ".witn.com",
         reliability_mean: 41.755556,
@@ -20819,7 +20828,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2313,
+        id: 2314,
         moniker_name:
             "All In Podcast (All-In with Chamath, Jason, Sacks & Friedberg)",
         domain: ".pod.allinpodcast.adfontesmedia.com",
@@ -20829,7 +20838,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 2314,
+        id: 2315,
         moniker_name: "Mo News Podcast - Mosheh Oinounou and Jill Wagner",
         domain: ".pod.monews.adfontesmedia.com",
         reliability_mean: 41.85507173913044,
@@ -20838,7 +20847,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 2315,
+        id: 2316,
         moniker_name: "Left, Right & Center",
         domain: ".pod.leftrightcenter.adfontesmedia.com",
         reliability_mean: 39,
@@ -20847,7 +20856,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2316,
+        id: 2317,
         moniker_name: "Matters of Policy & Politics",
         domain: ".pod.mattersofpolicyandpolitics.adfontesmedia.com",
         reliability_mean: 34.666666666666664,
@@ -20856,7 +20865,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 2317,
+        id: 2318,
         moniker_name: "UpNorthNews",
         domain: ".upnorthnewswi.com",
         reliability_mean: 30.95555533333333,
@@ -20865,7 +20874,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 2318,
+        id: 2319,
         moniker_name:
             "Sandy and Nora Talk Politics - Sandy Hudson & Nora Loreto",
         domain: ".pod.sandyandnora.adfontesmedia.com",
@@ -20875,7 +20884,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 2319,
+        id: 2320,
         moniker_name: "La Jolla Light",
         domain: ".lajollalight.com",
         reliability_mean: 44.43750000000001,
@@ -20884,7 +20893,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2320,
+        id: 2321,
         moniker_name: "ABC 7 Detroit WXYZ",
         domain: ".wxyz.com",
         reliability_mean: 43.00000000000001,
@@ -20893,7 +20902,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2321,
+        id: 2322,
         moniker_name: "PIX11 - New York WPIX",
         domain: ".pix11.com",
         reliability_mean: 42.92063476190476,
@@ -20902,7 +20911,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2322,
+        id: 2323,
         moniker_name: "FOX23 News Tulsa KOKI",
         domain: ".fox23.com",
         reliability_mean: 44.42222333333334,
@@ -20911,7 +20920,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2323,
+        id: 2324,
         moniker_name: "Block Club Chicago",
         domain: ".blockclubchicago.org",
         reliability_mean: 43.61403421052632,
@@ -20920,7 +20929,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2324,
+        id: 2325,
         moniker_name: "Dumb Gay Podcast with Julie Goldman and Brandy Howard",
         domain: ".pod.dumbgaypolitics.adfontesmedia.com",
         reliability_mean: 11.047620952380953,
@@ -20929,7 +20938,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 2325,
+        id: 2326,
         moniker_name: "Balloon Juice",
         domain: ".balloon-juice.com",
         reliability_mean: 23.62626303030303,
@@ -20938,7 +20947,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 2326,
+        id: 2327,
         moniker_name: "Political Tribune",
         domain: ".polinews.org",
         reliability_mean: 15.595554933333332,
@@ -20947,7 +20956,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 2327,
+        id: 2328,
         moniker_name: "Robert Reich",
         domain: ".robertreich.substack.com",
         reliability_mean: 26.916666250000006,
@@ -20956,7 +20965,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 2328,
+        id: 2329,
         moniker_name: "The Absolute Truth with Emerald Robinson",
         domain: ".tv.theabsolutetruthwithemeraldrobinson.adfontesmedia.com",
         reliability_mean: 11.2,
@@ -20965,7 +20974,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 2329,
+        id: 2330,
         moniker_name: "The Tulsi Gabbard Show",
         domain: ".pod.tulsigabbardshow.adfontesmedia.com",
         reliability_mean: 25.777778333333334,
@@ -20974,7 +20983,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 2330,
+        id: 2331,
         moniker_name: "BlabberBuzz",
         domain: ".blabber.buzz",
         reliability_mean: 28.98717884615384,
@@ -20983,7 +20992,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 2331,
+        id: 2332,
         moniker_name: "Right Vs. Left News",
         domain: ".rightvsleft.news",
         reliability_mean: 23.131312424242427,
@@ -20992,7 +21001,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 2332,
+        id: 2333,
         moniker_name: "Grosse Pointe News",
         domain: ".grossepointenews.com",
         reliability_mean: 41.244444666666666,
@@ -21001,7 +21010,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2333,
+        id: 2334,
         moniker_name: "ABC (Australia): Planet America",
         domain: ".tv.abcaustraliaplanetamerica.adfontesmedia.com",
         reliability_mean: 38.11111,
@@ -21010,7 +21019,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 2334,
+        id: 2335,
         moniker_name: "Business Basics (YouTube)",
         domain: ".tv.businessbasics-youtube.adfontesmedia.com",
         reliability_mean: 36.25,
@@ -21019,7 +21028,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 2335,
+        id: 2336,
         moniker_name: "The Skeptoid Podcast",
         domain: ".pod.skeptoid.adfontesmedia.com",
         reliability_mean: 39.333333333333336,
@@ -21028,7 +21037,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2336,
+        id: 2337,
         moniker_name: "Slay News",
         domain: ".slaynews.com",
         reliability_mean: 12.954731728395062,
@@ -21037,7 +21046,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 2337,
+        id: 2338,
         moniker_name: "Conservative Firing Line",
         domain: ".conservativefiringline.com",
         reliability_mean: 17.877192631578943,
@@ -21046,7 +21055,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 2338,
+        id: 2339,
         moniker_name: "DC Enquirer",
         domain: ".dcenquirer.com",
         reliability_mean: 25.49691314814815,
@@ -21055,7 +21064,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 2339,
+        id: 2340,
         moniker_name: "American Wire News",
         domain: ".americanwirenews.com",
         reliability_mean: 19.359477058823533,
@@ -21064,7 +21073,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 2340,
+        id: 2341,
         moniker_name: "NewsNation: Cuomo",
         domain: ".tv.cuomo.adfontesmedia.com",
         reliability_mean: 31.367521794871802,
@@ -21073,7 +21082,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2341,
+        id: 2342,
         moniker_name: "RSBN: The Right View with Lara Trump",
         domain: ".tv.therightview.adfontesmediacom",
         reliability_mean: 26.476188571428573,
@@ -21082,16 +21091,16 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 2342,
+        id: 2343,
         moniker_name: "WSAV - Savannah",
         domain: ".wsav.com",
-        reliability_mean: 43.619048095238085,
+        reliability_mean: 43.78787909090909,
         reliability_label: "Reliable; Analysis/Fact Reporting",
-        bias_mean: -2.069444583333333,
+        bias_mean: -1.9866667999999998,
         bias_label: "Middle",
     },
     {
-        id: 2343,
+        id: 2344,
         moniker_name: "FOX 13 Seattle KCPQ",
         domain: ".fox13seattle.com",
         reliability_mean: 45.48888866666667,
@@ -21100,7 +21109,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2344,
+        id: 2345,
         moniker_name: "YourBasin.com - ABC Big 2 News - KMID",
         domain: ".yourbasin.com",
         reliability_mean: 42.88333399999999,
@@ -21109,16 +21118,16 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2345,
+        id: 2346,
         moniker_name: "WTRF News 7",
         domain: ".wtrf.com",
-        reliability_mean: 42.720633809523825,
+        reliability_mean: 42.65757454545456,
         reliability_label: "Reliable; Analysis/Fact Reporting",
-        bias_mean: -0.94444375,
+        bias_mean: -0.8399992000000001,
         bias_label: "Middle",
     },
     {
-        id: 2346,
+        id: 2347,
         moniker_name: "PHL17 - WPHL Philadelphia",
         domain: ".phl17.com",
         reliability_mean: 43.128787727272716,
@@ -21127,7 +21136,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2347,
+        id: 2348,
         moniker_name: "CW39 Houston KIAH",
         domain: ".cw39.com",
         reliability_mean: 39.242936949152536,
@@ -21136,16 +21145,16 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2348,
+        id: 2349,
         moniker_name: "WJHL News Channel 11 Johnson City",
         domain: ".wjhl.com",
-        reliability_mean: 43.285715238095236,
+        reliability_mean: 43.19697045454546,
         reliability_label: "Reliable; Analysis/Fact Reporting",
-        bias_mean: -0.38095190476190477,
+        bias_mean: -0.25757545454545455,
         bias_label: "Middle",
     },
     {
-        id: 2349,
+        id: 2350,
         moniker_name: "FOX WFXR Roanoke",
         domain: ".wfxrtv.com",
         reliability_mean: 40.873015714285714,
@@ -21154,7 +21163,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2350,
+        id: 2351,
         moniker_name: "NBC10 Boston WBTS",
         domain: ".nbcboston.com",
         reliability_mean: 42.75000062499999,
@@ -21163,7 +21172,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2351,
+        id: 2352,
         moniker_name: "Herald-Star",
         domain: ".heraldstaronline.com",
         reliability_mean: 41.58333375,
@@ -21172,7 +21181,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2352,
+        id: 2353,
         moniker_name: "The Cook Political Report with Amy Walter",
         domain: ".cookpolitical.com",
         reliability_mean: 41.500000625000006,
@@ -21181,7 +21190,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2353,
+        id: 2354,
         moniker_name: "The Patriot Post",
         domain: ".patriotpost.us",
         reliability_mean: 18.872727272727268,
@@ -21190,7 +21199,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 2354,
+        id: 2355,
         moniker_name: "Santa Monica Observer",
         domain: ".smobserved.com",
         reliability_mean: 12.893334933333332,
@@ -21199,7 +21208,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 2355,
+        id: 2356,
         moniker_name: "Semafor",
         domain: ".semafor.com",
         reliability_mean: 39.84684702702702,
@@ -21208,7 +21217,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2356,
+        id: 2357,
         moniker_name: "ABC: The View",
         domain: ".tv.theview.adfontesmedia.com",
         reliability_mean: 26.38095285714286,
@@ -21217,7 +21226,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 2357,
+        id: 2358,
         moniker_name: "The Statesman",
         domain: ".thestatesman.com",
         reliability_mean: 41.958333749999994,
@@ -21226,7 +21235,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2358,
+        id: 2359,
         moniker_name: "Fox News Sunday with Shannon Bream",
         domain: ".tv.foxnewssundaywithshannonbream.adfontesmedia.com",
         reliability_mean: 40.28571571428572,
@@ -21235,7 +21244,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 2359,
+        id: 2360,
         moniker_name: "National Journal Radio",
         domain: ".pod.nationaljournalradio.adfontesmedia.com",
         reliability_mean: 39.22222333333334,
@@ -21244,7 +21253,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2360,
+        id: 2361,
         moniker_name: "The Politics of Everything",
         domain: ".pod.thepoliticsofeverything.adfontesmedia.com",
         reliability_mean: 34.333333333333336,
@@ -21253,7 +21262,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 2361,
+        id: 2362,
         moniker_name: "Fast Politics with Molly Jong-Fast",
         domain: ".pod.fastpoliticswithmollyjongfast.adfontesmedia.com",
         reliability_mean: 28.111109999999996,
@@ -21262,7 +21271,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 2362,
+        id: 2363,
         moniker_name: "Apple News In Conversation",
         domain: ".pod.applenewsinconversation.adfontesmedia.com",
         reliability_mean: 39.11111,
@@ -21271,7 +21280,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2363,
+        id: 2364,
         moniker_name: "Greenville Herald-Banner",
         domain: ".heraldbanner.com",
         reliability_mean: 43.377778,
@@ -21280,7 +21289,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2364,
+        id: 2365,
         moniker_name: "Improve the News Podcast",
         domain: ".pod.improvethenews.adfontesmedia.com",
         reliability_mean: 42.55555666666667,
@@ -21289,7 +21298,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2365,
+        id: 2366,
         moniker_name: "At Liberty Podcast",
         domain: ".pod.atlibertypodcast.adfontesmedia.com",
         reliability_mean: 31.777779999999996,
@@ -21298,7 +21307,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 2366,
+        id: 2367,
         moniker_name: "The Weekend Show with Anthony Davis",
         domain: ".pod.theweekendshow.adfontesmedia.com",
         reliability_mean: 29.5,
@@ -21307,7 +21316,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 2367,
+        id: 2368,
         moniker_name: "On with Kara Swisher",
         domain: ".pod.onwithkaraswisher.adfontesmedia.com",
         reliability_mean: 34.44444666666667,
@@ -21316,7 +21325,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 2368,
+        id: 2369,
         moniker_name: "Fake the Nation",
         domain: ".pod.fakethenation.adfontesmedia.com",
         reliability_mean: 28.88889,
@@ -21325,7 +21334,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 2369,
+        id: 2370,
         moniker_name: "Countdown with Keith Olbermann",
         domain: ".pod.countdownwithkeitholbermann.adfontesmedia.com",
         reliability_mean: 22.333333333333332,
@@ -21334,7 +21343,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 2370,
+        id: 2371,
         moniker_name: "CNN: CNN This Morning Weekend",
         domain: ".tv.cnnthismorningweekend.adfontesmedia.com",
         reliability_mean: 41.25,
@@ -21343,7 +21352,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 2371,
+        id: 2372,
         moniker_name: "Chattanooga Times Free Press",
         domain: ".timesfreepress.com",
         reliability_mean: 44.755556,
@@ -21352,7 +21361,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2372,
+        id: 2373,
         moniker_name: "ABC NewsChannel 9 WTVC-TV",
         domain: ".newschannel9.com",
         reliability_mean: 41.68627529411764,
@@ -21361,7 +21370,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2373,
+        id: 2374,
         moniker_name: "CNN One Thing",
         domain: ".pod.cnnonething.adfontesmedia.com",
         reliability_mean: 37.55555333333333,
@@ -21370,7 +21379,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 2374,
+        id: 2375,
         moniker_name: "The Week on Wednesday with Van Badham & Ben Davison",
         domain: ".pod.theweekonwednesday.adfontesmedia.com",
         reliability_mean: 30.777776666666664,
@@ -21379,7 +21388,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 2375,
+        id: 2376,
         moniker_name: "TheGrio Daily",
         domain: ".pod.thegriodaily.adfontesmedia.com",
         reliability_mean: 33.88889,
@@ -21388,7 +21397,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 2376,
+        id: 2377,
         moniker_name: "The Truth of the Matter with Andrew Schwartz",
         domain: ".pod.thetruthofthematter.adfontesmedia.com",
         reliability_mean: 37,
@@ -21397,7 +21406,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2377,
+        id: 2378,
         moniker_name: "The Kristal Knight Show",
         domain: ".pod.thekristalknightshow.adfontesmedia.com",
         reliability_mean: 19.21211909090909,
@@ -21406,7 +21415,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 2378,
+        id: 2379,
         moniker_name: "The Norwalk Hour",
         domain: ".thehour.com",
         reliability_mean: 43.51111133333333,
@@ -21415,7 +21424,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2379,
+        id: 2380,
         moniker_name: "New Hampshire Union Leader",
         domain: ".unionleader.com",
         reliability_mean: 40.27083375,
@@ -21424,7 +21433,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2380,
+        id: 2381,
         moniker_name: "The Pueblo Chieftain",
         domain: ".chieftain.com",
         reliability_mean: 43.537037222222224,
@@ -21433,7 +21442,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2381,
+        id: 2382,
         moniker_name: "The First: Bill O'Reilly's No Spin News",
         domain: ".tv.billoreillysnospinnews.adfontesmedia.com",
         reliability_mean: 16.595235714285714,
@@ -21442,7 +21451,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 2382,
+        id: 2383,
         moniker_name: "NewsNation: NewsNation Live with Marni Hughes",
         domain: ".tv.newsnationlivewithmarnihughes.adfontesmedia.com",
         reliability_mean: 43.73076961538462,
@@ -21451,7 +21460,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2383,
+        id: 2384,
         moniker_name: "WGBA NBC 26 Wisconsin",
         domain: ".nbc26.com",
         reliability_mean: 42.479167499999996,
@@ -21460,7 +21469,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2384,
+        id: 2385,
         moniker_name: "WMTV 15 News",
         domain: ".wmtv15news.com",
         reliability_mean: 42.09090772727273,
@@ -21469,7 +21478,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2385,
+        id: 2386,
         moniker_name: "12 On Your Side WWBT Richmond",
         domain: ".12onyourside.com",
         reliability_mean: 41.88888866666668,
@@ -21478,7 +21487,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2386,
+        id: 2387,
         moniker_name: "FOX21 News - Colorado Springs KXRM",
         domain: ".fox21news.com",
         reliability_mean: 42.07575727272728,
@@ -21487,7 +21496,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2387,
+        id: 2388,
         moniker_name: "KTSM 9 News El Paso",
         domain: ".ktsm.com",
         reliability_mean: 42.07936476190477,
@@ -21496,7 +21505,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2388,
+        id: 2389,
         moniker_name: "WFRV Local 5 | WeAreGreenBay.com",
         domain: ".wearegreenbay.com",
         reliability_mean: 42.269841428571425,
@@ -21505,7 +21514,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2389,
+        id: 2390,
         moniker_name: "ABC 8News - WRIC",
         domain: ".wric.com",
         reliability_mean: 42.78260869565218,
@@ -21514,7 +21523,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2390,
+        id: 2391,
         moniker_name: "Plugged In",
         domain: ".pod.pluggedin.adfontesmedia.com",
         reliability_mean: 40.00000333333333,
@@ -21523,7 +21532,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2391,
+        id: 2392,
         moniker_name: "Conversations With Coleman",
         domain: ".pod.conversationswithcoleman.adfontesmedia.com",
         reliability_mean: 33.333334,
@@ -21532,7 +21541,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 2392,
+        id: 2393,
         moniker_name: "NYT: Hard Fork",
         domain: ".pod.hardfork.adfontesmedia.com",
         reliability_mean: 36.55555666666667,
@@ -21541,16 +21550,16 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 2393,
+        id: 2394,
         moniker_name: "WREG News Channel 3",
         domain: ".wreg.com",
-        reliability_mean: 42.52173956521739,
+        reliability_mean: 42.62500041666666,
         reliability_label: "Reliable; Analysis/Fact Reporting",
-        bias_mean: 0.07246434782608695,
+        bias_mean: 0.06944499999999999,
         bias_label: "Middle",
     },
     {
-        id: 2394,
+        id: 2395,
         moniker_name: "ABC Local News 8 - KIFI",
         domain: ".localnews8.com",
         reliability_mean: 42.200000666666675,
@@ -21559,7 +21568,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2395,
+        id: 2396,
         moniker_name: "FOX6 News Milwaukee WITI",
         domain: ".fox6now.com",
         reliability_mean: 43.55555458333333,
@@ -21568,7 +21577,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2396,
+        id: 2397,
         moniker_name: "CBS WRBL News 3",
         domain: ".wrbl.com",
         reliability_mean: 41.63636363636363,
@@ -21577,7 +21586,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2397,
+        id: 2398,
         moniker_name: "NBC 41 Kansas City KSHB",
         domain: ".kshb.com",
         reliability_mean: 40.84444466666667,
@@ -21586,7 +21595,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2398,
+        id: 2399,
         moniker_name: "ABC 13 Las Vegas KTNV",
         domain: ".ktnv.com",
         reliability_mean: 43.54385947368422,
@@ -21595,7 +21604,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2399,
+        id: 2400,
         moniker_name: "ABC News 5 Cleveland WEWS",
         domain: ".news5cleveland.com",
         reliability_mean: 42.043477391304364,
@@ -21604,7 +21613,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2400,
+        id: 2401,
         moniker_name: "Fremont News-Messenger",
         domain: ".thenews-messenger.com",
         reliability_mean: 43.06666666666667,
@@ -21613,7 +21622,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2401,
+        id: 2402,
         moniker_name: "Southwest Times Record",
         domain: ".swtimes.com",
         reliability_mean: 42.89583375,
@@ -21622,7 +21631,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2402,
+        id: 2403,
         moniker_name: "Ames Tribune",
         domain: ".amestrib.com",
         reliability_mean: 44.08889,
@@ -21631,7 +21640,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2403,
+        id: 2404,
         moniker_name: "WBAY Action 2 News",
         domain: ".wbay.com",
         reliability_mean: 42.68627470588235,
@@ -21640,7 +21649,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2404,
+        id: 2405,
         moniker_name: "CBS WCAX Channel 3 News - Burlington",
         domain: ".wcax.com",
         reliability_mean: 42.666666875000004,
@@ -21649,7 +21658,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2405,
+        id: 2406,
         moniker_name: "ABC WDBJ 7 - Roanoke",
         domain: ".wdbj7.com",
         reliability_mean: 42.64444466666667,
@@ -21658,7 +21667,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2406,
+        id: 2407,
         moniker_name: "WIBW-TV 13",
         domain: ".wibw.com",
         reliability_mean: 42.533334,
@@ -21667,7 +21676,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2407,
+        id: 2408,
         moniker_name: "WRDW News 12 & WAGT NBC 26",
         domain: ".wrdw.com",
         reliability_mean: 42.791667499999996,
@@ -21676,7 +21685,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2408,
+        id: 2409,
         moniker_name: "CBS KKTV 11 News",
         domain: ".kktv.com",
         reliability_mean: 41.60605999999999,
@@ -21685,7 +21694,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2409,
+        id: 2410,
         moniker_name: "CBS 11 KMVT News",
         domain: ".kmvt.com",
         reliability_mean: 42.355556666666665,
@@ -21694,7 +21703,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2410,
+        id: 2411,
         moniker_name: "Compact Podcast",
         domain: ".pod.compactpodcast.adfontesmedia.com",
         reliability_mean: 31.222223333333332,
@@ -21703,7 +21712,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 2411,
+        id: 2412,
         moniker_name: "The Mining Journal",
         domain: ".miningjournal.net",
         reliability_mean: 42.80392058823529,
@@ -21712,7 +21721,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2412,
+        id: 2413,
         moniker_name: "TechTank Podcast",
         domain: ".pod.techtankpodcast.adfontesmedia.com",
         reliability_mean: 37.88889,
@@ -21721,7 +21730,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 2413,
+        id: 2414,
         moniker_name: "Some of My Best Friends Are",
         domain: ".pod.someofmybestfriendsare.adfontesmedia.com",
         reliability_mean: 32.00000333333333,
@@ -21730,7 +21739,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 2414,
+        id: 2415,
         moniker_name: "The Kevin Roberts Show",
         domain: ".pod.thekevinrobertsshow.adfontesmedia.com",
         reliability_mean: 25.666666666666668,
@@ -21739,7 +21748,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 2415,
+        id: 2416,
         moniker_name: "FOX13 Memphis - WHBQ",
         domain: ".fox13memphis.com",
         reliability_mean: 41.60000066666667,
@@ -21748,7 +21757,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2416,
+        id: 2417,
         moniker_name: "NBC 11 Pittsburgh WPXI",
         domain: ".wpxi.com",
         reliability_mean: 41.708332500000004,
@@ -21757,7 +21766,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2417,
+        id: 2418,
         moniker_name: "ABC 9 Orlando WFTV",
         domain: ".wftv.com",
         reliability_mean: 42.29629555555556,
@@ -21766,7 +21775,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2418,
+        id: 2419,
         moniker_name: "Hartselle Enquirer",
         domain: ".hartselleenquirer.com",
         reliability_mean: 40.377778,
@@ -21775,7 +21784,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2419,
+        id: 2420,
         moniker_name: "The Madison Record",
         domain: ".themadisonrecord.com",
         reliability_mean: 43.06666666666667,
@@ -21784,7 +21793,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2420,
+        id: 2421,
         moniker_name: "The Valley Times-News",
         domain: ".valleytimes-news.com",
         reliability_mean: 43.06666666666668,
@@ -21793,7 +21802,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2421,
+        id: 2422,
         moniker_name: "The Stanly News & Press",
         domain: ".thesnaponline.com",
         reliability_mean: 42.22222266666666,
@@ -21802,7 +21811,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2422,
+        id: 2423,
         moniker_name: "Washington Daily News",
         domain: ".thewashingtondailynews.com",
         reliability_mean: 42.344445333333326,
@@ -21811,7 +21820,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2423,
+        id: 2424,
         moniker_name: "NBC 11 Baltimore WBAL",
         domain: ".wbaltv.com",
         reliability_mean: 42.48888866666666,
@@ -21820,7 +21829,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2424,
+        id: 2425,
         moniker_name: "Jacksonville Journal-Courier",
         domain: ".myjournalcourier.com",
         reliability_mean: 38.487180384615385,
@@ -21829,7 +21838,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2425,
+        id: 2426,
         moniker_name: "VTDigger",
         domain: ".vtdigger.org",
         reliability_mean: 42.14912157894737,
@@ -21838,7 +21847,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2426,
+        id: 2427,
         moniker_name: "The Death Of Journalism",
         domain: ".pod.thedeathofjournalism.adfontesmedia.com",
         reliability_mean: 11.933334,
@@ -21847,7 +21856,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 2427,
+        id: 2428,
         moniker_name: "The Tony Michaels Podcast",
         domain: ".pod.thetonymichaelspodcast.adfontesmedia.com",
         reliability_mean: 13.733332,
@@ -21856,7 +21865,7 @@ const sampleData = [
         bias_label: "Most Extreme Left",
     },
     {
-        id: 2428,
+        id: 2429,
         moniker_name: "The Great Battlefield Podcast",
         domain: ".pod.thegreatbattlefieldpodcast.adfontesmedia.com",
         reliability_mean: 36.333333333333336,
@@ -21865,7 +21874,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 2429,
+        id: 2430,
         moniker_name: "Ottumwa Courier",
         domain: ".ottumwacourier.com",
         reliability_mean: 42.104166250000006,
@@ -21874,7 +21883,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2430,
+        id: 2431,
         moniker_name: "Effingham Daily News",
         domain: ".effinghamdailynews.com",
         reliability_mean: 43.79166624999999,
@@ -21883,7 +21892,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2431,
+        id: 2432,
         moniker_name: "The Herald Bulletin",
         domain: ".heraldbulletin.com",
         reliability_mean: 43.43859578947368,
@@ -21892,7 +21901,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2432,
+        id: 2433,
         moniker_name: "The Joplin Globe",
         domain: ".joplinglobe.com",
         reliability_mean: 41.33333266666667,
@@ -21901,7 +21910,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2433,
+        id: 2434,
         moniker_name: "The Meadville Tribune",
         domain: ".meadvilletribune.com",
         reliability_mean: 43.39583375,
@@ -21910,7 +21919,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2434,
+        id: 2435,
         moniker_name: "Muskogee Phoenix",
         domain: ".muskogeephoenix.com",
         reliability_mean: 40.38095190476191,
@@ -21919,7 +21928,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2435,
+        id: 2436,
         moniker_name: "Broomfield Enterprise",
         domain: ".broomfieldenterprise.com",
         reliability_mean: 42.01851833333333,
@@ -21928,7 +21937,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2436,
+        id: 2437,
         moniker_name: "Delaware County Daily Times",
         domain: ".delcotimes.com",
         reliability_mean: 41.55555533333334,
@@ -21937,7 +21946,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2437,
+        id: 2438,
         moniker_name: "Daily Democrat",
         domain: ".dailydemocrat.com",
         reliability_mean: 41.8541675,
@@ -21946,7 +21955,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2438,
+        id: 2439,
         moniker_name: "The DMZ with Bill Scher and Matt Lewis",
         domain: ".pod.thedmz.adfontesmedia.com",
         reliability_mean: 25.388886666666668,
@@ -21955,7 +21964,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 2439,
+        id: 2440,
         moniker_name: "The Brittany Hughes Show",
         domain: ".pod.thebrittanyhughesshow.adfontesmedia.com",
         reliability_mean: 20.333333333333332,
@@ -21964,7 +21973,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 2440,
+        id: 2441,
         moniker_name: "3 Takeaways",
         domain: ".pod.3takeaways.adfontesmedia.com",
         reliability_mean: 36.333333333333336,
@@ -21973,7 +21982,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 2441,
+        id: 2442,
         moniker_name: "The Inside Story Podcast",
         domain: ".pod.theinsidestorypodcast.adfontesmedia.com",
         reliability_mean: 41.55555666666667,
@@ -21982,7 +21991,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2442,
+        id: 2443,
         moniker_name: "FOX 17 West Michigan WXMI",
         domain: ".fox17online.com",
         reliability_mean: 42.03703666666667,
@@ -21991,7 +22000,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2443,
+        id: 2444,
         moniker_name: "NBC KRIS 6 News Corpus Christi",
         domain: ".kristv.com",
         reliability_mean: 42,
@@ -22000,7 +22009,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2444,
+        id: 2445,
         moniker_name: "CBS Q2 News - Billings - KTVQ",
         domain: ".ktvq.com",
         reliability_mean: 41.766666,
@@ -22009,7 +22018,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2445,
+        id: 2446,
         moniker_name: "The Globe of Worthington",
         domain: ".dglobe.com",
         reliability_mean: 41.77777666666667,
@@ -22018,7 +22027,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2446,
+        id: 2447,
         moniker_name: "Duluth News Tribune",
         domain: ".duluthnewstribune.com",
         reliability_mean: 42.62222333333334,
@@ -22027,7 +22036,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2447,
+        id: 2448,
         moniker_name: "Very Serious by Josh Barro",
         domain: ".joshbarro.com",
         reliability_mean: 30.392155294117643,
@@ -22036,7 +22045,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2448,
+        id: 2449,
         moniker_name: "ABC 8 Hartford WTNH",
         domain: ".wtnh.com",
         reliability_mean: 42.227274090909084,
@@ -22045,7 +22054,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2449,
+        id: 2450,
         moniker_name: "WMTW",
         domain: ".wmtw.com",
         reliability_mean: 43.46666600000001,
@@ -22054,7 +22063,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2450,
+        id: 2451,
         moniker_name: "Redacted News (YouTube) with Natali & Clayton Morris",
         domain: ".tv.redactednews.adfontesmedia.com",
         reliability_mean: 17.416667884615382,
@@ -22063,7 +22072,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 2451,
+        id: 2452,
         moniker_name: "Stay Free with Russell Brand (Rumble)",
         domain: ".tv.stayfreewithrussellbrand-rumble.adfontesmedia.com",
         reliability_mean: 17.000000714285715,
@@ -22072,7 +22081,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 2452,
+        id: 2453,
         moniker_name: "Lee Camp (Rumble)",
         domain: ".tv.leecamp-rumble.adfontesmedia.com",
         reliability_mean: 17.076922307692307,
@@ -22081,7 +22090,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 2453,
+        id: 2454,
         moniker_name: "CBS KTVN 2 News Reno",
         domain: ".2news.com",
         reliability_mean: 41.444444,
@@ -22090,7 +22099,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2454,
+        id: 2455,
         moniker_name: "The Deep Map",
         domain: ".pod.thedeepmap.adfontesmedia.com",
         reliability_mean: 39.22222333333334,
@@ -22099,7 +22108,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2455,
+        id: 2456,
         moniker_name: "Al Jazeera News Updates",
         domain: ".pod.aljazeeranewsupdates.adfontesmedia.com",
         reliability_mean: 42.44444333333333,
@@ -22108,7 +22117,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2456,
+        id: 2457,
         moniker_name: "The Avery Journal-Times",
         domain: ".averyjournal.com",
         reliability_mean: 42.64444466666667,
@@ -22117,7 +22126,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2457,
+        id: 2458,
         moniker_name: "Fairborn Daily Herald",
         domain: ".fairborndailyherald.com",
         reliability_mean: 37.62222266666667,
@@ -22126,7 +22135,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2458,
+        id: 2459,
         moniker_name: "Beavercreek News-Current",
         domain: ".beavercreeknewscurrent.com",
         reliability_mean: 38.333332941176465,
@@ -22135,7 +22144,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2459,
+        id: 2460,
         moniker_name: "WV News",
         domain: ".wvnews.com",
         reliability_mean: 41.844443999999996,
@@ -22144,7 +22153,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2460,
+        id: 2461,
         moniker_name: "ESPN 690 Jacksonville",
         domain: ".espn690.com",
         reliability_mean: 43.244444666666666,
@@ -22153,7 +22162,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2461,
+        id: 2462,
         moniker_name: "Claiborne Progress",
         domain: ".claiborneprogress.net",
         reliability_mean: 42.000000666666665,
@@ -22162,7 +22171,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2462,
+        id: 2463,
         moniker_name: "Magnolia State Live",
         domain: ".magnoliastatelive.com",
         reliability_mean: 41.311111333333336,
@@ -22171,7 +22180,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2463,
+        id: 2464,
         moniker_name: "The Orange Leader",
         domain: ".orangeleader.com",
         reliability_mean: 41.777778000000005,
@@ -22180,7 +22189,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2464,
+        id: 2465,
         moniker_name: "The Charlotte Gazette",
         domain: ".thecharlottegazette.com",
         reliability_mean: 41.622222,
@@ -22189,7 +22198,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2465,
+        id: 2466,
         moniker_name: "The Coastland Times",
         domain: ".thecoastlandtimes.com",
         reliability_mean: 41.77083437499999,
@@ -22198,7 +22207,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2466,
+        id: 2467,
         moniker_name: "The Oskaloosa Herald",
         domain: ".oskaloosa.com",
         reliability_mean: 42.73333266666666,
@@ -22207,7 +22216,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2467,
+        id: 2468,
         moniker_name: "Sharon Herald",
         domain: ".sharonherald.com",
         reliability_mean: 42.64814777777778,
@@ -22216,7 +22225,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2468,
+        id: 2469,
         moniker_name: "The Reporter",
         domain: ".thereporteronline.com",
         reliability_mean: 44.28889,
@@ -22225,7 +22234,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2469,
+        id: 2470,
         moniker_name: "Lake County Record-Bee",
         domain: ".record-bee.com",
         reliability_mean: 39.66666625,
@@ -22234,7 +22243,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2470,
+        id: 2471,
         moniker_name: "Morning Sun - Central Michigan",
         domain: ".themorningsun.com",
         reliability_mean: 42.288888666666665,
@@ -22243,7 +22252,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2471,
+        id: 2472,
         moniker_name: "FOX 4 News - WFTX",
         domain: ".fox4now.com",
         reliability_mean: 41.1875,
@@ -22252,7 +22261,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2472,
+        id: 2473,
         moniker_name: "ABC 2 Baltimore WMAR",
         domain: ".wmar2news.com",
         reliability_mean: 42.77193,
@@ -22261,7 +22270,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2473,
+        id: 2474,
         moniker_name: "CNN International: Isa Soares Tonight",
         domain: ".tv.isasoarestonight.adfontesmedia.com",
         reliability_mean: 43.666666666666664,
@@ -22270,7 +22279,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 2474,
+        id: 2475,
         moniker_name: "Control with Brendan Buck and Annalyse Keller",
         domain: ".pod.control.adfontesmedia.com",
         reliability_mean: 35.88889,
@@ -22279,7 +22288,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 2475,
+        id: 2476,
         moniker_name: "Glenn Greenwald - SYSTEM UPDATE (Rumble)",
         domain: ".tv.glenngreenwald-rumble.adfontesmedia.com",
         reliability_mean: 30.1666675,
@@ -22288,7 +22297,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 2476,
+        id: 2477,
         moniker_name: "Kim Iversen (Rumble)",
         domain: ".tv.kimiverson-rumble.adfontesmedia.com",
         reliability_mean: 23.45454636363636,
@@ -22297,7 +22306,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 2477,
+        id: 2478,
         moniker_name: "Climate Town (YouTube) - Rollie Williams",
         domain: ".tv.climatetown-youtube.adfontesmedia.com",
         reliability_mean: 32.77777666666666,
@@ -22306,7 +22315,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 2478,
+        id: 2479,
         moniker_name: "Brainerd Dispatch",
         domain: ".brainerddispatch.com",
         reliability_mean: 42.36231956521739,
@@ -22315,7 +22324,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2479,
+        id: 2480,
         moniker_name: "ABC Channel 8 News - KLKN",
         domain: ".klkntv.com",
         reliability_mean: 42.52380952380953,
@@ -22324,7 +22333,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2480,
+        id: 2481,
         moniker_name: "SNN News WSNN",
         domain: ".snntv.com",
         reliability_mean: 42.07246391304348,
@@ -22333,7 +22342,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2481,
+        id: 2482,
         moniker_name: "WKTV NEWS Channel 2 - Utica",
         domain: ".wktv.com",
         reliability_mean: 41.19999866666667,
@@ -22342,7 +22351,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2482,
+        id: 2483,
         moniker_name: "KAKE News - Wichita",
         domain: ".kake.com",
         reliability_mean: 42.466666000000004,
@@ -22351,7 +22360,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2483,
+        id: 2484,
         moniker_name: "CBS Kansas City KCTV 5",
         domain: ".kctv5.com",
         reliability_mean: 42.76470529411765,
@@ -22360,7 +22369,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2484,
+        id: 2485,
         moniker_name: "FOX 28 Spokane KAYU",
         domain: ".fox28spokane.com",
         reliability_mean: 41.22222266666667,
@@ -22369,7 +22378,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2485,
+        id: 2486,
         moniker_name: "NBC Palm Springs - KMIR",
         domain: ".nbcpalmsprings.com",
         reliability_mean: 42.88888933333333,
@@ -22378,7 +22387,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2486,
+        id: 2487,
         moniker_name: "KOAM News Now",
         domain: ".koamnewsnow.com",
         reliability_mean: 42.24444333333333,
@@ -22387,7 +22396,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2487,
+        id: 2488,
         moniker_name: "NBC WJFW Newswatch 12",
         domain: ".wjfw.com",
         reliability_mean: 42.22806947368422,
@@ -22396,7 +22405,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2488,
+        id: 2489,
         moniker_name: "KYTX CBS19",
         domain: ".cbs19.tv",
         reliability_mean: 43.533334,
@@ -22405,7 +22414,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2489,
+        id: 2490,
         moniker_name: "Gulf Coast News WBBH",
         domain: ".gulfcoastnewsnow.com",
         reliability_mean: 42.16666687499999,
@@ -22414,7 +22423,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2490,
+        id: 2491,
         moniker_name: "29News WVIR",
         domain: ".29news.com",
         reliability_mean: 41.155556000000004,
@@ -22423,7 +22432,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2491,
+        id: 2492,
         moniker_name: "WBOY 12News",
         domain: ".wboy.com",
         reliability_mean: 43.44444428571429,
@@ -22432,7 +22441,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2492,
+        id: 2493,
         moniker_name: "CBS 58 Milwaukee WDJT",
         domain: ".cbs58.com",
         reliability_mean: 37.60869521739131,
@@ -22441,7 +22450,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2493,
+        id: 2494,
         moniker_name: "ABC57 News - South Bend - WBND",
         domain: ".abc57.com",
         reliability_mean: 44.60000066666666,
@@ -22450,7 +22459,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2494,
+        id: 2495,
         moniker_name: "Fort Collins Coloradoan",
         domain: ".coloradoan.com",
         reliability_mean: 43.85964789473685,
@@ -22459,7 +22468,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2495,
+        id: 2496,
         moniker_name: "Hawk Central",
         domain: ".hawkcentral.com",
         reliability_mean: 42.422222666666656,
@@ -22468,7 +22477,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2496,
+        id: 2497,
         moniker_name: "Lancaster Eagle Gazette",
         domain: ".lancastereaglegazette.com",
         reliability_mean: 42.833333749999994,
@@ -22477,7 +22486,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2497,
+        id: 2498,
         moniker_name: "Journal & Courier",
         domain: ".jconline.com",
         reliability_mean: 42.85555599999999,
@@ -22486,7 +22495,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2498,
+        id: 2499,
         moniker_name: "Livingston Daily",
         domain: ".livingstondaily.com",
         reliability_mean: 43.24561368421054,
@@ -22495,7 +22504,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2499,
+        id: 2500,
         moniker_name: "Mansfield News Journal",
         domain: ".mansfieldnewsjournal.com",
         reliability_mean: 42.77777733333334,
@@ -22504,7 +22513,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2500,
+        id: 2501,
         moniker_name: "Montgomery Advertiser",
         domain: ".montgomeryadvertiser.com",
         reliability_mean: 43.15555533333333,
@@ -22513,7 +22522,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2501,
+        id: 2502,
         moniker_name: "The North Jersey Record",
         domain: ".northjersey.com",
         reliability_mean: 42.95652086956522,
@@ -22522,7 +22531,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2502,
+        id: 2503,
         moniker_name: "The Courier-Tribune",
         domain: ".courier-tribune.com",
         reliability_mean: 42.55555666666666,
@@ -22531,7 +22540,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2503,
+        id: 2504,
         moniker_name: "The Free Press - Kinston",
         domain: ".kinston.com",
         reliability_mean: 41.42222266666666,
@@ -22540,7 +22549,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2504,
+        id: 2505,
         moniker_name: "Tri-City News",
         domain: ".tricitynews.com",
         reliability_mean: 42.2708325,
@@ -22549,7 +22558,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2505,
+        id: 2506,
         moniker_name: "KGNS +",
         domain: ".kgns.tv",
         reliability_mean: 40.79999933333333,
@@ -22558,7 +22567,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2506,
+        id: 2507,
         moniker_name: "KJCT News 8",
         domain: ".kjct8.com",
         reliability_mean: 42.49019588235294,
@@ -22567,7 +22576,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2507,
+        id: 2508,
         moniker_name: "CBS7 News KOSA First Alert 7",
         domain: ".firstalert7.com",
         reliability_mean: 42.02222199999999,
@@ -22576,7 +22585,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2508,
+        id: 2509,
         moniker_name: "KOTA Territory News - Rapid City",
         domain: ".kotatv.com",
         reliability_mean: 40.888888,
@@ -22585,7 +22594,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2509,
+        id: 2510,
         moniker_name: "NBC KSNB Local4 - Hastings",
         domain: ".ksnblocal4.com",
         reliability_mean: 42.044444666666664,
@@ -22594,7 +22603,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2510,
+        id: 2511,
         moniker_name: "CBS KWCH 12 News - Wichita",
         domain: ".kwch.com",
         reliability_mean: 42.13333333333333,
@@ -22603,7 +22612,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2511,
+        id: 2512,
         moniker_name: "FOX KXII News 12 Texoma",
         domain: ".kxii.com",
         reliability_mean: 42.37500125,
@@ -22612,7 +22621,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2512,
+        id: 2513,
         moniker_name: "Essential Middle East",
         domain: ".pod.essentialmiddleeast.adfontesmedia.com",
         reliability_mean: 40.666666666666664,
@@ -22621,7 +22630,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2513,
+        id: 2514,
         moniker_name: "The Bret Baier Podcast - Common Ground",
         domain: ".pod.thebretbaierpodcastcommonground.adfontesmedia.com",
         reliability_mean: 40.666664999999995,
@@ -22630,7 +22639,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2514,
+        id: 2515,
         moniker_name: "Ellensburg Daily Record",
         domain: ".dailyrecordnews.com",
         reliability_mean: 42.911111999999996,
@@ -22639,7 +22648,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2515,
+        id: 2516,
         moniker_name: "Idaho State Journal",
         domain: ".idahostatejournal.com",
         reliability_mean: 43.07843058823529,
@@ -22648,7 +22657,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2516,
+        id: 2517,
         moniker_name: "Bozeman Daily Chronicle",
         domain: ".bozemandailychronicle.com",
         reliability_mean: 43.555555333333345,
@@ -22657,7 +22666,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2517,
+        id: 2518,
         moniker_name: "Skagit Valley Herald",
         domain: ".goskagit.com",
         reliability_mean: 41.14814888888889,
@@ -22666,7 +22675,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2518,
+        id: 2519,
         moniker_name:
             "DC Military | At Ease | PAX River Press | Pentagram Magazine",
         domain: ".dcmilitary.com",
@@ -22676,7 +22685,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2519,
+        id: 2520,
         moniker_name: "Watauga Democrat",
         domain: ".wataugademocrat.com",
         reliability_mean: 42.39215764705881,
@@ -22685,7 +22694,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2520,
+        id: 2521,
         moniker_name: "Mesabi Tribune",
         domain: ".mesabitribune.com",
         reliability_mean: 41.88888666666667,
@@ -22694,7 +22703,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2521,
+        id: 2522,
         moniker_name: "Perry County Tribune",
         domain: ".perrytribune.com",
         reliability_mean: 41.466666000000004,
@@ -22703,7 +22712,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2522,
+        id: 2523,
         moniker_name: "The Athens Messenger",
         domain: ".athensmessenger.com",
         reliability_mean: 40.577778,
@@ -22712,7 +22721,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2523,
+        id: 2524,
         moniker_name: "The Pike County News Watchman",
         domain: ".newswatchman.com",
         reliability_mean: 42.15555533333334,
@@ -22721,7 +22730,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2524,
+        id: 2525,
         moniker_name: "WiscNews",
         domain: ".wiscnews.com",
         reliability_mean: 43.56249937500001,
@@ -22730,7 +22739,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2525,
+        id: 2526,
         moniker_name: "Albany Democrat-Herald",
         domain: ".democratherald.com",
         reliability_mean: 40.73333466666667,
@@ -22739,7 +22748,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2526,
+        id: 2527,
         moniker_name: "Martinsville Bulletin",
         domain: ".martinsvillebulletin.com",
         reliability_mean: 32.10606000000001,
@@ -22748,7 +22757,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2527,
+        id: 2528,
         moniker_name: "The Beatrice Daily Sun",
         domain: ".beatricedailysun.com",
         reliability_mean: 43.333332000000006,
@@ -22757,7 +22766,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2528,
+        id: 2529,
         moniker_name: "Globe Gazette",
         domain: ".globegazette.com",
         reliability_mean: 42.111110666666676,
@@ -22766,7 +22775,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2529,
+        id: 2530,
         moniker_name: "Maintenance Phase",
         domain: ".pod.maintenancephase.adfontesmedia.com",
         reliability_mean: 24,
@@ -22775,7 +22784,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 2530,
+        id: 2531,
         moniker_name: "John Stossel (YouTube)",
         domain: ".tv.johnstossel.adfontesmedia.com",
         reliability_mean: 32.71212181818182,
@@ -22784,7 +22793,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 2531,
+        id: 2532,
         moniker_name: "Broad + Liberty",
         domain: ".broadandliberty.com",
         reliability_mean: 33.09523928571428,
@@ -22793,7 +22802,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 2532,
+        id: 2533,
         moniker_name: "Black Information Network",
         domain: ".binnews.com",
         reliability_mean: 35.19298421052631,
@@ -22802,7 +22811,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 2533,
+        id: 2534,
         moniker_name: "Wilmington Star-News",
         domain: ".starnewsonline.com",
         reliability_mean: 43.78787818181818,
@@ -22811,7 +22820,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2534,
+        id: 2535,
         moniker_name: "Freakonomics, M.D.",
         domain: ".pod.freakonomicsmd.adfontesmedia.com",
         reliability_mean: 41,
@@ -22820,7 +22829,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 2535,
+        id: 2536,
         moniker_name: "The Michael Shermer Show",
         domain: ".pod.michaelshermershow.adfontesmedia.com",
         reliability_mean: 35.44444333333333,
@@ -22829,7 +22838,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 2536,
+        id: 2537,
         moniker_name: "Discover Magazine",
         domain: ".discovermagazine.com",
         reliability_mean: 43.666666538461534,
@@ -22838,7 +22847,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2537,
+        id: 2538,
         moniker_name: "American Veterinary Medical Association",
         domain: ".avma.org",
         reliability_mean: 44.623189130434774,
@@ -22847,7 +22856,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2538,
+        id: 2539,
         moniker_name: "Wine Spectator",
         domain: ".winespectator.com",
         reliability_mean: 41.068627647058825,
@@ -22856,7 +22865,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2539,
+        id: 2540,
         moniker_name: "Albuquerque Journal",
         domain: ".abqjournal.com",
         reliability_mean: 43.37158426229508,
@@ -22865,7 +22874,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2540,
+        id: 2541,
         moniker_name: "Dwell",
         domain: ".dwell.com",
         reliability_mean: 38.97222222222222,
@@ -22874,7 +22883,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2541,
+        id: 2542,
         moniker_name: "Dallas Observer",
         domain: ".dallasobserver.com",
         reliability_mean: 39.41176470588236,
@@ -22883,7 +22892,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 2542,
+        id: 2543,
         moniker_name: "Times News Lehighton",
         domain: ".tnonline.com",
         reliability_mean: 42.22727272727272,
@@ -22892,7 +22901,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2543,
+        id: 2544,
         moniker_name: "The Philadelphia Tribune",
         domain: ".phillytrib.com",
         reliability_mean: 42.708333749999994,
@@ -22901,7 +22910,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2544,
+        id: 2545,
         moniker_name: "Southern Living",
         domain: ".southernliving.com",
         reliability_mean: 39.875,
@@ -22910,7 +22919,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2545,
+        id: 2546,
         moniker_name: "Food & Wine",
         domain: ".foodandwine.com",
         reliability_mean: 39.238094999999994,
@@ -22919,7 +22928,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2546,
+        id: 2547,
         moniker_name: "Prevention",
         domain: ".prevention.com",
         reliability_mean: 42.55555666666667,
@@ -22928,7 +22937,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2547,
+        id: 2548,
         moniker_name: "Bicycling",
         domain: ".bicycling.com",
         reliability_mean: 42.802084375,
@@ -22937,7 +22946,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2548,
+        id: 2549,
         moniker_name: "Fox News: Fox News @ Night w/ Trace Gallagher",
         domain: ".tv.foxnewsatnightwithtracegallagher.adfontesmedia.com",
         reliability_mean: 25.5866652,
@@ -22946,7 +22955,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 2549,
+        id: 2550,
         moniker_name: "WWD",
         domain: ".wwd.com",
         reliability_mean: 41.196078235294124,
@@ -22955,7 +22964,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2550,
+        id: 2551,
         moniker_name: "In Touch Weekly",
         domain: ".intouchweekly.com",
         reliability_mean: 39.354166875000004,
@@ -22964,7 +22973,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2551,
+        id: 2552,
         moniker_name: "The Chronicle-Telegram",
         domain: ".chroniclet.com",
         reliability_mean: 42.76,
@@ -22973,7 +22982,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2552,
+        id: 2553,
         moniker_name: "The American Legion",
         domain: ".legion.org",
         reliability_mean: 41.15686294117648,
@@ -22982,7 +22991,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2553,
+        id: 2554,
         moniker_name: "Marshall Matters",
         domain: ".pod.marshallmatters.adfontesmedia.com",
         reliability_mean: 26.666666666666668,
@@ -22991,7 +23000,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 2554,
+        id: 2555,
         moniker_name: "Rick Wilson's The Enemies List",
         domain: ".pod.rickwilsonstheenemieslist.adfontesmedia.com",
         reliability_mean: 22.466668,
@@ -23000,7 +23009,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 2555,
+        id: 2556,
         moniker_name: "The Assignment with Audie Cornish",
         domain: ".pod.theassignmentwithaudiecornish.adfontesmedia.com",
         reliability_mean: 34.333333333333336,
@@ -23009,7 +23018,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2556,
+        id: 2557,
         moniker_name: "Bloomberg: Odd Lots",
         domain: ".pod.oddlots.adfontesmedia.com",
         reliability_mean: 37,
@@ -23018,7 +23027,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2557,
+        id: 2558,
         moniker_name: "Zeihan on Geopolitics (YouTube)",
         domain: ".tv.ZeihanonGeopolitics.adfontesmedia.com",
         reliability_mean: 33.857143214285706,
@@ -23027,7 +23036,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2558,
+        id: 2559,
         moniker_name: "FASHION Magazine",
         domain: ".fashionmagazine.com",
         reliability_mean: 36.8,
@@ -23036,7 +23045,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2559,
+        id: 2560,
         moniker_name: "Santa Fe New Mexican",
         domain: ".santafenewmexican.com",
         reliability_mean: 44.96551758620689,
@@ -23045,7 +23054,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2560,
+        id: 2561,
         moniker_name: "GOLF Magazine",
         domain: ".golf.com",
         reliability_mean: 39.66666764705882,
@@ -23054,7 +23063,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2561,
+        id: 2562,
         moniker_name: "The Island Packet",
         domain: ".islandpacket.com",
         reliability_mean: 43.24444333333334,
@@ -23063,7 +23072,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2562,
+        id: 2563,
         moniker_name: "Men's Journal",
         domain: ".mensjournal.com",
         reliability_mean: 37.244444666666666,
@@ -23072,7 +23081,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2563,
+        id: 2564,
         moniker_name: "Woman's World",
         domain: ".womansworld.com",
         reliability_mean: 41.02222133333332,
@@ -23081,7 +23090,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2564,
+        id: 2565,
         moniker_name: "W Magazine",
         domain: ".wmagazine.com",
         reliability_mean: 37.066667333333335,
@@ -23090,7 +23099,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2565,
+        id: 2566,
         moniker_name: "MotorTrend",
         domain: ".motortrend.com",
         reliability_mean: 40.77192947368421,
@@ -23099,7 +23108,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2566,
+        id: 2567,
         moniker_name: "The Dispatch of Lexington",
         domain: ".the-dispatch.com",
         reliability_mean: 42.28889,
@@ -23108,7 +23117,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2567,
+        id: 2568,
         moniker_name: "Burlington Times-News",
         domain: ".thetimesnews.com",
         reliability_mean: 41.666667333333336,
@@ -23117,7 +23126,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2568,
+        id: 2569,
         moniker_name: "St. Augustine Record",
         domain: ".staugustine.com",
         reliability_mean: 42.37777666666666,
@@ -23126,7 +23135,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2569,
+        id: 2570,
         moniker_name: "New Haven Register",
         domain: ".nhregister.com",
         reliability_mean: 42.38888944444445,
@@ -23135,7 +23144,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2570,
+        id: 2571,
         moniker_name: "Panama City News-Herald",
         domain: ".newsherald.com",
         reliability_mean: 41.111110666666676,
@@ -23144,7 +23153,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2571,
+        id: 2572,
         moniker_name: "Daily Commercial",
         domain: ".dailycommercial.com",
         reliability_mean: 41.92592555555555,
@@ -23153,7 +23162,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2572,
+        id: 2573,
         moniker_name: "The Canton Repository",
         domain: ".cantonrep.com",
         reliability_mean: 43.33333416666667,
@@ -23162,7 +23171,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2573,
+        id: 2574,
         moniker_name: "Lubbock Avalanche-Journal",
         domain: ".lubbockonline.com",
         reliability_mean: 42.562501250000004,
@@ -23171,7 +23180,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2574,
+        id: 2575,
         moniker_name: "Ocala Star Banner",
         domain: ".ocala.com",
         reliability_mean: 42.20000000000001,
@@ -23180,7 +23189,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2575,
+        id: 2576,
         moniker_name: "The Gainesville Sun",
         domain: ".gainesville.com",
         reliability_mean: 41.99999999999999,
@@ -23189,7 +23198,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2576,
+        id: 2577,
         moniker_name: "C-SPAN Live Stream",
         domain: ".tv.cspanlivestream.adfontesmedia.com",
         reliability_mean: 52,
@@ -23198,7 +23207,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2577,
+        id: 2578,
         moniker_name: "And We Know (Rumble)",
         domain: ".tv.andweknow-rumble.adfontesmedia.com",
         reliability_mean: 8.100001,
@@ -23207,7 +23216,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 2578,
+        id: 2579,
         moniker_name: "StarTalk Radio with Neil Degrasse Tyson",
         domain: ".pod.startalkradio.adfontesmedia.com",
         reliability_mean: 37.77777666666666,
@@ -23216,7 +23225,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2579,
+        id: 2580,
         moniker_name: "Robert Wright's Nonzero",
         domain: ".podrobertwrightsnonzero.adfontesmedia.com",
         reliability_mean: 31.666667500000003,
@@ -23225,7 +23234,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2580,
+        id: 2581,
         moniker_name: "The Campus Exchange: an AEI for Students Podcast",
         domain: ".pod.aeicampusexchange.adfontesmedia.com",
         reliability_mean: 39.55555666666667,
@@ -23234,7 +23243,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 2581,
+        id: 2582,
         moniker_name: "Remezcla",
         domain: ".remezcla.com",
         reliability_mean: 36.88888833333334,
@@ -23243,7 +23252,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2582,
+        id: 2583,
         moniker_name: "Thoughts on the Market",
         domain: ".pod.thoughtsonthemarket.adfontesmedia.com",
         reliability_mean: 40.666666666666664,
@@ -23252,7 +23261,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2583,
+        id: 2584,
         moniker_name: "Freethought Radio",
         domain: ".pod.freethoughtradio.adfontesmedia.com",
         reliability_mean: 31.222223333333336,
@@ -23261,7 +23270,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 2584,
+        id: 2585,
         moniker_name: "News-Press NOW",
         domain: ".newspressnow.com",
         reliability_mean: 41.77083375,
@@ -23270,7 +23279,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2585,
+        id: 2586,
         moniker_name: "The News-Review",
         domain: ".nrtoday.com",
         reliability_mean: 41.539681904761906,
@@ -23279,7 +23288,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2586,
+        id: 2587,
         moniker_name: "Beaumont Enterprise",
         domain: ".beaumontenterprise.com",
         reliability_mean: 40.791666250000006,
@@ -23288,7 +23297,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2587,
+        id: 2588,
         moniker_name: "New Bern Sun Journal",
         domain: ".newbernsj.com",
         reliability_mean: 43.616667,
@@ -23297,7 +23306,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2588,
+        id: 2589,
         moniker_name: "BlueRidgeNow | Hendersonville Times-News",
         domain: ".blueridgenow.com",
         reliability_mean: 42.49122789473685,
@@ -23306,7 +23315,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2589,
+        id: 2590,
         moniker_name: "The Daily News - Jacksonville, NC",
         domain: ".jdnews.com",
         reliability_mean: 43.39215647058824,
@@ -23315,7 +23324,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2590,
+        id: 2591,
         moniker_name: "York Dispatch",
         domain: ".yorkdispatch.com",
         reliability_mean: 42.74999999999999,
@@ -23324,7 +23333,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2591,
+        id: 2592,
         moniker_name: "Staten Island Advance",
         domain: ".silive.com",
         reliability_mean: 43.645833124999996,
@@ -23333,7 +23342,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2592,
+        id: 2593,
         moniker_name: "The Express-Times | lehighvalleylive",
         domain: ".lehighvalleylive.com",
         reliability_mean: 40.5,
@@ -23342,7 +23351,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2593,
+        id: 2594,
         moniker_name: "Sentinel & Enterprise",
         domain: ".sentinelandenterprise.com",
         reliability_mean: 41.14102576923077,
@@ -23351,7 +23360,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2594,
+        id: 2595,
         moniker_name: "AARP",
         domain: ".aarp.org",
         reliability_mean: 42.649123157894735,
@@ -23360,7 +23369,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2595,
+        id: 2596,
         moniker_name: "Toronto Life",
         domain: ".torontolife.com",
         reliability_mean: 38.73684263157895,
@@ -23369,7 +23378,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2596,
+        id: 2597,
         moniker_name: "AFAR",
         domain: ".afar.com",
         reliability_mean: 41.458333125,
@@ -23378,7 +23387,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2597,
+        id: 2598,
         moniker_name: "Soap Opera Digest",
         domain: ".soapoperadigest.com",
         reliability_mean: 36.750000625000006,
@@ -23387,7 +23396,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2598,
+        id: 2599,
         moniker_name: "Star Magazine",
         domain: ".starmagazine.com",
         reliability_mean: 32.703703888888896,
@@ -23396,7 +23405,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2599,
+        id: 2600,
         moniker_name: "American Rifleman - NRA",
         domain: ".americanrifleman.org",
         reliability_mean: 39.687500625,
@@ -23405,7 +23414,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2600,
+        id: 2601,
         moniker_name: "RV Magazine",
         domain: ".rv.com",
         reliability_mean: 35.666668666666666,
@@ -23414,7 +23423,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2601,
+        id: 2602,
         moniker_name: "Shooting Illustrated",
         domain: ".shootingillustrated.com",
         reliability_mean: 37.622222666666666,
@@ -23423,7 +23432,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 2602,
+        id: 2603,
         moniker_name: "The Saratogian",
         domain: ".saratogian.com",
         reliability_mean: 36.4266668,
@@ -23432,7 +23441,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2603,
+        id: 2604,
         moniker_name: "The Morning Journal - Lorain, OH",
         domain: ".morningjournal.com",
         reliability_mean: 40.435186111111115,
@@ -23441,7 +23450,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2604,
+        id: 2605,
         moniker_name: "Timeless with Julie Hartman",
         domain: ".pod.timelesswithjuliehartman.adfontesmedia.com",
         reliability_mean: 21.740737777777777,
@@ -23450,7 +23459,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 2605,
+        id: 2606,
         moniker_name: "Smart Women, Smart Power Podcast",
         domain: ".pod.smartwomensmartpowerpodcast.adfontesmedia.com",
         reliability_mean: 40.22222333333334,
@@ -23459,7 +23468,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 2606,
+        id: 2607,
         moniker_name: "Rockford Register Star",
         domain: ".rrstar.com",
         reliability_mean: 42.31818136363636,
@@ -23468,7 +23477,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2607,
+        id: 2608,
         moniker_name: "The Monroe News",
         domain: ".monroenews.com",
         reliability_mean: 41.42222266666667,
@@ -23477,7 +23486,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2608,
+        id: 2609,
         moniker_name: "York Daily Record",
         domain: ".ydr.com",
         reliability_mean: 42.46666866666666,
@@ -23486,7 +23495,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2609,
+        id: 2610,
         moniker_name: "Lebanon Daily News",
         domain: ".ldnews.com",
         reliability_mean: 42.537037222222224,
@@ -23495,7 +23504,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2610,
+        id: 2611,
         moniker_name: "Hanover Evening Sun",
         domain: ".eveningsun.com",
         reliability_mean: 41.777778000000005,
@@ -23504,7 +23513,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2611,
+        id: 2612,
         moniker_name: "Greenwich Time",
         domain: ".greenwichtime.com",
         reliability_mean: 44.882352352941176,
@@ -23513,7 +23522,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2612,
+        id: 2613,
         moniker_name: "Times Union",
         domain: ".timesunion.com",
         reliability_mean: 43.80392176470588,
@@ -23522,7 +23531,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2613,
+        id: 2614,
         moniker_name: "Sarasota Herald-Tribune",
         domain: ".heraldtribune.com",
         reliability_mean: 41.27777777777777,
@@ -23531,7 +23540,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2614,
+        id: 2615,
         moniker_name: "Beaver County Times",
         domain: ".timesonline.com",
         reliability_mean: 41.88888866666666,
@@ -23540,7 +23549,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2615,
+        id: 2616,
         moniker_name: "Kingsport Times-News",
         domain: ".timesnews.net",
         reliability_mean: 42.35555599999999,
@@ -23549,7 +23558,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2616,
+        id: 2617,
         moniker_name: "Ducks Unlimited",
         domain: ".ducks.org",
         reliability_mean: 38.97777800000001,
@@ -23558,7 +23567,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2617,
+        id: 2618,
         moniker_name: "Archaeology",
         domain: ".archaeology.org",
         reliability_mean: 44.33333333333334,
@@ -23567,7 +23576,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2618,
+        id: 2619,
         moniker_name: "Bassmaster",
         domain: ".bassmaster.com",
         reliability_mean: 37.133334,
@@ -23576,7 +23585,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2619,
+        id: 2620,
         moniker_name: "AgWeb",
         domain: ".agweb.com",
         reliability_mean: 43.21568647058824,
@@ -23585,7 +23594,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2620,
+        id: 2621,
         moniker_name: "dvm360",
         domain: ".dvm360.com",
         reliability_mean: 41.374999374999994,
@@ -23594,7 +23603,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2621,
+        id: 2622,
         moniker_name: "Temple Daily Telegram",
         domain: ".tdtnews.com",
         reliability_mean: 44.88888866666666,
@@ -23603,7 +23612,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2622,
+        id: 2623,
         moniker_name: "Better Homes and Gardens",
         domain: ".bhg.com",
         reliability_mean: 39.00000058823529,
@@ -23612,7 +23621,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2623,
+        id: 2624,
         moniker_name: "Midwest Living",
         domain: ".midwestliving.com",
         reliability_mean: 38.56862705882353,
@@ -23621,7 +23630,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2624,
+        id: 2625,
         moniker_name: "Successful Farming",
         domain: ".agriculture.com",
         reliability_mean: 44.42222133333334,
@@ -23630,7 +23639,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2625,
+        id: 2626,
         moniker_name: "The News-Times",
         domain: ".newstimes.com",
         reliability_mean: 43.711111333333335,
@@ -23639,7 +23648,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2626,
+        id: 2627,
         moniker_name: "PhillyBurbs",
         domain: ".phillyburbs.com",
         reliability_mean: 41.88541624999999,
@@ -23648,7 +23657,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2627,
+        id: 2628,
         moniker_name: "Peoria Journal Star",
         domain: ".pjstar.com",
         reliability_mean: 42.77777722222223,
@@ -23657,7 +23666,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2628,
+        id: 2629,
         moniker_name: "Robb Report",
         domain: ".robbreport.com",
         reliability_mean: 39.75925888888888,
@@ -23666,7 +23675,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2629,
+        id: 2630,
         moniker_name: "Closer Weekly",
         domain: ".closerweekly.com",
         reliability_mean: 38.044444666666664,
@@ -23675,7 +23684,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2630,
+        id: 2631,
         moniker_name: "The Sun News",
         domain: ".myrtlebeachonline.com",
         reliability_mean: 41.42857142857142,
@@ -23684,7 +23693,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2631,
+        id: 2632,
         moniker_name: "Cowboys & Indians",
         domain: ".cowboysindians.com",
         reliability_mean: 37.313725294117646,
@@ -23693,7 +23702,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2632,
+        id: 2633,
         moniker_name: "House & Home",
         domain: ".houseandhome.com",
         reliability_mean: 38.38125000000001,
@@ -23702,7 +23711,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2633,
+        id: 2634,
         moniker_name: "Rome Daily Sentinel",
         domain: ".romesentinel.com",
         reliability_mean: 40.33333437500001,
@@ -23711,7 +23720,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2634,
+        id: 2635,
         moniker_name: "New Jersey Monthly",
         domain: ".njmonthly.com",
         reliability_mean: 41.649123157894735,
@@ -23720,7 +23729,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2635,
+        id: 2636,
         moniker_name: "Military Officers Association of America - MOAA",
         domain: ".moaa.org",
         reliability_mean: 41.555554666666666,
@@ -23729,7 +23738,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2636,
+        id: 2637,
         moniker_name: "Maclean’s",
         domain: ".macleans.ca",
         reliability_mean: 42.03125000000001,
@@ -23738,7 +23747,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2637,
+        id: 2638,
         moniker_name: "Chatelaine",
         domain: ".chatelaine.com",
         reliability_mean: 37.941175882352944,
@@ -23747,7 +23756,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2638,
+        id: 2639,
         moniker_name: "Guns & Ammo Magazine",
         domain: ".gunsandammo.com",
         reliability_mean: 34.64444333333333,
@@ -23756,7 +23765,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 2639,
+        id: 2640,
         moniker_name: "Game & Fish Magazine",
         domain: ".gameandfishmag.com",
         reliability_mean: 38.98039176470588,
@@ -23765,7 +23774,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2640,
+        id: 2641,
         moniker_name: "TRIGGERnometry",
         domain: ".pod.triggernometry.adfontesmedia.com",
         reliability_mean: 32.66667,
@@ -23774,7 +23783,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2641,
+        id: 2642,
         moniker_name: "More To It with Marcellus Wiley",
         domain: ".pod.moretoitwithmarcelluswiley.adfontesmedia.com",
         reliability_mean: 28.777776666666668,
@@ -23783,7 +23792,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 2642,
+        id: 2643,
         moniker_name: "High Noon with Inez Stepman",
         domain: ".pod.highnoon.adfontesmedia.com",
         reliability_mean: 24.277778333333334,
@@ -23792,7 +23801,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 2643,
+        id: 2644,
         moniker_name: "Miss Informational with Rebekah Jones",
         domain: ".pod.missinformationalwithrebekahjones.adfontesmedia.com",
         reliability_mean: 20.03703555555556,
@@ -23801,7 +23810,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 2644,
+        id: 2645,
         moniker_name: "The Town with Matthew Belloni",
         domain: ".pod.thetown.adfontesmedia.com",
         reliability_mean: 35.66667,
@@ -23810,7 +23819,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 2645,
+        id: 2646,
         moniker_name: "New Jersey Herald",
         domain: ".njherald.com",
         reliability_mean: 42.688888666666664,
@@ -23819,7 +23828,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2646,
+        id: 2647,
         moniker_name: "The Parkersburg News and Sentinel",
         domain: ".newsandsentinel.com",
         reliability_mean: 43.16666555555556,
@@ -23828,7 +23837,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2647,
+        id: 2648,
         moniker_name: "The Winchester Star",
         domain: ".winchesterstar.com",
         reliability_mean: 44.111110666666654,
@@ -23837,7 +23846,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2648,
+        id: 2649,
         moniker_name: "Williamsport Sun-Gazette",
         domain: ".sungazette.com",
         reliability_mean: 39.33333321428571,
@@ -23846,7 +23855,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2649,
+        id: 2650,
         moniker_name: "The Intelligencer | Wheeling News-Register",
         domain: ".theintelligencer.net",
         reliability_mean: 41.75555466666667,
@@ -23855,7 +23864,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2650,
+        id: 2651,
         moniker_name: "The Frederick News-Post",
         domain: ".fredericknewspost.com",
         reliability_mean: 41.13725529411766,
@@ -23864,7 +23873,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2651,
+        id: 2652,
         moniker_name: "The Post-Journal",
         domain: ".post-journal.com",
         reliability_mean: 40.78431411764706,
@@ -23873,7 +23882,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2652,
+        id: 2653,
         moniker_name: "Everett Daily Herald",
         domain: ".heraldnet.com",
         reliability_mean: 44.31111066666667,
@@ -23882,7 +23891,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2653,
+        id: 2654,
         moniker_name: "Lincoln Journal Star",
         domain: ".journalstar.com",
         reliability_mean: 41.933332666666665,
@@ -23891,7 +23900,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2654,
+        id: 2655,
         moniker_name: "Winston Salem-Journal",
         domain: ".journalnow.com",
         reliability_mean: 39.86666733333333,
@@ -23900,7 +23909,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 2655,
+        id: 2656,
         moniker_name: "The News-Herald - Ohio",
         domain: ".news-herald.com",
         reliability_mean: 42.76666733333333,
@@ -23909,7 +23918,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2656,
+        id: 2657,
         moniker_name: "Popular Mechanics",
         domain: ".popularmechanics.com",
         reliability_mean: 42.250000625,
@@ -23918,7 +23927,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2657,
+        id: 2658,
         moniker_name: "Road & Track",
         domain: ".roadandtrack.com",
         reliability_mean: 39.666666,
@@ -23927,7 +23936,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2658,
+        id: 2659,
         moniker_name: "Veranda",
         domain: ".veranda.com",
         reliability_mean: 38.70512807692308,
@@ -23936,7 +23945,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2659,
+        id: 2660,
         moniker_name: "Allure",
         domain: ".allure.com",
         reliability_mean: 38.04166625,
@@ -23945,7 +23954,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2660,
+        id: 2661,
         moniker_name: "Bon Appétit",
         domain: ".bonappetit.com",
         reliability_mean: 35.529410588235294,
@@ -23954,7 +23963,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 2661,
+        id: 2662,
         moniker_name: "The Times Reporter",
         domain: ".timesreporter.com",
         reliability_mean: 41.62222266666667,
@@ -23963,7 +23972,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2662,
+        id: 2663,
         moniker_name: "The Bellingham Herald",
         domain: ".bellinghamherald.com",
         reliability_mean: 40.444444,
@@ -23972,7 +23981,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2663,
+        id: 2664,
         moniker_name: "The Lowell Sun News",
         domain: ".lowellsun.com",
         reliability_mean: 43.156862352941175,
@@ -23981,7 +23990,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2664,
+        id: 2665,
         moniker_name: "She Thinks Podcast",
         domain: ".pod.shethinks.adfontesmedia.com",
         reliability_mean: 35.666666666666664,
@@ -23990,7 +23999,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 2665,
+        id: 2666,
         moniker_name: "Dr. Cindy Speaks",
         domain: ".pod.drcindyspeaks.adfontesmedia.com",
         reliability_mean: 30.333333333333332,
@@ -23999,7 +24008,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 2666,
+        id: 2667,
         moniker_name: "The Impossible State",
         domain: ".pod.theimpossiblestate.adfontesmedia.com",
         reliability_mean: 41,
@@ -24008,7 +24017,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2667,
+        id: 2668,
         moniker_name: "Timcast IRL - Tim Pool",
         domain: ".pod.timcastirl.adfontesmedia.com",
         reliability_mean: 9.896552758620691,
@@ -24017,7 +24026,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 2668,
+        id: 2669,
         moniker_name: "TheGrio: TheGrio News with Marc Lamont Hill",
         domain: ".tv.thegrionewswithmarclamonthill.adfontesmedia.com",
         reliability_mean: 33.666666666666664,
@@ -24026,7 +24035,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 2669,
+        id: 2670,
         moniker_name: "Babel: Translating the Middle East",
         domain: ".pod.babeltranslatingmiddleeast.adfontesmedia.com",
         reliability_mean: 40.55555333333333,
@@ -24035,7 +24044,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2670,
+        id: 2671,
         moniker_name: "Times Herald-Record",
         domain: ".recordonline.com",
         reliability_mean: 42.45097999999999,
@@ -24044,7 +24053,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2671,
+        id: 2672,
         moniker_name: "GoUpstate",
         domain: ".goupstate.com",
         reliability_mean: 43.377778666666664,
@@ -24053,7 +24062,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2672,
+        id: 2673,
         moniker_name: "Belleville News-Democrat",
         domain: ".bnd.com",
         reliability_mean: 41.844444,
@@ -24062,7 +24071,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2673,
+        id: 2674,
         moniker_name: "news.com.au",
         domain: ".news.com.au",
         reliability_mean: 39.175437368421065,
@@ -24071,7 +24080,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2674,
+        id: 2675,
         moniker_name: "Daily Star",
         domain: ".dailystar.co.uk",
         reliability_mean: 20.419355161290323,
@@ -24080,7 +24089,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2675,
+        id: 2676,
         moniker_name: "Derbyshire Live",
         domain: ".derbytelegraph.co.uk",
         reliability_mean: 42.444444583333336,
@@ -24089,7 +24098,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2676,
+        id: 2677,
         moniker_name: "NBC 6 South Florida WTVJ",
         domain: ".nbcmiami.com",
         reliability_mean: 44.47058823529412,
@@ -24098,7 +24107,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2677,
+        id: 2678,
         moniker_name: "NBC Los Angeles KNBC",
         domain: ".nbclosangeles.com",
         reliability_mean: 44.685185555555556,
@@ -24107,7 +24116,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2678,
+        id: 2679,
         moniker_name: "Daily World",
         domain: ".dailyworld.com",
         reliability_mean: 43.62745058823529,
@@ -24116,7 +24125,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2679,
+        id: 2680,
         moniker_name: "The Hometown Register",
         domain: ".hometownregister.com",
         reliability_mean: 26.211109666666662,
@@ -24125,7 +24134,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2680,
+        id: 2681,
         moniker_name: "The Journal-Standard",
         domain: ".journalstandard.com",
         reliability_mean: 43.5833325,
@@ -24134,7 +24143,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2681,
+        id: 2682,
         moniker_name: "The Voice",
         domain: ".voicenews.com",
         reliability_mean: 44.1875,
@@ -24143,7 +24152,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2682,
+        id: 2683,
         moniker_name: "The News-Herald - Downriver",
         domain: ".thenewsherald.com",
         reliability_mean: 41.3466668,
@@ -24152,7 +24161,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 2683,
+        id: 2684,
         moniker_name: "Footwear News",
         domain: ".footwearnews.com",
         reliability_mean: 40.600002,
@@ -24161,7 +24170,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2684,
+        id: 2685,
         moniker_name: "The Ledger - Lakeland",
         domain: ".theledger.com",
         reliability_mean: 42.600000666666666,
@@ -24170,7 +24179,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2685,
+        id: 2686,
         moniker_name: "El Paso Times",
         domain: ".elpasotimes.com",
         reliability_mean: 41.70833312500001,
@@ -24179,7 +24188,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2686,
+        id: 2687,
         moniker_name: "Mexico Matters",
         domain: ".pod.mexicomatters.adfontesmedia.com",
         reliability_mean: 41.77778000000001,
@@ -24188,7 +24197,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2687,
+        id: 2688,
         moniker_name: "Best Health Magazine",
         domain: ".besthealthmag.ca",
         reliability_mean: 38.511112,
@@ -24197,7 +24206,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2688,
+        id: 2689,
         moniker_name: "Family Handyman",
         domain: ".familyhandyman.com",
         reliability_mean: 36.42222266666668,
@@ -24206,7 +24215,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2689,
+        id: 2690,
         moniker_name: "The Olympian",
         domain: ".theolympian.com",
         reliability_mean: 40.34375,
@@ -24215,7 +24224,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2690,
+        id: 2691,
         moniker_name: "The Times",
         domain: ".thetimes.com",
         reliability_mean: 34.22764073170731,
@@ -24224,7 +24233,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2691,
+        id: 2692,
         moniker_name: "Merced Sun-Star",
         domain: ".mercedsunstar.com",
         reliability_mean: 38.46666749999999,
@@ -24233,7 +24242,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2692,
+        id: 2693,
         moniker_name: "Alt News",
         domain: ".altnews.in",
         reliability_mean: 43.13333333333333,
@@ -24242,7 +24251,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2693,
+        id: 2694,
         moniker_name: "American Motorcyclist Association",
         domain: ".americanmotorcyclist.com",
         reliability_mean: 40.533333999999996,
@@ -24251,7 +24260,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2694,
+        id: 2695,
         moniker_name: "Auto Service World",
         domain: ".autoserviceworld.com",
         reliability_mean: 40.129630000000006,
@@ -24260,7 +24269,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2695,
+        id: 2696,
         moniker_name: "Colorado Country Life",
         domain: ".coloradocountrylife.coop",
         reliability_mean: 38.311110666666664,
@@ -24269,7 +24278,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2696,
+        id: 2697,
         moniker_name: "Hardware Retailing",
         domain: ".hardwareretailing.com",
         reliability_mean: 38.588888000000004,
@@ -24278,7 +24287,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2697,
+        id: 2698,
         moniker_name: "Good Times",
         domain: ".goodtimes.ca",
         reliability_mean: 39.14035157894737,
@@ -24287,7 +24296,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2698,
+        id: 2699,
         moniker_name: "Fruit Growers News",
         domain: ".fruitgrowersnews.com",
         reliability_mean: 39.58823470588236,
@@ -24296,7 +24305,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2699,
+        id: 2700,
         moniker_name: "Greenhouse Product News",
         domain: ".gpnmag.com",
         reliability_mean: 38.37333399999999,
@@ -24305,7 +24314,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2700,
+        id: 2701,
         moniker_name: "Insight News",
         domain: ".insightnews.com",
         reliability_mean: 40.85,
@@ -24314,7 +24323,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 2701,
+        id: 2702,
         moniker_name: "Whisky Advocate",
         domain: ".whiskyadvocate.com",
         reliability_mean: 40.933333999999995,
@@ -24323,7 +24332,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2702,
+        id: 2703,
         moniker_name: "Farm Journal's Pork",
         domain: ".porkbusiness.com",
         reliability_mean: 40.395833125,
@@ -24332,7 +24341,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2703,
+        id: 2704,
         moniker_name: "The Sand Mountain Reporter",
         domain: ".sandmountainreporter.com",
         reliability_mean: 41.37777799999999,
@@ -24341,7 +24350,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2704,
+        id: 2705,
         moniker_name: "Travelweek",
         domain: ".travelweek.ca",
         reliability_mean: 39.58333437500001,
@@ -24350,7 +24359,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2705,
+        id: 2706,
         moniker_name: "The Royal Gazette",
         domain: ".royalgazette.com",
         reliability_mean: 42.77777733333333,
@@ -24359,7 +24368,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2706,
+        id: 2707,
         moniker_name: "Winnipeg Free Press",
         domain: ".winnipegfreepress.com",
         reliability_mean: 42.729167499999996,
@@ -24368,7 +24377,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2707,
+        id: 2708,
         moniker_name: "Wisconsin Rapids Daily Tribune",
         domain: ".wisconsinrapidstribune.com",
         reliability_mean: 41.177777999999996,
@@ -24377,7 +24386,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2708,
+        id: 2709,
         moniker_name: "Canadian Forest Industries",
         domain: ".woodbusiness.ca",
         reliability_mean: 39.888888,
@@ -24386,7 +24395,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2709,
+        id: 2710,
         moniker_name: "The Whitehorse Star",
         domain: ".whitehorsestar.com",
         reliability_mean: 41.562498125000005,
@@ -24395,7 +24404,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2710,
+        id: 2711,
         moniker_name: "National Parks Conservation Association",
         domain: ".npca.org",
         reliability_mean: 41.26666666666666,
@@ -24404,7 +24413,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2711,
+        id: 2712,
         moniker_name: "Nutritional Outlook",
         domain: ".nutritionaloutlook.com",
         reliability_mean: 41.157894210526315,
@@ -24413,7 +24422,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2712,
+        id: 2713,
         moniker_name: "Nevada Appeal",
         domain: ".nevadaappeal.com",
         reliability_mean: 42.09804,
@@ -24422,7 +24431,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2713,
+        id: 2714,
         moniker_name: "The Atlanta Voice",
         domain: ".theatlantavoice.com",
         reliability_mean: 42.35185333333333,
@@ -24431,7 +24440,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2714,
+        id: 2715,
         moniker_name: "Oral Health",
         domain: ".oralhealthgroup.com",
         reliability_mean: 38.03921588235295,
@@ -24440,7 +24449,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2715,
+        id: 2716,
         moniker_name: "Rotary",
         domain: ".rotary.org",
         reliability_mean: 41.53333333333334,
@@ -24449,7 +24458,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2716,
+        id: 2717,
         moniker_name: "Family Magazine",
         domain: ".familymedia.com",
         reliability_mean: 39.5625,
@@ -24458,7 +24467,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2717,
+        id: 2718,
         moniker_name: "Florida Currents",
         domain: ".floridacurrents.com",
         reliability_mean: 37.46666666666667,
@@ -24467,7 +24476,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2718,
+        id: 2719,
         moniker_name: "Firearms News",
         domain: ".firearmsnews.com",
         reliability_mean: 35.8,
@@ -24476,7 +24485,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 2719,
+        id: 2720,
         moniker_name: "GUNS Magazine",
         domain: ".gunsmagazine.com",
         reliability_mean: 34.91111266666667,
@@ -24485,7 +24494,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 2720,
+        id: 2721,
         moniker_name: "Gun Dog Magazine",
         domain: ".gundogmag.com",
         reliability_mean: 40.90196058823531,
@@ -24494,7 +24503,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2721,
+        id: 2722,
         moniker_name: "On-Site Magazine",
         domain: ".on-sitemag.com",
         reliability_mean: 39.93749999999999,
@@ -24503,7 +24512,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2722,
+        id: 2723,
         moniker_name: "The Maui News",
         domain: ".mauinews.com",
         reliability_mean: 42.20000133333334,
@@ -24512,7 +24521,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2723,
+        id: 2724,
         moniker_name: "Lawrence Journal-World",
         domain: ".ljworld.com",
         reliability_mean: 42.611112000000006,
@@ -24521,7 +24530,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2724,
+        id: 2725,
         moniker_name: "Jersey's Best",
         domain: ".jerseysbest.com",
         reliability_mean: 38.937499375,
@@ -24530,7 +24539,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2725,
+        id: 2726,
         moniker_name: "Kentucky Living",
         domain: ".kentuckyliving.com",
         reliability_mean: 38.733333333333334,
@@ -24539,7 +24548,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2726,
+        id: 2727,
         moniker_name: "Keys Weekly",
         domain: ".keysweekly.com",
         reliability_mean: 39.84210473684211,
@@ -24548,7 +24557,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2727,
+        id: 2728,
         moniker_name: "International Association of Fire Fighters",
         domain: ".iaff.org",
         reliability_mean: 41.872550000000004,
@@ -24557,7 +24566,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2728,
+        id: 2729,
         moniker_name: "In-Fisherman",
         domain: ".in-fisherman.com",
         reliability_mean: 40.71929789473684,
@@ -24566,7 +24575,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2729,
+        id: 2730,
         moniker_name: "Landscape Trades",
         domain: ".landscapetrades.com",
         reliability_mean: 39.21111,
@@ -24575,7 +24584,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2730,
+        id: 2731,
         moniker_name: "Inside Logistics",
         domain: ".insidelogistics.ca",
         reliability_mean: 41.47368421052632,
@@ -24584,7 +24593,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2731,
+        id: 2732,
         moniker_name: "Food Technology Magazine",
         domain: ".ift.org",
         reliability_mean: 42.188888000000006,
@@ -24593,7 +24602,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2732,
+        id: 2733,
         moniker_name: "Handguns Magazine",
         domain: ".handgunsmag.com",
         reliability_mean: 36.955556666666666,
@@ -24602,7 +24611,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 2733,
+        id: 2734,
         moniker_name: "Hardlines",
         domain: ".hardlines.ca",
         reliability_mean: 39.377778000000006,
@@ -24611,7 +24620,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2734,
+        id: 2735,
         moniker_name: "Global Traveler",
         domain: ".globaltravelerusa.com",
         reliability_mean: 40.4,
@@ -24620,7 +24629,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2735,
+        id: 2736,
         moniker_name: "FSR Magazine",
         domain: ".fsrmagazine.com",
         reliability_mean: 39.14814833333333,
@@ -24629,7 +24638,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2736,
+        id: 2737,
         moniker_name: "Car and Driver",
         domain: ".caranddriver.com",
         reliability_mean: 38.862744117647054,
@@ -24638,7 +24647,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2737,
+        id: 2738,
         moniker_name: "BioPharm International",
         domain: ".biopharminternational.com",
         reliability_mean: 42.39215647058824,
@@ -24647,7 +24656,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2738,
+        id: 2739,
         moniker_name: "Bowhunter",
         domain: ".bowhunter.com",
         reliability_mean: 36.708333125,
@@ -24656,7 +24665,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2739,
+        id: 2740,
         moniker_name: "Cigar Aficionado",
         domain: ".cigaraficionado.com",
         reliability_mean: 37.93333266666666,
@@ -24665,7 +24674,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2740,
+        id: 2741,
         moniker_name: "Deer & Deer Hunting",
         domain: ".deeranddeerhunting.com",
         reliability_mean: 38.666666,
@@ -24674,7 +24683,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2741,
+        id: 2742,
         moniker_name: "Design Engineering",
         domain: ".design-engineering.com",
         reliability_mean: 42.395833749999994,
@@ -24683,7 +24692,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2742,
+        id: 2743,
         moniker_name: "Elle Canada",
         domain: ".ellecanada.com",
         reliability_mean: 35.622221999999994,
@@ -24692,7 +24701,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2743,
+        id: 2744,
         moniker_name: "Elle Decor",
         domain: ".elledecor.com",
         reliability_mean: 37.644444,
@@ -24701,7 +24710,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2744,
+        id: 2745,
         moniker_name: "Hastings Tribune",
         domain: ".hastingstribune.com",
         reliability_mean: 43.088889333333334,
@@ -24710,7 +24719,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2745,
+        id: 2746,
         moniker_name: "Herald and News",
         domain: ".heraldandnews.com",
         reliability_mean: 42.64444466666667,
@@ -24719,7 +24728,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2746,
+        id: 2747,
         moniker_name: "Hot Springs Sentinel Record",
         domain: ".hotsr.com",
         reliability_mean: 42.13333266666667,
@@ -24728,7 +24737,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2747,
+        id: 2748,
         moniker_name: "Norfolk Daily News",
         domain: ".norfolkdailynews.com",
         reliability_mean: 42.98039176470588,
@@ -24737,7 +24746,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2748,
+        id: 2749,
         moniker_name: "Oklahoma Living",
         domain: ".okl.coop",
         reliability_mean: 43.60000066666667,
@@ -24746,7 +24755,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2749,
+        id: 2750,
         moniker_name: "Ontario Farmer",
         domain: ".ontariofarmer.com",
         reliability_mean: 40.05555666666666,
@@ -24755,7 +24764,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2750,
+        id: 2751,
         moniker_name: "Palladium-Item",
         domain: ".pal-item.com",
         reliability_mean: 43.777778000000005,
@@ -24764,7 +24773,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2751,
+        id: 2752,
         moniker_name: "Peninsula News Review",
         domain: ".peninsulanewsreview.com",
         reliability_mean: 41.97916687500001,
@@ -24773,7 +24782,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2752,
+        id: 2753,
         moniker_name: "Plant",
         domain: ".plant.ca",
         reliability_mean: 42.095237619047616,
@@ -24782,7 +24791,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2753,
+        id: 2754,
         moniker_name: "Spectroscopy",
         domain: ".spectroscopyonline.com",
         reliability_mean: 39.666667333333336,
@@ -24791,7 +24800,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2754,
+        id: 2755,
         moniker_name: "Standard-Examiner",
         domain: ".standard.net",
         reliability_mean: 43.22222333333333,
@@ -24800,7 +24809,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2755,
+        id: 2756,
         moniker_name: "The Millerton News",
         domain: ".millertonnews.com",
         reliability_mean: 42.33333400000001,
@@ -24809,7 +24818,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2756,
+        id: 2757,
         moniker_name: "The Lakeville Journal",
         domain: ".lakevillejournal.com",
         reliability_mean: 43.22222266666667,
@@ -24818,7 +24827,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2757,
+        id: 2758,
         moniker_name: "Lock Haven Express",
         domain: ".lockhaven.com",
         reliability_mean: 42.28735655172414,
@@ -24827,7 +24836,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2758,
+        id: 2759,
         moniker_name: "Petersen's Hunting",
         domain: ".petersenshunting.com",
         reliability_mean: 35.19999933333334,
@@ -24836,7 +24845,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2759,
+        id: 2760,
         moniker_name: "Paint & Decorating Retailer",
         domain: ".pdrmag.com",
         reliability_mean: 38.19999866666667,
@@ -24845,7 +24854,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2760,
+        id: 2761,
         moniker_name: "OHS Canada",
         domain: ".ohscanada.com",
         reliability_mean: 44.17777733333334,
@@ -24854,7 +24863,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2761,
+        id: 2762,
         moniker_name: "Reader's Digest",
         domain: ".rd.com",
         reliability_mean: 41.15151499999999,
@@ -24863,7 +24872,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2762,
+        id: 2763,
         moniker_name: "The Scoop",
         domain: ".thedailyscoop.com",
         reliability_mean: 40.74999999999999,
@@ -24872,7 +24881,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2763,
+        id: 2764,
         moniker_name: "Texas CEO Magazine",
         domain: ".texasceomagazine.com",
         reliability_mean: 38.34374937500001,
@@ -24881,7 +24890,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2764,
+        id: 2765,
         moniker_name: "Sports Business Journal",
         domain: ".sportsbusinessjournal.com",
         reliability_mean: 41.759259444444446,
@@ -24890,7 +24899,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2765,
+        id: 2766,
         moniker_name: "Bridal Guide",
         domain: ".bridalguide.com",
         reliability_mean: 34.979166250000006,
@@ -24899,7 +24908,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2766,
+        id: 2767,
         moniker_name: "Veterans of Foreign Wars VFW",
         domain: ".vfw.org",
         reliability_mean: 40.650794285714284,
@@ -24908,7 +24917,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2767,
+        id: 2768,
         moniker_name: "Athletic Business",
         domain: ".athleticbusiness.com",
         reliability_mean: 42.53508631578948,
@@ -24917,7 +24926,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2768,
+        id: 2769,
         moniker_name: "Aviation Week",
         domain: ".aviationweek.com",
         reliability_mean: 43.27083375000001,
@@ -24926,7 +24935,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2769,
+        id: 2770,
         moniker_name: "AVENUE",
         domain: ".avenuemagazine.com",
         reliability_mean: 39.377778,
@@ -24935,7 +24944,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2770,
+        id: 2771,
         moniker_name: "The Stephen A. Smith Show",
         domain: ".pod.knowmercywithstephenasmith.adfontesmedia.com",
         reliability_mean: 21.83333,
@@ -24944,7 +24953,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 2771,
+        id: 2772,
         moniker_name: "Conquer Magazine",
         domain: ".conquer-magazine.com",
         reliability_mean: 36.49206285714285,
@@ -24953,7 +24962,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2772,
+        id: 2773,
         moniker_name: "Heavy Equipment Guide",
         domain: ".heavyequipmentguide.ca",
         reliability_mean: 41.39583375000001,
@@ -24962,7 +24971,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2773,
+        id: 2774,
         moniker_name: "Spudman",
         domain: ".spudman.com",
         reliability_mean: 42.656250625,
@@ -24971,7 +24980,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2774,
+        id: 2775,
         moniker_name: "American Hunter",
         domain: ".americanhunter.org",
         reliability_mean: 36.111112000000006,
@@ -24980,7 +24989,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2775,
+        id: 2776,
         moniker_name: "AOPA Pilot",
         domain: ".aopa.org",
         reliability_mean: 42.25555466666666,
@@ -24989,7 +24998,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2776,
+        id: 2777,
         moniker_name: "Canadian Mining Journal",
         domain: ".canadianminingjournal.com",
         reliability_mean: 39.166666875000004,
@@ -24998,7 +25007,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2777,
+        id: 2778,
         moniker_name: "Experience Life",
         domain: ".lifetime.life",
         reliability_mean: 37.977779333333345,
@@ -25007,7 +25016,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2778,
+        id: 2779,
         moniker_name: "EP&T Magazine",
         domain: ".ept.ca",
         reliability_mean: 39.802083124999996,
@@ -25016,7 +25025,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2779,
+        id: 2780,
         moniker_name: "Farm Progress",
         domain: ".farmprogress.com",
         reliability_mean: 45.10144999999999,
@@ -25025,7 +25034,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2780,
+        id: 2781,
         moniker_name: "Farm Journal",
         domain: ".farmjournal.com",
         reliability_mean: 40.93333333333333,
@@ -25034,7 +25043,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2781,
+        id: 2782,
         moniker_name: "Land Line Magazine",
         domain: ".landline.media",
         reliability_mean: 43.44444333333334,
@@ -25043,7 +25052,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2782,
+        id: 2783,
         moniker_name: "Mechanical Business",
         domain: ".mechanicalbusiness.com",
         reliability_mean: 39.88889000000001,
@@ -25052,7 +25061,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2783,
+        id: 2784,
         moniker_name: "Metropolis Magazine",
         domain: ".metropolismag.com",
         reliability_mean: 40.822222000000004,
@@ -25061,7 +25070,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2784,
+        id: 2785,
         moniker_name: "Michigan Farm News",
         domain: ".michiganfarmnews.com",
         reliability_mean: 40.375000625000006,
@@ -25070,7 +25079,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 2785,
+        id: 2786,
         moniker_name: "Machinery & Equipment MRO",
         domain: ".mromagazine.com",
         reliability_mean: 41.291666875000004,
@@ -25079,7 +25088,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2786,
+        id: 2787,
         moniker_name: "PrintAction",
         domain: ".printaction.com",
         reliability_mean: 38.395833124999996,
@@ -25088,7 +25097,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2787,
+        id: 2788,
         moniker_name: "RifleShooter Magazine",
         domain: ".rifleshootermag.com",
         reliability_mean: 34.622221999999994,
@@ -25097,7 +25106,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 2788,
+        id: 2789,
         moniker_name: "TheGrio: TheGrio News with Eboni K. Williams",
         domain: ".tv.thegrionewswithebonikwilliams.adfontesmedia.com",
         reliability_mean: 33.666666666666664,
@@ -25106,7 +25115,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 2789,
+        id: 2790,
         moniker_name: "The Take",
         domain: ".pod.thetake.adfontesmedia.com",
         reliability_mean: 38.166664999999995,
@@ -25115,7 +25124,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 2790,
+        id: 2791,
         moniker_name: "The Trade Guys",
         domain: ".pod.thetradeguys.adfontesmedia.com",
         reliability_mean: 43.55555333333333,
@@ -25124,7 +25133,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2791,
+        id: 2792,
         moniker_name: "NRA Family",
         domain: ".nrafamily.org",
         reliability_mean: 36.11111277777778,
@@ -25133,7 +25142,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 2792,
+        id: 2793,
         moniker_name: "Times-Standard",
         domain: ".times-standard.com",
         reliability_mean: 42.09375,
@@ -25142,7 +25151,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2793,
+        id: 2794,
         moniker_name: "Petersen's Bowhunting",
         domain: ".bowhuntingmag.com",
         reliability_mean: 38.17777866666666,
@@ -25151,7 +25160,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2794,
+        id: 2795,
         moniker_name: "AQUA Magazine",
         domain: ".aquamagazine.com",
         reliability_mean: 39.00000000000001,
@@ -25160,7 +25169,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2795,
+        id: 2796,
         moniker_name: "Manufacturing AUTOMATION",
         domain: ".automationmag.com",
         reliability_mean: 40.37254823529412,
@@ -25169,7 +25178,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2796,
+        id: 2797,
         moniker_name: "Bradenton Herald",
         domain: ".bradenton.com",
         reliability_mean: 41.79629666666666,
@@ -25178,7 +25187,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2797,
+        id: 2798,
         moniker_name: "Country Living",
         domain: ".countryliving.com",
         reliability_mean: 37.22222133333333,
@@ -25187,7 +25196,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2798,
+        id: 2799,
         moniker_name: "The Progressive Farmer",
         domain: ".dtnpf.com",
         reliability_mean: 41.79166500000001,
@@ -25196,7 +25205,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2799,
+        id: 2800,
         moniker_name: "HPAC Magazine",
         domain: ".hpacmag.com",
         reliability_mean: 41.35449666666667,
@@ -25205,7 +25214,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2800,
+        id: 2801,
         moniker_name: "Pulp & Paper Canada",
         domain: ".pulpandpapercanada.com",
         reliability_mean: 40.40740777777776,
@@ -25214,7 +25223,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2801,
+        id: 2802,
         moniker_name: "Recycling Product News",
         domain: ".recyclingproductnews.com",
         reliability_mean: 39.48888866666666,
@@ -25223,7 +25232,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2802,
+        id: 2803,
         moniker_name: "Saratoga TODAY",
         domain: ".saratogatodaynewspaper.com",
         reliability_mean: 39.86666866666667,
@@ -25232,7 +25241,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2803,
+        id: 2804,
         moniker_name: "CBS News: Primetime with John Dickerson",
         domain: ".tv.primetimewithjohndickerson.adfontesmedia.com",
         reliability_mean: 40.44444333333333,
@@ -25241,7 +25250,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 2804,
+        id: 2805,
         moniker_name: "ABC 7 Chicago WLS: ABC 7 Eyewitness News @ 6PM",
         domain: ".tv.abc7chicago.adfontesmedia.com",
         reliability_mean: 46.33333,
@@ -25250,7 +25259,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2805,
+        id: 2806,
         moniker_name: "PBS News Hour",
         domain: ".tv.pbsnewshour.adfontesmedia.com",
         reliability_mean: 42.20833375,
@@ -25259,7 +25268,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 2806,
+        id: 2807,
         moniker_name: "NBC New York WNBC: News 4 NY at 6",
         domain: ".tv.news4nyat6.adfontesmedia.com",
         reliability_mean: 46.333333333333336,
@@ -25268,7 +25277,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2807,
+        id: 2808,
         moniker_name: "ABC 7 Los Angeles KABC: Eyewitness News 6PM",
         domain: ".tv.abc7losangleseyewitnessnews6pm.adfontesmedia.com",
         reliability_mean: 45.666666666666664,
@@ -25277,7 +25286,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2808,
+        id: 2809,
         moniker_name: "The Next Level Podcast",
         domain: ".pod.thenextlevelpodcast.adfontesmedia.com",
         reliability_mean: 32.266667999999996,
@@ -25286,7 +25295,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2809,
+        id: 2810,
         moniker_name: "HGTV",
         domain: ".hgtv.com",
         reliability_mean: 37.84313764705883,
@@ -25295,7 +25304,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2810,
+        id: 2811,
         moniker_name: "Houma Courier",
         domain: ".houmatoday.com",
         reliability_mean: 42.97777733333333,
@@ -25304,7 +25313,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2811,
+        id: 2812,
         moniker_name: "Observer-Dispatch",
         domain: ".uticaod.com",
         reliability_mean: 42.604166875000004,
@@ -25313,7 +25322,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2812,
+        id: 2813,
         moniker_name: "The Times of Northwest Indiana",
         domain: ".nwitimes.com",
         reliability_mean: 42.53333333333334,
@@ -25322,7 +25331,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2813,
+        id: 2814,
         moniker_name: "The Oakland Press",
         domain: ".theoaklandpress.com",
         reliability_mean: 41.51111,
@@ -25331,7 +25340,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 2814,
+        id: 2815,
         moniker_name: "The Trentonian",
         domain: ".trentonian.com",
         reliability_mean: 43.392157647058816,
@@ -25340,7 +25349,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2815,
+        id: 2816,
         moniker_name: "Reading Eagle",
         domain: ".readingeagle.com",
         reliability_mean: 42.64705823529411,
@@ -25349,7 +25358,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2816,
+        id: 2817,
         moniker_name: "Durham Herald-Sun",
         domain: ".heraldsun.com",
         reliability_mean: 42.538461153846164,
@@ -25358,7 +25367,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2817,
+        id: 2818,
         moniker_name: "Burlington County Times",
         domain: ".burlingtoncountytimes.com",
         reliability_mean: 42.377778,
@@ -25367,7 +25376,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2818,
+        id: 2819,
         moniker_name: "The Daily Record",
         domain: ".the-daily-record.com",
         reliability_mean: 42.13333266666667,
@@ -25376,7 +25385,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2819,
+        id: 2820,
         moniker_name: "Garden & Gun",
         domain: ".gardenandgun.com",
         reliability_mean: 38.07843117647059,
@@ -25385,7 +25394,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2820,
+        id: 2821,
         moniker_name: "The News Star",
         domain: ".thenewsstar.com",
         reliability_mean: 42.921568235294124,
@@ -25394,7 +25403,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2821,
+        id: 2822,
         moniker_name: "Today's Trucking",
         domain: ".trucknews.com",
         reliability_mean: 39.77083375,
@@ -25403,7 +25412,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2822,
+        id: 2823,
         moniker_name: "Vegetable Growers News",
         domain: ".vegetablegrowersnews.com",
         reliability_mean: 37.22806894736842,
@@ -25412,7 +25421,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2823,
+        id: 2824,
         moniker_name: "Turf & Rec",
         domain: ".turfandrec.com",
         reliability_mean: 40.28888866666666,
@@ -25421,7 +25430,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2824,
+        id: 2825,
         moniker_name: "The Vindicator",
         domain: ".vindy.com",
         reliability_mean: 43.604166875,
@@ -25430,7 +25439,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2825,
+        id: 2826,
         moniker_name: "Altoona Mirror",
         domain: ".altoonamirror.com",
         reliability_mean: 39.901961176470586,
@@ -25439,7 +25448,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2826,
+        id: 2827,
         moniker_name: "Carolina Country",
         domain: ".carolinacountry.com",
         reliability_mean: 38.770832500000004,
@@ -25448,7 +25457,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2827,
+        id: 2828,
         moniker_name: "The Chandler Arizonan",
         domain: ".chandlernews.com",
         reliability_mean: 41.9803911764706,
@@ -25457,7 +25466,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2828,
+        id: 2829,
         moniker_name: "The Chronicle-Journal",
         domain: ".chroniclejournal.com",
         reliability_mean: 41.466666499999995,
@@ -25466,7 +25475,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2829,
+        id: 2830,
         moniker_name: "Clarion-Ledger",
         domain: ".clarionledger.com",
         reliability_mean: 41.145834375,
@@ -25475,7 +25484,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2830,
+        id: 2831,
         moniker_name: "The Iron Mountain Daily News",
         domain: ".ironmountaindailynews.com",
         reliability_mean: 42.82539809523809,
@@ -25484,7 +25493,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2831,
+        id: 2832,
         moniker_name: "Minot Daily News",
         domain: ".minotdailynews.com",
         reliability_mean: 42.416666875,
@@ -25493,7 +25502,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2832,
+        id: 2833,
         moniker_name: "Lisbon Morning Journal",
         domain: ".morningjournalnews.com",
         reliability_mean: 40.81249999999999,
@@ -25502,7 +25511,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2833,
+        id: 2834,
         moniker_name: "Naples Daily News",
         domain: ".naplesnews.com",
         reliability_mean: 43.41666687499999,
@@ -25511,7 +25520,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2834,
+        id: 2835,
         moniker_name: "Jefferson City News Tribune",
         domain: ".newstribune.com",
         reliability_mean: 40.5166665,
@@ -25520,7 +25529,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2835,
+        id: 2836,
         moniker_name: "Oak Bay News",
         domain: ".oakbaynews.com",
         reliability_mean: 41.29824578947369,
@@ -25529,7 +25538,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2836,
+        id: 2837,
         moniker_name: "Observer Today",
         domain: ".observertoday.com",
         reliability_mean: 40.19047666666667,
@@ -25538,7 +25547,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2837,
+        id: 2838,
         moniker_name: "Olean Times Herald",
         domain: ".oleantimesherald.com",
         reliability_mean: 41.03921647058822,
@@ -25547,7 +25556,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2838,
+        id: 2839,
         moniker_name: "Pensacola News Journal",
         domain: ".pnj.com",
         reliability_mean: 41.823528823529415,
@@ -25556,7 +25565,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2839,
+        id: 2840,
         moniker_name: "Red Deer Advocate",
         domain: ".reddeeradvocate.com",
         reliability_mean: 42.74509764705881,
@@ -25565,7 +25574,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2840,
+        id: 2841,
         moniker_name: "St. Cloud Times",
         domain: ".sctimes.com",
         reliability_mean: 33.69135777777779,
@@ -25574,7 +25583,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2841,
+        id: 2842,
         moniker_name: "The Seguin Gazette",
         domain: ".seguingazette.com",
         reliability_mean: 42.93333333333332,
@@ -25583,7 +25592,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2842,
+        id: 2843,
         moniker_name: "Sheboygan Press",
         domain: ".sheboyganpress.com",
         reliability_mean: 43.0625,
@@ -25592,7 +25601,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2843,
+        id: 2844,
         moniker_name: "Stevens Point Journal",
         domain: ".stevenspointjournal.com",
         reliability_mean: 42.47916625,
@@ -25601,7 +25610,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2844,
+        id: 2845,
         moniker_name: "The St. Louis American",
         domain: ".stlamerican.com",
         reliability_mean: 41.666666666666664,
@@ -25610,7 +25619,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2845,
+        id: 2846,
         moniker_name: "Sooke News Mirror",
         domain: ".sookenewsmirror.com",
         reliability_mean: 41.62745117647059,
@@ -25619,7 +25628,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2846,
+        id: 2847,
         moniker_name: "The Daily Advertiser",
         domain: ".theadvertiser.com",
         reliability_mean: 43.07843176470587,
@@ -25628,7 +25637,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2847,
+        id: 2848,
         moniker_name: "The Powers That Be with Peter Hamby",
         domain: ".pod.thepowersthatbe.adfontesmedia.com",
         reliability_mean: 35.2,
@@ -25637,7 +25646,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2848,
+        id: 2849,
         moniker_name: "TCPalm",
         domain: ".tcpalm.com",
         reliability_mean: 41.80952476190476,
@@ -25646,7 +25655,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2849,
+        id: 2850,
         moniker_name: "Daily Journal",
         domain: ".thedailyjournal.com",
         reliability_mean: 43.82353,
@@ -25655,7 +25664,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2850,
+        id: 2851,
         moniker_name: "The Foothills Focus",
         domain: ".thefoothillsfocus.com",
         reliability_mean: 41.291666250000006,
@@ -25664,7 +25673,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2851,
+        id: 2852,
         moniker_name: "The Interim",
         domain: ".theinterim.com",
         reliability_mean: 23.986665199999997,
@@ -25673,7 +25682,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 2852,
+        id: 2853,
         moniker_name: "The Inter-Mountain",
         domain: ".theintermountain.com",
         reliability_mean: 40.229166875,
@@ -25682,7 +25691,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2853,
+        id: 2854,
         moniker_name: "The Tennessee Magazine",
         domain: ".tnmagazine.org",
         reliability_mean: 38.16666625,
@@ -25691,7 +25700,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2854,
+        id: 2855,
         moniker_name: "The Almanac",
         domain: ".thealmanac.net",
         reliability_mean: 40.97916625,
@@ -25700,7 +25709,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2855,
+        id: 2856,
         moniker_name: "The Packer",
         domain: ".thepacker.com",
         reliability_mean: 40.52083375,
@@ -25709,7 +25718,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2856,
+        id: 2857,
         moniker_name: "Victoria News",
         domain: ".vicnews.com",
         reliability_mean: 39.45833375,
@@ -25718,7 +25727,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2857,
+        id: 2858,
         moniker_name: "The Walton Tribune",
         domain: ".waltontribune.com",
         reliability_mean: 39.96875,
@@ -25727,7 +25736,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2858,
+        id: 2859,
         moniker_name: "Los Angeles Wave Newspapers",
         domain: ".wavepublication.com",
         reliability_mean: 41.874999375,
@@ -25736,7 +25745,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2859,
+        id: 2860,
         moniker_name: "Wildfowl",
         domain: ".wildfowlmag.com",
         reliability_mean: 38.312499375,
@@ -25745,7 +25754,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2860,
+        id: 2861,
         moniker_name: "The Union Democrat",
         domain: ".uniondemocrat.com",
         reliability_mean: 42.64583375,
@@ -25754,7 +25763,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2861,
+        id: 2862,
         moniker_name: "Tribune Chronicle",
         domain: ".tribtoday.com",
         reliability_mean: 40.90740777777776,
@@ -25763,7 +25772,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2862,
+        id: 2863,
         moniker_name: "Tri-City Herald",
         domain: ".tri-cityherald.com",
         reliability_mean: 41.564814999999996,
@@ -25772,7 +25781,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2863,
+        id: 2864,
         moniker_name: "Wausau Daily Herald",
         domain: ".wausaudailyherald.com",
         reliability_mean: 40.791666875,
@@ -25781,7 +25790,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2864,
+        id: 2865,
         moniker_name: "The Weirton Daily Times",
         domain: ".weirtondailytimes.com",
         reliability_mean: 42.74509705882354,
@@ -25790,7 +25799,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2865,
+        id: 2866,
         moniker_name: "West Valley View",
         domain: ".westvalleyview.com",
         reliability_mean: 40.35087789473684,
@@ -25799,7 +25808,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2866,
+        id: 2867,
         moniker_name: "The Times Leader",
         domain: ".timesleaderonline.com",
         reliability_mean: 41.614583125,
@@ -25808,7 +25817,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2867,
+        id: 2868,
         moniker_name: "Times-Republican",
         domain: ".timesrepublican.com",
         reliability_mean: 41.15686294117648,
@@ -25817,7 +25826,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2868,
+        id: 2869,
         moniker_name: "The Daily Mining Gazette",
         domain: ".mininggazette.com",
         reliability_mean: 42.041666875000004,
@@ -25826,7 +25835,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2869,
+        id: 2870,
         moniker_name: "The Marshall Independent",
         domain: ".marshallindependent.com",
         reliability_mean: 42.125000625,
@@ -25835,7 +25844,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2870,
+        id: 2871,
         moniker_name: "Lansing State Journal",
         domain: ".lansingstatejournal.com",
         reliability_mean: 43.87500000000001,
@@ -25844,7 +25853,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2871,
+        id: 2872,
         moniker_name: "Fond du Lac Reporter",
         domain: ".fdlreporter.com",
         reliability_mean: 42.54629666666668,
@@ -25853,7 +25862,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2872,
+        id: 2873,
         moniker_name: "Northeast Mississippi Daily Journal",
         domain: ".djournal.com",
         reliability_mean: 42.499999375,
@@ -25862,7 +25871,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2873,
+        id: 2874,
         moniker_name: "Daily News-Record",
         domain: ".dnronline.com",
         reliability_mean: 42.99999999999999,
@@ -25871,7 +25880,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2874,
+        id: 2875,
         moniker_name: "Houston Defender",
         domain: ".defendernetwork.com",
         reliability_mean: 39.59259388888889,
@@ -25880,7 +25889,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2875,
+        id: 2876,
         moniker_name: "Evansville Courier & Press",
         domain: ".courierpress.com",
         reliability_mean: 43.25000000000001,
@@ -25889,7 +25898,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2876,
+        id: 2877,
         moniker_name: "The Daily Sentinel",
         domain: ".dailysentinel.com",
         reliability_mean: 40.416666875000004,
@@ -25898,7 +25907,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2877,
+        id: 2878,
         moniker_name: "Morristown Daily Record",
         domain: ".dailyrecord.com",
         reliability_mean: 42.68627411764706,
@@ -25907,7 +25916,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2878,
+        id: 2879,
         moniker_name: "Eastern Shore Post",
         domain: ".easternshorepost.com",
         reliability_mean: 40.75925888888889,
@@ -25916,7 +25925,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2879,
+        id: 2880,
         moniker_name: "The East Valley Tribune",
         domain: ".eastvalleytribune.com",
         reliability_mean: 42.42105263157894,
@@ -25925,7 +25934,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2880,
+        id: 2881,
         moniker_name: "Electrical Business",
         domain: ".ebmag.com",
         reliability_mean: 38.59259277777777,
@@ -25934,7 +25943,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2881,
+        id: 2882,
         moniker_name: "The Daily Comet",
         domain: ".dailycomet.com",
         reliability_mean: 42.68421210526315,
@@ -25943,7 +25952,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2882,
+        id: 2883,
         moniker_name: "Diario Deportivo Diez",
         domain: ".diez.hn",
         reliability_mean: 41.36666699999999,
@@ -25952,7 +25961,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2883,
+        id: 2884,
         moniker_name: "La Nacion",
         domain: ".lanacion.com.ar",
         reliability_mean: 43.27450823529412,
@@ -25961,7 +25970,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2884,
+        id: 2885,
         moniker_name: "CNN International: CNN Newsroom with Laila Harrak",
         domain: ".tv.cnnnewsroomwithlailaharrak.adfontesmedia.com",
         reliability_mean: 42.77778000000001,
@@ -25970,7 +25979,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 2885,
+        id: 2886,
         moniker_name: "FOX 5 New York WNYW: The 6 O'Clock News",
         domain: ".tv.fox5newyorkthe6o'clocknews.adfontesmedia.com",
         reliability_mean: 43.00000333333333,
@@ -25979,7 +25988,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2886,
+        id: 2887,
         moniker_name: "NBC Los Angeles KNBC: 4 News at 6",
         domain: ".tv.nbclosangeles4newsat6.adfontesmedia.com",
         reliability_mean: 44.88889,
@@ -25988,7 +25997,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 2887,
+        id: 2888,
         moniker_name: "El Mundo",
         domain: ".elmundo.es",
         reliability_mean: 43.931034137931036,
@@ -25997,7 +26006,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2888,
+        id: 2889,
         moniker_name: "El Pais",
         domain: ".elpais.com",
         reliability_mean: 43.933333428571444,
@@ -26006,7 +26015,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2889,
+        id: 2890,
         moniker_name: "Brandon Sun",
         domain: ".brandonsun.com",
         reliability_mean: 42.48888933333333,
@@ -26015,7 +26024,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2890,
+        id: 2891,
         moniker_name: "Canadian Packaging",
         domain: ".canadianpackaging.com",
         reliability_mean: 37.28571380952381,
@@ -26024,7 +26033,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2891,
+        id: 2892,
         moniker_name: "Dairy Herd Management",
         domain: ".dairyherd.com",
         reliability_mean: 40.5,
@@ -26033,7 +26042,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2892,
+        id: 2893,
         moniker_name: "Daily Herald - Utah Valley",
         domain: ".heraldextra.com",
         reliability_mean: 40.88888799999999,
@@ -26042,7 +26051,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2893,
+        id: 2894,
         moniker_name: "Home Improvement Retailing",
         domain: ".hirmagazine.com",
         reliability_mean: 34.555554666666666,
@@ -26051,7 +26060,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2894,
+        id: 2895,
         moniker_name: "The Glendale Star",
         domain: ".glendalestar.com",
         reliability_mean: 38.92592611111112,
@@ -26060,7 +26069,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2895,
+        id: 2896,
         moniker_name: "Oshkosh Northwestern",
         domain: ".thenorthwestern.com",
         reliability_mean: 42.291666875,
@@ -26069,7 +26078,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2896,
+        id: 2897,
         moniker_name: "Goldstream News Gazette",
         domain: ".goldstreamgazette.com",
         reliability_mean: 41.958333124999996,
@@ -26078,7 +26087,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2897,
+        id: 2898,
         moniker_name: "Our Time Press",
         domain: ".ourtimepress.com",
         reliability_mean: 39.5625,
@@ -26087,7 +26096,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 2898,
+        id: 2899,
         moniker_name: "Peoria Times",
         domain: ".peoriatimes.com",
         reliability_mean: 40.999999375,
@@ -26096,7 +26105,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2899,
+        id: 2900,
         moniker_name: "SanTan Sun News",
         domain: ".santansun.com",
         reliability_mean: 39.788888666666665,
@@ -26105,7 +26114,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2900,
+        id: 2901,
         moniker_name: "Produce Market Guide",
         domain: ".producemarketguide.com",
         reliability_mean: 38.79999999999999,
@@ -26114,7 +26123,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2901,
+        id: 2902,
         moniker_name: "Marshfield News-Herald",
         domain: ".marshfieldnewsherald.com",
         reliability_mean: 42.55555611111111,
@@ -26123,7 +26132,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2902,
+        id: 2903,
         moniker_name: "The Lufkin Daily News",
         domain: ".lufkindailynews.com",
         reliability_mean: 41.333333333333336,
@@ -26132,7 +26141,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2903,
+        id: 2904,
         moniker_name: "The News-Press - Fort Myers",
         domain: ".news-press.com",
         reliability_mean: 43.42222266666667,
@@ -26141,7 +26150,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2904,
+        id: 2905,
         moniker_name: "The Baytown Sun",
         domain: ".baytownsun.com",
         reliability_mean: 38.244446,
@@ -26150,7 +26159,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2905,
+        id: 2906,
         moniker_name: "Bay State Banner",
         domain: ".baystatebanner.com",
         reliability_mean: 40.29166687499999,
@@ -26159,7 +26168,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 2906,
+        id: 2907,
         moniker_name: "The Journal Gazette",
         domain: ".journalgazette.net",
         reliability_mean: 42.68749999999999,
@@ -26168,7 +26177,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2907,
+        id: 2908,
         moniker_name: "Jackson County Sentinel",
         domain: ".jcsentinel.com",
         reliability_mean: 41.87499999999999,
@@ -26177,7 +26186,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2908,
+        id: 2909,
         moniker_name: "WFAA Channel 8 ABC News - Dallas: WFAA News at 6 p.m.",
         domain: ".tv.wfaanewsat6pm.adfontesmedia.com",
         reliability_mean: 44.77777666666666,
@@ -26186,7 +26195,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2909,
+        id: 2910,
         moniker_name: "NBC 10 Philadelphia WCAU: NBC 10 News at 6p",
         domain: ".tv.nbc10philadelphianewsat6p.adfontesmedia.com",
         reliability_mean: 43.666666666666664,
@@ -26195,7 +26204,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2910,
+        id: 2911,
         moniker_name: "ABC 7 San Francisco KGO: ABC7 News at 6pm",
         domain: ".tv.abc7sanfrancisconewsat6pm.adfontesmedia.com",
         reliability_mean: 43.11111,
@@ -26204,7 +26213,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2911,
+        id: 2912,
         moniker_name: "Greg Palast Podcast",
         domain: ".pod.gregpalast.adfontesmedia.com",
         reliability_mean: 22.740738888888888,
@@ -26213,7 +26222,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 2912,
+        id: 2913,
         moniker_name: "Medicine Hat News",
         domain: ".medicinehatnews.com",
         reliability_mean: 41.04444466666667,
@@ -26222,7 +26231,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2913,
+        id: 2914,
         moniker_name: "Hoard's Dairyman",
         domain: ".hoards.com",
         reliability_mean: 41.02666560000001,
@@ -26231,7 +26240,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2914,
+        id: 2915,
         moniker_name: "Ohio's Electric Cooperatives",
         domain: ".ohioec.org",
         reliability_mean: 38.544444,
@@ -26240,7 +26249,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2915,
+        id: 2916,
         moniker_name: "Ahwatukee Foothills News",
         domain: ".ahwatukee.com",
         reliability_mean: 41.37499999999999,
@@ -26249,7 +26258,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2916,
+        id: 2917,
         moniker_name: "American Handgunner",
         domain: ".americanhandgunner.com",
         reliability_mean: 36.75555666666666,
@@ -26258,7 +26267,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2917,
+        id: 2918,
         moniker_name: "Turbomachinery International Magazine",
         domain: ".turbomachinerymag.com",
         reliability_mean: 37.26666666666666,
@@ -26267,7 +26276,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2918,
+        id: 2919,
         moniker_name: "New York Amsterdam News",
         domain: ".amsterdamnews.com",
         reliability_mean: 41.47916562500001,
@@ -26276,7 +26285,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2919,
+        id: 2920,
         moniker_name: "The Boca Raton Observer",
         domain: ".bocaratonobserver.com",
         reliability_mean: 38.26086869565218,
@@ -26285,7 +26294,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2920,
+        id: 2921,
         moniker_name: "Canadian Geographic",
         domain: ".canadiangeographic.ca",
         reliability_mean: 41.688888666666664,
@@ -26294,7 +26303,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2921,
+        id: 2922,
         moniker_name: "Medina Gazette",
         domain: ".medina-gazette.com",
         reliability_mean: 40.96825285714286,
@@ -26303,7 +26312,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2922,
+        id: 2923,
         moniker_name: "The Messenger - Fort Dodge",
         domain: ".messengernews.net",
         reliability_mean: 40.89583375,
@@ -26312,7 +26321,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2923,
+        id: 2924,
         moniker_name: "Lethbridge Herald",
         domain: ".lethbridgeherald.com",
         reliability_mean: 42.124999375,
@@ -26321,7 +26330,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2924,
+        id: 2925,
         moniker_name: "Lewistown Sentinel",
         domain: ".lewistownsentinel.com",
         reliability_mean: 40.552083124999996,
@@ -26330,7 +26339,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2925,
+        id: 2926,
         moniker_name: "The Marietta Times",
         domain: ".mariettatimes.com",
         reliability_mean: 40.541665,
@@ -26339,7 +26348,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2926,
+        id: 2927,
         moniker_name: "The Maritime Executive",
         domain: ".maritime-executive.com",
         reliability_mean: 42.57777733333333,
@@ -26348,7 +26357,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2927,
+        id: 2928,
         moniker_name: "Shooting Times Magazine",
         domain: ".shootingtimes.com",
         reliability_mean: 37.43137176470589,
@@ -26357,7 +26366,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2928,
+        id: 2929,
         moniker_name: "Momentum Magazine",
         domain: ".momentummagazineonline.com",
         reliability_mean: 41.22222266666666,
@@ -26366,7 +26375,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2929,
+        id: 2930,
         moniker_name: "Texarkana Gazette",
         domain: ".texarkanagazette.com",
         reliability_mean: 40.955555999999994,
@@ -26375,7 +26384,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2930,
+        id: 2931,
         moniker_name: "Prime Publishers - Voices & Town Times",
         domain: ".primepublishers.com",
         reliability_mean: 42.53333266666667,
@@ -26384,7 +26393,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2931,
+        id: 2932,
         moniker_name: "Southern Rhode Island Newspapers",
         domain: ".ricentral.com",
         reliability_mean: 41.760417499999996,
@@ -26393,7 +26402,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2932,
+        id: 2933,
         moniker_name:
             "Tucson Local Media | The Explorer Newspaper | Marana News | Foothills News | Desert Times",
         domain: ".tucsonlocalmedia.com",
@@ -26403,7 +26412,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2933,
+        id: 2934,
         moniker_name: "Canadian Plastics",
         domain: ".canplastics.com",
         reliability_mean: 37.07843235294117,
@@ -26412,7 +26421,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2934,
+        id: 2935,
         moniker_name: "Canadian Contractor",
         domain: ".canadiancontractor.ca",
         reliability_mean: 41.266665333333336,
@@ -26421,7 +26430,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2935,
+        id: 2936,
         moniker_name: "Canadian Consulting Engineer",
         domain: ".canadianconsultingengineer.com",
         reliability_mean: 40.57777733333333,
@@ -26430,7 +26439,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2936,
+        id: 2937,
         moniker_name: "Canadian Underwriter",
         domain: ".canadianunderwriter.ca",
         reliability_mean: 40.86666666666666,
@@ -26439,7 +26448,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2937,
+        id: 2938,
         moniker_name: "Canadian Process Equipment & Control News",
         domain: ".cpecn.com",
         reliability_mean: 40.222223333333325,
@@ -26448,7 +26457,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2938,
+        id: 2939,
         moniker_name: "Engineering News-Record",
         domain: ".enr.com",
         reliability_mean: 43.533333999999996,
@@ -26457,7 +26466,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2939,
+        id: 2940,
         moniker_name: "Floor Covering Weekly",
         domain: ".floorcoveringweekly.com",
         reliability_mean: 35.0625,
@@ -26466,7 +26475,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2940,
+        id: 2941,
         moniker_name: "Food in Canada",
         domain: ".foodincanada.com",
         reliability_mean: 39.08888866666666,
@@ -26475,7 +26484,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2941,
+        id: 2942,
         moniker_name: "HBS Dealer",
         domain: ".hbsdealer.com",
         reliability_mean: 39.750001250000004,
@@ -26484,7 +26493,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2942,
+        id: 2943,
         moniker_name: "Hobbs News-Sun",
         domain: ".hobbsnews.com",
         reliability_mean: 42.824561578947375,
@@ -26493,7 +26502,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2943,
+        id: 2944,
         moniker_name: "ABC WJCL 22 News Savannah",
         domain: ".wjcl.com",
         reliability_mean: 40.777778,
@@ -26502,7 +26511,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2944,
+        id: 2945,
         moniker_name: "Imperial Valley Press",
         domain: ".ivpressonline.com",
         reliability_mean: 41.92157,
@@ -26511,7 +26520,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2945,
+        id: 2946,
         moniker_name: "Atlanta News First WANF: Atlanta News First at 6pm",
         domain: ".tv.atlantanewsfirstat6pm.adfontesmedia.com",
         reliability_mean: 43.77777666666666,
@@ -26520,7 +26529,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2946,
+        id: 2947,
         moniker_name: "IndeOnline.com | The Independent",
         domain: ".indeonline.com",
         reliability_mean: 42.68888933333334,
@@ -26529,7 +26538,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2947,
+        id: 2948,
         moniker_name: "FOX 11 LA KTTV: FOX 11 News at 6PM",
         domain: ".tv.fox11lanewsspecialreport.adfontesmedia.com",
         reliability_mean: 43.66666333333333,
@@ -26538,7 +26547,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2948,
+        id: 2949,
         moniker_name: "11Alive Atlanta NBC WXIA: 11 Alive News at 6pm",
         domain: ".tv.11alivenewsat6pm.adfontesmedia.com",
         reliability_mean: 43,
@@ -26547,7 +26556,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2949,
+        id: 2950,
         moniker_name: "ABC 13 Houston KTRK: 13 Eyewitness News at 6PM",
         domain: ".tv.abc13houstonktrk13eyewitnessnewsat6pm.adfontesmedia.com",
         reliability_mean: 44.33333,
@@ -26556,7 +26565,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2950,
+        id: 2951,
         moniker_name: "Plumbing & HVAC Magazine",
         domain: ".plumbingandhvac.ca",
         reliability_mean: 40.244444666666666,
@@ -26565,7 +26574,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2951,
+        id: 2952,
         moniker_name: "Loudoun Times-Mirror",
         domain: ".loudountimes.com",
         reliability_mean: 44.1875,
@@ -26574,7 +26583,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2952,
+        id: 2953,
         moniker_name: "Metropolitan Golf Association",
         domain: ".mgagolf.org",
         reliability_mean: 39.400000000000006,
@@ -26583,7 +26592,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2953,
+        id: 2954,
         moniker_name: "Landscape Architect and Specifier News",
         domain: ".landscapearchitect.com",
         reliability_mean: 39.078430588235285,
@@ -26592,7 +26601,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2954,
+        id: 2955,
         moniker_name: "Insurance Business America",
         domain: ".insurancebusinessmag.com",
         reliability_mean: 39.13333266666666,
@@ -26601,7 +26610,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2955,
+        id: 2956,
         moniker_name: "Triggered with Don Jr. (Rumble)",
         domain: ".tv.triggeredwithdonjr.adfontesmedia.com",
         reliability_mean: 11.933333999999999,
@@ -26610,7 +26619,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 2956,
+        id: 2957,
         moniker_name: "Taste of Home",
         domain: ".tasteofhome.com",
         reliability_mean: 37.291666875000004,
@@ -26619,7 +26628,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2957,
+        id: 2958,
         moniker_name: "ABC 5 Boston WCVB: NewsCenter 5 at 6",
         domain: ".tv.wcvbbostonnewscenter5at6.adfontesmedia.com",
         reliability_mean: 43.11111,
@@ -26628,7 +26637,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2958,
+        id: 2959,
         moniker_name: "NBC Bay Area KNTV: News at 6",
         domain: ".tv.nbcbayareanewsat6.adfontesmedia.com",
         reliability_mean: 43.66667,
@@ -26637,7 +26646,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2959,
+        id: 2960,
         moniker_name: "Interior Design",
         domain: ".interiordesign.net",
         reliability_mean: 39.31250000000001,
@@ -26646,7 +26655,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2960,
+        id: 2961,
         moniker_name: "Manchester Evening News",
         domain: ".manchestereveningnews.co.uk",
         reliability_mean: 37.14102615384615,
@@ -26655,7 +26664,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2961,
+        id: 2962,
         moniker_name: "Sensible Medicine",
         domain: ".pod.sensiblemedicine.adfontesmedia.com",
         reliability_mean: 34.77777666666666,
@@ -26664,7 +26673,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2962,
+        id: 2963,
         moniker_name: "Outkick: Tomi Lahren is Fearless",
         domain: ".pod.tomilahrenisfearless.adfontesmedia.com",
         reliability_mean: 16.96078411764706,
@@ -26673,7 +26682,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 2963,
+        id: 2964,
         moniker_name: "InfluenceWatch Podcast",
         domain: ".pod.influencewatch.adfontesmedia.com",
         reliability_mean: 34.22222,
@@ -26682,7 +26691,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 2964,
+        id: 2965,
         moniker_name: "Fox Business: The Bottom Line with Dagen & Duffy",
         domain: ".tv.thebottomlinewithdagen&duffy.adfontesmedia.com",
         reliability_mean: 20.333331538461536,
@@ -26691,7 +26700,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 2965,
+        id: 2966,
         moniker_name: "6 ABC Action News Philadelphia WPVI: Action News 6pm",
         domain: ".tv.6abcactionnewsphiladelphiaactionnews6pm.adfontesmedia.cim",
         reliability_mean: 42.88889,
@@ -26700,7 +26709,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2966,
+        id: 2967,
         moniker_name: "ABC Denver 7 KMGH: Denver7 News at 6PM",
         domain: ".tv.denver7newsat6pm.adfontesmedia.com",
         reliability_mean: 43.22222333333334,
@@ -26709,7 +26718,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2967,
+        id: 2968,
         moniker_name: "WalesOnline",
         domain: ".walesonline.co.uk",
         reliability_mean: 38.222221999999995,
@@ -26718,7 +26727,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2968,
+        id: 2969,
         moniker_name: "Daily Record - Scotland",
         domain: ".dailyrecord.co.uk",
         reliability_mean: 32.619048857142865,
@@ -26727,7 +26736,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2969,
+        id: 2970,
         moniker_name: "Real America's Voice: America's Voice Live",
         domain: ".tv.americasvoicelive.adfontesmedia.com",
         reliability_mean: 22.00000111111111,
@@ -26736,7 +26745,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 2970,
+        id: 2971,
         moniker_name: "Birmingham Live",
         domain: ".birminghammail.co.uk",
         reliability_mean: 36.187499375,
@@ -26745,7 +26754,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2971,
+        id: 2972,
         moniker_name: "UNILAD",
         domain: ".unilad.com",
         reliability_mean: 22.938596052631578,
@@ -26754,7 +26763,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2972,
+        id: 2973,
         moniker_name: "Liverpool Echo News",
         domain: ".liverpoolecho.co.uk",
         reliability_mean: 37.62745000000001,
@@ -26763,7 +26772,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2973,
+        id: 2974,
         moniker_name: "The Gray Area",
         domain: ".pod.thegrayarea.adfontesmedia.com",
         reliability_mean: 36.6,
@@ -26772,7 +26781,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 2974,
+        id: 2975,
         moniker_name: "Denver Gazette",
         domain: ".denvergazette.com",
         reliability_mean: 41.503400816326526,
@@ -26781,7 +26790,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2975,
+        id: 2976,
         moniker_name: "Coventry Live",
         domain: ".coventrytelegraph.net",
         reliability_mean: 42.05555666666667,
@@ -26790,7 +26799,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2976,
+        id: 2977,
         moniker_name: "ChronicleLive | Newcastle Chronicle",
         domain: ".chroniclelive.co.uk",
         reliability_mean: 41.47916625,
@@ -26799,7 +26808,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2977,
+        id: 2978,
         moniker_name: "Tom's Guide",
         domain: ".tomsguide.com",
         reliability_mean: 37.444443333333325,
@@ -26808,7 +26817,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2978,
+        id: 2979,
         moniker_name: "OilPrice.com",
         domain: ".oilprice.com",
         reliability_mean: 40.215685294117655,
@@ -26817,7 +26826,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2979,
+        id: 2980,
         moniker_name: "Fox Business: The Big Money Show",
         domain: ".tv.thebigmoneyshow.adfontesmedia.com",
         reliability_mean: 31,
@@ -26826,7 +26835,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 2980,
+        id: 2981,
         moniker_name: "FOX 4 Dallas Fort-Worth KDFW: FOX 4 News at 6",
         domain: ".tv.fox4dallasfox4newsat6.adfontesmedia.com",
         reliability_mean: 44.333333333333336,
@@ -26835,7 +26844,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2981,
+        id: 2982,
         moniker_name: "20 Minutos",
         domain: ".20minutos.es",
         reliability_mean: 44.4047617857143,
@@ -26844,7 +26853,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2982,
+        id: 2983,
         moniker_name: "Electrek",
         domain: ".electrek.co",
         reliability_mean: 41.568627647058825,
@@ -26853,7 +26862,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2983,
+        id: 2984,
         moniker_name: "The Expose",
         domain: ".expose-news.com",
         reliability_mean: 9.032788196721311,
@@ -26862,7 +26871,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 2984,
+        id: 2985,
         moniker_name: "GB News",
         domain: ".gbnews.com",
         reliability_mean: 34.26666542857142,
@@ -26871,7 +26880,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 2985,
+        id: 2986,
         moniker_name: "ABC 7 NY WABC: Eyewitness News at 6:00",
         domain: ".tv.abc7nyeyewitnessnewsat6.adfontesmedia.com",
         reliability_mean: 44.55555333333333,
@@ -26880,7 +26889,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2986,
+        id: 2987,
         moniker_name: "The Hornell Evening Tribune",
         domain: ".eveningtribune.com",
         reliability_mean: 42.06666666666667,
@@ -26889,7 +26898,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2987,
+        id: 2988,
         moniker_name: "Sportskeeda",
         domain: ".sportskeeda.com",
         reliability_mean: 35.96078411764706,
@@ -26898,7 +26907,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2988,
+        id: 2989,
         moniker_name: "The Scottish Sun",
         domain: ".thescottishsun.co.uk",
         reliability_mean: 37.89855130434782,
@@ -26907,7 +26916,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 2989,
+        id: 2990,
         moniker_name: "KHON2 News",
         domain: ".khon2.com",
         reliability_mean: 42.22222142857144,
@@ -26916,7 +26925,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2990,
+        id: 2991,
         moniker_name:
             "CBS Los Angeles KCAL News KCBS: KCAL News 6p on CBS Los Angeles",
         domain: ".tv.kcalnews6p.adfontesmedia.com",
@@ -26926,7 +26935,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2991,
+        id: 2992,
         moniker_name: "EssentiallySports",
         domain: ".essentiallysports.com",
         reliability_mean: 35.46875,
@@ -26935,7 +26944,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2992,
+        id: 2993,
         moniker_name: "CBS 19 Cleveland WOIO: 19 News at 6PM",
         domain: ".tv.woio19newsat6pm.adfontesmedia.com",
         reliability_mean: 45.77778000000001,
@@ -26944,7 +26953,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2993,
+        id: 2994,
         moniker_name: "CBS Colorado KCNC: CBS4 News at 6",
         domain: ".tv.denvercbs4newsat6.adfontesmedia.com",
         reliability_mean: 45.22222333333334,
@@ -26953,7 +26962,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2994,
+        id: 2995,
         moniker_name:
             "CBS San Francisco KPIX : CBS News Bay Area with Juliette Goodrich - 6PM",
         domain: ".tv.cbsnewsbayareawithjuliettegoodrich.adfontesmedia.com",
@@ -26963,7 +26972,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2995,
+        id: 2996,
         moniker_name: "The Diplomat",
         domain: ".thediplomat.com",
         reliability_mean: 41.291665625,
@@ -26972,7 +26981,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2996,
+        id: 2997,
         moniker_name: "Piers Morgan Uncensored",
         domain: ".tv.piersmorganuncensored.adfontesmedia.com",
         reliability_mean: 24.80952142857143,
@@ -26981,7 +26990,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 2997,
+        id: 2998,
         moniker_name: "Cornwall Live",
         domain: ".cornwalllive.com",
         reliability_mean: 41.18749999999999,
@@ -26990,7 +26999,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 2998,
+        id: 2999,
         moniker_name: "Greg Palast",
         domain: ".gregpalast.com",
         reliability_mean: 23.8,
@@ -26999,7 +27008,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 2999,
+        id: 3000,
         moniker_name: "World Politics Review",
         domain: ".worldpoliticsreview.com",
         reliability_mean: 42.156861176470585,
@@ -27008,7 +27017,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3000,
+        id: 3001,
         moniker_name: "Belfast Live",
         domain: ".belfastlive.co.uk",
         reliability_mean: 40.97777733333333,
@@ -27017,7 +27026,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3001,
+        id: 3002,
         moniker_name: "Bristol Live | Bristol Post",
         domain: ".bristolpost.co.uk",
         reliability_mean: 41.62745176470588,
@@ -27026,7 +27035,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3002,
+        id: 3003,
         moniker_name: "CBS Seattle KIRO 7: KIRO 7 News at 6 p.m.",
         domain: ".tv.kiro7newsat6pm.adfontesmedia.com",
         reliability_mean: 42.99999666666667,
@@ -27035,7 +27044,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3003,
+        id: 3004,
         moniker_name: "Just Listen to Yourself with Kira Davis",
         domain: ".pod.justlistentoyourself.adfontesmedia.com",
         reliability_mean: 26.666666666666668,
@@ -27044,7 +27053,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 3004,
+        id: 3005,
         moniker_name: "V Interesting with V Spehar",
         domain: ".pod.vinterestingwithvspehar.adfontesmedia.com",
         reliability_mean: 29.666663333333332,
@@ -27053,7 +27062,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 3005,
+        id: 3006,
         moniker_name: "Our Body Politic - Farai Chideya",
         domain: ".pod.ourbodypolitic.adfontesmedia.com",
         reliability_mean: 33.77777666666666,
@@ -27062,7 +27071,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 3006,
+        id: 3007,
         moniker_name: "The Cost of Care",
         domain: ".pod.thecostofcare.adfontesmedia.com",
         reliability_mean: 44.333333333333336,
@@ -27071,7 +27080,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3007,
+        id: 3008,
         moniker_name: "Citations Needed",
         domain: ".pod.citationsneeded.adfontesmedia.com",
         reliability_mean: 26.277779999999996,
@@ -27080,7 +27089,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 3008,
+        id: 3009,
         moniker_name: "New Jersey Globe",
         domain: ".newjerseyglobe.com",
         reliability_mean: 41.71111,
@@ -27089,7 +27098,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3009,
+        id: 3010,
         moniker_name: "Fine Art Globe",
         domain: ".fineartglobe.com",
         reliability_mean: 33.736841052631576,
@@ -27098,7 +27107,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3010,
+        id: 3011,
         moniker_name: "MAGA Mornings with Alan Jacoby",
         domain: ".pod.thegreatdividepodcastwithalanjacoby.adfontesmedia.com",
         reliability_mean: 9.380955714285713,
@@ -27107,7 +27116,7 @@ const sampleData = [
         bias_label: "Most Extreme Right",
     },
     {
-        id: 3011,
+        id: 3012,
         moniker_name: "CNN International: CNN Newsroom with Lynda Kinkade",
         domain: ".tv.cnnnewsroomwithlyndakinkade.adfontesmedia.com",
         reliability_mean: 41.88888666666666,
@@ -27116,7 +27125,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 3012,
+        id: 3013,
         moniker_name:
             "Real America's Voice: Securing America with Frank Gaffney",
         domain: ".tv.securingamericawithfrankgaffney.adfontesmedia.com",
@@ -27126,7 +27135,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 3013,
+        id: 3014,
         moniker_name: "Nottinghamshire Live",
         domain: ".nottinghampost.com",
         reliability_mean: 41.866666,
@@ -27135,7 +27144,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3014,
+        id: 3015,
         moniker_name: "Gloucestershire Live",
         domain: ".gloucestershirelive.co.uk",
         reliability_mean: 42.36842210526316,
@@ -27144,7 +27153,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3015,
+        id: 3016,
         moniker_name: "NBC4 Washington WRC: NBC News 4 at 6",
         domain: ".tv.nbcnews4at6washington.adfontesmedia.com",
         reliability_mean: 45.22222333333334,
@@ -27153,7 +27162,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3016,
+        id: 3017,
         moniker_name: "FOX 13 Seattle KCPQ: Fox 13 News at 6pm",
         domain: ".tv.fox13newsat6pmseattle.adfontesmedia.com",
         reliability_mean: 44.666666666666664,
@@ -27162,7 +27171,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3017,
+        id: 3018,
         moniker_name:
             "NBC 9 News Denver KUSA: 9News at 6PM Next With Kyle Clark",
         domain: ".tv.nextwithkyleclark.adfontesmedia.com",
@@ -27172,7 +27181,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 3018,
+        id: 3019,
         moniker_name: "CTech",
         domain: ".calcalistech.com",
         reliability_mean: 39.049999,
@@ -27181,7 +27190,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3019,
+        id: 3020,
         moniker_name: "KTVU FOX 2 San Francisco: KTVU FOX 2 News at 6pm",
         domain: ".tv.ktvunewsat6pm.adfontesmedia.com",
         reliability_mean: 44,
@@ -27190,7 +27199,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3020,
+        id: 3021,
         moniker_name: "PBD Podcast - Patrick Bet-David",
         domain: ".pod.pbdpodcast.adfontesmedia.com",
         reliability_mean: 19.624998125,
@@ -27199,7 +27208,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 3021,
+        id: 3022,
         moniker_name: "Arlington Now | ARLnow",
         domain: ".arlnow.com",
         reliability_mean: 40.62222266666666,
@@ -27208,7 +27217,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3022,
+        id: 3023,
         moniker_name: "The Japan Times",
         domain: ".japantimes.co.jp",
         reliability_mean: 41.60000000000001,
@@ -27217,7 +27226,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3023,
+        id: 3024,
         moniker_name: "FOX 29 Philadelphia WTXF: The Six",
         domain: ".tv.fox29thesix.adfontesmedia.com",
         reliability_mean: 44,
@@ -27226,7 +27235,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3024,
+        id: 3025,
         moniker_name: "KHOU 11 News Houston CBS: KHOU 11 News at 6PM",
         domain: ".tv.khounewsat6pm.adfontesmedia.com",
         reliability_mean: 44,
@@ -27235,7 +27244,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3025,
+        id: 3026,
         moniker_name: "ABC Seattle KOMO 4: KOMO 4 News at 6pm",
         domain: ".tv.komonews4at6pm.adfontesmedia.com",
         reliability_mean: 43.22222333333334,
@@ -27244,7 +27253,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 3026,
+        id: 3027,
         moniker_name: "The 7",
         domain: ".pod.the7.adfontesmedia.com",
         reliability_mean: 42.666666666666664,
@@ -27253,7 +27262,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3027,
+        id: 3028,
         moniker_name: "WUSA 9 DC/Virginia CBS: WUSA 9 News at 6pm",
         domain: ".tv.wusa9newsat6pm.adfontesmedia.com",
         reliability_mean: 44.11111,
@@ -27262,7 +27271,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3028,
+        id: 3029,
         moniker_name: "NBC Chicago WMAQ: NBC5 News at 6pm",
         domain: ".tv.nbc5newsat6pm.adfontesmedia.com",
         reliability_mean: 43.11111,
@@ -27271,7 +27280,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3029,
+        id: 3030,
         moniker_name: "NBC Seattle KING 5: KING 5 News at 6:30pm",
         domain: ".tv.king5newsat630pm.adfontesmedia.com",
         reliability_mean: 44.66666333333333,
@@ -27280,7 +27289,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3030,
+        id: 3031,
         moniker_name: "Environment America",
         domain: ".environmentamerica.org",
         reliability_mean: 39.270833124999996,
@@ -27289,7 +27298,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 3031,
+        id: 3032,
         moniker_name: "Canadian Evergreen",
         domain: ".canadianevergreen.com",
         reliability_mean: 41.75555466666666,
@@ -27298,7 +27307,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 3032,
+        id: 3033,
         moniker_name: "Wisdom of Crowds with Shadi Hamid & Damir Marusic",
         domain: ".pod.wisdomofcrowds.adfontesmedia.com",
         reliability_mean: 33.72222333333334,
@@ -27307,7 +27316,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 3033,
+        id: 3034,
         moniker_name: "Tom Shattuck's Burn Barrel",
         domain: ".pod.tomshattucksburnbarrel.adfontesmedia.com",
         reliability_mean: 21.388886666666668,
@@ -27316,7 +27325,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 3034,
+        id: 3035,
         moniker_name: "Drum Tower",
         domain: ".pod.drumtower.adfontesmedia.com",
         reliability_mean: 39.22222333333334,
@@ -27325,7 +27334,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3035,
+        id: 3036,
         moniker_name: "WJLA ABC News 7 Washington, DC: 7News ON YOUR SIDE at 6",
         domain: ".tv.7newsonyoursideat6.adfontesmedia.com",
         reliability_mean: 42.77777666666666,
@@ -27334,7 +27343,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3036,
+        id: 3037,
         moniker_name: "Dissent Magazine",
         domain: ".dissentmagazine.org",
         reliability_mean: 34.91111133333334,
@@ -27343,7 +27352,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 3037,
+        id: 3038,
         moniker_name: "Daily Mountain Eagle",
         domain: ".mountaineagle.com",
         reliability_mean: 40.687499374999994,
@@ -27352,7 +27361,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3038,
+        id: 3039,
         moniker_name: "Great Falls Tribune",
         domain: ".greatfallstribune.com",
         reliability_mean: 43.99999933333333,
@@ -27361,7 +27370,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3039,
+        id: 3040,
         moniker_name: "Pottstown Mercury",
         domain: ".pottsmerc.com",
         reliability_mean: 41.08888866666667,
@@ -27370,7 +27379,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3040,
+        id: 3041,
         moniker_name: "The Gander",
         domain: ".gandernewsroom.com",
         reliability_mean: 29.666666,
@@ -27379,7 +27388,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 3041,
+        id: 3042,
         moniker_name:
             "WSB-TV Channel 2 Atlanta ABC : Channel 2 Action News at 6pm (ABC)",
         domain: ".tv.wsbchannel2actionnewsat6pm.adfontesmedia.com",
@@ -27389,7 +27398,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3042,
+        id: 3043,
         moniker_name: "CBS Chicago WBBM: CBS 2 News at 6pm",
         domain: ".tv.chicagocbs2newsat6pm.adfontesmedia.com",
         reliability_mean: 44.66667,
@@ -27398,7 +27407,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3043,
+        id: 3044,
         moniker_name: "The Keystone",
         domain: ".keystonenewsroom.com",
         reliability_mean: 29.733333333333334,
@@ -27407,7 +27416,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 3044,
+        id: 3045,
         moniker_name: "Your Money Minute",
         domain: ".pod.yourmoneyminute.adfontesmedia.com",
         reliability_mean: 39.111113333333336,
@@ -27416,7 +27425,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3045,
+        id: 3046,
         moniker_name: "Press & Guide",
         domain: ".pressandguide.com",
         reliability_mean: 41.51111133333333,
@@ -27425,7 +27434,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3046,
+        id: 3047,
         moniker_name: "Red Bulletin",
         domain: ".redbull.com",
         reliability_mean: 39.72916625,
@@ -27434,7 +27443,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3047,
+        id: 3048,
         moniker_name: "Centre Daily Times",
         domain: ".centredaily.com",
         reliability_mean: 41.03333333333334,
@@ -27443,7 +27452,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3048,
+        id: 3049,
         moniker_name: "HCM Technology Report",
         domain: ".pod.hcmtechnologyreport.adfontesmedia.com",
         reliability_mean: 37.88889,
@@ -27452,7 +27461,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3049,
+        id: 3050,
         moniker_name: "Future Hindsight",
         domain: ".pod.futurehindsight.adfontesmedia.com",
         reliability_mean: 32.66666333333333,
@@ -27461,7 +27470,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 3050,
+        id: 3051,
         moniker_name: "London Calling",
         domain: ".pod.londoncalling.adfontesmedia.com",
         reliability_mean: 9.25,
@@ -27470,7 +27479,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 3051,
+        id: 3052,
         moniker_name: "Rick & Bubba University Podcast",
         domain: ".pod.rickandbubbauniversity.adfontesmedia.com",
         reliability_mean: 19.51514818181818,
@@ -27479,7 +27488,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 3052,
+        id: 3053,
         moniker_name: "The Wilkow Majority",
         domain: ".pod.thewilkowmajority.adfontesmedia.com",
         reliability_mean: 12.31372705882353,
@@ -27488,7 +27497,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 3053,
+        id: 3054,
         moniker_name: "Connected",
         domain: ".pod.connected.adfontesmedia.com",
         reliability_mean: 33.77777666666666,
@@ -27497,7 +27506,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3054,
+        id: 3055,
         moniker_name: "Culture Gabfest",
         domain: ".pod.culturegabfest.adfontesmedia.com",
         reliability_mean: 33.111110000000004,
@@ -27506,7 +27515,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 3055,
+        id: 3056,
         moniker_name: "The Byron York Show",
         domain: ".pod.thebyronyorkshow.adfontesmedia.com",
         reliability_mean: 29.444446666666664,
@@ -27515,7 +27524,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 3056,
+        id: 3057,
         moniker_name: "Mac OS Ken",
         domain: ".pod.macosken.adfontesmedia.com",
         reliability_mean: 37.44444666666667,
@@ -27524,7 +27533,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3057,
+        id: 3058,
         moniker_name: "The Perez Hilton Podcast with Chris Booker",
         domain: ".pod.theperezhiltonpodcastwithchrisbooker.adfontesmedia.com",
         reliability_mean: 30.777776666666668,
@@ -27533,7 +27542,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3058,
+        id: 3059,
         moniker_name: "The Gerry Callahan Show",
         domain: ".pod.thegerrycallahanshow.adfontesmedia.com",
         reliability_mean: 15.833335000000002,
@@ -27542,7 +27551,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 3059,
+        id: 3060,
         moniker_name: "Joe Madison the Black Eagle",
         domain: ".pod.joemadisonthblackeagle.adfontesmedia.com",
         reliability_mean: 35.75,
@@ -27551,7 +27560,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 3060,
+        id: 3061,
         moniker_name: "The Bay City Tribune",
         domain: ".baycitytribune.com",
         reliability_mean: 41.88888866666666,
@@ -27560,7 +27569,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3061,
+        id: 3062,
         moniker_name: "WSJ: Minute Briefing",
         domain: ".pod.minutebriefing.adfontesmedia.com",
         reliability_mean: 41.333333333333336,
@@ -27569,7 +27578,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3062,
+        id: 3063,
         moniker_name: "West Coast Traveller",
         domain: ".westcoasttraveller.com",
         reliability_mean: 41.266666,
@@ -27578,7 +27587,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3063,
+        id: 3064,
         moniker_name: "KWWL News 7",
         domain: ".kwwl.com",
         reliability_mean: 29.930554583333333,
@@ -27587,7 +27596,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3064,
+        id: 3065,
         moniker_name: "I Doubt It with Jesse Dollemore and Brittany Page",
         domain: ".pod.idoubtit.adfontesmedia.com",
         reliability_mean: 22.095235714285714,
@@ -27596,7 +27605,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 3065,
+        id: 3066,
         moniker_name: "CANADALAND",
         domain: ".pod.canadaland.adfontesmedia.com",
         reliability_mean: 37.333333333333336,
@@ -27605,7 +27614,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3066,
+        id: 3067,
         moniker_name: "Common Sense with Dan Carlin",
         domain: ".pod.commonsensewithdancarlin.adfontesmedia.com",
         reliability_mean: 30.999997500000003,
@@ -27614,7 +27623,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 3067,
+        id: 3068,
         moniker_name: "Dollemore Daily (YouTube)",
         domain: ".tv.dollemoredaily.adfontesmedia.com",
         reliability_mean: 19.280422698412696,
@@ -27623,7 +27632,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 3068,
+        id: 3069,
         moniker_name: "Dogwood",
         domain: ".vadogwood.com",
         reliability_mean: 28.955555333333333,
@@ -27632,7 +27641,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 3069,
+        id: 3070,
         moniker_name: "Cardinal & Pine",
         domain: ".cardinalpine.com",
         reliability_mean: 28.51851888888889,
@@ -27641,7 +27650,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 3070,
+        id: 3071,
         moniker_name: "Floricua",
         domain: ".floricuanews.com",
         reliability_mean: 26.238095714285713,
@@ -27650,7 +27659,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 3071,
+        id: 3072,
         moniker_name: "The Copper Courier",
         domain: ".coppercourier.com",
         reliability_mean: 29.088888666666666,
@@ -27659,7 +27668,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 3072,
+        id: 3073,
         moniker_name: "Call Me Back - with Dan Senor",
         domain: ".pod.callmebackwithdansenor.adfontesmedia.com",
         reliability_mean: 40.4166675,
@@ -27668,7 +27677,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3073,
+        id: 3074,
         moniker_name: "Belle of the Ranch (YouTube)",
         domain: ".tv.belleoftheranch.adfontesmedia.com",
         reliability_mean: 31.188888666666667,
@@ -27677,7 +27686,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 3074,
+        id: 3075,
         moniker_name: "PolitiZoom",
         domain: ".politizoom.com",
         reliability_mean: 17.538461846153844,
@@ -27686,7 +27695,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 3075,
+        id: 3076,
         moniker_name: "BreakThrough News (YouTube)",
         domain: ".tv.breakthroughnews-youtube.adfontesmedia.com",
         reliability_mean: 12.784313823529414,
@@ -27695,7 +27704,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 3076,
+        id: 3077,
         moniker_name: "Open Book with Anthony Scaramucci",
         domain: ".pod.openbookwithanthonyscaramucci.adfontesmedia.com",
         reliability_mean: 41.22222333333334,
@@ -27704,7 +27713,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3077,
+        id: 3078,
         moniker_name: "Longform Podcast",
         domain: ".pod.longform.adfontesmedia.com",
         reliability_mean: 35.333333333333336,
@@ -27713,7 +27722,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3078,
+        id: 3079,
         moniker_name: "The Mac Observer Show",
         domain: ".pod.tmodailyobservations.adfontesmedia.com",
         reliability_mean: 36.11111,
@@ -27722,7 +27731,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3079,
+        id: 3080,
         moniker_name: "Reuters: World News",
         domain: ".pod.reutersworldnews.adfontesmedia.com",
         reliability_mean: 45.22221999999999,
@@ -27731,7 +27740,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3080,
+        id: 3081,
         moniker_name: "The Dr. Debra Soh Podcast",
         domain: ".pod.drdebrasoh.adfontesmedia.com",
         reliability_mean: 22.777778333333334,
@@ -27740,7 +27749,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 3081,
+        id: 3082,
         moniker_name: "The Femsplainers Podcast",
         domain: ".pod.femsplainers.adfontesmedia.com",
         reliability_mean: 34.111113333333336,
@@ -27749,7 +27758,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3082,
+        id: 3083,
         moniker_name: "TYT Sports (YouTube)",
         domain: ".tv.tytsports-youtube.adfontesmedia.com",
         reliability_mean: 26.325925333333338,
@@ -27758,7 +27767,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 3083,
+        id: 3084,
         moniker_name: "China Uncensored (YouTube)",
         domain: ".tv.chinauncensored-youtube.adfontesmedia.com",
         reliability_mean: 27.269840476190478,
@@ -27767,7 +27776,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 3084,
+        id: 3085,
         moniker_name: "South Carolina Living",
         domain: ".scliving.coop",
         reliability_mean: 37.91111133333334,
@@ -27776,7 +27785,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3085,
+        id: 3086,
         moniker_name: "C-SPAN TV Network",
         domain: ".tv.cspantvnetwork.adfontesmedia.com",
         reliability_mean: 40.66667,
@@ -27785,7 +27794,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3086,
+        id: 3087,
         moniker_name: "El Tiempo Latino",
         domain: ".eltiempolatino.com",
         reliability_mean: 41.19607823529412,
@@ -27794,7 +27803,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3087,
+        id: 3088,
         moniker_name: "El Nuevo Herald",
         domain: ".elnuevoherald.com",
         reliability_mean: 37.31111,
@@ -27803,7 +27812,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3088,
+        id: 3089,
         moniker_name: "El Nuevo Dia",
         domain: ".elnuevodia.com",
         reliability_mean: 41.75000062500001,
@@ -27812,7 +27821,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3089,
+        id: 3090,
         moniker_name: "Primera Hora",
         domain: ".primerahora.com",
         reliability_mean: 40.057970869565224,
@@ -27821,7 +27830,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3090,
+        id: 3091,
         moniker_name: "Bajo El Sol",
         domain: ".yumasun.com",
         reliability_mean: 39.937499375,
@@ -27830,7 +27839,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3091,
+        id: 3092,
         moniker_name: "Real America's Voice: Stinchfield Tonight",
         domain: ".tv.stinchfieldtonight.adfontesmedia.com",
         reliability_mean: 20.11111,
@@ -27839,7 +27848,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 3092,
+        id: 3093,
         moniker_name: "El Pregonero",
         domain: ".elpreg.org",
         reliability_mean: 41.311111999999994,
@@ -27848,7 +27857,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3093,
+        id: 3094,
         moniker_name: "El Vocero de Puerto Rico",
         domain: ".elvocero.com",
         reliability_mean: 27.16666775,
@@ -27857,7 +27866,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3094,
+        id: 3095,
         moniker_name: "CNBC: Last Call",
         domain: ".tv.cnbclastcall.adfontesmedia.com",
         reliability_mean: 38.666666666666664,
@@ -27866,7 +27875,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 3095,
+        id: 3096,
         moniker_name: "The Rob Carson Show",
         domain: ".pod.therobcarsonshow.adfontesmedia.com",
         reliability_mean: 7.9166675,
@@ -27875,7 +27884,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 3096,
+        id: 3097,
         moniker_name: "Ambitious Crossover Attempt - Noam Blum and Jen Monroe",
         domain: ".pod.ambitiouscrossoverattempt.adfontesmedia.com",
         reliability_mean: 28.333333333333332,
@@ -27884,7 +27893,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 3097,
+        id: 3098,
         moniker_name: "NPR: Morning Edition",
         domain: ".pod.morningedition.adfontesmedia.com",
         reliability_mean: 44.333333333333336,
@@ -27893,7 +27902,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 3098,
+        id: 3099,
         moniker_name: "Techmeme Ride Home",
         domain: ".pod.techmemeridehome.adfontesmedia.com",
         reliability_mean: 41.77777666666666,
@@ -27902,7 +27911,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3099,
+        id: 3100,
         moniker_name: "Beyond The Briefing with Sean Spicer",
         domain: ".pod.beyondthebriefing.adfontesmedia.com",
         reliability_mean: 29.8333325,
@@ -27911,7 +27920,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 3100,
+        id: 3101,
         moniker_name: "Macro Musings with David Beckworth",
         domain: ".pod.macromusings.adfontesmedia.com",
         reliability_mean: 40.88889,
@@ -27920,7 +27929,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3101,
+        id: 3102,
         moniker_name: "The American Tribune",
         domain: ".theamericantribune.com",
         reliability_mean: 18.5364565625,
@@ -27929,7 +27938,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 3102,
+        id: 3103,
         moniker_name: "Concealed Nation",
         domain: ".concealednation.org",
         reliability_mean: 32.68333400000001,
@@ -27938,7 +27947,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 3103,
+        id: 3104,
         moniker_name: "The Derek Hunter Podcast",
         domain: ".pod.thederekhunterpodcast.adfotnesmedia.com",
         reliability_mean: 15.33333,
@@ -27947,7 +27956,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 3104,
+        id: 3105,
         moniker_name: "Lexington Herald-Leader",
         domain: ".kentucky.com",
         reliability_mean: 41.666666,
@@ -27956,7 +27965,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3105,
+        id: 3106,
         moniker_name: "Architectural Record",
         domain: ".architecturalrecord.com",
         reliability_mean: 40.83333388888888,
@@ -27965,7 +27974,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3106,
+        id: 3107,
         moniker_name: "The Oneida Daily Dispatch",
         domain: ".oneidadispatch.com",
         reliability_mean: 41.187500625000006,
@@ -27974,7 +27983,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3107,
+        id: 3108,
         moniker_name: "Fly Fisherman",
         domain: ".flyfisherman.com",
         reliability_mean: 36.766668,
@@ -27983,7 +27992,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3108,
+        id: 3109,
         moniker_name: "Florida Sportsman",
         domain: ".floridasportsman.com",
         reliability_mean: 38.688888000000006,
@@ -27992,7 +28001,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3109,
+        id: 3110,
         moniker_name: "Political Beatdown with Michael Cohen and Ben Meiselas",
         domain: ".pod.politicalbeatdown.adfontesmedia.com",
         reliability_mean: 17.274512352941176,
@@ -28001,7 +28010,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 3110,
+        id: 3111,
         moniker_name: "Real America's Voice: Just The News No Noise",
         domain: ".tv.justthenewsnonoise.adfontesmedia.com",
         reliability_mean: 31.222219999999997,
@@ -28010,7 +28019,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 3111,
+        id: 3112,
         moniker_name: "Mid Florida Newspapers | Highlands News-Sun",
         domain: ".midfloridanewspapers.com/highlands_news-sun",
         reliability_mean: 39.13333399999999,
@@ -28019,7 +28028,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3112,
+        id: 3113,
         moniker_name: "Harper's Magazine",
         domain: ".harpers.org",
         reliability_mean: 38.177777999999996,
@@ -28028,7 +28037,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3113,
+        id: 3114,
         moniker_name: "La Prensa Libre AR",
         domain: ".laprensalibrear.com",
         reliability_mean: 34.57142904761905,
@@ -28037,7 +28046,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3114,
+        id: 3115,
         moniker_name: "El Nuevo Georgia",
         domain: ".elnuevogeorgia.com",
         reliability_mean: 40.33333333333333,
@@ -28046,7 +28055,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 3115,
+        id: 3116,
         moniker_name: "Pekingology",
         domain: ".pod.pekingology.adfontesmedia.com",
         reliability_mean: 41.11111333333334,
@@ -28055,7 +28064,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3116,
+        id: 3117,
         moniker_name: "Power Map",
         domain: ".pod.powermap.adfontesmedia.com",
         reliability_mean: 41.66667,
@@ -28064,7 +28073,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3117,
+        id: 3118,
         moniker_name: "CNN: CNN News Central (7am-10am ET)",
         domain: ".tv.cnnnewscentral7am-10am.adfontesmedia.com",
         reliability_mean: 41.333332,
@@ -28073,7 +28082,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 3118,
+        id: 3119,
         moniker_name: "NewsNation: Elizabeth Vargas Reports",
         domain: ".tv.elizabethvargasreports.adfontesmedia.com",
         reliability_mean: 38.741936129032254,
@@ -28082,7 +28091,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3119,
+        id: 3120,
         moniker_name: "La Raza",
         domain: ".laraza.com",
         reliability_mean: 41.42222133333333,
@@ -28091,7 +28100,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3120,
+        id: 3121,
         moniker_name: "La Semana USA",
         domain: ".lasemanadelsur.com",
         reliability_mean: 39.622221999999994,
@@ -28100,7 +28109,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3121,
+        id: 3122,
         moniker_name: "The Long Game",
         domain: ".pod.thelonggame.adfontesmedia.com",
         reliability_mean: 34.11111333333334,
@@ -28109,7 +28118,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 3122,
+        id: 3123,
         moniker_name: "MundoNow",
         domain: ".mundonow.com",
         reliability_mean: 36.31884043478261,
@@ -28118,7 +28127,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3123,
+        id: 3124,
         moniker_name: "QueensLatino",
         domain: ".queenslatino.com",
         reliability_mean: 39.000000666666665,
@@ -28127,7 +28136,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3124,
+        id: 3125,
         moniker_name: "Noticias Ya",
         domain: ".noticiasya.com",
         reliability_mean: 37.82222333333334,
@@ -28136,7 +28145,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3125,
+        id: 3126,
         moniker_name: "Novedades News",
         domain: ".novedadesnews.com",
         reliability_mean: 40.15555600000001,
@@ -28145,7 +28154,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3126,
+        id: 3127,
         moniker_name: "La Prensa de Houston",
         domain: ".prensadehouston.com",
         reliability_mean: 40.51111133333333,
@@ -28154,7 +28163,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3127,
+        id: 3128,
         moniker_name: "Prensa Mexicana",
         domain: ".prensamexicana.com",
         reliability_mean: 39.06666666666667,
@@ -28163,7 +28172,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3128,
+        id: 3129,
         moniker_name: "Washington Hispanic",
         domain: ".washingtonhispanic.com",
         reliability_mean: 40.17777733333333,
@@ -28172,7 +28181,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3129,
+        id: 3130,
         moniker_name: "CBS New York WCBS: CBS 2 News at 6 PM",
         domain: ".tv.cbs2newyorknewsat6pm.adfontesmedia.com",
         reliability_mean: 42.333333333333336,
@@ -28181,7 +28190,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3130,
+        id: 3131,
         moniker_name: "The Lawton Constitution",
         domain: ".swoknews.com",
         reliability_mean: 39.56862705882354,
@@ -28190,7 +28199,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3131,
+        id: 3132,
         moniker_name: "C&G Newspapers",
         domain: ".candgnews.com",
         reliability_mean: 41.111111333333334,
@@ -28199,7 +28208,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3132,
+        id: 3133,
         moniker_name: "Benefits Canada",
         domain: ".benefitscanada.com",
         reliability_mean: 40.911110666666666,
@@ -28208,7 +28217,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3133,
+        id: 3134,
         moniker_name: "Tire Business",
         domain: ".tirebusiness.com",
         reliability_mean: 39.99999866666667,
@@ -28217,7 +28226,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3134,
+        id: 3135,
         moniker_name: "Hagerty",
         domain: ".hagerty.com",
         reliability_mean: 38.22222266666667,
@@ -28226,7 +28235,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3135,
+        id: 3136,
         moniker_name: "Allrecipes",
         domain: ".allrecipes.com",
         reliability_mean: 36.507937142857145,
@@ -28235,7 +28244,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3136,
+        id: 3137,
         moniker_name: "Rubber News",
         domain: ".rubbernews.com",
         reliability_mean: 38.75555466666667,
@@ -28244,7 +28253,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3137,
+        id: 3138,
         moniker_name: "Canadian Healthcare Network",
         domain: ".canadianhealthcarenetwork.ca",
         reliability_mean: 38.933333333333344,
@@ -28253,7 +28262,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3138,
+        id: 3139,
         moniker_name: "Canadian Interiors",
         domain: ".canadianinteriors.com",
         reliability_mean: 37.666666,
@@ -28262,7 +28271,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3139,
+        id: 3140,
         moniker_name: "Northern Virginia Daily",
         domain: ".nvdaily.com",
         reliability_mean: 41.244444,
@@ -28271,7 +28280,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3140,
+        id: 3141,
         moniker_name: "Runner's World",
         domain: ".runnersworld.com",
         reliability_mean: 42.244444666666666,
@@ -28280,7 +28289,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3141,
+        id: 3142,
         moniker_name: "Shop Metalworking Technology",
         domain: ".shopmetaltech.com",
         reliability_mean: 37.60000066666667,
@@ -28289,7 +28298,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3142,
+        id: 3143,
         moniker_name: "Cleo Abram (YouTube)",
         domain: ".tv.cleoabram-youtube.adfontesmedia.com",
         reliability_mean: 40.94871846153846,
@@ -28298,7 +28307,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3143,
+        id: 3144,
         moniker_name: "Real America's Voice: The Steve Gruber Show",
         domain: ".tv.thestevegrubershow.adfontesmedia.com",
         reliability_mean: 15.820516153846155,
@@ -28307,7 +28316,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 3144,
+        id: 3145,
         moniker_name: "Johnny Harris (YouTube)",
         domain: ".tv.johnnyharris-youtube.adfontesmedia.com",
         reliability_mean: 38.44444444444444,
@@ -28316,7 +28325,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 3145,
+        id: 3146,
         moniker_name: "Wood Floor Business",
         domain: ".woodfloorbusiness.com",
         reliability_mean: 35.755555333333334,
@@ -28325,7 +28334,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3146,
+        id: 3147,
         moniker_name: "North American Whitetail",
         domain: ".northamericanwhitetail.com",
         reliability_mean: 37.53333333333333,
@@ -28334,7 +28343,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3147,
+        id: 3148,
         moniker_name: "New Ulm Journal",
         domain: ".nujournal.com",
         reliability_mean: 42.11111066666667,
@@ -28343,7 +28352,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3148,
+        id: 3149,
         moniker_name: "Springfield News-Leader",
         domain: ".news-leader.com",
         reliability_mean: 42.077778,
@@ -28352,7 +28361,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3149,
+        id: 3150,
         moniker_name: "Supply Professional",
         domain: ".supplypro.ca",
         reliability_mean: 40.93750125,
@@ -28361,7 +28370,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3150,
+        id: 3151,
         moniker_name: "Texas Co-op Power",
         domain: ".texascooppower.com",
         reliability_mean: 40.395833125,
@@ -28370,7 +28379,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3151,
+        id: 3152,
         moniker_name: "Saanich News",
         domain: ".saanichnews.com",
         reliability_mean: 41.93333333333333,
@@ -28379,7 +28388,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3152,
+        id: 3153,
         moniker_name: "Warsaw Times-Union",
         domain: ".timesuniononline.com",
         reliability_mean: 42.00000066666667,
@@ -28388,7 +28397,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3153,
+        id: 3154,
         moniker_name: "Illinois Country Living",
         domain: ".icl.coop",
         reliability_mean: 39.80000066666667,
@@ -28397,7 +28406,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3154,
+        id: 3155,
         moniker_name: "Indiana Connection",
         domain: ".indianaconnection.org",
         reliability_mean: 39.666665,
@@ -28406,7 +28415,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3155,
+        id: 3156,
         moniker_name: "Herald Times Reporter",
         domain: ".htrnews.com",
         reliability_mean: 41.395832500000004,
@@ -28415,7 +28424,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3156,
+        id: 3157,
         moniker_name: "American Liberty News",
         domain: ".americanliberty.news",
         reliability_mean: 30.343434242424248,
@@ -28424,7 +28433,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 3157,
+        id: 3158,
         moniker_name: "Westchester Hispano",
         domain: ".westchesterhispano.net",
         reliability_mean: 40.95555533333333,
@@ -28433,7 +28442,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3158,
+        id: 3159,
         moniker_name: "Tom Nicholas (YouTube)",
         domain: ".tv.tomnicholas-youtube.adfontesmedia.com",
         reliability_mean: 28.666668000000005,
@@ -28442,7 +28451,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 3159,
+        id: 3160,
         moniker_name: "Latino News",
         domain: ".latino-news.com",
         reliability_mean: 40.33333400000001,
@@ -28451,7 +28460,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3160,
+        id: 3161,
         moniker_name: "Voz de America",
         domain: ".vozdeamerica.com",
         reliability_mean: 43.97916625,
@@ -28460,7 +28469,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3161,
+        id: 3162,
         moniker_name: "Mr. Beat (YouTube)",
         domain: ".tv.mrbeat-youtube.adfontesmedia.com",
         reliability_mean: 35.848484545454546,
@@ -28469,7 +28478,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 3162,
+        id: 3163,
         moniker_name: "Modern Consensus",
         domain: ".modernconsensus.com",
         reliability_mean: 39.822222000000004,
@@ -28478,7 +28487,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3163,
+        id: 3164,
         moniker_name: "Rubber World",
         domain: ".rubberworld.com",
         reliability_mean: 36.57777733333333,
@@ -28487,7 +28496,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3164,
+        id: 3165,
         moniker_name: "LCGC",
         domain: ".chromatographyonline.com",
         reliability_mean: 42.66666705882353,
@@ -28496,7 +28505,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3165,
+        id: 3166,
         moniker_name: "The Brandon Gonez Show (YouTube)",
         domain: ".tv.thebrandongonezshow-youtube.adfontesmedia.com",
         reliability_mean: 34.700001,
@@ -28505,7 +28514,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 3166,
+        id: 3167,
         moniker_name: "Asian Boss (YouTube)",
         domain: ".tv.asianboss-youtube.adfontesmedia.com",
         reliability_mean: 38.75,
@@ -28514,7 +28523,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3167,
+        id: 3168,
         moniker_name: "New Braunfels Herald-Zeitung",
         domain: ".herald-zeitung.com",
         reliability_mean: 41.955556,
@@ -28523,7 +28532,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3168,
+        id: 3169,
         moniker_name: "Daily Press - Escanaba",
         domain: ".dailypress.net",
         reliability_mean: 36.654762142857145,
@@ -28532,7 +28541,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3169,
+        id: 3170,
         moniker_name: "Serendipia Data (YouTube)",
         domain: ".tv.serendipia-youtube.adfontesmedia.com",
         reliability_mean: 40.71666650000001,
@@ -28541,7 +28550,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 3170,
+        id: 3171,
         moniker_name: "Lisa Remillard (YouTube)",
         domain: ".tv.lisaremillard-youtube.adfontesmedia.com",
         reliability_mean: 38.95098088235294,
@@ -28550,7 +28559,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3171,
+        id: 3172,
         moniker_name: "Malcontent News (YouTube)",
         domain: ".tv.malcontentnews-youtube.adfontesmedia.com",
         reliability_mean: 21.53086407407407,
@@ -28559,7 +28568,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 3172,
+        id: 3173,
         moniker_name: "Nashville News (YouTube)",
         domain: ".tv.nashvillenews-youtube.adfontesmedia.com",
         reliability_mean: 38.9191909090909,
@@ -28568,7 +28577,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3173,
+        id: 3174,
         moniker_name: "Drovers",
         domain: ".drovers.com",
         reliability_mean: 38.298245789473675,
@@ -28577,7 +28586,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3174,
+        id: 3175,
         moniker_name: "The Facts",
         domain: ".thefacts.com",
         reliability_mean: 39.49122842105263,
@@ -28586,7 +28595,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3175,
+        id: 3176,
         moniker_name: "America Uncovered (YouTube)",
         domain: ".tv.americauncovered.adfontesmedia.com",
         reliability_mean: 18.570372222222222,
@@ -28595,7 +28604,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 3176,
+        id: 3177,
         moniker_name: "CBS WTAJ News Altoona",
         domain: ".wtaj.com",
         reliability_mean: 42.31884130434783,
@@ -28604,7 +28613,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3177,
+        id: 3178,
         moniker_name: "The Mount Airy News",
         domain: ".mtairynews.com",
         reliability_mean: 40.568628823529416,
@@ -28613,7 +28622,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3178,
+        id: 3179,
         moniker_name: "Teton Valley News",
         domain: ".tetonvalleynews.net",
         reliability_mean: 42.088888000000004,
@@ -28622,7 +28631,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3179,
+        id: 3180,
         moniker_name: "WAND News",
         domain: ".wandtv.com",
         reliability_mean: 40.875000625,
@@ -28631,7 +28640,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3180,
+        id: 3181,
         moniker_name: "Complete Colorado",
         domain: ".completecolorado.com",
         reliability_mean: 33.8,
@@ -28640,7 +28649,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 3181,
+        id: 3182,
         moniker_name: "ABC 9 Cincinnati WCPO",
         domain: ".wcpo.com",
         reliability_mean: 41.645833124999996,
@@ -28649,7 +28658,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3182,
+        id: 3183,
         moniker_name: "NBC 5 West Palm Beach WPTV",
         domain: ".wptv.com",
         reliability_mean: 41.87499999999999,
@@ -28658,7 +28667,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3183,
+        id: 3184,
         moniker_name: "ABC WKBW 7 News - Buffalo",
         domain: ".wkbw.com",
         reliability_mean: 41.08771947368422,
@@ -28667,7 +28676,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3184,
+        id: 3185,
         moniker_name: "CBS 6 News WTVR - Richmond",
         domain: ".wtvr.com",
         reliability_mean: 42.85185222222222,
@@ -28676,7 +28685,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3185,
+        id: 3186,
         moniker_name: "CBS KBZK 7 - Bozeman",
         domain: ".kbzk.com",
         reliability_mean: 41.91666625,
@@ -28685,7 +28694,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3186,
+        id: 3187,
         moniker_name: "KOAA News 5",
         domain: ".koaa.com",
         reliability_mean: 44.36363545454546,
@@ -28694,7 +28703,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3187,
+        id: 3188,
         moniker_name: "KPAX 8 - Missoula",
         domain: ".kpax.com",
         reliability_mean: 42.12280684210526,
@@ -28703,7 +28712,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3188,
+        id: 3189,
         moniker_name: "CBS KRTV 3 - Great Falls",
         domain: ".krtv.com",
         reliability_mean: 41.705881764705886,
@@ -28712,7 +28721,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3189,
+        id: 3190,
         moniker_name: "ABC 27 WTXL Tallahassee",
         domain: ".wtxl.com",
         reliability_mean: 41.9166675,
@@ -28721,7 +28730,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3190,
+        id: 3191,
         moniker_name: "ABC 25 News KXXV - Waco",
         domain: ".kxxv.com",
         reliability_mean: 41.791666875000004,
@@ -28730,7 +28739,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3191,
+        id: 3192,
         moniker_name: "NBC 6 Spokane - KHQ Local News",
         domain: ".khq.com",
         reliability_mean: 41.312500625,
@@ -28739,7 +28748,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3192,
+        id: 3193,
         moniker_name: "RFD-TV",
         domain: ".rfdtv.com",
         reliability_mean: 40.51111133333333,
@@ -28748,7 +28757,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3193,
+        id: 3194,
         moniker_name: "KX News North Dakota KXMB",
         domain: ".kxnet.com",
         reliability_mean: 41.20634952380952,
@@ -28757,7 +28766,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3194,
+        id: 3195,
         moniker_name: "NewsCenter1 KNBN-TV Rapid City",
         domain: ".newscenter1.tv",
         reliability_mean: 42.15555466666667,
@@ -28766,7 +28775,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3195,
+        id: 3196,
         moniker_name: "The Atmore Advance",
         domain: ".atmoreadvance.com",
         reliability_mean: 41.11110999999999,
@@ -28775,7 +28784,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3196,
+        id: 3197,
         moniker_name: "The Bogalusa Daily News",
         domain: ".bogalusadailynews.com",
         reliability_mean: 41.2,
@@ -28784,7 +28793,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3197,
+        id: 3198,
         moniker_name: "The Cordele Dispatch",
         domain: ".cordeledispatch.com",
         reliability_mean: 40.800000000000004,
@@ -28793,7 +28802,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3198,
+        id: 3199,
         moniker_name: "Shelby County Reporter",
         domain: ".shelbycountyreporter.com",
         reliability_mean: 41.333334117647055,
@@ -28802,7 +28811,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3199,
+        id: 3200,
         moniker_name: "The Jamestown Sun",
         domain: ".jamestownsun.com",
         reliability_mean: 40.51111133333333,
@@ -28811,7 +28820,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3200,
+        id: 3201,
         moniker_name: "NBC LEX 18 WLEX - Lexington",
         domain: ".lex18.com",
         reliability_mean: 41.385964736842105,
@@ -28820,7 +28829,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3201,
+        id: 3202,
         moniker_name: "CBS 9 KXLH Helena",
         domain: ".kxlh.com",
         reliability_mean: 41.822224,
@@ -28829,7 +28838,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3202,
+        id: 3203,
         moniker_name: "CBS 4 KXLF - Butte",
         domain: ".kxlf.com",
         reliability_mean: 41.87499999999999,
@@ -28838,7 +28847,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3203,
+        id: 3204,
         moniker_name: "News Channel Nebraska",
         domain: ".newschannelnebraska.com",
         reliability_mean: 40.91111133333334,
@@ -28847,7 +28856,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3204,
+        id: 3205,
         moniker_name: "WFFT FOX 55 Fort Wayne",
         domain: ".wfft.com",
         reliability_mean: 41.822222,
@@ -28856,7 +28865,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3205,
+        id: 3206,
         moniker_name: "The Salinas Californian",
         domain: ".thecalifornian.com",
         reliability_mean: 44.51666600000001,
@@ -28865,7 +28874,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3206,
+        id: 3207,
         moniker_name: "Midland Reporter-Telegram",
         domain: ".mrt.com",
         reliability_mean: 41.85416625,
@@ -28874,7 +28883,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3207,
+        id: 3208,
         moniker_name: "Tallahassee Democrat",
         domain: ".tallahassee.com",
         reliability_mean: 41.95833375,
@@ -28883,7 +28892,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3208,
+        id: 3209,
         moniker_name: "The Macon Telegraph",
         domain: ".macon.com",
         reliability_mean: 41.22222266666667,
@@ -28892,7 +28901,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3209,
+        id: 3210,
         moniker_name: "Capital Gazette",
         domain: ".capitalgazette.com",
         reliability_mean: 42.71111066666666,
@@ -28901,7 +28910,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3210,
+        id: 3211,
         moniker_name: "The Sun Herald",
         domain: ".sunherald.com",
         reliability_mean: 41.555555,
@@ -28910,7 +28919,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3211,
+        id: 3212,
         moniker_name: "Nashua Telegraph",
         domain: ".nashuatelegraph.com",
         reliability_mean: 42.400000999999996,
@@ -28919,7 +28928,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3212,
+        id: 3213,
         moniker_name: "CatholicVote",
         domain: ".catholicvote.org",
         reliability_mean: 14.0966184057971,
@@ -28928,7 +28937,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 3213,
+        id: 3214,
         moniker_name: "Times Observer",
         domain: ".timesobserver.com",
         reliability_mean: 41.89583375000001,
@@ -28937,7 +28946,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3214,
+        id: 3215,
         moniker_name: "Observer-Reporter",
         domain: ".observer-reporter.com",
         reliability_mean: 39.93333333333333,
@@ -28946,7 +28955,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3215,
+        id: 3216,
         moniker_name: "Rock Hill Herald",
         domain: ".heraldonline.com",
         reliability_mean: 42.19791562500001,
@@ -28955,7 +28964,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3216,
+        id: 3217,
         moniker_name: "The Daily Press - Newport News",
         domain: ".dailypress.com",
         reliability_mean: 43.49019647058824,
@@ -28964,7 +28973,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3217,
+        id: 3218,
         moniker_name: "The Journal - Martinsburg",
         domain: ".journal-news.net",
         reliability_mean: 41.222222,
@@ -28973,7 +28982,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3218,
+        id: 3219,
         moniker_name: "9&10 News WWTV | WWUP",
         domain: ".9and10news.com",
         reliability_mean: 41.03703611111112,
@@ -28982,7 +28991,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3219,
+        id: 3220,
         moniker_name: "BoatUS Magazine",
         domain: ".boatus.com",
         reliability_mean: 38.222221999999995,
@@ -28991,7 +29000,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3220,
+        id: 3221,
         moniker_name: "Chicago Magazine",
         domain: ".chicagomag.com",
         reliability_mean: 35.17777733333333,
@@ -29000,7 +29009,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3221,
+        id: 3222,
         moniker_name: "CBS WNEM TV5 News Michigan",
         domain: ".wnem.com",
         reliability_mean: 41.791667499999996,
@@ -29009,7 +29018,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3222,
+        id: 3223,
         moniker_name: "ABC KRGV 5 - Rio Grande Valley",
         domain: ".krgv.com",
         reliability_mean: 41.98039294117647,
@@ -29018,7 +29027,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3223,
+        id: 3224,
         moniker_name: "Scotsman Guide",
         domain: ".scotsmanguide.com",
         reliability_mean: 38.88888866666666,
@@ -29027,7 +29036,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3224,
+        id: 3225,
         moniker_name: "NBC 21 WFMJ Youngstown",
         domain: ".wfmj.com",
         reliability_mean: 40.750000625,
@@ -29036,7 +29045,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3225,
+        id: 3226,
         moniker_name: "FOX 40 News WICZ TV",
         domain: ".wicz.com",
         reliability_mean: 40.11111133333334,
@@ -29045,7 +29054,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3226,
+        id: 3227,
         moniker_name: "The Enterprise",
         domain: ".enterprisenews.com",
         reliability_mean: 44.17777733333334,
@@ -29054,7 +29063,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3227,
+        id: 3228,
         moniker_name: "FOX 7 News Miami WSVN",
         domain: ".wsvn.com",
         reliability_mean: 41.47368368421053,
@@ -29063,7 +29072,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3228,
+        id: 3229,
         moniker_name: "NBC KTVH 12 - Helena",
         domain: ".ktvh.com",
         reliability_mean: 42.2999995,
@@ -29072,7 +29081,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3229,
+        id: 3230,
         moniker_name: "Pine Journal",
         domain: ".pinejournal.com",
         reliability_mean: 42.39215647058823,
@@ -29081,7 +29090,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3230,
+        id: 3231,
         moniker_name: "WTVA 9 News",
         domain: ".wtva.com",
         reliability_mean: 41.79999999999999,
@@ -29090,7 +29099,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3231,
+        id: 3232,
         moniker_name: "First For Women",
         domain: ".firstforwomen.com",
         reliability_mean: 36.95555466666667,
@@ -29099,7 +29108,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3232,
+        id: 3233,
         moniker_name: "Hemmings Motor News",
         domain: ".hemmings.com",
         reliability_mean: 37.635416875000004,
@@ -29108,7 +29117,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3233,
+        id: 3234,
         moniker_name: "The Knot",
         domain: ".theknot.com",
         reliability_mean: 34.68627529411764,
@@ -29117,7 +29126,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3234,
+        id: 3235,
         moniker_name: "Magnolia Journal",
         domain: ".magnolia.com",
         reliability_mean: 34.133334,
@@ -29126,7 +29135,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3235,
+        id: 3236,
         moniker_name: "Electric Cooperatives of Arkansas",
         domain: ".aecc.com",
         reliability_mean: 40.44444466666666,
@@ -29135,7 +29144,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3236,
+        id: 3237,
         moniker_name: "Pioneer Utility Resources",
         domain: ".pioneerutilityresources.com",
         reliability_mean: 38.46666666666667,
@@ -29144,7 +29153,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3237,
+        id: 3238,
         moniker_name: "Woman's Day",
         domain: ".womansday.com",
         reliability_mean: 36.599998666666664,
@@ -29153,7 +29162,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3238,
+        id: 3239,
         moniker_name: "The Record Courier",
         domain: ".recordcourier.com",
         reliability_mean: 41.12962944444445,
@@ -29162,7 +29171,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3239,
+        id: 3240,
         moniker_name: "KITV 4 Island News",
         domain: ".kitv.com",
         reliability_mean: 41.066666000000005,
@@ -29171,7 +29180,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3240,
+        id: 3241,
         moniker_name: "The Daily Sceptic",
         domain: ".dailysceptic.org",
         reliability_mean: 15.072465,
@@ -29180,7 +29189,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 3241,
+        id: 3242,
         moniker_name: "Issues & Insights",
         domain: ".issuesinsights.com",
         reliability_mean: 20.70940025641026,
@@ -29189,16 +29198,16 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 3242,
+        id: 3243,
         moniker_name: "OpentheWord",
         domain: ".opentheword.org",
-        reliability_mean: 25.96153730769231,
+        reliability_mean: 25.299999000000003,
         reliability_label: "Mixed Reliability/Opinion OR Other Issues",
-        bias_mean: 11.319149787234043,
+        bias_mean: 10.954249411764707,
         bias_label: "Skews Right",
     },
     {
-        id: 3243,
+        id: 3244,
         moniker_name: "Naharnet",
         domain: ".naharnet.com",
         reliability_mean: 42.31111066666667,
@@ -29207,7 +29216,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3244,
+        id: 3245,
         moniker_name: "Taki’s Magazine - Taki Theodoracopulos",
         domain: ".takimag.com",
         reliability_mean: 16.352940784313727,
@@ -29216,7 +29225,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 3245,
+        id: 3246,
         moniker_name: "The New Lede",
         domain: ".thenewlede.org",
         reliability_mean: 40.222221999999995,
@@ -29225,7 +29234,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 3246,
+        id: 3247,
         moniker_name: "ZME Science",
         domain: ".zmescience.com",
         reliability_mean: 40.958333125,
@@ -29234,7 +29243,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3247,
+        id: 3248,
         moniker_name: "Truthdig",
         domain: ".truthdig.com",
         reliability_mean: 36.791666875,
@@ -29243,7 +29252,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 3248,
+        id: 3249,
         moniker_name: "iPatriot",
         domain: ".ipatriot.com",
         reliability_mean: 15.616161363636365,
@@ -29252,7 +29261,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 3249,
+        id: 3250,
         moniker_name: "Identidad Latina Multimedia",
         domain: ".identidadlatina.com",
         reliability_mean: 39.124999375,
@@ -29261,7 +29270,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3250,
+        id: 3251,
         moniker_name: "El Puente News",
         domain: ".webelpuente.com",
         reliability_mean: 32.61904761904761,
@@ -29270,7 +29279,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 3251,
+        id: 3252,
         moniker_name: "Jambalaya News Louisiana",
         domain: ".jambalayanews.com",
         reliability_mean: 40.777778,
@@ -29279,7 +29288,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3252,
+        id: 3253,
         moniker_name: "El Planeta",
         domain: ".elplaneta.com",
         reliability_mean: 39.73333266666667,
@@ -29288,7 +29297,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3253,
+        id: 3254,
         moniker_name: "Qué Pasa Media Network",
         domain: ".quepasamedia.com",
         reliability_mean: 40.18518611111111,
@@ -29297,7 +29306,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3254,
+        id: 3255,
         moniker_name: "WLFI News 18",
         domain: ".wlfi.com",
         reliability_mean: 40.355555333333335,
@@ -29306,7 +29315,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3255,
+        id: 3256,
         moniker_name: "KTEN News",
         domain: ".kten.com",
         reliability_mean: 41.55555666666667,
@@ -29315,7 +29324,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3256,
+        id: 3257,
         moniker_name: "WNKY News 40",
         domain: ".wnky.com",
         reliability_mean: 40.644444,
@@ -29324,7 +29333,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3257,
+        id: 3258,
         moniker_name: "KEYC News Now",
         domain: ".keyc.com",
         reliability_mean: 40.9166675,
@@ -29333,7 +29342,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3258,
+        id: 3259,
         moniker_name: "KAVU Crossroads Today",
         domain: ".crossroadstoday.com",
         reliability_mean: 41.866666666666674,
@@ -29342,7 +29351,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3259,
+        id: 3260,
         moniker_name: "CBS WOWK 13 News Charleston–Huntington",
         domain: ".wowktv.com",
         reliability_mean: 41.39393954545455,
@@ -29351,7 +29360,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3260,
+        id: 3261,
         moniker_name: "WSIL News 3",
         domain: ".wsiltv.com",
         reliability_mean: 41.098485,
@@ -29360,7 +29369,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3261,
+        id: 3262,
         moniker_name: "The Officer Tatum (YouTube) - Brandon Tatum",
         domain: ".tv.theofficertatum-youtube.adfontesmedia.com",
         reliability_mean: 21.076923846153846,
@@ -29369,7 +29378,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 3262,
+        id: 3263,
         moniker_name: "CBS Texas KTVT: CBS News Texas at 6:00pm",
         domain: ".tv.cbsnewstexasat600pm.adfontesmedia.com",
         reliability_mean: 41.66667,
@@ -29378,7 +29387,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3263,
+        id: 3264,
         moniker_name: "97.1 The River",
         domain: ".971theriver.com",
         reliability_mean: 39.555556,
@@ -29387,7 +29396,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3264,
+        id: 3265,
         moniker_name: "Easy 102.9 Jacksonville",
         domain: ".easy1029.com",
         reliability_mean: 40.645833749999994,
@@ -29396,7 +29405,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3265,
+        id: 3266,
         moniker_name: "104.5 WOKV - Jacksonville",
         domain: ".wokv.com",
         reliability_mean: 42.607842941176465,
@@ -29405,7 +29414,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3266,
+        id: 3267,
         moniker_name: "WDBO (website)",
         domain: ".wdbo.com",
         reliability_mean: 40.48958375,
@@ -29414,7 +29423,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3267,
+        id: 3268,
         moniker_name: "98.9 WMMO",
         domain: ".wmmo.com",
         reliability_mean: 37.955556,
@@ -29423,7 +29432,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3268,
+        id: 3269,
         moniker_name: "El Mundo Boston",
         domain: ".elmundoboston.com",
         reliability_mean: 39.57777733333334,
@@ -29432,7 +29441,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3269,
+        id: 3270,
         moniker_name: "El Popular News",
         domain: ".elpopularnews.com",
         reliability_mean: 27.2916655,
@@ -29441,7 +29450,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3270,
+        id: 3271,
         moniker_name: "El Lider USA",
         domain: ".elliderusa.com",
         reliability_mean: 37.911112,
@@ -29450,7 +29459,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3271,
+        id: 3272,
         moniker_name: "Herald-Standard",
         domain: ".heraldstandard.com",
         reliability_mean: 41.46666533333333,
@@ -29459,7 +29468,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3272,
+        id: 3273,
         moniker_name: "Republican Herald",
         domain: ".republicanherald.com",
         reliability_mean: 41.68889,
@@ -29468,7 +29477,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3273,
+        id: 3274,
         moniker_name: "El Vocero Hispano",
         domain: ".elvocero.net",
         reliability_mean: 41.55555533333333,
@@ -29477,7 +29486,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3274,
+        id: 3275,
         moniker_name: "CNN: CNN News Central (1pm-4pm ET)",
         domain: ".tv.cnnnewscentral1pm-4pm.adfontesmedia.com",
         reliability_mean: 39.266668,
@@ -29486,7 +29495,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 3275,
+        id: 3276,
         moniker_name: "WENY News",
         domain: ".weny.com",
         reliability_mean: 42.479166875000004,
@@ -29495,7 +29504,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3276,
+        id: 3277,
         moniker_name: "WTHI News10",
         domain: ".wthitv.com",
         reliability_mean: 41.06250000000001,
@@ -29504,7 +29513,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3277,
+        id: 3278,
         moniker_name: "First Alert 4 St. Louis KMOV",
         domain: ".firstalert4.com",
         reliability_mean: 42.84444533333333,
@@ -29513,7 +29522,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3278,
+        id: 3279,
         moniker_name: "WALA FOX 10 News",
         domain: ".fox10tv.com",
         reliability_mean: 42.04444466666667,
@@ -29522,7 +29531,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3279,
+        id: 3280,
         moniker_name: "NBC Nashville WSMV 4",
         domain: ".wsmv.com",
         reliability_mean: 41.26666733333333,
@@ -29531,7 +29540,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3280,
+        id: 3281,
         moniker_name: "Local 3 News WRCB Chattanooga",
         domain: ".local3news.com",
         reliability_mean: 41.35555599999999,
@@ -29540,7 +29549,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3281,
+        id: 3282,
         moniker_name: "WWNY 7 News",
         domain: ".wwnytv.com",
         reliability_mean: 41.83333363636364,
@@ -29549,7 +29558,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3282,
+        id: 3283,
         moniker_name: "Reclaim the Net",
         domain: ".reclaimthenet.org",
         reliability_mean: 27.013888749999996,
@@ -29558,7 +29567,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 3283,
+        id: 3284,
         moniker_name: "Latino California",
         domain: ".latinocalifornia.com",
         reliability_mean: 34.75925833333334,
@@ -29567,7 +29576,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 3284,
+        id: 3285,
         moniker_name: "La Prensa Florida",
         domain: ".laprensafl.com",
         reliability_mean: 40.42105157894737,
@@ -29576,7 +29585,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3285,
+        id: 3286,
         moniker_name: "The Walrus",
         domain: ".thewalrus.ca",
         reliability_mean: 39.6764705882353,
@@ -29585,7 +29594,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 3286,
+        id: 3287,
         moniker_name: "ZNetwork",
         domain: ".znetwork.org",
         reliability_mean: 22.079709130434786,
@@ -29594,7 +29603,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 3287,
+        id: 3288,
         moniker_name: "KPC News",
         domain: ".kpcnews.com",
         reliability_mean: 41.645833749999994,
@@ -29603,7 +29612,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3288,
+        id: 3289,
         moniker_name: "Standard-Speaker",
         domain: ".standardspeaker.com",
         reliability_mean: 41.500000555555545,
@@ -29612,7 +29621,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3289,
+        id: 3290,
         moniker_name: "Key West Citizen",
         domain: ".keysnews.com",
         reliability_mean: 41.96296277777779,
@@ -29621,7 +29630,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3290,
+        id: 3291,
         moniker_name: "The Citizens' Voice",
         domain: ".citizensvoice.com",
         reliability_mean: 41.749999374999994,
@@ -29630,7 +29639,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3291,
+        id: 3292,
         moniker_name: "The Scranton Times-Tribune",
         domain: ".thetimes-tribune.com",
         reliability_mean: 40.56862823529412,
@@ -29639,7 +29648,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3292,
+        id: 3293,
         moniker_name: "Costco Connection",
         domain: ".costco.com",
         reliability_mean: 36.04166625,
@@ -29648,7 +29657,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3293,
+        id: 3294,
         moniker_name: "American Diabetes Association",
         domain: ".diabetes.org",
         reliability_mean: 40.71111133333333,
@@ -29657,7 +29666,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3294,
+        id: 3295,
         moniker_name: "The Pioneer Woman",
         domain: ".thepioneerwoman.com",
         reliability_mean: 36.770832500000004,
@@ -29666,7 +29675,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3295,
+        id: 3296,
         moniker_name: "Nebraska Rural Electric Association (NREA)",
         domain: ".nrea.org",
         reliability_mean: 35.29411823529412,
@@ -29675,7 +29684,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3296,
+        id: 3297,
         moniker_name: "Slam Magazine",
         domain: ".slamonline.com",
         reliability_mean: 39.57894684210527,
@@ -29684,7 +29693,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3297,
+        id: 3298,
         moniker_name: "Sonoma Magazine",
         domain: ".sonomamag.com",
         reliability_mean: 36.50000000000001,
@@ -29693,7 +29702,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3298,
+        id: 3299,
         moniker_name: "NewEngland.com - Yankee Magazine",
         domain: ".newengland.com",
         reliability_mean: 39.958332500000004,
@@ -29702,7 +29711,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3299,
+        id: 3300,
         moniker_name: "LaVozColorado",
         domain: ".lavozcolorado.com",
         reliability_mean: 40.895833125,
@@ -29711,7 +29720,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3300,
+        id: 3301,
         moniker_name:
             "The American Society of Heating, Refrigerating and Air-Conditioning Engineers - ASHRAE",
         domain: ".ashrae.org",
@@ -29721,7 +29730,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3301,
+        id: 3302,
         moniker_name: "American Society of Landscape Architects",
         domain: ".asla.org",
         reliability_mean: 40.688889333333336,
@@ -29730,7 +29739,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 3302,
+        id: 3303,
         moniker_name: "PharmTech",
         domain: ".pharmtech.com",
         reliability_mean: 39.533331999999994,
@@ -29739,7 +29748,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3303,
+        id: 3304,
         moniker_name: "LD+A Magazine - Lighting Design and Application",
         domain: ".ies.org",
         reliability_mean: 36.291666875000004,
@@ -29748,7 +29757,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3304,
+        id: 3305,
         moniker_name: "MS NOW: Ana Cabrera Reports (MSNBC)",
         domain: ".tv.anacabrerareports.msnow.com",
         reliability_mean: 38.05555666666667,
@@ -29757,7 +29766,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 3305,
+        id: 3306,
         moniker_name: "Mundo Latino Network",
         domain: ".mundolatinonetwork.com",
         reliability_mean: 38.57777733333333,
@@ -29766,7 +29775,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3306,
+        id: 3307,
         moniker_name: "La Tribuna Hispana USA",
         domain: ".latribunahispana.com",
         reliability_mean: 39.84444466666667,
@@ -29775,7 +29784,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 3307,
+        id: 3308,
         moniker_name: "HOY en Delaware",
         domain: ".hoyendelaware.com",
         reliability_mean: 39.895833125,
@@ -29784,7 +29793,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3308,
+        id: 3309,
         moniker_name: "AL DIA News",
         domain: ".aldianews.com",
         reliability_mean: 40.66666750000001,
@@ -29793,7 +29802,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3309,
+        id: 3310,
         moniker_name: "The Lid",
         domain: ".lidblog.com",
         reliability_mean: 16.9652775,
@@ -29802,7 +29811,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 3310,
+        id: 3311,
         moniker_name: "Howie Carr",
         domain: ".howiecarrshow.com",
         reliability_mean: 15.432870277777779,
@@ -29811,7 +29820,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 3311,
+        id: 3312,
         moniker_name: "TheRighting",
         domain: ".therighting.com",
         reliability_mean: 33.63157894736842,
@@ -29820,7 +29829,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 3312,
+        id: 3313,
         moniker_name: "El Sol De Ohio",
         domain: ".elsoldeohio.com",
         reliability_mean: 39.91111066666666,
@@ -29829,7 +29838,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3313,
+        id: 3314,
         moniker_name: "Vision Hispana Newspaper",
         domain: ".visionhispanausa.com",
         reliability_mean: 40.37778,
@@ -29838,7 +29847,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3314,
+        id: 3315,
         moniker_name: "NewsNation: The Hill with Blake Burman",
         domain: ".tv.thehillwithblakeburman.adfontesmedia.com",
         reliability_mean: 34.83333291666666,
@@ -29847,7 +29856,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3315,
+        id: 3316,
         moniker_name: "El Sol de Florida",
         domain: ".elsoldelaflorida.com",
         reliability_mean: 39.533333333333324,
@@ -29856,7 +29865,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3316,
+        id: 3317,
         moniker_name: "El Periodico USA",
         domain: ".elperiodicousa.com",
         reliability_mean: 40.111110666666676,
@@ -29865,7 +29874,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3317,
+        id: 3318,
         moniker_name: "Hola News",
         domain: ".holanews.com",
         reliability_mean: 40.777778000000005,
@@ -29874,7 +29883,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3318,
+        id: 3319,
         moniker_name: "Impacto",
         domain: ".impactomedia.com",
         reliability_mean: 41.21666600000001,
@@ -29883,7 +29892,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3319,
+        id: 3320,
         moniker_name: "John Stossel",
         domain: ".johnstossel.com",
         reliability_mean: 21.540229655172414,
@@ -29892,7 +29901,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 3320,
+        id: 3321,
         moniker_name: "Hollywood in Toto",
         domain: ".hollywoodintoto.com",
         reliability_mean: 26.49206333333333,
@@ -29901,7 +29910,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 3321,
+        id: 3322,
         moniker_name: "OpEd News",
         domain: ".opednews.com",
         reliability_mean: 19.25786113207547,
@@ -29910,7 +29919,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 3322,
+        id: 3323,
         moniker_name: "Dollars & Sense",
         domain: ".dollarsandsense.org",
         reliability_mean: 38.15555533333333,
@@ -29919,7 +29928,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 3323,
+        id: 3324,
         moniker_name: "NBC 5 DFW KXAS: NBC 5 News at 6pm",
         domain: ".tv.nbcdfwnewsat6pm.adfontesmedia.com",
         reliability_mean: 43.55555333333333,
@@ -29928,7 +29937,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3324,
+        id: 3325,
         moniker_name: "TheMix.net",
         domain: ".themix.net",
         reliability_mean: 27.60317380952381,
@@ -29937,7 +29946,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 3325,
+        id: 3326,
         moniker_name: "La Noticia",
         domain: ".lanoticia.com",
         reliability_mean: 40.93333333333333,
@@ -29946,7 +29955,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3326,
+        id: 3327,
         moniker_name: "La Prensa de Minnesota",
         domain: ".laprensademn.com",
         reliability_mean: 39.666666,
@@ -29955,7 +29964,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3327,
+        id: 3328,
         moniker_name: "El Faro Latino",
         domain: ".elfarolatino.com",
         reliability_mean: 39.577777999999995,
@@ -29964,7 +29973,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3328,
+        id: 3329,
         moniker_name:
             "CNN International: CNN Newsroom with Max Foster & Bianca Nobilo",
         domain: ".tv.cnnnewsroomwithmaxfosterandbiancanobilo.adfontesmedia.com",
@@ -29974,7 +29983,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 3329,
+        id: 3330,
         moniker_name: "El Minnesota de Hoy",
         domain: ".elminnesotadehoy.com",
         reliability_mean: 38.577778,
@@ -29983,7 +29992,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3330,
+        id: 3331,
         moniker_name: "Mi Diario Panama",
         domain: ".midiario.com",
         reliability_mean: 38.57777733333333,
@@ -29992,7 +30001,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3331,
+        id: 3332,
         moniker_name: "Latino Press - Detroit",
         domain: ".latinodetroit.com",
         reliability_mean: 35.592592777777774,
@@ -30001,7 +30010,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3332,
+        id: 3333,
         moniker_name: "Newsmax: Carl Higbie Frontline",
         domain: ".tv.carlhigbiefrontline.adfontesmedia.com",
         reliability_mean: 9.833333999999999,
@@ -30010,7 +30019,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 3333,
+        id: 3334,
         moniker_name: "Karen Hunter Show",
         domain: ".pod.karenhuntershow.adfontesmedia.com",
         reliability_mean: 18.733333,
@@ -30019,7 +30028,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 3334,
+        id: 3335,
         moniker_name: "El Sol Latino Newspaper",
         domain: ".elsolnewsmedia.com",
         reliability_mean: 39.822222666666676,
@@ -30028,7 +30037,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3335,
+        id: 3336,
         moniker_name: "Enlace Latino NC",
         domain: ".enlacelatinonc.org",
         reliability_mean: 41.95555533333333,
@@ -30037,7 +30046,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3336,
+        id: 3337,
         moniker_name: "Tork News",
         domain: ".tork.news",
         reliability_mean: 32.64705882352942,
@@ -30046,7 +30055,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3337,
+        id: 3338,
         moniker_name: "FOX WDRB News Louisville",
         domain: ".wdrb.com",
         reliability_mean: 43.05555583333334,
@@ -30055,7 +30064,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3338,
+        id: 3339,
         moniker_name: "The Moultrie Observer",
         domain: ".moultrieobserver.com",
         reliability_mean: 44.044442666666676,
@@ -30064,7 +30073,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3339,
+        id: 3340,
         moniker_name: "La Prensa Latina",
         domain: ".laprensalatina.com",
         reliability_mean: 41.16666687499999,
@@ -30073,7 +30082,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3340,
+        id: 3341,
         moniker_name: "Diario Digital STL",
         domain: ".diariodigitalstl.com",
         reliability_mean: 41.93333400000001,
@@ -30082,7 +30091,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3341,
+        id: 3342,
         moniker_name: "NBC KARK 4 News Little Rock",
         domain: ".kark.com",
         reliability_mean: 41.833333499999995,
@@ -30091,7 +30100,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3342,
+        id: 3343,
         moniker_name: "Doral Family Journal",
         domain: ".doralfamilyjournal.com",
         reliability_mean: 41.777776666666675,
@@ -30100,7 +30109,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3343,
+        id: 3344,
         moniker_name: "El Chicago Hispano",
         domain: ".elchicagohispano.com",
         reliability_mean: 39.874999375,
@@ -30109,7 +30118,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3344,
+        id: 3345,
         moniker_name: "NewsNation: NewsNation Live With Nichole Berlie",
         domain: ".tv.newsnationlivewithnicholeberlie.adfontesmedia.com",
         reliability_mean: 43.93939454545454,
@@ -30118,7 +30127,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3345,
+        id: 3346,
         moniker_name: "We Got This Covered",
         domain: ".wegotthiscovered.com",
         reliability_mean: 25.63963972972973,
@@ -30127,25 +30136,25 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 3346,
+        id: 3347,
         moniker_name: "WSPA 7 News Spartanburg",
         domain: ".wspa.com",
-        reliability_mean: 41.39506148148148,
+        reliability_mean: 41.416666428571425,
         reliability_label: "Reliable; Analysis/Fact Reporting",
-        bias_mean: 0.1111111111111111,
-        bias_label: "Middle",
-    },
-    {
-        id: 3347,
-        moniker_name: "WWLP 22 News",
-        domain: ".wwlp.com",
-        reliability_mean: 41.99999952380953,
-        reliability_label: "Reliable; Analysis/Fact Reporting",
-        bias_mean: -0.047619047619047616,
+        bias_mean: 0.10714285714285714,
         bias_label: "Middle",
     },
     {
         id: 3348,
+        moniker_name: "WWLP 22 News",
+        domain: ".wwlp.com",
+        reliability_mean: 42.01515090909091,
+        reliability_label: "Reliable; Analysis/Fact Reporting",
+        bias_mean: -0.015151363636363636,
+        bias_label: "Middle",
+    },
+    {
+        id: 3349,
         moniker_name: "ABC WYTV 33 News",
         domain: ".wytv.com",
         reliability_mean: 41.555555238095245,
@@ -30154,7 +30163,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3349,
+        id: 3350,
         moniker_name: "FOX 2 News KTVI St. Louis",
         domain: ".fox2now.com",
         reliability_mean: 41.611110833333335,
@@ -30163,7 +30172,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3350,
+        id: 3351,
         moniker_name: "WGNO ABC New Orleans",
         domain: ".wgno.com",
         reliability_mean: 41.4920638095238,
@@ -30172,16 +30181,16 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3351,
+        id: 3352,
         moniker_name: "WHNT News 19",
         domain: ".whnt.com",
-        reliability_mean: 41.58730190476191,
+        reliability_mean: 41.69697,
         reliability_label: "Reliable; Analysis/Fact Reporting",
-        bias_mean: -0.03174619047619048,
+        bias_mean: -0.030303181818181823,
         bias_label: "Middle",
     },
     {
-        id: 3352,
+        id: 3353,
         moniker_name:
             "KEYT News Channel 3-12 | KCOY News Channel 12 | KKFX Fox 11",
         domain: ".keyt.com",
@@ -30191,7 +30200,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3353,
+        id: 3354,
         moniker_name: "FOX 5 Atlanta WAGA: FOX5 News @ 6:00",
         domain: ".tv.fox5atlantanewsat6.adfontesmedia.com",
         reliability_mean: 43.55555333333333,
@@ -30200,7 +30209,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3354,
+        id: 3355,
         moniker_name: "FOX 26 Houston KRIV: The Newsedge: Early Edition",
         domain: ".tv.fox26houstonthenewsedgeearlyedition.adfontesmedia.com",
         reliability_mean: 41.77777666666666,
@@ -30209,7 +30218,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3355,
+        id: 3356,
         moniker_name: "your NEWS",
         domain: ".yournews.com",
         reliability_mean: 27.586208275862067,
@@ -30218,7 +30227,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 3356,
+        id: 3357,
         moniker_name:
             "CNN Republican Presidential Town Hall with Donald Trump - May 10, 2023",
         domain: ".tv.cnntownhalldonaldtrump230510.adfontesmedia.com",
@@ -30228,7 +30237,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 3357,
+        id: 3358,
         moniker_name:
             "CNN Presidential Town Hall with Joe Biden - July 21, 2021",
         domain: ".tv.cnnpresidentialtownhallwithjoebiden.adfontesmedia.com",
@@ -30238,7 +30247,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 3358,
+        id: 3359,
         moniker_name: "CNN: The Whole Story with Anderson Cooper",
         domain: ".tv.thewholestorywithandersoncooper.adfontesmedia.com",
         reliability_mean: 46.28571571428572,
@@ -30247,7 +30256,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 3359,
+        id: 3360,
         moniker_name: "CBS Philadelphia KYW: CBS News Philadelphia at 6:00pm",
         domain: ".tv.cbsnewsphiladelphiaat600pm.adfontesmedia.com",
         reliability_mean: 45.11111,
@@ -30256,7 +30265,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3360,
+        id: 3361,
         moniker_name: "The Crime Wire",
         domain: ".thecrimewire.com",
         reliability_mean: 37.066666666666656,
@@ -30265,7 +30274,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3361,
+        id: 3362,
         moniker_name: "El Comercio de Colorado",
         domain: ".elcomerciodecolorado.com",
         reliability_mean: 39.97777799999999,
@@ -30274,7 +30283,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3362,
+        id: 3363,
         moniker_name: "EL Dia Newspaper",
         domain: ".eldianews.net",
         reliability_mean: 26.73188434782608,
@@ -30283,7 +30292,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3363,
+        id: 3364,
         moniker_name: "La Conexión USA",
         domain: ".laconexionusa.com",
         reliability_mean: 39.51851944444444,
@@ -30292,7 +30301,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3364,
+        id: 3365,
         moniker_name: "El Mundo WA",
         domain: ".elmundowa.com",
         reliability_mean: 41.25000125,
@@ -30301,7 +30310,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3365,
+        id: 3366,
         moniker_name: "San Francisco Bay View National Black Newspaper",
         domain: ".sfbayview.com",
         reliability_mean: 22.903227419354835,
@@ -30310,7 +30319,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 3366,
+        id: 3367,
         moniker_name: "FOX 5 DC WTTG: News at 6",
         domain: ".tv.fox5dcnewsat6.adfontesmedia.com",
         reliability_mean: 43.11111333333334,
@@ -30319,16 +30328,16 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3367,
+        id: 3368,
         moniker_name: "WWTI ABC50 | InformNNy.com",
         domain: ".informnny.com",
-        reliability_mean: 41.633333500000006,
+        reliability_mean: 41.57142857142858,
         reliability_label: "Reliable; Analysis/Fact Reporting",
-        bias_mean: -0.3333335,
+        bias_mean: -0.3174604761904762,
         bias_label: "Middle",
     },
     {
-        id: 3368,
+        id: 3369,
         moniker_name: "American Patriot Daily News Network",
         domain: ".americanpatriotdaily.com",
         reliability_mean: 16.36538653846154,
@@ -30337,7 +30346,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 3369,
+        id: 3370,
         moniker_name: "BusinessWorld",
         domain: ".bworldonline.com",
         reliability_mean: 42.955556666666666,
@@ -30346,7 +30355,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3370,
+        id: 3371,
         moniker_name: "Black Eye Politics",
         domain: ".blackeyepolitics.com",
         reliability_mean: 16.808742950819674,
@@ -30355,7 +30364,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 3371,
+        id: 3372,
         moniker_name: "New Jersey Hispano",
         domain: ".hispanonewjersey.com",
         reliability_mean: 40.177777999999996,
@@ -30364,7 +30373,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3372,
+        id: 3373,
         moniker_name: "Resilience",
         domain: ".resilience.org",
         reliability_mean: 31.296296666666667,
@@ -30373,7 +30382,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 3373,
+        id: 3374,
         moniker_name: "KWQC TV6 News",
         domain: ".kwqc.com",
         reliability_mean: 41.733333333333334,
@@ -30382,7 +30391,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3374,
+        id: 3375,
         moniker_name: "Valley News Live | KVLY | KXJB",
         domain: ".valleynewslive.com",
         reliability_mean: 42.777778,
@@ -30391,7 +30400,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3375,
+        id: 3376,
         moniker_name: "El Diario de Juárez",
         domain: ".diario.mx",
         reliability_mean: 40.765431851851844,
@@ -30400,7 +30409,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3376,
+        id: 3377,
         moniker_name: "El Especialito",
         domain: ".elespecialitodigital.com",
         reliability_mean: 40.562499375,
@@ -30409,7 +30418,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3377,
+        id: 3378,
         moniker_name: "La Comunidad News",
         domain: ".wisconsinlcnews.com",
         reliability_mean: 41.31111266666666,
@@ -30418,7 +30427,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3378,
+        id: 3379,
         moniker_name: "Wisconsin Watch",
         domain: ".wisconsinwatch.org",
         reliability_mean: 45.044444666666664,
@@ -30427,7 +30436,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3379,
+        id: 3380,
         moniker_name: "WBRC FOX6 News | Birmingham",
         domain: ".wbrc.com",
         reliability_mean: 43.479166875,
@@ -30436,7 +30445,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3380,
+        id: 3381,
         moniker_name: "openDemocracy",
         domain: ".opendemocracy.net",
         reliability_mean: 40.12500000000001,
@@ -30445,7 +30454,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 3381,
+        id: 3382,
         moniker_name: "Main Line Media News",
         domain: ".mainlinemedianews.com",
         reliability_mean: 40.97333280000001,
@@ -30454,7 +30463,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3382,
+        id: 3383,
         moniker_name: "WEAU 13 News",
         domain: ".weau.com",
         reliability_mean: 42.68888933333333,
@@ -30463,7 +30472,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3383,
+        id: 3384,
         moniker_name: "WECT News 6",
         domain: ".wect.com",
         reliability_mean: 41.355556,
@@ -30472,7 +30481,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3384,
+        id: 3385,
         moniker_name: "Diario Las Americas",
         domain: ".diariolasamericas.com",
         reliability_mean: 40.466666666666676,
@@ -30481,7 +30490,16 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3385,
+        id: 3386,
+        moniker_name: "San Antonio Current",
+        domain: ".sacurrent.com",
+        reliability_mean: 36.49999944444444,
+        reliability_label: "Generally Reliable/Analysis OR Other Issues",
+        bias_mean: -10.333332,
+        bias_label: "Skews Left",
+    },
+    {
+        id: 3387,
         moniker_name: "Wicked Local",
         domain: ".wickedlocal.com",
         reliability_mean: 43.22916625,
@@ -30490,7 +30508,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3386,
+        id: 3388,
         moniker_name: "WILX News 10",
         domain: ".wilx.com",
         reliability_mean: 41.877777333333334,
@@ -30499,7 +30517,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3387,
+        id: 3389,
         moniker_name: "NBC WLBT 3 - Jackson",
         domain: ".wlbt.com",
         reliability_mean: 40.620370555555546,
@@ -30508,7 +30526,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3388,
+        id: 3390,
         moniker_name: "NBC WJHG NewsChannel 7",
         domain: ".wjhg.com",
         reliability_mean: 41.56862705882354,
@@ -30517,7 +30535,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3389,
+        id: 3391,
         moniker_name: "ABC WTOK 11 - Meridian",
         domain: ".wtok.com",
         reliability_mean: 40.755555333333334,
@@ -30526,7 +30544,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3390,
+        id: 3392,
         moniker_name: "The Southern Illinoisan",
         domain: ".thesouthern.com",
         reliability_mean: 42.355556,
@@ -30535,7 +30553,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3391,
+        id: 3393,
         moniker_name: "NBC KSNT 27 News Topeka",
         domain: ".ksnt.com",
         reliability_mean: 40.904762380952384,
@@ -30544,7 +30562,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3392,
+        id: 3394,
         moniker_name: "KLFY NEWS 10",
         domain: ".klfy.com",
         reliability_mean: 41.98412714285715,
@@ -30553,7 +30571,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3393,
+        id: 3395,
         moniker_name: "ABC 25 WEHT | TriStateHomepage.com",
         domain: ".tristatehomepage.com",
         reliability_mean: 40.36507952380953,
@@ -30562,7 +30580,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3394,
+        id: 3396,
         moniker_name: "NBC KFDX 3 | FOX 18 KJTL | TexomasHomepage.com",
         domain: ".texomashomepage.com",
         reliability_mean: 41.634921428571424,
@@ -30571,7 +30589,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3395,
+        id: 3397,
         moniker_name: "28/22 News | WBRE WYOU",
         domain: ".2822news.com",
         reliability_mean: 41.063491904761904,
@@ -30580,7 +30598,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3396,
+        id: 3398,
         moniker_name: "Bolts",
         domain: ".boltsmag.org",
         reliability_mean: 41.333333333333336,
@@ -30589,7 +30607,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 3397,
+        id: 3399,
         moniker_name: "Alaska Beacon",
         domain: ".alaskabeacon.com",
         reliability_mean: 42.09722291666666,
@@ -30598,7 +30616,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 3398,
+        id: 3400,
         moniker_name: "NBC4 WCMH Columbus",
         domain: ".nbc4i.com",
         reliability_mean: 42.855073043478264,
@@ -30607,7 +30625,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3399,
+        id: 3401,
         moniker_name: "News 4 WIVB Buffalo",
         domain: ".wivb.com",
         reliability_mean: 41.68181818181818,
@@ -30616,7 +30634,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3400,
+        id: 3402,
         moniker_name: "FOX 25 WLAX | FOX 48 WEUX | WIProud",
         domain: ".wiproud.com",
         reliability_mean: 41.126984285714286,
@@ -30625,7 +30643,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3401,
+        id: 3403,
         moniker_name: "KREX 5 FOX 4 | WesternSlopeNow.com",
         domain: ".westernslopenow.com",
         reliability_mean: 41.031745714285705,
@@ -30634,7 +30652,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3402,
+        id: 3404,
         moniker_name: "WANE 15 CBS Fort Wayne",
         domain: ".wane.com",
         reliability_mean: 42.17948769230769,
@@ -30643,7 +30661,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3403,
+        id: 3405,
         moniker_name: "WATE 6 Knoxville",
         domain: ".wate.com",
         reliability_mean: 42.39682523809523,
@@ -30652,7 +30670,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3404,
+        id: 3406,
         moniker_name: "WBTW News13 CBS",
         domain: ".wbtw.com",
         reliability_mean: 42.20634857142858,
@@ -30661,7 +30679,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3405,
+        id: 3407,
         moniker_name: "OffGuardian",
         domain: ".off-guardian.org",
         reliability_mean: 11.767789325842696,
@@ -30670,7 +30688,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 3406,
+        id: 3408,
         moniker_name: "Farm Talk",
         domain: ".farmtalknews.com",
         reliability_mean: 43.83333312500001,
@@ -30679,7 +30697,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3407,
+        id: 3409,
         moniker_name: "Hyperallergic",
         domain: ".hyperallergic.com",
         reliability_mean: 39.533331999999994,
@@ -30688,7 +30706,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 3408,
+        id: 3410,
         moniker_name: "Mid Hudson News",
         domain: ".midhudsonnews.com",
         reliability_mean: 28.099999750000002,
@@ -30697,7 +30715,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3409,
+        id: 3411,
         moniker_name: "The Daily Yonder",
         domain: ".dailyyonder.com",
         reliability_mean: 41.42222266666666,
@@ -30706,7 +30724,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 3410,
+        id: 3412,
         moniker_name: "ADN America",
         domain: ".adnamerica.com",
         reliability_mean: 40.01333399999999,
@@ -30715,7 +30733,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 3411,
+        id: 3413,
         moniker_name: "The Alton Telegraph",
         domain: ".thetelegraph.com",
         reliability_mean: 37.20370444444444,
@@ -30724,7 +30742,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3412,
+        id: 3414,
         moniker_name: "TVO Today",
         domain: ".tvo.org",
         reliability_mean: 38.488887999999996,
@@ -30733,7 +30751,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 3413,
+        id: 3415,
         moniker_name: "HRMorning",
         domain: ".hrmorning.com",
         reliability_mean: 38.666666875000004,
@@ -30742,7 +30760,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3414,
+        id: 3416,
         moniker_name: "Security Magazine",
         domain: ".securitymagazine.com",
         reliability_mean: 40.133332,
@@ -30751,7 +30769,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3415,
+        id: 3417,
         moniker_name: "Here's Where It Gets Interesting with Sharon McMahon",
         domain: ".pod.hereswhereitgetsinteresting.adfontesmedia.com",
         reliability_mean: 46.291667499999996,
@@ -30760,7 +30778,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3416,
+        id: 3418,
         moniker_name: "Noticia NY",
         domain: ".noticiany.com",
         reliability_mean: 38.64646515151516,
@@ -30769,7 +30787,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3417,
+        id: 3419,
         moniker_name: "EL SOL News",
         domain: ".elsolnews.com",
         reliability_mean: 40.688888666666664,
@@ -30778,7 +30796,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3418,
+        id: 3420,
         moniker_name: "Periodico El Latino San Diego",
         domain: ".ellatinoonline.com",
         reliability_mean: 40.22222133333334,
@@ -30787,7 +30805,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3419,
+        id: 3421,
         moniker_name: "Scripps News: Morning Rush",
         domain: ".tv.morningrush.adfontesmedia.com",
         reliability_mean: 45.55555444444444,
@@ -30796,7 +30814,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 3420,
+        id: 3422,
         moniker_name: "Onmanorama",
         domain: ".onmanorama.com",
         reliability_mean: 42.799999333333325,
@@ -30805,7 +30823,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3421,
+        id: 3423,
         moniker_name: "Conservative Brief",
         domain: ".conservativebrief.com",
         reliability_mean: 30.592592222222223,
@@ -30814,7 +30832,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 3422,
+        id: 3424,
         moniker_name: "Election Central",
         domain: ".uspresidentialelectionnews.com",
         reliability_mean: 15.857842205882354,
@@ -30823,7 +30841,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 3423,
+        id: 3425,
         moniker_name: "Conservative Daily News",
         domain: ".conservativedailynews.com",
         reliability_mean: 10.766080350877195,
@@ -30832,7 +30850,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 3424,
+        id: 3426,
         moniker_name: "Flagler Live",
         domain: ".flaglerlive.com",
         reliability_mean: 36.88889000000001,
@@ -30841,7 +30859,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 3425,
+        id: 3427,
         moniker_name: "Earth.com",
         domain: ".earth.com",
         reliability_mean: 41.044443333333334,
@@ -30850,7 +30868,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3426,
+        id: 3428,
         moniker_name: "Excelsior California",
         domain: ".excelsiorcalifornia.com",
         reliability_mean: 42.98484909090908,
@@ -30859,7 +30877,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3427,
+        id: 3429,
         moniker_name: "Hispano Post",
         domain: ".hispanopost.com",
         reliability_mean: 41.955556,
@@ -30868,7 +30886,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3428,
+        id: 3430,
         moniker_name: "TheStreet",
         domain: ".thestreet.com",
         reliability_mean: 38.15789526315789,
@@ -30877,7 +30895,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3429,
+        id: 3431,
         moniker_name: "VentureBeat",
         domain: ".venturebeat.com",
         reliability_mean: 38.844443999999996,
@@ -30886,7 +30904,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3430,
+        id: 3432,
         moniker_name: "The Hechinger Report",
         domain: ".hechingerreport.org",
         reliability_mean: 41.86666600000001,
@@ -30895,7 +30913,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 3431,
+        id: 3433,
         moniker_name: "The Debrief",
         domain: ".thedebrief.org",
         reliability_mean: 39.48611166666666,
@@ -30904,7 +30922,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3432,
+        id: 3434,
         moniker_name: "Ad Age",
         domain: ".adage.com",
         reliability_mean: 41.7070709090909,
@@ -30913,7 +30931,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3433,
+        id: 3435,
         moniker_name: "The Jesuit Post",
         domain: ".thejesuitpost.org",
         reliability_mean: 32.911112,
@@ -30922,7 +30940,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3434,
+        id: 3436,
         moniker_name: "Latin Opinion Baltimore",
         domain: ".latinopinionbaltimore.com",
         reliability_mean: 40.11764823529411,
@@ -30931,7 +30949,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3435,
+        id: 3437,
         moniker_name: "FOX 5 New York WNYW",
         domain: ".fox5ny.com",
         reliability_mean: 42.933332,
@@ -30940,7 +30958,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3436,
+        id: 3438,
         moniker_name: "KTAL NBC 6 News Shreveport",
         domain: ".ktalnews.com",
         reliability_mean: 42.71428476190476,
@@ -30949,7 +30967,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3437,
+        id: 3439,
         moniker_name: "Libertad Digital",
         domain: ".libertaddigital.com",
         reliability_mean: 34.25925962962963,
@@ -30958,7 +30976,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 3438,
+        id: 3440,
         moniker_name: "The Newsmax Daily",
         domain: ".pod.thenewsmaxdaily.adfontesmedia.com",
         reliability_mean: 16.5,
@@ -30967,7 +30985,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 3439,
+        id: 3441,
         moniker_name: "NBC10 Boston WBTS: News at 6pm",
         domain: ".tv.nbc10bostonnewsat6pm.adfontesmedia.com",
         reliability_mean: 45.22221999999999,
@@ -30976,7 +30994,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3440,
+        id: 3442,
         moniker_name: "OAN: Weekly Briefing with John Hines",
         domain: ".tv.weeklybriefingwithjohnhines.adfontesmedia.com",
         reliability_mean: 14.745099411764704,
@@ -30985,7 +31003,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 3441,
+        id: 3443,
         moniker_name: "El Venezolano",
         domain: ".elvenezolanonews.com",
         reliability_mean: 34.24000040000001,
@@ -30994,7 +31012,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3442,
+        id: 3444,
         moniker_name: "EV Houston",
         domain: ".elvenezolanohouston.com",
         reliability_mean: 40.96491263157895,
@@ -31003,7 +31021,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3443,
+        id: 3445,
         moniker_name: "Impacto Latino",
         domain: ".impactolatino.com",
         reliability_mean: 40.97777800000001,
@@ -31012,7 +31030,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3444,
+        id: 3446,
         moniker_name: "Onward with Rosie O'Donnell",
         domain: ".pod.onwardwithrosieodonnell.adfontesmedia.com",
         reliability_mean: 27.1041675,
@@ -31021,7 +31039,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 3445,
+        id: 3447,
         moniker_name: "Bill Handel on Demand",
         domain: ".pod.billhandelondemand.adfontesmedia.com",
         reliability_mean: 30.222220000000004,
@@ -31030,7 +31048,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 3446,
+        id: 3448,
         moniker_name: "OAN: One America News",
         domain: ".tv.oneamericanews.adfontesmedia.com",
         reliability_mean: 25.47619142857143,
@@ -31039,7 +31057,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 3447,
+        id: 3449,
         moniker_name: "WAtoday",
         domain: ".watoday.com.au",
         reliability_mean: 41.84444466666667,
@@ -31048,7 +31066,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3448,
+        id: 3450,
         moniker_name: "The Stanford Daily",
         domain: ".stanforddaily.com",
         reliability_mean: 44.48888933333333,
@@ -31057,7 +31075,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3449,
+        id: 3451,
         moniker_name: "La Opinion Los Angeles",
         domain: ".laopinion.com",
         reliability_mean: 40.09259222222222,
@@ -31066,7 +31084,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 3450,
+        id: 3452,
         moniker_name: "CBS 4 Minnesota WCCO: WCCO News at Six",
         domain: ".tv.wcconewsatsix.adfontesmedia.com",
         reliability_mean: 44,
@@ -31075,7 +31093,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3451,
+        id: 3453,
         moniker_name: "NBC 11 Minneapolis KARE: News at 6",
         domain: ".tv.kare11newsat6.adfontesmedia.com",
         reliability_mean: 42.88888666666666,
@@ -31084,7 +31102,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3452,
+        id: 3454,
         moniker_name: "El Informador",
         domain: ".elinformadorusa.com",
         reliability_mean: 40.17777733333333,
@@ -31093,7 +31111,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3453,
+        id: 3455,
         moniker_name: "Crosstalk",
         domain: ".pod.crosstalk.adfontesmedia.com",
         reliability_mean: 17.0000025,
@@ -31102,7 +31120,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 3454,
+        id: 3456,
         moniker_name: "Daily Breeze",
         domain: ".dailybreeze.com",
         reliability_mean: 43.12698476190476,
@@ -31111,7 +31129,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3455,
+        id: 3457,
         moniker_name: "SlashGear",
         domain: ".slashgear.com",
         reliability_mean: 40.62222333333333,
@@ -31120,7 +31138,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3456,
+        id: 3458,
         moniker_name: "El Diario NY",
         domain: ".eldiariony.com",
         reliability_mean: 40.8,
@@ -31129,7 +31147,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3457,
+        id: 3459,
         moniker_name: "The Dominion Post",
         domain: ".dominionpost.com",
         reliability_mean: 41.70588176470588,
@@ -31138,7 +31156,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3458,
+        id: 3460,
         moniker_name: "Harvard Business Review",
         domain: ".hbr.org",
         reliability_mean: 40.666666666666664,
@@ -31147,7 +31165,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3459,
+        id: 3461,
         moniker_name: "The Free Press - Bari Weiss",
         domain: ".thefp.com",
         reliability_mean: 27.68981583333333,
@@ -31156,7 +31174,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3460,
+        id: 3462,
         moniker_name: "AppleInsider",
         domain: ".appleinsider.com",
         reliability_mean: 40.05376387096775,
@@ -31165,7 +31183,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3461,
+        id: 3463,
         moniker_name: "El Latino de Hoy Newspaper de Oregon",
         domain: ".ellatinodehoy.com",
         reliability_mean: 40.092592777777774,
@@ -31174,7 +31192,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3462,
+        id: 3464,
         moniker_name: "Hot Off The Wire",
         domain: ".pod.hotoffthewire.adfontesmedia.com",
         reliability_mean: 44.22221999999999,
@@ -31183,7 +31201,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3463,
+        id: 3465,
         moniker_name: "CBS 4 Boston WBZ: WBZ News at 6pm",
         domain: ".tv.wbznewsat6pm.adfontesmedia.com",
         reliability_mean: 44.666666666666664,
@@ -31192,7 +31210,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3464,
+        id: 3466,
         moniker_name:
             "ABC 5 Minneapolis-St. Paul KSTP: 5 Eyewitness News at 6pm",
         domain: ".tv.kstp5eyewitnessnewsat6pm.adfontesmedia.com",
@@ -31202,7 +31220,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3465,
+        id: 3467,
         moniker_name: "CNN: Inside Politics with Dana Bash",
         domain: ".tv.cnninsidepoliticswithdanabash.adfontesmedia.com",
         reliability_mean: 36.533334,
@@ -31211,7 +31229,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 3466,
+        id: 3468,
         moniker_name: "Fox News: The Big Weekend Show",
         domain: ".tv.foxthebigweekendshow.adfontesmedia.com",
         reliability_mean: 20.633333,
@@ -31220,7 +31238,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 3467,
+        id: 3469,
         moniker_name: "Alexandria Times",
         domain: ".alextimes.com",
         reliability_mean: 42.73333266666667,
@@ -31229,7 +31247,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3468,
+        id: 3470,
         moniker_name: "AdExchanger",
         domain: ".adexchanger.com",
         reliability_mean: 39.80000066666667,
@@ -31238,7 +31256,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3469,
+        id: 3471,
         moniker_name: "Rachel Maddow Presents Bag Man",
         domain: ".pod.bagman.adfontesmedia.com",
         reliability_mean: 33.57142857142857,
@@ -31247,7 +31265,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 3470,
+        id: 3472,
         moniker_name: "FOX Boston 25 News WFXT: News at 6PM",
         domain: ".tv.boston25newsat6pm.adfontesmedia.com",
         reliability_mean: 42.33333666666667,
@@ -31256,7 +31274,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3471,
+        id: 3473,
         moniker_name: "FOX 9 Minneapolis-St. Paul KMSP: FOX 9 at 6",
         domain: ".tv.fox9at6.adfontesmedia.com",
         reliability_mean: 43.88889,
@@ -31265,7 +31283,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3472,
+        id: 3474,
         moniker_name: "ABC Action News Tampa Bay WFTS: ABC Action News at 6",
         domain: ".tv.abcactiontampabayactionnewsat6.adfontesmedia.com",
         reliability_mean: 45.44444333333333,
@@ -31274,7 +31292,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3473,
+        id: 3475,
         moniker_name: "World Can't Wait",
         domain: ".worldcantwait.org",
         reliability_mean: 19.06965253731343,
@@ -31283,7 +31301,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 3474,
+        id: 3476,
         moniker_name: "NewsNation: NewsNation Prime with Natasha Zouves",
         domain: ".tv.newsnationprime.adfontesmedia.com",
         reliability_mean: 44.6,
@@ -31292,7 +31310,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3475,
+        id: 3477,
         moniker_name:
             "CBS 10 News Tampa Bay WTSP: 10 Tampa Bay This Evening at 6:00pm",
         domain: ".tv.10tampabaythiseveningat6.adfontesmedia.com",
@@ -31302,7 +31320,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3476,
+        id: 3478,
         moniker_name: "ABC 7 Detroit WXYZ: 7 Action News at 6PM",
         domain: ".tv.wxyzactionnewsat6pm.adfontesmedia.com",
         reliability_mean: 44.55555666666667,
@@ -31311,7 +31329,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3477,
+        id: 3479,
         moniker_name: "NBC 8 Tampa WFLA: News Channel 8 at 6:00",
         domain: ".tv.wflanewschannel8at6.adfontesmedia.com",
         reliability_mean: 44.88889,
@@ -31320,7 +31338,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3478,
+        id: 3480,
         moniker_name: "NYT: Still Processing",
         domain: ".pod.stillprocessing.adfontesmedia.com",
         reliability_mean: 38.44444666666667,
@@ -31329,7 +31347,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3479,
+        id: 3481,
         moniker_name: "Magnolia Tribune",
         domain: ".magnoliatribune.com",
         reliability_mean: 35.72222333333334,
@@ -31338,7 +31356,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 3480,
+        id: 3482,
         moniker_name: "NBC Houston KPRC 2: KPRC 2 News at 6:00",
         domain: ".tv.kprc2newsat6.adfontesmedia.com",
         reliability_mean: 43.22221999999999,
@@ -31347,7 +31365,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3481,
+        id: 3483,
         moniker_name: "Spectrum News 13 Central Florida",
         domain: ".mynews13.com",
         reliability_mean: 36.29824631578948,
@@ -31356,7 +31374,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3482,
+        id: 3484,
         moniker_name: "Spectrum News 1 SoCal",
         domain: ".spectrumnews1.com",
         reliability_mean: 41.866665999999995,
@@ -31365,7 +31383,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3483,
+        id: 3485,
         moniker_name: "Spectrum Bay News 9",
         domain: ".baynews9.com",
         reliability_mean: 41.91228052631579,
@@ -31374,7 +31392,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3484,
+        id: 3486,
         moniker_name: "The Daily Voice - Cape Town",
         domain: ".dailyvoice.co.za",
         reliability_mean: 40.56481472222222,
@@ -31383,7 +31401,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3485,
+        id: 3487,
         moniker_name: "NYT: 1619",
         domain: ".pod.1619.adfontesmedia.com",
         reliability_mean: 34.888888333333334,
@@ -31392,7 +31410,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 3486,
+        id: 3488,
         moniker_name: "Kent Reporter",
         domain: ".kentreporter.com",
         reliability_mean: 42.25925888888889,
@@ -31401,7 +31419,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3487,
+        id: 3489,
         moniker_name: "Federal Way Mirror",
         domain: ".federalwaymirror.com",
         reliability_mean: 39.62962888888889,
@@ -31410,7 +31428,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3488,
+        id: 3490,
         moniker_name: "Auburn Reporter",
         domain: ".auburn-reporter.com",
         reliability_mean: 41.60416625,
@@ -31419,7 +31437,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3489,
+        id: 3491,
         moniker_name: "The New York Review Of Books",
         domain: ".nybooks.com",
         reliability_mean: 36.71111133333333,
@@ -31428,7 +31446,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 3490,
+        id: 3492,
         moniker_name: "Cadena SER",
         domain: ".cadenaser.com",
         reliability_mean: 40.822222000000004,
@@ -31437,7 +31455,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3491,
+        id: 3493,
         moniker_name: "Lecturas",
         domain: ".lecturas.com",
         reliability_mean: 34.99999933333333,
@@ -31446,7 +31464,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3492,
+        id: 3494,
         moniker_name: "Peru21",
         domain: ".peru21.pe",
         reliability_mean: 37.42222133333333,
@@ -31455,7 +31473,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3493,
+        id: 3495,
         moniker_name: "El Periodico",
         domain: ".elperiodico.com",
         reliability_mean: 39.822222000000004,
@@ -31464,16 +31482,16 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3494,
+        id: 3496,
         moniker_name: "WMBD News | CIProud.com",
         domain: ".centralillinoisproud.com",
-        reliability_mean: 42.01666650000001,
+        reliability_mean: 41.82539666666668,
         reliability_label: "Reliable; Analysis/Fact Reporting",
         bias_mean: 0,
         bias_label: "Middle",
     },
     {
-        id: 3495,
+        id: 3497,
         moniker_name: "NBC Bay Area KNTV",
         domain: ".nbcbayarea.com",
         reliability_mean: 43.311110666666664,
@@ -31482,7 +31500,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3496,
+        id: 3498,
         moniker_name: "KTVU FOX 2 San Francisco",
         domain: ".ktvu.com",
         reliability_mean: 42.422222,
@@ -31491,7 +31509,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3497,
+        id: 3499,
         moniker_name: "NBC 10 Philadelphia WCAU",
         domain: ".nbcphiladelphia.com",
         reliability_mean: 42.42222266666666,
@@ -31500,7 +31518,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3498,
+        id: 3500,
         moniker_name: "The Latin Times",
         domain: ".latintimes.com",
         reliability_mean: 28.855071304347824,
@@ -31509,7 +31527,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3499,
+        id: 3501,
         moniker_name: "La Razón",
         domain: ".larazon.es",
         reliability_mean: 40.79999933333334,
@@ -31518,7 +31536,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3500,
+        id: 3502,
         moniker_name: "Right Wing News",
         domain: ".rightwingnews.com",
         reliability_mean: 15.794326170212765,
@@ -31527,7 +31545,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 3501,
+        id: 3503,
         moniker_name: "Amerika",
         domain: ".amerika.org",
         reliability_mean: 10.32478625,
@@ -31536,7 +31554,7 @@ const sampleData = [
         bias_label: "Most Extreme Right",
     },
     {
-        id: 3502,
+        id: 3504,
         moniker_name: "AMAC - The Association of Mature American Citizens",
         domain: ".amac.us",
         reliability_mean: 22.69892548387097,
@@ -31545,7 +31563,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 3503,
+        id: 3505,
         moniker_name: "Conservative Underground News",
         domain: ".conservativeundergroundnews.com",
         reliability_mean: 16.952382040816325,
@@ -31554,7 +31572,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 3504,
+        id: 3506,
         moniker_name: "La Voz de Galicia",
         domain: ".lavozdegalicia.es",
         reliability_mean: 42.01960764705882,
@@ -31563,7 +31581,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3505,
+        id: 3507,
         moniker_name: "Pulso Online",
         domain: ".pulsoslp.com.mx",
         reliability_mean: 41.000000666666665,
@@ -31572,7 +31590,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3506,
+        id: 3508,
         moniker_name: "La Jornada",
         domain: ".jornada.com.mx",
         reliability_mean: 38.311111999999994,
@@ -31581,7 +31599,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3507,
+        id: 3509,
         moniker_name: "CNN: The Source with Kaitlan Collins",
         domain: ".tv.thesourcewithkaitlancollins.adfontesmedia.com",
         reliability_mean: 34.99999833333333,
@@ -31590,7 +31608,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 3508,
+        id: 3510,
         moniker_name: "Brazil Reports",
         domain: ".brazilreports.com",
         reliability_mean: 41.52083312500001,
@@ -31599,7 +31617,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3509,
+        id: 3511,
         moniker_name: "Prensa Latina - English Edition",
         domain: ".plenglish.com",
         reliability_mean: 32.15872904761905,
@@ -31608,7 +31626,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 3510,
+        id: 3512,
         moniker_name: "Telemundo",
         domain: ".telemundo.com",
         reliability_mean: 42.205673617021276,
@@ -31617,7 +31635,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3511,
+        id: 3513,
         moniker_name: "NBC 5 St. Louis KSDK: 5 On Your Side at 6PM",
         domain: ".tv.ksdk5onyousideat6pm.adfontesmedia.com",
         reliability_mean: 43.77777666666666,
@@ -31626,7 +31644,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3512,
+        id: 3514,
         moniker_name: "Sky News Australia",
         domain: ".skynews.com.au",
         reliability_mean: 31.56666574999999,
@@ -31635,7 +31653,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 3513,
+        id: 3515,
         moniker_name: "Finger Lakes 1",
         domain: ".fingerlakes1.com",
         reliability_mean: 14.502348309859153,
@@ -31644,7 +31662,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3514,
+        id: 3516,
         moniker_name: "Gonzales Weekly Citizen",
         domain: ".weeklycitizen.com",
         reliability_mean: 42.97777866666667,
@@ -31653,7 +31671,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3515,
+        id: 3517,
         moniker_name: "Harlem Community Newspapers",
         domain: ".harlemcommunitynews.com",
         reliability_mean: 35.022222000000006,
@@ -31662,7 +31680,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3516,
+        id: 3518,
         moniker_name: "Life & Style Weekly",
         domain: ".lifeandstylemag.com",
         reliability_mean: 31.920634761904765,
@@ -31671,7 +31689,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3517,
+        id: 3519,
         moniker_name: "FOX 13 Tampa Bay WTVT: FOX 13 6:00 News",
         domain: ".tv.fox13tampa600news.adfontesmedia.com",
         reliability_mean: 45.11111,
@@ -31680,7 +31698,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3518,
+        id: 3520,
         moniker_name: "The Information",
         domain: ".theinformation.com",
         reliability_mean: 44.400000666666664,
@@ -31689,7 +31707,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3519,
+        id: 3521,
         moniker_name: "CBS Detroit WWJ: CBS News Detroit at 6pm",
         domain: ".tv.cbsnewsdetroitat6pm.adfontesmedia.com",
         reliability_mean: 44.55555333333333,
@@ -31698,7 +31716,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3520,
+        id: 3522,
         moniker_name:
             "ClickOnDetroit - NBC WDIV Local 4 Detroit: Local 4 News at 6",
         domain: ".tv.clickondetroitlocal4newsat6.adfontesmedia.com",
@@ -31708,7 +31726,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3521,
+        id: 3523,
         moniker_name: "NBC KCRA 3 Sacramento: KCRA 3 News at 6 PM",
         domain: ".tv.kcra3newsat6pm.adfontesmedia.com",
         reliability_mean: 44.11111,
@@ -31717,7 +31735,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3522,
+        id: 3524,
         moniker_name: "NBC 2 Orlando WESH: WESH 2 News at 6pm",
         domain: ".tv.wesh2newsat6pm.adfontesmedia.com",
         reliability_mean: 42.44444333333333,
@@ -31726,7 +31744,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3523,
+        id: 3525,
         moniker_name: "NBC Nashville WSMV 4: WSMV 4 News at 6PM",
         domain: ".tv.wsmv4newsat6pm.adfontesmedia.com",
         reliability_mean: 43.333333333333336,
@@ -31735,7 +31753,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3524,
+        id: 3526,
         moniker_name: "Diario ABC",
         domain: ".abc.es",
         reliability_mean: 40.27083375,
@@ -31744,7 +31762,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3525,
+        id: 3527,
         moniker_name: "NHPR",
         domain: ".nhpr.org",
         reliability_mean: 42.75555466666666,
@@ -31753,7 +31771,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3526,
+        id: 3528,
         moniker_name: "ABC 9 Orlando WFTV: Eyewitness News at 6 p.m.",
         domain: ".tv.wftveyewitnessnewsat6pm.adfontesmedia.com",
         reliability_mean: 42,
@@ -31762,7 +31780,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3527,
+        id: 3529,
         moniker_name: "FOX 2 Detroit WJBK: Fox 2 News at 6:00",
         domain: ".tv.fox2detroitnewsat6.adfontesmedia.com",
         reliability_mean: 44.22222333333334,
@@ -31771,7 +31789,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3528,
+        id: 3530,
         moniker_name: "First Alert 4 St. Louis KMOV: First Alert 4 at 6pm",
         domain: ".tv.kmovnews4at6pm.adfontesmedia.com",
         reliability_mean: 44.77777666666666,
@@ -31780,7 +31798,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3529,
+        id: 3531,
         moniker_name: "Newsmax: Chris Plante The Right Squad",
         domain: ".tv.chrisplanterightsquad.adfontesmedia.com",
         reliability_mean: 16.523809999999997,
@@ -31789,7 +31807,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 3530,
+        id: 3532,
         moniker_name: "More Perfect",
         domain: ".pod.moreperfect.adfontesmedia.com",
         reliability_mean: 47.22222333333334,
@@ -31798,7 +31816,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3531,
+        id: 3533,
         moniker_name: "Leading",
         domain: ".pod.leading.adfontesmedia.com",
         reliability_mean: 37.44444333333333,
@@ -31807,7 +31825,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3532,
+        id: 3534,
         moniker_name: "In Moscow's Shadows",
         domain: ".pod.inmoscowsshadows.adfontesmedia.com",
         reliability_mean: 37.333333333333336,
@@ -31816,7 +31834,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3533,
+        id: 3535,
         moniker_name:
             "CNN International: One World with Zain Asher and Bianna Golodryga",
         domain: ".tv.cnnoneworldzainasher.adfontesmedia.com",
@@ -31826,7 +31844,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3534,
+        id: 3536,
         moniker_name: "TBN: Centerpoint",
         domain: ".tv.centerpoint.adfontesmedia.com",
         reliability_mean: 26.388891666666666,
@@ -31835,7 +31853,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 3535,
+        id: 3537,
         moniker_name: "Fort Payne Times-Journal",
         domain: ".times-journal.com",
         reliability_mean: 40.97777733333333,
@@ -31844,7 +31862,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3536,
+        id: 3538,
         moniker_name: "MacRumors",
         domain: ".macrumors.com",
         reliability_mean: 39.08888866666666,
@@ -31853,7 +31871,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3537,
+        id: 3539,
         moniker_name: "FOX 35 Orlando WOFL: FOX 35 NewsEdge @ 6:00pm",
         domain: ".tv.fox35orlandonewsedgeat6pm.adfontesmedia.com",
         reliability_mean: 45.333333333333336,
@@ -31862,7 +31880,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3538,
+        id: 3540,
         moniker_name: "CBS ClickOrlando News 6 WKMG: News 6 at 6:00p",
         domain: ".tv.clickorlandonews6at600p.adfontesmedia.com",
         reliability_mean: 43.44444666666667,
@@ -31871,7 +31889,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3539,
+        id: 3541,
         moniker_name: "ABC 10 Sacramento KXTV: ABC10 News at 6",
         domain: ".tv.abc10sacramentonewsat6.adfontesmedia.com",
         reliability_mean: 43.44444333333333,
@@ -31880,7 +31898,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3540,
+        id: 3542,
         moniker_name: "NBC 6 South Florida WTVJ: News at 6pm",
         domain: ".tv.nbc6wtvjnewsat6pm.adfontesmedia.com",
         reliability_mean: 43.666666666666664,
@@ -31889,7 +31907,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3541,
+        id: 3543,
         moniker_name: "NBC KGW 8 Portland: KGW News at 6 PM",
         domain: ".tv.kgwnewsat6pm.adfontesmedia.com",
         reliability_mean: 42.44444333333333,
@@ -31898,7 +31916,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3542,
+        id: 3544,
         moniker_name: "Vive USA",
         domain: ".viveusa.mx",
         reliability_mean: 40.46666666666667,
@@ -31907,7 +31925,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3543,
+        id: 3545,
         moniker_name: "TUDN USA",
         domain: ".tudn.com",
         reliability_mean: 39.47368315789474,
@@ -31916,7 +31934,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3544,
+        id: 3546,
         moniker_name:
             "NBC News NOW: NBC News Daily With Kate Snow and Zinhle Essamuah",
         domain: ".tv.nbcnewsdailywithkatesnowandzinhleessamuah.adfontesmedia.com",
@@ -31926,7 +31944,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 3545,
+        id: 3547,
         moniker_name: "9To5Google",
         domain: ".9to5google.com",
         reliability_mean: 38.24444533333334,
@@ -31935,7 +31953,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3546,
+        id: 3548,
         moniker_name: "The Athletic",
         domain: ".theathletic.com",
         reliability_mean: 40.85416625,
@@ -31944,7 +31962,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3547,
+        id: 3549,
         moniker_name: "NewsChannel 5 Nashville WTVF CBS: Newschannel 5 at 6 PM",
         domain: ".tv.newschannel5nashville5at6pm.adfontesmedia.com",
         reliability_mean: 43.666666666666664,
@@ -31953,7 +31971,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3548,
+        id: 3550,
         moniker_name: "FOX 17 Nashville WZTV: FOX17 News at 5:30pm",
         domain: ".tv.fox17newsat530pm.adfontesmedia.com",
         reliability_mean: 43,
@@ -31962,7 +31980,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 3549,
+        id: 3551,
         moniker_name: "NBC 3 Cleveland WKYC: 3News at 6 PM",
         domain: ".tv.wkyc3newsat6pm.adfontesmedia.com",
         reliability_mean: 44.44444666666667,
@@ -31971,7 +31989,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3550,
+        id: 3552,
         moniker_name: "FOX 5 Atlanta WAGA",
         domain: ".fox5atlanta.com",
         reliability_mean: 43.444443333333325,
@@ -31980,7 +31998,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3551,
+        id: 3553,
         moniker_name: "Health",
         domain: ".health.com",
         reliability_mean: 42.08888933333333,
@@ -31989,7 +32007,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3552,
+        id: 3554,
         moniker_name: "Healio",
         domain: ".healio.com",
         reliability_mean: 42.777778000000005,
@@ -31998,7 +32016,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3553,
+        id: 3555,
         moniker_name: "Universe Today",
         domain: ".universetoday.com",
         reliability_mean: 43.411764705882355,
@@ -32007,7 +32025,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3554,
+        id: 3556,
         moniker_name: "NBC 2 Orlando WESH",
         domain: ".wesh.com",
         reliability_mean: 43.133332666666675,
@@ -32016,7 +32034,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3555,
+        id: 3557,
         moniker_name: "Vanidades Mexico",
         domain: ".vanidades.com",
         reliability_mean: 34.88725588235294,
@@ -32025,7 +32043,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3556,
+        id: 3558,
         moniker_name: "BBC: Newscast",
         domain: ".pod.bbcnewscast.adfontesmedia.com",
         reliability_mean: 41.666666666666664,
@@ -32034,7 +32052,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3557,
+        id: 3559,
         moniker_name: "Rachman Review",
         domain: ".pod.rachmanreview.adfontesmedia.com",
         reliability_mean: 38.06666800000001,
@@ -32043,7 +32061,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 3558,
+        id: 3560,
         moniker_name: "WKRN News 2 Nashville: News 2 at 6pm",
         domain: ".tv.wkrnnews2at6pm.adfontesmedia.com",
         reliability_mean: 43.44444333333333,
@@ -32052,7 +32070,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3559,
+        id: 3561,
         moniker_name: "FOX 8 Cleveland WJW: FOX 8 News at 6:00PM",
         domain: ".tv.fox8clevelandnewsat6.adfontesmedia.com",
         reliability_mean: 45.77777666666666,
@@ -32061,7 +32079,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3560,
+        id: 3562,
         moniker_name: "NBC 36 WCNC Charlotte: WCNC Charlotte News at 6P",
         domain: ".tv.wcnccharlottenewsat6p.adfontesmedia.com",
         reliability_mean: 44.666666666666664,
@@ -32070,7 +32088,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3561,
+        id: 3563,
         moniker_name: "CBS Portland KOIN 6: KOIN 6 News at 6:00P",
         domain: ".tv.koin6newsat600p.adfontesmedia.com",
         reliability_mean: 43.666666666666664,
@@ -32079,7 +32097,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3562,
+        id: 3564,
         moniker_name: "FOX 12 Oregon KPTV: 6 O'Clock News",
         domain: ".tv.fox12oregon6oclocknews.adfontesmedia.com",
         reliability_mean: 45.666666666666664,
@@ -32088,7 +32106,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3563,
+        id: 3565,
         moniker_name: "CBS 4 Miami WFOR: CBS 4 News at 6PM",
         domain: ".tv.cbsmiaminewsat6pm.adfontesmiami.com",
         reliability_mean: 44.00000333333333,
@@ -32097,7 +32115,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3564,
+        id: 3566,
         moniker_name: "ABC Miami Local 10 WPLG: Local 10 News @ 6PM",
         domain: ".tv.miamilocal10newsat6pm.adfontesmedia.com",
         reliability_mean: 44.55555666666667,
@@ -32106,7 +32124,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3565,
+        id: 3567,
         moniker_name: "ABC News 5 Cleveland WEWS: News 5 at 6",
         domain: ".tv.wewsnews5at6.adfontesmedia.com",
         reliability_mean: 44.55555666666667,
@@ -32115,7 +32133,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3566,
+        id: 3568,
         moniker_name: "The Tucker Carlson Show",
         domain: ".tv.tuckerontwitter.adfontesmedia.com",
         reliability_mean: 15.288888666666665,
@@ -32124,7 +32142,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 3567,
+        id: 3569,
         moniker_name: "NBC News NOW: Stay Tuned Now with Gadi Schwartz",
         domain: ".tv.staytunednowwithgadischwartz.adfontesmedia.com",
         reliability_mean: 47,
@@ -32133,7 +32151,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3568,
+        id: 3570,
         moniker_name: "CBS News: America Decides",
         domain: ".tv.americadecides.adfontesmedia.com",
         reliability_mean: 41.333333333333336,
@@ -32142,7 +32160,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 3569,
+        id: 3571,
         moniker_name: "GrowerTalks",
         domain: ".growertalks.com",
         reliability_mean: 36.04166812500001,
@@ -32151,7 +32169,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3570,
+        id: 3572,
         moniker_name: "The Florida Phoenix",
         domain: ".floridaphoenix.com",
         reliability_mean: 39.60000066666667,
@@ -32160,7 +32178,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 3571,
+        id: 3573,
         moniker_name: "FOX 40 Sacramento KTXL: FOX40 News at 6:00pm",
         domain: ".tv.fox40sacramentonewsat6pm.adfontesmedia.com",
         reliability_mean: 44.77777666666666,
@@ -32169,7 +32187,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3572,
+        id: 3574,
         moniker_name: "NBC News 4 San Antonio WOAI: News 4 San Antonio at Six",
         domain: ".tv.news4sanantonioatsix.adfontesmedia.com",
         reliability_mean: 45.33333666666667,
@@ -32178,7 +32196,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3573,
+        id: 3575,
         moniker_name: "FOX 2 St. Louis KTVI: FOX 2 News at 6PM",
         domain: ".tv.fox2stlouisnewsat6pm.adfontesmedia.com",
         reliability_mean: 42.22222333333334,
@@ -32187,7 +32205,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3574,
+        id: 3576,
         moniker_name: "ABC 12 San Antonio KSAT: KSAT 12 6 O'Clock News",
         domain: ".tv.ksat126oclocknews.adfontesmedia.com",
         reliability_mean: 43.77777666666666,
@@ -32196,7 +32214,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3575,
+        id: 3577,
         moniker_name: "NBC 41 Kansas City KSHB: KSHB 41 News at 6p",
         domain: ".tv.kshb41newsat6p.adfontesmedia.com",
         reliability_mean: 44.333333333333336,
@@ -32205,7 +32223,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3576,
+        id: 3578,
         moniker_name: "FOX 5 San Diego KSWB: FOX 5 News at 6:00pm",
         domain: ".tv.fox5sandiegonewsat6pm.adfontesmedia.com",
         reliability_mean: 43.88889,
@@ -32214,7 +32232,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3577,
+        id: 3579,
         moniker_name: "The Kimberly Guilfoyle Show (Rumble)",
         domain: ".tv.thekimberlyguilfoyleshow.adfontesmedia.com",
         reliability_mean: 9.7500025,
@@ -32223,7 +32241,7 @@ const sampleData = [
         bias_label: "Most Extreme Right",
     },
     {
-        id: 3578,
+        id: 3580,
         moniker_name: "FOX 7 News Miami WSVN: 7 News at 6:00",
         domain: ".tv.wsvn7newsat6.adfontesmedia.com",
         reliability_mean: 43.11111,
@@ -32232,7 +32250,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3579,
+        id: 3581,
         moniker_name: "ABC 9 Charlotte WSOC: Eyewitness News at 6:00",
         domain: ".tv.wsoceyewitnessnewsat6.adfontesmedia.com",
         reliability_mean: 45,
@@ -32241,7 +32259,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3580,
+        id: 3582,
         moniker_name: "WISN 12 News Milwaukee: WISN 12 News at 6",
         domain: ".tv.wisn12newsat6.adfontesmedia.com",
         reliability_mean: 44.333333333333336,
@@ -32250,7 +32268,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3581,
+        id: 3583,
         moniker_name: "CBS San Antonio KENS 5: KENS 5 News at 6pm",
         domain: ".tv.kens5newsat6pm.adfontesmedia.com",
         reliability_mean: 43.33333,
@@ -32259,7 +32277,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3582,
+        id: 3584,
         moniker_name: "ABC 2 Portland KATU: KATU News at 6",
         domain: ".tv.katunewsat6.adfontesmedia.com",
         reliability_mean: 44.33333666666667,
@@ -32268,7 +32286,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3583,
+        id: 3585,
         moniker_name: "CNN-News18",
         domain: ".news18.com",
         reliability_mean: 26.621212954545456,
@@ -32277,7 +32295,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3584,
+        id: 3586,
         moniker_name: "FOX 2 Detroit WJBK",
         domain: ".fox2detroit.com",
         reliability_mean: 44.20000000000001,
@@ -32286,7 +32304,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3585,
+        id: 3587,
         moniker_name: "The Register",
         domain: ".theregister.com",
         reliability_mean: 40.88888933333333,
@@ -32295,7 +32313,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3586,
+        id: 3588,
         moniker_name: "CBS Kansas City KCTV 5: KCTV 5 News at 6:00PM",
         domain: ".tv.kctv5newsat6pm.adfontesmedia.com",
         reliability_mean: 43,
@@ -32304,7 +32322,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3587,
+        id: 3589,
         moniker_name: "ABC 13 Las Vegas KTNV: 13 Action News at 6 p.m.",
         domain: ".tv.ktnv13actionnewsat6pm.adfontesmedia.com",
         reliability_mean: 45.22222333333334,
@@ -32313,7 +32331,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3588,
+        id: 3590,
         moniker_name: "NBC Milwaukee WTMJ 4: WTMJ4 News at 6:00",
         domain: ".tv.wtmj4newsat6.adfontesmedia.com",
         reliability_mean: 43.44444666666667,
@@ -32322,7 +32340,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 3589,
+        id: 3591,
         moniker_name: "Ohio Cooperative Living",
         domain: ".ohiocoopliving.com",
         reliability_mean: 38.77777666666667,
@@ -32331,7 +32349,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3590,
+        id: 3592,
         moniker_name: "The Villages Daily Sun",
         domain: ".thevillagesdailysun.com",
         reliability_mean: 42.708333749999994,
@@ -32340,7 +32358,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3591,
+        id: 3593,
         moniker_name: "Nebraska Magazine",
         domain: ".nebraskamagazine.org",
         reliability_mean: 38.479166875000004,
@@ -32349,7 +32367,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3592,
+        id: 3594,
         moniker_name: "Arkansas Living",
         domain: ".arkansaslivingmagazine.com",
         reliability_mean: 38.2,
@@ -32358,7 +32376,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3593,
+        id: 3595,
         moniker_name: "NBC 13 Indianapolis WTHR: 13News at 6:00pm",
         domain: ".tv.wthr13newsat6.adfontesmedia.com",
         reliability_mean: 43.77777666666666,
@@ -32367,7 +32385,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3594,
+        id: 3596,
         moniker_name: "CBS Austin KEYE: CBS Austin News at 6P",
         domain: ".tv.cbsaustinnewsat6p.adfontesmedia.com",
         reliability_mean: 43.77777666666666,
@@ -32376,7 +32394,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3595,
+        id: 3597,
         moniker_name: "ABC 9 Kansas City KMBC: KMBC 9 News at 6pm",
         domain: ".tv.kmbc9newsat6pm.adfontesmedia.com",
         reliability_mean: 43.77777666666666,
@@ -32385,7 +32403,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3596,
+        id: 3598,
         moniker_name: "Queen City News WJZY Charlotte: Queen City News at 6pm",
         domain: ".tv.queencitynewsat6pm.adfontesmedia.com",
         reliability_mean: 45.55555666666667,
@@ -32394,7 +32412,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3597,
+        id: 3599,
         moniker_name: "ABC 10 San Diego KGTV: ABC 10News at 6pm",
         domain: ".tv.kgtvabc10newsat6pm.adfontesmedia.com",
         reliability_mean: 43.55555666666667,
@@ -32403,7 +32421,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3598,
+        id: 3600,
         moniker_name: "Ruralite",
         domain: ".ruralite.com",
         reliability_mean: 38.644444,
@@ -32412,7 +32430,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3599,
+        id: 3601,
         moniker_name: "Landscape Architecture",
         domain: ".landscapearchitecturemagazine.org",
         reliability_mean: 40.555555,
@@ -32421,7 +32439,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3600,
+        id: 3602,
         moniker_name: "FOX 7 Austin KTBC: FOX 7 Austin News at 6:00",
         domain: ".tv.fox7austinnewsat6.adfontesmedia.com",
         reliability_mean: 43.666666666666664,
@@ -32430,7 +32448,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3601,
+        id: 3603,
         moniker_name: "CBS 3 Charlotte WBTV: WBTV News 3 at 6:00PM",
         domain: ".tv.wbtvnews3at6pm.adfontesmedia.com",
         reliability_mean: 44.88889,
@@ -32439,7 +32457,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3602,
+        id: 3604,
         moniker_name: "FOX6 News Milwaukee WITI: FOX6 News at 6:00",
         domain: ".tv.witifox6newsat6.adfontesmedia.com",
         reliability_mean: 42.77778000000001,
@@ -32448,7 +32466,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3603,
+        id: 3605,
         moniker_name: "CBS Las Vegas 8 News Now KLAS: 8 News Now at 6pm",
         domain: ".tvklas8newsnowat6pm.adfontesmedia.com",
         reliability_mean: 44.77777666666666,
@@ -32457,7 +32475,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3604,
+        id: 3606,
         moniker_name: "Club Random with Bill Maher",
         domain: ".pod.clubrandomwithbillmaher.adfontesmedia.com",
         reliability_mean: 22.96969818181818,
@@ -32466,7 +32484,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3605,
+        id: 3607,
         moniker_name: "ABC 6 Indianapolis WRTV: WRTV News at 6",
         domain: ".tv.wrtvnewsat6.adfontesmedia.com",
         reliability_mean: 43.22221999999999,
@@ -32475,7 +32493,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3606,
+        id: 3608,
         moniker_name: "ABC 24 Austin KVUE: KVUE News @ 6",
         domain: ".tv.kvuenewsat6.adfontesmedia.com",
         reliability_mean: 45.55555333333333,
@@ -32484,7 +32502,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3607,
+        id: 3609,
         moniker_name:
             "ABC 4 Pittsburgh Action News WTAE: Pittsburgh's Action News 4 at 6pm",
         domain: ".tv.pittsburghsactionnews4at6pm.adfontesmedia.com",
@@ -32494,7 +32512,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3608,
+        id: 3610,
         moniker_name: "CBS4 Indy WTTV: CBS4 News at Six",
         domain: ".tv.cbs4indynewsatsix.adfontesmedia.com",
         reliability_mean: 43.666666666666664,
@@ -32503,7 +32521,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3609,
+        id: 3611,
         moniker_name: "Pirate Wires",
         domain: ".piratewires.com",
         reliability_mean: 26.17283777777778,
@@ -32512,7 +32530,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 3610,
+        id: 3612,
         moniker_name: "Okdiario | OK Diario",
         domain: ".okdiario.com",
         reliability_mean: 33.999999499999994,
@@ -32521,7 +32539,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 3611,
+        id: 3613,
         moniker_name: "NBC 11 Pittsburgh WPXI: Channel 11 News LIVE at 6PM",
         domain: ".tv.wpxichannel11newsliveat6pm.adfontesmedia.com",
         reliability_mean: 45.22221999999999,
@@ -32530,7 +32548,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3612,
+        id: 3614,
         moniker_name: "NBC 11 Baltimore WBAL: 11 News at 6pm",
         domain: ".tv.wbal11newsat6pm.adfontesmedia.com",
         reliability_mean: 45,
@@ -32539,7 +32557,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3613,
+        id: 3615,
         moniker_name: "ABC 2 Baltimore WMAR: WMAR 2 News at 6",
         domain: ".tv.wmar2newsat6.adfontesmedia.com",
         reliability_mean: 43.666666666666664,
@@ -32548,7 +32566,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3614,
+        id: 3616,
         moniker_name: "CBS 2 Pittsburgh KDKA: KDKA-TV News at 6",
         domain: ".tv.kdkanewsat6.adfontesmedia.com",
         reliability_mean: 45.333333333333336,
@@ -32557,7 +32575,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3615,
+        id: 3617,
         moniker_name: "FOX 25 Oklahoma City KOKH: FOX25 News at 5pm",
         domain: ".tv.kokhfox25newsat5pm.adfontesmedia.com",
         reliability_mean: 42.44444666666667,
@@ -32566,7 +32584,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3616,
+        id: 3618,
         moniker_name: "CNBC: Street Signs",
         domain: ".tv.streetsigns.adfontesmedia.com",
         reliability_mean: 44.88888666666666,
@@ -32575,7 +32593,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3617,
+        id: 3619,
         moniker_name: "The Philip DeFranco Show (YouTube)",
         domain: ".tv.philipdefranco-youtube.adfontesmedia.com",
         reliability_mean: 33.33333285714286,
@@ -32584,7 +32602,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 3618,
+        id: 3620,
         moniker_name: "Boca Post",
         domain: ".bocapost.com",
         reliability_mean: 36.385963684210516,
@@ -32593,7 +32611,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3619,
+        id: 3621,
         moniker_name: "CNBC TV18",
         domain: ".cnbctv18.com",
         reliability_mean: 38.07017421052631,
@@ -32602,7 +32620,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3620,
+        id: 3622,
         moniker_name: "El Reportero SF",
         domain: ".elreporterosf.com",
         reliability_mean: 28.16129129032258,
@@ -32611,7 +32629,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 3621,
+        id: 3623,
         moniker_name: "CBS 2 Pittsburgh KDKA",
         domain: ".cbsnews.com/pittsburgh",
         reliability_mean: 42.91111133333333,
@@ -32620,7 +32638,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3622,
+        id: 3624,
         moniker_name: "Firewall",
         domain: ".pod.firewall.adfontesmedia.com",
         reliability_mean: 33.88888666666666,
@@ -32629,7 +32647,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3623,
+        id: 3625,
         moniker_name: "FOX 31 Denver KDVR: FOX 31 Denver News at 5:00",
         domain: ".tv.fox31denvernewsat500.adfontesmedia.com",
         reliability_mean: 44.88889,
@@ -32638,7 +32656,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3624,
+        id: 3626,
         moniker_name: "CBS 13 Sacramento KOVR: CBS13 News at 6pm",
         domain: ".tv.cbssacramentocbs13newsat6pm.adfontesmedia.com",
         reliability_mean: 44,
@@ -32647,7 +32665,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3625,
+        id: 3627,
         moniker_name: "ABC 8 Hartford WTNH: News 8 at 6pm",
         domain: ".tv.wtnhnews8at6pm.adfontesmedia.com",
         reliability_mean: 43.77778000000001,
@@ -32656,7 +32674,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3626,
+        id: 3628,
         moniker_name: "CBS 13 Baltimore WJZ: WJZ News @ 6PM",
         domain: ".tv.cbsbaltimorewjznewsat6pm.adfontesmedia.com",
         reliability_mean: 44.22221999999999,
@@ -32665,7 +32683,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3627,
+        id: 3629,
         moniker_name: "CBS 3 Hartford WFSB: Eyewitness News at 6:00PM",
         domain: ".tv.wfsbeyewitnessnewsat6pm.adfontesmedia.com",
         reliability_mean: 43.333333333333336,
@@ -32674,7 +32692,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3628,
+        id: 3630,
         moniker_name:
             "FOX 53 Pittsburgh WPGH: Channel 11 News on Fox 53 at 6:30",
         domain: ".tv.wpghchannel11newsonfox53at630.adfontesmedia.com",
@@ -32684,7 +32702,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3629,
+        id: 3631,
         moniker_name: "9to5Mac",
         domain: ".9to5mac.com",
         reliability_mean: 40.499999375,
@@ -32693,7 +32711,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3630,
+        id: 3632,
         moniker_name: "TierraPura",
         domain: ".tierrapura.org",
         reliability_mean: 20.32608760869565,
@@ -32702,7 +32720,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 3631,
+        id: 3633,
         moniker_name: "Mark Dice (YouTube)",
         domain: ".tv.markdice-youtube.adfontesmedia.com",
         reliability_mean: 15.770608709677422,
@@ -32711,7 +32729,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 3632,
+        id: 3634,
         moniker_name: "More Perfect Union (YouTube) - Faiz Shakir",
         domain: ".tv.moreperfectunion-youtube.adfontesmedia.com",
         reliability_mean: 31.708332499999997,
@@ -32720,7 +32738,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 3633,
+        id: 3635,
         moniker_name: "La Derecha Diario",
         domain: ".derechadiario.com.ar",
         reliability_mean: 20.301885471698114,
@@ -32729,7 +32747,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 3634,
+        id: 3636,
         moniker_name: "El Español",
         domain: ".elespanol.com",
         reliability_mean: 40,
@@ -32738,7 +32756,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3635,
+        id: 3637,
         moniker_name: "KPIC News",
         domain: ".kpic.com",
         reliability_mean: 42.35555466666666,
@@ -32747,7 +32765,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3636,
+        id: 3638,
         moniker_name: "FOX34 Lubbock KJTV",
         domain: ".fox34.com",
         reliability_mean: 43.155556,
@@ -32756,7 +32774,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3637,
+        id: 3639,
         moniker_name: "FOX 19 Cincinnati WXIX",
         domain: ".fox19.com",
         reliability_mean: 42.622222666666666,
@@ -32765,7 +32783,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3638,
+        id: 3640,
         moniker_name: "KSAS FOX Kansas",
         domain: ".foxkansas.com",
         reliability_mean: 42.88888933333333,
@@ -32774,7 +32792,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3639,
+        id: 3641,
         moniker_name: "KFXL Fox Nebraska",
         domain: ".foxnebraska.com",
         reliability_mean: 42.088889333333334,
@@ -32783,7 +32801,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3640,
+        id: 3642,
         moniker_name: "KSLA News 12",
         domain: ".ksla.com",
         reliability_mean: 42.42222333333334,
@@ -32792,7 +32810,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3641,
+        id: 3643,
         moniker_name: "KTIV News 4",
         domain: ".ktiv.com",
         reliability_mean: 43.68888866666667,
@@ -32801,7 +32819,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3642,
+        id: 3644,
         moniker_name: "Nebraska Examiner",
         domain: ".nebraskaexaminer.com",
         reliability_mean: 44.75555733333332,
@@ -32810,7 +32828,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3643,
+        id: 3645,
         moniker_name: "Nevada Current",
         domain: ".nevadacurrent.com",
         reliability_mean: 42.354166875,
@@ -32819,7 +32837,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 3644,
+        id: 3646,
         moniker_name: "Daily Montanan",
         domain: ".dailymontanan.com",
         reliability_mean: 42.74509705882353,
@@ -32828,7 +32846,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 3645,
+        id: 3647,
         moniker_name: "Missouri Independent",
         domain: ".missouriindependent.com",
         reliability_mean: 43.75555599999999,
@@ -32837,7 +32855,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3646,
+        id: 3648,
         moniker_name: "Michigan Advance",
         domain: ".michiganadvance.com",
         reliability_mean: 37.44444388888889,
@@ -32846,7 +32864,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 3647,
+        id: 3649,
         moniker_name: "Maryland Matters",
         domain: ".marylandmatters.org",
         reliability_mean: 43.166666875000004,
@@ -32855,7 +32873,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3648,
+        id: 3650,
         moniker_name: "Ohio Capital Journal",
         domain: ".ohiocapitaljournal.com",
         reliability_mean: 42.76470647058824,
@@ -32864,7 +32882,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 3649,
+        id: 3651,
         moniker_name: "Idaho Capital Sun",
         domain: ".idahocapitalsun.com",
         reliability_mean: 42.933333333333344,
@@ -32873,7 +32891,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3650,
+        id: 3652,
         moniker_name: "Silver City Daily Press",
         domain: ".scdailypress.com",
         reliability_mean: 42.644444666666665,
@@ -32882,7 +32900,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3651,
+        id: 3653,
         moniker_name: "PBS: Washington Week With The Atlantic",
         domain: ".tv.washingtonweek.adfontesmedia.com",
         reliability_mean: 39.4166675,
@@ -32891,7 +32909,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 3652,
+        id: 3654,
         moniker_name: "CBS Local 12 Cincinnati WKRC: Local 12 News at 6",
         domain: ".tv.wkrclocal12newsat6.adfontesmedia.com",
         reliability_mean: 43.27778000000001,
@@ -32900,7 +32918,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3653,
+        id: 3655,
         moniker_name: "CBS 3 Kalamazoo WWMT: Newschannel 3 at 6pm",
         domain: ".tv.wmmtnewschannel3at6pm.adfontesmedia.com",
         reliability_mean: 44.22221999999999,
@@ -32909,7 +32927,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3654,
+        id: 3656,
         moniker_name: "NBC 8 Grand Rapids WOOD: News 8 @ 6PM",
         domain: ".tv.woodnews8at6pm.adfontesmedia.com",
         reliability_mean: 43.666666666666664,
@@ -32918,7 +32936,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3655,
+        id: 3657,
         moniker_name: "WPBF 25 News: WPBF News at 6pm",
         domain: ".tv.wpbfnewsat6pm.adfontesmedia.com",
         reliability_mean: 43.333333333333336,
@@ -32927,7 +32945,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3656,
+        id: 3658,
         moniker_name: "FOX 61 Hartford WTIC: FOX 61 News at 6",
         domain: ".tv.wticfox61newsat6.adfontesmedia.com",
         reliability_mean: 44.77778000000001,
@@ -32936,7 +32954,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3657,
+        id: 3659,
         moniker_name: "NBC 5 West Palm Beach WPTV: NewsChannel 5 at 6",
         domain: ".tv.wptvnewschannel5at6.adfontesmedia.com",
         reliability_mean: 43.55555333333333,
@@ -32945,7 +32963,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3658,
+        id: 3660,
         moniker_name: "ABC Grand Rapids WZZM 13: WZZM 13 News at 6",
         domain: ".tv.wzzm13newsat6.adfontesmedia.com",
         reliability_mean: 43.33333,
@@ -32954,7 +32972,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3659,
+        id: 3661,
         moniker_name: "FOX 5 Las Vegas KVVU: FOX5 News at 6PM",
         domain: ".tv.fox5vegasnewsat6pm.adfontesmedia.com",
         reliability_mean: 43.88889,
@@ -32963,7 +32981,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3660,
+        id: 3662,
         moniker_name: "ABC 9 Cincinnati WCPO: WCPO 9 News at 6PM",
         domain: ".tv.wcpo9newsat6pm.adfontesmedia.com",
         reliability_mean: 44.333333333333336,
@@ -32972,7 +32990,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3661,
+        id: 3663,
         moniker_name: "FOX 19 Cincinnati WXIX: FOX19 Now at 6pm",
         domain: ".tv.fox19wxixnowat6pm.adfontesmedia.com",
         reliability_mean: 43.22222333333334,
@@ -32981,7 +32999,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3662,
+        id: 3664,
         moniker_name: "FOX 45 Baltimore WBFF: FOX 45 News at 6PM",
         domain: ".tv.fox45baltimorenewsat6pm.adfontesmedia.com",
         reliability_mean: 43.88888666666666,
@@ -32990,7 +33008,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3663,
+        id: 3665,
         moniker_name: "NBC Connecticut 30 WVIT: NBC Connecticut News at 6",
         domain: ".tv.nbcconnecticutnewsat6.adfontesmedia.com",
         reliability_mean: 43.77777666666666,
@@ -32999,7 +33017,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3664,
+        id: 3666,
         moniker_name: "CNBC: Closing Bell Overtime",
         domain: ".tv.closingbellovertime.adfontesmedia.com",
         reliability_mean: 43.333333333333336,
@@ -33008,7 +33026,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3665,
+        id: 3667,
         moniker_name: "Liberal Hivemind (YouTube)",
         domain: ".tv.liberalhivemind.adfontesmedia.com",
         reliability_mean: 18.333332807017545,
@@ -33017,7 +33035,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 3666,
+        id: 3668,
         moniker_name: "Another Russia",
         domain: ".pod.anotherrussia.adfontesmedia.com",
         reliability_mean: 44,
@@ -33026,7 +33044,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3667,
+        id: 3669,
         moniker_name: "NBC 3 Las Vegas KSNV: News 3 Live at Six",
         domain: ".tv.ksnvnews3liveatsix.adfontesmedia.com",
         reliability_mean: 44.11111,
@@ -33035,7 +33053,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3668,
+        id: 3670,
         moniker_name: "NBC 8 Harrisburg-Lancaster WGAL: WGAL News 8 at 6 pm",
         domain: ".tv.wgalnews8at6pm.adfontesmedia.com",
         reliability_mean: 43.333333333333336,
@@ -33044,7 +33062,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3669,
+        id: 3671,
         moniker_name: "ABC 27 Harrisburg WHTM: ABC27 News at 6PM",
         domain: ".tv.whtmabc27newsat6pm.adfontesmedia.com",
         reliability_mean: 43.22221999999999,
@@ -33053,7 +33071,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3670,
+        id: 3672,
         moniker_name: "FOX 17 West Michigan WXMI: FOX 17 News at 6",
         domain: ".tv.wxmifox17newsat6.adfontesmedia.com",
         reliability_mean: 45.11111,
@@ -33062,7 +33080,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3671,
+        id: 3673,
         moniker_name: "CBS 12 West Palm Beach WPEC: CBS12 News at 6PM",
         domain: ".tv.cbs12wpec.adfontesmedia.com",
         reliability_mean: 44.88889,
@@ -33071,7 +33089,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3672,
+        id: 3674,
         moniker_name: "NBC 5 Cincinnati WLWT: WLWT News at 6pm",
         domain: ".tv.wlwtnewsat6pm.adfontesmedia.com",
         reliability_mean: 43.666666666666664,
@@ -33080,7 +33098,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3673,
+        id: 3675,
         moniker_name: "FOX 29 West Palm Beach WFLX: FOX 29 News at 6:30p",
         domain: ".tv.wflxfox29newsat630p.adfontesmedia.com",
         reliability_mean: 44.44444333333333,
@@ -33089,7 +33107,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3674,
+        id: 3676,
         moniker_name: "ABC 13 Norfolk WVEC: 13 News Now at 6",
         domain: ".tv.wvec13newsnowat6.adfontesmedia.com",
         reliability_mean: 44.666666666666664,
@@ -33098,7 +33116,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3675,
+        id: 3677,
         moniker_name: "CBS 8 San Diego KFMB: News 8 at 6pm",
         domain: ".tv.kfmbnews8at6pm.adfontesmedia.com",
         reliability_mean: 44.77777666666666,
@@ -33107,7 +33125,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3676,
+        id: 3678,
         moniker_name:
             "CBS 47 WJAX | FOX 30 WFOX | Action News Jax: Action News Jax at 6:00PM",
         domain: ".tv.actionnewsjaxat600pm.adfontesmedia.com",
@@ -33117,7 +33135,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3677,
+        id: 3679,
         moniker_name: "FOX 43 Harrisburg WPMT: FOX43 News at 5pm",
         domain: ".tv.wpmtfox43newsat5pm.adfontesmedia.com",
         reliability_mean: 42.11111,
@@ -33126,7 +33144,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3678,
+        id: 3680,
         moniker_name: "FOX 59 Indianapolis WXIN: FOX 59 News at Six",
         domain: ".tv.wxinfox59newsatsix.adfontesmedia.com",
         reliability_mean: 45.44444333333333,
@@ -33135,7 +33153,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3679,
+        id: 3681,
         moniker_name: "CBS 21 Harrisburg WHP: CBS 21 News at 6",
         domain: ".tv.whpcbs21newsat6.adfontesmedia.com",
         reliability_mean: 43.333333333333336,
@@ -33144,7 +33162,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3680,
+        id: 3682,
         moniker_name: "The Balkan",
         domain: ".thebalkan.press",
         reliability_mean: 16.84058,
@@ -33153,7 +33171,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 3681,
+        id: 3683,
         moniker_name: "Mo News - Mosheh Oinounou",
         domain: ".mo.news",
         reliability_mean: 43.08333349999999,
@@ -33162,7 +33180,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3682,
+        id: 3684,
         moniker_name: "AFRO News | The AFRO-American Newspapers",
         domain: ".afro.com",
         reliability_mean: 41.52083375,
@@ -33171,7 +33189,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3683,
+        id: 3685,
         moniker_name: "The Kyle Kulinski Show",
         domain: ".pod.kylekulinskishow.adfontesmedia.com",
         reliability_mean: 16.9166675,
@@ -33180,7 +33198,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 3684,
+        id: 3686,
         moniker_name: "The Wright Report - Bryan Dean Wright",
         domain: ".pod.thewrightreview.adfontesmedia.com",
         reliability_mean: 32.11111,
@@ -33189,7 +33207,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 3685,
+        id: 3687,
         moniker_name: "Weather Channel TV Network",
         domain: ".tv.weatherchanneltvnetwork.adfontesmedia.com",
         reliability_mean: 45.5,
@@ -33198,7 +33216,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 3686,
+        id: 3688,
         moniker_name:
             "Straight Arrow News: America Speaks with Dr. Frank Luntz",
         domain: ".tv.americaspeakswithdrfrankluntz.adfontesmedia.com",
@@ -33208,7 +33226,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3687,
+        id: 3689,
         moniker_name: "KDAF CW33 TV",
         domain: ".cw33.com",
         reliability_mean: 40.39743538461539,
@@ -33217,7 +33235,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3688,
+        id: 3690,
         moniker_name: "CBS 17 WNCN Raleigh",
         domain: ".cbs17.com",
         reliability_mean: 42.57142952380951,
@@ -33226,7 +33244,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3689,
+        id: 3691,
         moniker_name:
             "NBC News NOW: NBC News Daily With Morgan Radford and Vicky Nguyen",
         domain: ".tv.nbcnewsdailywithmorganradfordandvickynguyen.adfontesmedia.com",
@@ -33236,7 +33254,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3690,
+        id: 3692,
         moniker_name: "KOCO 5 News Oklahoma City: KOCO 5 News at 6pm",
         domain: ".tv.koco5newsat6pm.adfontesmedia.com",
         reliability_mean: 43.22222333333334,
@@ -33245,7 +33263,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3691,
+        id: 3693,
         moniker_name: "Berkeleyside",
         domain: ".berkeleyside.org",
         reliability_mean: 44.72549117647059,
@@ -33254,7 +33272,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3692,
+        id: 3694,
         moniker_name: "Mississippi Today",
         domain: ".mississippitoday.org",
         reliability_mean: 43.54545409090909,
@@ -33263,7 +33281,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3693,
+        id: 3695,
         moniker_name: "Sahan Journal",
         domain: ".sahanjournal.com",
         reliability_mean: 44.26666666666667,
@@ -33272,7 +33290,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3694,
+        id: 3696,
         moniker_name: "San Jose Spotlight",
         domain: ".sanjosespotlight.com",
         reliability_mean: 42.60000066666666,
@@ -33281,7 +33299,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3695,
+        id: 3697,
         moniker_name: "WFAE 90.7",
         domain: ".wfae.org",
         reliability_mean: 42.34374999999999,
@@ -33290,7 +33308,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3696,
+        id: 3698,
         moniker_name: "KETK NBC | FOX 51 KFXK",
         domain: ".ketk.com",
         reliability_mean: 41.888889047619045,
@@ -33299,7 +33317,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3697,
+        id: 3699,
         moniker_name: "KWKT FOX 44",
         domain: ".fox44news.com",
         reliability_mean: 41.15277833333332,
@@ -33308,7 +33326,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3698,
+        id: 3700,
         moniker_name: "WDTN News 2 Dayton",
         domain: ".wdtn.com",
         reliability_mean: 41.56060681818181,
@@ -33317,7 +33335,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3699,
+        id: 3701,
         moniker_name: "KLST News | ConchoValleyHomepage.com",
         domain: ".conchovalleyhomepage.com",
         reliability_mean: 41.41269761904762,
@@ -33326,16 +33344,16 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3700,
+        id: 3702,
         moniker_name: "WUTR | WFXV FOX 33 | CNYHomepage",
         domain: ".cnyhomepage.com",
-        reliability_mean: 42.70000099999999,
+        reliability_mean: 42.66666761904761,
         reliability_label: "Reliable; Analysis/Fact Reporting",
-        bias_mean: -1.434782608695652,
+        bias_mean: -1.375,
         bias_label: "Middle",
     },
     {
-        id: 3701,
+        id: 3703,
         moniker_name: "WDHN News",
         domain: ".wdhn.com",
         reliability_mean: 41.603173333333345,
@@ -33344,7 +33362,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3702,
+        id: 3704,
         moniker_name: "KTAB | KRBC | BigCountryHomepage.com",
         domain: ".bigcountryhomepage.com",
         reliability_mean: 41.66666681818181,
@@ -33353,7 +33371,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3703,
+        id: 3705,
         moniker_name: "ABC 6 KSVI | FOX 4 KHMT | YourBigSky.com",
         domain: ".yourbigsky.com",
         reliability_mean: 40.057970869565224,
@@ -33362,7 +33380,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3704,
+        id: 3706,
         moniker_name: "FOX 16 News KLRT",
         domain: ".fox16.com",
         reliability_mean: 42.62698380952381,
@@ -33371,25 +33389,25 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3705,
+        id: 3707,
         moniker_name: "WKRG News 5",
         domain: ".wkrg.com",
-        reliability_mean: 42.238096190476185,
+        reliability_mean: 42.166667727272724,
         reliability_label: "Reliable; Analysis/Fact Reporting",
-        bias_mean: -0.031746190476190476,
+        bias_mean: -0.030303181818181816,
         bias_label: "Middle",
     },
     {
-        id: 3706,
+        id: 3708,
         moniker_name: "WVNS 59 News",
         domain: ".wvnstv.com",
-        reliability_mean: 41.966666499999995,
+        reliability_mean: 41.98412666666667,
         reliability_label: "Reliable; Analysis/Fact Reporting",
         bias_mean: 0,
         bias_label: "Middle",
     },
     {
-        id: 3707,
+        id: 3709,
         moniker_name: "FOX 8 WGHP",
         domain: ".myfox8.com",
         reliability_mean: 42.85714380952381,
@@ -33398,16 +33416,16 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3708,
+        id: 3710,
         moniker_name: "WPRI 12 | FOX Providence WNAC",
         domain: ".wpri.com",
-        reliability_mean: 41.63768043478262,
+        reliability_mean: 41.83333250000001,
         reliability_label: "Reliable; Analysis/Fact Reporting",
-        bias_mean: -1.2564096153846154,
+        bias_mean: -1.2098759259259257,
         bias_label: "Middle",
     },
     {
-        id: 3709,
+        id: 3711,
         moniker_name: "JET 24 WJET | FOX 66 WFXP | YourErie.com",
         domain: ".yourerie.com",
         reliability_mean: 41.77777714285714,
@@ -33416,7 +33434,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3710,
+        id: 3712,
         moniker_name: "CBS 42 WIAT Birmingham",
         domain: ".cbs42.com",
         reliability_mean: 42.375000416666666,
@@ -33425,7 +33443,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3711,
+        id: 3713,
         moniker_name: "Newsmax: Newsline",
         domain: ".tv.newsmaxnewsline.adfontesmedia.com",
         reliability_mean: 30.5833325,
@@ -33434,7 +33452,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 3712,
+        id: 3714,
         moniker_name: "KLBK News | EverythingLubbock.com | KAMC",
         domain: ".everythinglubbock.com",
         reliability_mean: 41.55555571428571,
@@ -33443,7 +33461,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3713,
+        id: 3715,
         moniker_name: "KTVE 10 | KARD 14 | MyArkLaMiss.com",
         domain: ".myarklamiss.com",
         reliability_mean: 42.82539666666666,
@@ -33452,7 +33470,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3714,
+        id: 3716,
         moniker_name: "KAMR Local 4 News | MyHighPlains.com",
         domain: ".myhighplains.com",
         reliability_mean: 43.01587285714286,
@@ -33461,7 +33479,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3715,
+        id: 3717,
         moniker_name: "KGET TV 17 Bakersfield",
         domain: ".kget.com",
         reliability_mean: 43.0151509090909,
@@ -33470,16 +33488,16 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3716,
+        id: 3718,
         moniker_name: "WLNS 6 News",
         domain: ".wlns.com",
-        reliability_mean: 41.63333349999999,
+        reliability_mean: 41.634920952380945,
         reliability_label: "Reliable; Analysis/Fact Reporting",
-        bias_mean: -0.65,
+        bias_mean: -0.6190476190476191,
         bias_label: "Middle",
     },
     {
-        id: 3717,
+        id: 3719,
         moniker_name: "WJBF News Channel 6",
         domain: ".wjbf.com",
         reliability_mean: 41.507936190476194,
@@ -33488,7 +33506,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3718,
+        id: 3720,
         moniker_name: "The Sean Spicer Show",
         domain: ".tv.theseanspicershow.adfontesmedia.com",
         reliability_mean: 27.777779999999996,
@@ -33497,7 +33515,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 3719,
+        id: 3721,
         moniker_name: "Local 4 News WHBF | OurQuadCities.com",
         domain: ".ourquadcities.com",
         reliability_mean: 41.873015238095235,
@@ -33506,16 +33524,16 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3720,
+        id: 3722,
         moniker_name: "WNCT-TV 9",
         domain: ".wnct.com",
-        reliability_mean: 43.00000083333333,
+        reliability_mean: 43.000000799999995,
         reliability_label: "Reliable; Analysis/Fact Reporting",
-        bias_mean: 0,
+        bias_mean: 0.0133332,
         bias_label: "Middle",
     },
     {
-        id: 3721,
+        id: 3723,
         moniker_name: "NewsChannel 9 WSYR | LocalSYR.com",
         domain: ".localsyr.com",
         reliability_mean: 42.34920619047619,
@@ -33524,7 +33542,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3722,
+        id: 3724,
         moniker_name: "WHO 13 News Des Moines",
         domain: ".who13.com",
         reliability_mean: 41.95999959999999,
@@ -33533,7 +33551,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3723,
+        id: 3725,
         moniker_name: "WIVT NewsChannel 34 | WBGH | BinghamtonHomepage.com",
         domain: ".binghamtonhomepage.com",
         reliability_mean: 40.11594173913043,
@@ -33542,7 +33560,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3724,
+        id: 3726,
         moniker_name: "KSN 16 | KODE 12 | FourStatesHomepage.com | KSNF",
         domain: ".fourstateshomepage.com",
         reliability_mean: 41.84722208333333,
@@ -33551,16 +33569,16 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3725,
+        id: 3727,
         moniker_name: "Louisiana First News | WVLA NBC Local 33 | WGMB FOX 44",
         domain: ".louisianafirstnews.com",
-        reliability_mean: 42.2333335,
+        reliability_mean: 42.15873047619048,
         reliability_label: "Reliable; Analysis/Fact Reporting",
         bias_mean: 0,
         bias_label: "Middle",
     },
     {
-        id: 3726,
+        id: 3728,
         moniker_name: "Health IT Analytics",
         domain: ".healthitanalytics.com",
         reliability_mean: 44.294116470588236,
@@ -33569,7 +33587,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3727,
+        id: 3729,
         moniker_name: "FOX 40 Sacramento KTXL",
         domain: ".fox40.com",
         reliability_mean: 42.50793666666667,
@@ -33578,16 +33596,16 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3728,
+        id: 3730,
         moniker_name: "WKRN News 2 Nashville",
         domain: ".wkrn.com",
-        reliability_mean: 42.98412714285715,
+        reliability_mean: 42.969697272727274,
         reliability_label: "Reliable; Analysis/Fact Reporting",
-        bias_mean: -0.4444447619047619,
+        bias_mean: -0.42424272727272727,
         bias_label: "Middle",
     },
     {
-        id: 3729,
+        id: 3731,
         moniker_name: "FOX 56 News WDKY",
         domain: ".fox56news.com",
         reliability_mean: 42.01587333333333,
@@ -33596,7 +33614,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3730,
+        id: 3732,
         moniker_name: "TBN: The Watchman",
         domain: ".tv.thewatchman.adfontesmedia.com",
         reliability_mean: 29.555553333333336,
@@ -33605,7 +33623,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 3731,
+        id: 3733,
         moniker_name: "TBN: The Rosenberg Report",
         domain: ".tv.therosenbergreport.adfontesmedia.com",
         reliability_mean: 24.777775000000002,
@@ -33614,7 +33632,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 3732,
+        id: 3734,
         moniker_name: "WCBD News 2",
         domain: ".counton2.com",
         reliability_mean: 42.61904761904762,
@@ -33623,7 +33641,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3733,
+        id: 3735,
         moniker_name: "WCIA 3 News",
         domain: ".wcia.com",
         reliability_mean: 42.71428619047619,
@@ -33632,7 +33650,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3734,
+        id: 3736,
         moniker_name: "Rising Tide",
         domain: ".risingtide-foundation.org",
         reliability_mean: 40.97777866666666,
@@ -33641,7 +33659,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3735,
+        id: 3737,
         moniker_name: "NBC 36 Austin KXAN: KXAN News at 6",
         domain: ".tv.kxannewsat6.adfontesmedia.com",
         reliability_mean: 44.666666666666664,
@@ -33650,7 +33668,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3736,
+        id: 3738,
         moniker_name: "CBS 58 Milwaukee WDJT: CBS 58 News at 5pm",
         domain: ".tv.cbs58newsat5pm.adfontesmedia.com",
         reliability_mean: 44.44444666666667,
@@ -33659,7 +33677,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3737,
+        id: 3739,
         moniker_name: "NewsNation: NewsNation Live With Connell McShane",
         domain: ".tv.newsnationlivewithconnellmcshane.adfontesmedia.com",
         reliability_mean: 42.111111666666666,
@@ -33668,7 +33686,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3738,
+        id: 3740,
         moniker_name:
             "Real America's Voice: Human Events Daily with Jack Posobiec",
         domain: ".tv.humaneventsdailywithjackposobiec.adfontesmedia.com",
@@ -33678,7 +33696,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 3739,
+        id: 3741,
         moniker_name: "Rachel Maddow Presents: Deja News",
         domain: ".pod.rachelmaddowpresentsdejanews.adfontesmedia.com",
         reliability_mean: 47.333335000000005,
@@ -33687,7 +33705,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3740,
+        id: 3742,
         moniker_name: "PBS: Amanpour and Company",
         domain: ".tv.amanpourandcompany.adfontesmedia.com",
         reliability_mean: 41.5000025,
@@ -33696,7 +33714,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 3741,
+        id: 3743,
         moniker_name: "GZERO Media",
         domain: ".gzeromedia.com",
         reliability_mean: 39.400000666666664,
@@ -33705,7 +33723,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3742,
+        id: 3744,
         moniker_name: "Real America's Voice: The Charlie Kirk Show",
         domain: ".tv.thecharliekirkshow.adfontesmedia.com",
         reliability_mean: 11.888889999999998,
@@ -33714,7 +33732,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 3743,
+        id: 3745,
         moniker_name: "Mo News Instagram - Mosheh Oinounou",
         domain: ".instagram.com/mosheh",
         reliability_mean: 40.425925000000014,
@@ -33723,7 +33741,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3744,
+        id: 3746,
         moniker_name: "NZZ Geopolitics",
         domain: ".nzz.ch",
         reliability_mean: 43.222221999999995,
@@ -33732,7 +33750,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3745,
+        id: 3747,
         moniker_name: "The San Francisco Standard",
         domain: ".sfstandard.com",
         reliability_mean: 43.666666875,
@@ -33741,7 +33759,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3746,
+        id: 3748,
         moniker_name:
             "Black Conservative Perspective (YouTube) - Gregory Foreman",
         domain: ".tv.blackconservativeperspective-youtube.adfontesmedia.com",
@@ -33751,7 +33769,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 3747,
+        id: 3749,
         moniker_name: "Real America's Voice: RAV Special Report",
         domain: ".tv.ravspecialreport.adfontesmedia.com",
         reliability_mean: 19.74074222222222,
@@ -33760,7 +33778,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 3748,
+        id: 3750,
         moniker_name: "WTKR News 3: News 3 at 6",
         domain: ".tv.wtkrnews3at6.adfontesmedia.com",
         reliability_mean: 42.88889,
@@ -33769,7 +33787,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3749,
+        id: 3751,
         moniker_name: "7 News Boston WHDH: 7 News at 6PM",
         domain: ".tv.whdh7newsat6pm.adfontesmedia.com",
         reliability_mean: 45.88889,
@@ -33778,7 +33796,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3750,
+        id: 3752,
         moniker_name: "News 9 KWTV: News 9 at 6pm",
         domain: ".tv.kwtvnews9at6pm.adfontesmedia.com",
         reliability_mean: 43.44444333333333,
@@ -33787,7 +33805,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3751,
+        id: 3753,
         moniker_name: "Air Mail",
         domain: ".airmail.news",
         reliability_mean: 37.083332500000004,
@@ -33796,7 +33814,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 3752,
+        id: 3754,
         moniker_name: "First Coast News WTLV-WJXX: First Coast News at 6",
         domain: ".tv.firstcoastnewsat6.adfontesmedia.com",
         reliability_mean: 43.55555666666667,
@@ -33805,7 +33823,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3753,
+        id: 3755,
         moniker_name: "RocaNews - The Current",
         domain: ".rocanews.com",
         reliability_mean: 40.35555533333333,
@@ -33814,7 +33832,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3754,
+        id: 3756,
         moniker_name: "The Charles C. W. Cooke Podcast",
         domain: ".pod.thecharlescwcookepodcast.adfontesmedia.com",
         reliability_mean: 38.44444333333333,
@@ -33823,7 +33841,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3755,
+        id: 3757,
         moniker_name: "Daily Express US",
         domain: ".the-express.com",
         reliability_mean: 18.35211338028169,
@@ -33832,7 +33850,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 3756,
+        id: 3758,
         moniker_name: "The Yonkers Ledger",
         domain: ".theyonkersledger.com",
         reliability_mean: 41.37777733333334,
@@ -33841,7 +33859,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3757,
+        id: 3759,
         moniker_name: "Real Raw News (Satirical and Fake News)",
         domain: ".realrawnews.com",
         reliability_mean: 3.8124993750000007,
@@ -33850,7 +33868,7 @@ const sampleData = [
         bias_label: "Most Extreme Right",
     },
     {
-        id: 3758,
+        id: 3760,
         moniker_name: "WVTM 13",
         domain: ".wvtm13.com",
         reliability_mean: 43.09259333333333,
@@ -33859,7 +33877,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3759,
+        id: 3761,
         moniker_name: "9to5Toys",
         domain: ".9to5toys.com",
         reliability_mean: 37.4,
@@ -33868,7 +33886,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3760,
+        id: 3762,
         moniker_name: "Space Explored",
         domain: ".spaceexplored.com",
         reliability_mean: 42.33333266666667,
@@ -33877,7 +33895,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3761,
+        id: 3763,
         moniker_name: "Real America's Voice: American Sunrise",
         domain: ".tv.americansunrise.adfontesmedia.com",
         reliability_mean: 20.333332222222225,
@@ -33886,7 +33904,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 3762,
+        id: 3764,
         moniker_name: "DroneDJ",
         domain: ".dronedj.com",
         reliability_mean: 40.466666666666676,
@@ -33895,7 +33913,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3763,
+        id: 3765,
         moniker_name: "Reliable News",
         domain: ".reliablenews.org",
         reliability_mean: 27.074073703703704,
@@ -33904,7 +33922,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 3764,
+        id: 3766,
         moniker_name: "Real America's Voice: Live From Studio 6B",
         domain: ".tv.livefromstudio6b.adfontesmedia.com",
         reliability_mean: 15.083332500000001,
@@ -33913,7 +33931,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 3765,
+        id: 3767,
         moniker_name: "At the Bar",
         domain: ".pod.atthebar.adfontesmedia.com",
         reliability_mean: 26.38888833333333,
@@ -33922,7 +33940,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 3766,
+        id: 3768,
         moniker_name: "The Langley Files: A CIA Podcast",
         domain: ".pod.thelangleyfiles.adfontesmedia.com",
         reliability_mean: 46.11111,
@@ -33931,7 +33949,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3767,
+        id: 3769,
         moniker_name: "The Insight | Nigeria",
         domain: ".theinsight.com.ng",
         reliability_mean: 37.59259277777778,
@@ -33940,7 +33958,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3768,
+        id: 3770,
         moniker_name: "WDAM 7",
         domain: ".wdam.com",
         reliability_mean: 41.97777800000001,
@@ -33949,7 +33967,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3769,
+        id: 3771,
         moniker_name: "WDEF News 12",
         domain: ".wdef.com",
         reliability_mean: 42.13333266666666,
@@ -33958,7 +33976,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3770,
+        id: 3772,
         moniker_name: "WCTI News 12",
         domain: ".wcti12.com",
         reliability_mean: 41.86666666666667,
@@ -33967,7 +33985,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3771,
+        id: 3773,
         moniker_name: "WCSJ Radio",
         domain: ".wcsjnews.com",
         reliability_mean: 41.82222133333333,
@@ -33976,7 +33994,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3772,
+        id: 3774,
         moniker_name: "Maiden Mother Matriarch with Louise Perry",
         domain: ".pod.maidenmothermatriarchwithlouiseperry.adfontesmedia.com",
         reliability_mean: 33.44444666666667,
@@ -33985,7 +34003,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 3773,
+        id: 3775,
         moniker_name: "The Karol Markowicz Show",
         domain: ".pod.thekarolmarkowiczshow.adfontesmedia.com",
         reliability_mean: 32.666666666666664,
@@ -33994,7 +34012,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 3774,
+        id: 3776,
         moniker_name: "2WAY: Citizen McCain with Meghan McCain",
         domain: ".tv.citizenmccainwithmeghanmccain.adfontesmedia.com",
         reliability_mean: 33.111113333333336,
@@ -34003,7 +34021,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 3775,
+        id: 3777,
         moniker_name: "Jen Rubin's Green Room",
         domain: ".pod.jenrubinsgreenroom.adfontesmedia.com",
         reliability_mean: 23.966668,
@@ -34012,7 +34030,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 3776,
+        id: 3778,
         moniker_name: "CNN: Laura Coates Live",
         domain: ".tv.lauracoateslive.adfontesmedia.com",
         reliability_mean: 34.888888333333334,
@@ -34021,7 +34039,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 3777,
+        id: 3779,
         moniker_name: "AJ+ (YouTube)",
         domain: ".tv.ajplus-youtube.adfontesmedia.com",
         reliability_mean: 28.27777791666667,
@@ -34030,7 +34048,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 3778,
+        id: 3780,
         moniker_name: "Channel 5 with Andrew Callaghan (YouTube)",
         domain: ".tv.channel5withandrewcallaghan.adfontesmedia.com",
         reliability_mean: 28.025639230769233,
@@ -34039,7 +34057,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 3779,
+        id: 3781,
         moniker_name: "Kite & Key Media - Vanessa Mendoza & Troy Senik",
         domain: ".tv.kiteandkeymedia.adfontesmedia.com",
         reliability_mean: 40.26666719999999,
@@ -34048,7 +34066,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3780,
+        id: 3782,
         moniker_name: "J.J. McCullough (YouTube)",
         domain: ".tv.jjmccullough-youtube.adfontesmedia.com",
         reliability_mean: 32.888888333333334,
@@ -34057,7 +34075,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 3781,
+        id: 3783,
         moniker_name: "The Grayzone (YouTube) - Max Blumenthal",
         domain: ".tv.thegrayzone-youtube.adfontesmedia.com",
         reliability_mean: 17.251851333333327,
@@ -34066,7 +34084,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 3782,
+        id: 3784,
         moniker_name: "Ryan Chapman (YouTube)",
         domain: ".tv.ryanchapman-youtube.adfontesmedia.com",
         reliability_mean: 34.111111666666666,
@@ -34075,7 +34093,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3783,
+        id: 3785,
         moniker_name: "HasanAbi (YouTube)",
         domain: ".tv.hasanabi-youtube.adfontesmedia.com",
         reliability_mean: 14.385185555555555,
@@ -34084,7 +34102,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 3784,
+        id: 3786,
         moniker_name: "404 Media",
         domain: ".404media.co",
         reliability_mean: 45.26315842105263,
@@ -34093,7 +34111,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3785,
+        id: 3787,
         moniker_name: "CENTRO Tampa",
         domain: ".centrotampabay.com",
         reliability_mean: 43.75438578947369,
@@ -34102,7 +34120,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3786,
+        id: 3788,
         moniker_name: "CBS 13 Sacramento KOVR",
         domain: ".cbsnews.com/sacramento/",
         reliability_mean: 43.399999333333334,
@@ -34111,7 +34129,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3787,
+        id: 3789,
         moniker_name: "CBS 13 Baltimore WJZ",
         domain: ".cbsnews.com/baltimore",
         reliability_mean: 42.71111066666666,
@@ -34120,7 +34138,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3788,
+        id: 3790,
         moniker_name: "Ukraine: The Latest",
         domain: ".pod.ukrainethelatest.adfontesmedia.com",
         reliability_mean: 42.22222333333334,
@@ -34129,7 +34147,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3789,
+        id: 3791,
         moniker_name: "Congressional Dish",
         domain: ".pod.congressionaldish.adfontesmedia.com",
         reliability_mean: 27.80952285714286,
@@ -34138,7 +34156,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 3790,
+        id: 3792,
         moniker_name: "What Really Matters with Walter Russell Mead",
         domain: ".pod.whatreallymatters.adfontesmedia.com",
         reliability_mean: 35.66666333333333,
@@ -34147,7 +34165,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 3791,
+        id: 3793,
         moniker_name: "NYT: Matter of Opinion",
         domain: ".pod.matterofopinion.adfontesmedia.com",
         reliability_mean: 31.333333333333332,
@@ -34156,7 +34174,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 3792,
+        id: 3794,
         moniker_name: "CNN: Inside Politics Sunday with Manu Raju",
         domain: ".tv.insidepoliticswithmanuraju.adfontesmedia.com",
         reliability_mean: 39.666664999999995,
@@ -34165,7 +34183,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3793,
+        id: 3795,
         moniker_name: "FOX 11 LA KTTV: The Issue Is",
         domain: ".tv.foxlatheissueis.adfontesmedia.com",
         reliability_mean: 42.583335000000005,
@@ -34174,7 +34192,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3794,
+        id: 3796,
         moniker_name: "CNN: CNN NewsNight with Abby Phillip",
         domain: ".tv.cnnnewsnightwithabbyphillip.adfontesmedia.com",
         reliability_mean: 33.111113333333336,
@@ -34183,7 +34201,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 3795,
+        id: 3797,
         moniker_name: "CBS 4 Miami WFOR",
         domain: ".cbsnews.com/miami",
         reliability_mean: 43.64444533333333,
@@ -34192,7 +34210,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3796,
+        id: 3798,
         moniker_name: "The Shade Room",
         domain: ".theshaderoom.com",
         reliability_mean: 37.73333266666667,
@@ -34201,7 +34219,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3797,
+        id: 3799,
         moniker_name: "The Witch Trials of J.K. Rowling",
         domain: ".pod.thewitchtrialsofjkrowling.adffontesmedia.com",
         reliability_mean: 46.142857142857146,
@@ -34210,7 +34228,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3798,
+        id: 3800,
         moniker_name: "Marti Noticias",
         domain: ".martinoticias.com",
         reliability_mean: 43.01666650000001,
@@ -34219,7 +34237,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3799,
+        id: 3801,
         moniker_name: "The Geller Report",
         domain: ".gellerreport.com",
         reliability_mean: 14.527507766990292,
@@ -34228,7 +34246,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 3800,
+        id: 3802,
         moniker_name: "The President's Daily Brief with Mike Baker",
         domain: ".pod.thepresidentsdailybrief.adfontesmedia.com",
         reliability_mean: 36.22222333333334,
@@ -34237,7 +34255,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 3801,
+        id: 3803,
         moniker_name: "Telemundo Amarillo",
         domain: ".telemundoamarillo.com",
         reliability_mean: 42.395833124999996,
@@ -34246,7 +34264,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3802,
+        id: 3804,
         moniker_name: "Telemundo Atlanta",
         domain: ".telemundoatlanta.com",
         reliability_mean: 41.85185222222221,
@@ -34255,7 +34273,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3803,
+        id: 3805,
         moniker_name: "CNN: First of All With Victor Blackwell",
         domain: ".tv.firstofallwithvictorblackwell.adfontesmedia.com",
         reliability_mean: 37.3333325,
@@ -34264,7 +34282,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 3804,
+        id: 3806,
         moniker_name: "Interfaith America with Eboo Patel",
         domain: ".pod.interfaithamericawitheboopatel.adfontesmedia.com",
         reliability_mean: 38,
@@ -34273,7 +34291,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3805,
+        id: 3807,
         moniker_name: "What Now? with Trevor Noah",
         domain: ".pod.whatnowwithtrevornoah.adfontesmedia.com",
         reliability_mean: 35.9166675,
@@ -34282,7 +34300,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 3806,
+        id: 3808,
         moniker_name: "The Independent with Scott Atlas",
         domain: ".pod.theindependentwithscottatlas.adfontesmedia.com",
         reliability_mean: 31.666667499999996,
@@ -34291,7 +34309,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 3807,
+        id: 3809,
         moniker_name: "Guerrilla History",
         domain: ".pod.guerrillahistory.adfontesmedia.com",
         reliability_mean: 27.55555666666667,
@@ -34300,7 +34318,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 3808,
+        id: 3810,
         moniker_name: "La Nueva.",
         domain: ".lanueva.com",
         reliability_mean: 43.08888866666667,
@@ -34309,7 +34327,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3809,
+        id: 3811,
         moniker_name: "The Markup",
         domain: ".themarkup.org",
         reliability_mean: 45.31111133333332,
@@ -34318,7 +34336,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3810,
+        id: 3812,
         moniker_name: "Weather Underground",
         domain: ".wunderground.com",
         reliability_mean: 44.13333466666666,
@@ -34327,7 +34345,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3811,
+        id: 3813,
         moniker_name: "This Past Weekend w/ Theo Von",
         domain: ".pod.thispastweekendsiththeovon.adfontesmedia.com",
         reliability_mean: 26.14285857142857,
@@ -34336,7 +34354,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 3812,
+        id: 3814,
         moniker_name: "NYT: The Run-Up",
         domain: ".pod.therun-up.adfontesmedia.com",
         reliability_mean: 38.11111,
@@ -34345,7 +34363,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 3813,
+        id: 3815,
         moniker_name: "CulturaOcio",
         domain: ".culturaocio.com",
         reliability_mean: 36.93333333333332,
@@ -34354,7 +34372,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3814,
+        id: 3816,
         moniker_name: "I Might Be Wrong",
         domain: ".pod.imightbewrong.adfontesmedia.com",
         reliability_mean: 23.666665,
@@ -34363,7 +34381,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 3815,
+        id: 3817,
         moniker_name: "The Nick Halaris Show",
         domain: ".pod.thenickhalarisshow.adfontesmedia.com",
         reliability_mean: 32.44444333333333,
@@ -34372,7 +34390,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 3816,
+        id: 3818,
         moniker_name: "Pirate Wires Podcast",
         domain: ".pod.piratewires.adfontesmedia.com",
         reliability_mean: 27.555556666666664,
@@ -34381,7 +34399,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 3817,
+        id: 3819,
         moniker_name: "The Big Story",
         domain: ".pod.thebigstory.adfontesmedia.com",
         reliability_mean: 40.1666675,
@@ -34390,7 +34408,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 3818,
+        id: 3820,
         moniker_name: "The Pivot",
         domain: ".pod.thepivot.adfontesmedia.com",
         reliability_mean: 38.99999666666667,
@@ -34399,7 +34417,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3819,
+        id: 3821,
         moniker_name: "Q & A, Hosted by Jay Nordlinger",
         domain: ".pod.qanda-hostedbyjaynordlinger.adfontesmedia.com",
         reliability_mean: 36.333333333333336,
@@ -34408,7 +34426,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3820,
+        id: 3822,
         moniker_name: "Somebody's Gotta Win with Tara Palmeri",
         domain: ".pod.somebodysgottawinwithtarapalmeri.adfontesmedia.com",
         reliability_mean: 36.0833325,
@@ -34417,7 +34435,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 3821,
+        id: 3823,
         moniker_name: "Keeping It Civil",
         domain: ".pod.keepingitcivil.adfontesmedia.com",
         reliability_mean: 39.44444333333333,
@@ -34426,7 +34444,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 3822,
+        id: 3824,
         moniker_name: "You're Wrong w/ Mollie Hemingway & David Harsanyi",
         domain: ".pod.yourewrongwithmollieheminwayanddavidharsanyi.adfontesmedia.com",
         reliability_mean: 28.111113333333332,
@@ -34435,7 +34453,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 3823,
+        id: 3825,
         moniker_name: "1 big thing",
         domain: ".pod.1bigthing.adfontesmedia.com",
         reliability_mean: 38.55555333333333,
@@ -34444,7 +34462,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 3824,
+        id: 3826,
         moniker_name: "Politics Politics Politics - Justin Robert Young",
         domain: ".pod.politicspoliticspolitics.adfontesmedia.com",
         reliability_mean: 33.199998,
@@ -34453,7 +34471,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 3825,
+        id: 3827,
         moniker_name: "Revista Semana",
         domain: ".semana.com",
         reliability_mean: 40.291666875000004,
@@ -34462,7 +34480,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3826,
+        id: 3828,
         moniker_name: "eCartelera",
         domain: ".ecartelera.com",
         reliability_mean: 40.750000625,
@@ -34471,7 +34489,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3827,
+        id: 3829,
         moniker_name: "News Not Noise by Jessica Yellen",
         domain: ".newsnotnoisejessicayellin.substack.com",
         reliability_mean: 37.177777999999996,
@@ -34480,7 +34498,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 3828,
+        id: 3830,
         moniker_name: "Infobae",
         domain: ".infobae.com",
         reliability_mean: 43.800000000000004,
@@ -34489,7 +34507,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3829,
+        id: 3831,
         moniker_name: "NotiUno 630",
         domain: ".notiuno.com",
         reliability_mean: 39.600000666666666,
@@ -34498,7 +34516,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3830,
+        id: 3832,
         moniker_name: "RCN Radio",
         domain: ".rcnradio.com",
         reliability_mean: 42.03703666666667,
@@ -34507,7 +34525,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3831,
+        id: 3833,
         moniker_name: "Rachel Maddow Presents: Ultra",
         domain: ".pod.rachelmaddowpresentsultra.adfontesmedia.com",
         reliability_mean: 45.2916675,
@@ -34516,7 +34534,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3832,
+        id: 3834,
         moniker_name: "About a Boy: The Story of Vladimir Putin",
         domain: ".pod.aboutaboy-thestoryofvladimirputin.adfontesmedia.com",
         reliability_mean: 46.733334,
@@ -34525,7 +34543,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3833,
+        id: 3835,
         moniker_name: "CBS Chicago WBBM",
         domain: ".cbsnews.com/chicago",
         reliability_mean: 41.355555333333335,
@@ -34534,7 +34552,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3834,
+        id: 3836,
         moniker_name: "KUNW Univision",
         domain: ".kunwtv.com",
         reliability_mean: 42.68888866666667,
@@ -34543,7 +34561,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3835,
+        id: 3837,
         moniker_name: "teleSUR",
         domain: ".telesurtv.net",
         reliability_mean: 24.064515483870967,
@@ -34552,7 +34570,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 3836,
+        id: 3838,
         moniker_name: "Double Down News (YouTube)",
         domain: ".tv.doubledownnews-youtube.adfontesmedia.com",
         reliability_mean: 21.43678103448276,
@@ -34561,7 +34579,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 3837,
+        id: 3839,
         moniker_name: "Status Coup News (YouTube) - Jordan Chariton",
         domain: ".tv.statuscoupnews-youtube.adfontesmedia.com",
         reliability_mean: 17.38738783783784,
@@ -34570,7 +34588,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 3838,
+        id: 3840,
         moniker_name: "Problematic Women",
         domain: ".pod.problematicwomen.adfontesmedia.com",
         reliability_mean: 27.444443333333336,
@@ -34579,7 +34597,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 3839,
+        id: 3841,
         moniker_name: "TED Talks Daily",
         domain: ".pod.tedtalksdaily.adfontesmedia.com",
         reliability_mean: 35.666666666666664,
@@ -34588,7 +34606,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 3840,
+        id: 3842,
         moniker_name: "ZDNET",
         domain: ".zdnet.com",
         reliability_mean: 32.53571428571429,
@@ -34597,7 +34615,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3841,
+        id: 3843,
         moniker_name: "CNN International: CNN Newsroom with Anna Coren",
         domain: ".tv.cnnnewsroomwithannacoren.adfontesmedia.com",
         reliability_mean: 45.333333333333336,
@@ -34606,7 +34624,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 3842,
+        id: 3844,
         moniker_name: "The Current",
         domain: ".thecurrent.com",
         reliability_mean: 43.57777733333333,
@@ -34615,16 +34633,16 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3843,
+        id: 3845,
         moniker_name: "NewsNation: Morning in America Weekend",
         domain: ".tv.morninginamericaweekend.adfontesmedia.com",
-        reliability_mean: 43.666666,
+        reliability_mean: 43.72222166666666,
         reliability_label: "Reliable; Analysis/Fact Reporting",
-        bias_mean: 5.041665,
+        bias_mean: 4.222221111111111,
         bias_label: "Middle",
     },
     {
-        id: 3844,
+        id: 3846,
         moniker_name: "Fox News: Fox News Saturday Night w/ Jimmy Failla",
         domain: ".tv.foxnewssaturdaynight.adfontesmedia.com",
         reliability_mean: 25.238094285714283,
@@ -34633,7 +34651,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 3845,
+        id: 3847,
         moniker_name: "Roland S. Martin (YouTube)",
         domain: ".tv.rolandsmartin-youtube.adfontesmedia.com",
         reliability_mean: 22.714287857142857,
@@ -34642,7 +34660,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 3846,
+        id: 3848,
         moniker_name: "The Rational National (YouTube) with David Doel",
         domain: ".tv.therationalnational-youtube.adfontesmedia.com",
         reliability_mean: 25.550001,
@@ -34651,7 +34669,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 3847,
+        id: 3849,
         moniker_name: "Religion Dispatches",
         domain: ".religiondispatches.org",
         reliability_mean: 25.34568,
@@ -34660,7 +34678,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 3848,
+        id: 3850,
         moniker_name: "Morning Brew Daily",
         domain: ".pod.morningbrewdaily.adfontesmedia.com",
         reliability_mean: 40.9166675,
@@ -34669,7 +34687,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3849,
+        id: 3851,
         moniker_name: "Second Thought (YouTube)",
         domain: ".tv.secondthoughts-youtube.adfontesmedia.com",
         reliability_mean: 15.271604814814815,
@@ -34678,7 +34696,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 3850,
+        id: 3852,
         moniker_name: "Novara Media (YouTube)",
         domain: ".tv.novaramedia-youtube.adfontesmedia.com",
         reliability_mean: 28.777777333333336,
@@ -34687,7 +34705,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 3851,
+        id: 3853,
         moniker_name: "Bloomberg: The Pulse with Francine Lacqua",
         domain: ".tv.thepulsewithfrancinelacqua.adfontesmedia.com",
         reliability_mean: 43.55555333333333,
@@ -34696,7 +34714,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3852,
+        id: 3854,
         moniker_name: "Washington Post Live",
         domain: ".pod.washingtonpostlive.adfontesmedia.com",
         reliability_mean: 38.75,
@@ -34705,7 +34723,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3853,
+        id: 3855,
         moniker_name: "Bloomberg: The China Show",
         domain: ".tv.thechinashow.adfontesmedia.com",
         reliability_mean: 46.77777666666666,
@@ -34714,7 +34732,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3854,
+        id: 3856,
         moniker_name: "Tetragrammaton with Rick Rubin",
         domain: ".pod.tetragrammatonwithrickrubin.adfontesmedia.com",
         reliability_mean: 41.44444333333333,
@@ -34723,7 +34741,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3855,
+        id: 3857,
         moniker_name: "NewsNation: The Hill Sunday with Chris Stirewalt",
         domain: ".tv.thehillsundaywithchrisstirewalt.adfontesmedia.com",
         reliability_mean: 38.52380857142857,
@@ -34732,7 +34750,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3856,
+        id: 3858,
         moniker_name: "KCCI 8 News Des Moines",
         domain: ".kcci.com",
         reliability_mean: 40.85964842105263,
@@ -34741,7 +34759,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3857,
+        id: 3859,
         moniker_name: "KETV NewsWatch 7",
         domain: ".ketv.com",
         reliability_mean: 41.911111999999996,
@@ -34750,7 +34768,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3858,
+        id: 3860,
         moniker_name: "ABC 9 Kansas City KMBC",
         domain: ".kmbc.com",
         reliability_mean: 43.177778,
@@ -34759,7 +34777,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3859,
+        id: 3861,
         moniker_name: "KSBW Action News 8",
         domain: ".ksbw.com",
         reliability_mean: 43.71111,
@@ -34768,7 +34786,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3860,
+        id: 3862,
         moniker_name: "16 WAPT News Jackson",
         domain: ".wapt.com",
         reliability_mean: 43.22222133333333,
@@ -34777,7 +34795,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3861,
+        id: 3863,
         moniker_name: "WDSU 6 New Orleans",
         domain: ".wdsu.com",
         reliability_mean: 37.75438684210526,
@@ -34786,7 +34804,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3862,
+        id: 3864,
         moniker_name: "WISN 12 News Milwaukee",
         domain: ".wisn.com",
         reliability_mean: 43.37777733333334,
@@ -34795,7 +34813,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3863,
+        id: 3865,
         moniker_name: "WLKY News Louisville",
         domain: ".wlky.com",
         reliability_mean: 42.82222133333334,
@@ -34804,7 +34822,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3864,
+        id: 3866,
         moniker_name: "NBC 5 Cincinnati WLWT",
         domain: ".wlwt.com",
         reliability_mean: 43.511110666666674,
@@ -34813,7 +34831,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3865,
+        id: 3867,
         moniker_name: "Proof by Seth Abramson",
         domain: ".sethabramson.substack.com",
         reliability_mean: 22.008332999999997,
@@ -34822,7 +34840,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 3866,
+        id: 3868,
         moniker_name: "WPBF 25 News",
         domain: ".wpbf.com",
         reliability_mean: 42.88888933333333,
@@ -34831,7 +34849,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3867,
+        id: 3869,
         moniker_name: "USAFacts",
         domain: ".usafacts.org",
         reliability_mean: 50.465277291666666,
@@ -34840,7 +34858,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3868,
+        id: 3870,
         moniker_name: "NEWSnet (website)",
         domain: ".newsnetmedia.com",
         reliability_mean: 42.687499374999994,
@@ -34849,7 +34867,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3869,
+        id: 3871,
         moniker_name: "CNBC TV Network",
         domain: ".tv.cnbcnetwork.adfontesmedia.com",
         reliability_mean: 40,
@@ -34858,7 +34876,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3870,
+        id: 3872,
         moniker_name: "NBC News NOW TV Network",
         domain: ".tv.nbcnewsnownetwork.adfontesmedia.com",
         reliability_mean: 44.33333,
@@ -34867,7 +34885,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 3871,
+        id: 3873,
         moniker_name: "The Mirror - US",
         domain: ".themirror.com",
         reliability_mean: 14.144653773584906,
@@ -34876,7 +34894,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3872,
+        id: 3874,
         moniker_name: "EpochTV: American Thought Leaders",
         domain: ".tv.americanthoughtleaders.adfontesmedia.com",
         reliability_mean: 29.88889,
@@ -34885,7 +34903,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 3873,
+        id: 3875,
         moniker_name: "Out SFL",
         domain: ".outsfl.com",
         reliability_mean: 39.14583375,
@@ -34894,7 +34912,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 3874,
+        id: 3876,
         moniker_name: "Finding Matt Drudge",
         domain: ".pod.findingmattdrudge.adfontesmedia.com",
         reliability_mean: 43.5833325,
@@ -34903,7 +34921,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3875,
+        id: 3877,
         moniker_name: "Editor & Publisher",
         domain: ".editorandpublisher.com",
         reliability_mean: 43.66666666666666,
@@ -34912,7 +34930,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3876,
+        id: 3878,
         moniker_name: "Steve Gruber",
         domain: ".stevegruber.com",
         reliability_mean: 20.390069787234047,
@@ -34921,7 +34939,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 3877,
+        id: 3879,
         moniker_name: "Newsmax TV Network",
         domain: ".tv.newsmaxtvnetwork.adfontesmedia.com",
         reliability_mean: 16.66667,
@@ -34930,7 +34948,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 3878,
+        id: 3880,
         moniker_name: "Middle East Eye",
         domain: ".middleeasteye.net",
         reliability_mean: 31.24999964285714,
@@ -34939,7 +34957,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 3879,
+        id: 3881,
         moniker_name: "Scripps News: On The Scene",
         domain: ".tv.scrippsnewsonthescene.adfontesmedia.com",
         reliability_mean: 46.625,
@@ -34948,7 +34966,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3880,
+        id: 3882,
         moniker_name: "Word on Fire Show Podcast",
         domain: ".pod.wordonfireshowpodcast.adfontesmedia.com",
         reliability_mean: 31.777776666666668,
@@ -34957,7 +34975,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 3881,
+        id: 3883,
         moniker_name: "Journal Gazette & Times-Courier",
         domain: ".jg-tc.com",
         reliability_mean: 43.708333125,
@@ -34966,7 +34984,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3882,
+        id: 3884,
         moniker_name: "Law Enforcement Today",
         domain: ".lawenforcementtoday.com",
         reliability_mean: 34.22727181818181,
@@ -34975,7 +34993,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 3883,
+        id: 3885,
         moniker_name: "TBN: Stakelbeck Tonight",
         domain: ".tv.stakelbecktonight.adfontesmedia.com",
         reliability_mean: 25.888886666666668,
@@ -34984,7 +35002,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 3884,
+        id: 3886,
         moniker_name:
             "Real America's Voice: The War Room with Stephen K. Bannon",
         domain: ".tv.ravthewarroom.adfontesmedia.com",
@@ -34994,7 +35012,7 @@ const sampleData = [
         bias_label: "Most Extreme Right",
     },
     {
-        id: 3885,
+        id: 3887,
         moniker_name: "Comedy Central: The Daily Show",
         domain: ".tv.thedailyshow.adfontesmedia.com",
         reliability_mean: 23.111108333333334,
@@ -35003,7 +35021,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 3886,
+        id: 3888,
         moniker_name: "Merit Street Media: The News on Merit TV",
         domain: ".tv.thenewsonmeritstreet.adfontesmedia.com",
         reliability_mean: 37.66666333333333,
@@ -35012,7 +35030,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 3887,
+        id: 3889,
         moniker_name: "Merit Street Media: The Scott Rasmussen Show",
         domain: ".tv.thescottrasmussenshow.adfontesmedia.com",
         reliability_mean: 38.44444666666667,
@@ -35021,7 +35039,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3888,
+        id: 3890,
         moniker_name: "Hong Kong Free Press HKFP",
         domain: ".hongkongfp.com",
         reliability_mean: 43.199999999999996,
@@ -35030,7 +35048,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3889,
+        id: 3891,
         moniker_name: "OAN: Nights With Chris Boyle",
         domain: ".tv.nightswithchrisboyle.adfontesmedia.com",
         reliability_mean: 17.733333,
@@ -35039,7 +35057,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 3890,
+        id: 3892,
         moniker_name: "Scripps News: Weekend",
         domain: ".tv.scrippsnewsweekend.adfontesmedia.com",
         reliability_mean: 44.333333333333336,
@@ -35048,7 +35066,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3891,
+        id: 3893,
         moniker_name: "UnHerd with Freddie Sayers Podcast",
         domain: ".pod.unherdwithfreddiesayerspodcast.adfontesmedia.com",
         reliability_mean: 37.22222333333334,
@@ -35057,7 +35075,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 3892,
+        id: 3894,
         moniker_name: "Rising Up With Sonali",
         domain: ".tv.risingupsonali.adfontesmedia.com",
         reliability_mean: 30.666666666666668,
@@ -35066,7 +35084,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 3893,
+        id: 3895,
         moniker_name: "Le Monde",
         domain: ".lemonde.fr",
         reliability_mean: 43.400000666666664,
@@ -35075,7 +35093,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 3894,
+        id: 3896,
         moniker_name: "Inside Edition (TV)",
         domain: ".tv.insideedition.adfontesmedia.com",
         reliability_mean: 38.83333,
@@ -35084,7 +35102,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3895,
+        id: 3897,
         moniker_name: "BBC (YouTube)",
         domain: ".tv.bbc-youtube.adfontesmedia.com",
         reliability_mean: 39.87596837209302,
@@ -35093,7 +35111,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3896,
+        id: 3898,
         moniker_name: "Vox (YouTube)",
         domain: ".tv.vox-youtube.adfontesmedia.com",
         reliability_mean: 43.309523571428564,
@@ -35102,7 +35120,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 3897,
+        id: 3899,
         moniker_name: "Scripps News TV Network",
         domain: ".tv.scrippsnewstvnetwork.adfontesmedia.com",
         reliability_mean: 45.66667,
@@ -35111,7 +35129,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3898,
+        id: 3900,
         moniker_name: "Sky News (YouTube)",
         domain: ".tv.skynews-youtube.adfontesmedia.com",
         reliability_mean: 39.58095228571429,
@@ -35120,7 +35138,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3899,
+        id: 3901,
         moniker_name: "The Thomas B. Fordham Institute",
         domain: ".fordhaminstitute.org",
         reliability_mean: 37.86666699999999,
@@ -35129,7 +35147,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 3900,
+        id: 3902,
         moniker_name: "WION (YouTube)",
         domain: ".tv.wion-youtube.adfontesmedia.com",
         reliability_mean: 38.393938181818186,
@@ -35138,7 +35156,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3901,
+        id: 3903,
         moniker_name: "USA Today (YouTube)",
         domain: ".tv.usatoday-youtube.adfontesmedia.com",
         reliability_mean: 37.07692269230769,
@@ -35147,7 +35165,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3902,
+        id: 3904,
         moniker_name: "Indian Country Today (Newscast)",
         domain: ".tv.indiancountrytoday.adfontesmedia.com",
         reliability_mean: 47.11111,
@@ -35156,7 +35174,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3903,
+        id: 3905,
         moniker_name: "Bloomberg: Bloomberg Crypto",
         domain: ".tv.bloombergcrypto.adfontesmedia.com",
         reliability_mean: 41.33333,
@@ -35165,7 +35183,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3904,
+        id: 3906,
         moniker_name: "Scripps News: The National Report",
         domain: ".tv.scrippsnewsthenationalreport.adfontesmedia.com",
         reliability_mean: 45.38095142857143,
@@ -35174,7 +35192,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3905,
+        id: 3907,
         moniker_name: "The New Zealand Herald",
         domain: ".nzherald.co.nz",
         reliability_mean: 42.20370444444445,
@@ -35183,7 +35201,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3906,
+        id: 3908,
         moniker_name:
             "Merit Street Media: The News on Merit TV: Morning Edition",
         domain: ".tv.morningonmeritstreet.adfontesmedia.com",
@@ -35193,7 +35211,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3907,
+        id: 3909,
         moniker_name: "NewsNation: NewsNation Live Weekend with Anna Kooiman",
         domain: ".tv.newsnationliveweekendwithannakooiman.adfontesmedia.com",
         reliability_mean: 42.083335000000005,
@@ -35202,7 +35220,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 3908,
+        id: 3910,
         moniker_name: "Inside the Magic",
         domain: ".insidethemagic.net",
         reliability_mean: 9.845937478991596,
@@ -35211,7 +35229,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3909,
+        id: 3911,
         moniker_name: "Council on Foreign Relations: Media Briefings",
         domain: ".tv.cfrmediabriefings.adfontesmedia.com",
         reliability_mean: 39.88888666666666,
@@ -35220,7 +35238,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3910,
+        id: 3912,
         moniker_name: "The Nevadan",
         domain: ".thenevadannews.com",
         reliability_mean: 23.166666428571432,
@@ -35229,7 +35247,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 3911,
+        id: 3913,
         moniker_name: "Granite Post",
         domain: ".granitepostnews.com",
         reliability_mean: 27.61111222222222,
@@ -35238,7 +35256,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 3912,
+        id: 3914,
         moniker_name: "DW News (YouTube)",
         domain: ".tv.dwnews-youtube.adfontesmedia.com",
         reliability_mean: 44.31481444444445,
@@ -35247,7 +35265,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3913,
+        id: 3915,
         moniker_name: "AP Archive (YouTube)",
         domain: ".tv.aparchive-youtube.adfontesmedia.com",
         reliability_mean: 44.438888666666664,
@@ -35256,7 +35274,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3914,
+        id: 3916,
         moniker_name: "The New York Times (YouTube)",
         domain: ".tv.thenewyorktimes-youtube.adfontesmedia.com",
         reliability_mean: 41.716666,
@@ -35265,7 +35283,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 3915,
+        id: 3917,
         moniker_name: "TRT World (YouTube)",
         domain: ".tv.trtworld-youtube.adfontesmedia.com",
         reliability_mean: 27.11538487179487,
@@ -35274,7 +35292,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 3916,
+        id: 3918,
         moniker_name: "The Sun (YouTube)",
         domain: ".tv.thesun-youtube.adfontesmedia.com",
         reliability_mean: 39.599999200000006,
@@ -35283,7 +35301,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3917,
+        id: 3919,
         moniker_name: "The Editors Roundtable with The Cook Political Report",
         domain: ".pod.theeditorsroundtablewiththecookpoliticalreport.adfontesmedia.com",
         reliability_mean: 39.44444666666667,
@@ -35292,7 +35310,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 3918,
+        id: 3920,
         moniker_name: "The Daily BS",
         domain: ".thedailybs.com",
         reliability_mean: 28.962964814814818,
@@ -35301,7 +35319,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 3919,
+        id: 3921,
         moniker_name: "The Zero Hour with RJ Eskow",
         domain: ".tv.thezerohourwithrjeskow.adfontesmedia.com",
         reliability_mean: 22.83333,
@@ -35310,7 +35328,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 3920,
+        id: 3922,
         moniker_name: "Judging Freedom with Judge Andrew Napolitano",
         domain: ".pod.judgingfreedomwithjudgeandrewnapolitano.adfontesmedia.com",
         reliability_mean: 20.88888777777778,
@@ -35319,7 +35337,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 3921,
+        id: 3923,
         moniker_name: "Fallacious Trump",
         domain: ".pod.fallacioustrump.adfontesmedia.com",
         reliability_mean: 24.166668333333334,
@@ -35328,7 +35346,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 3922,
+        id: 3924,
         moniker_name: "The Rick Smith Show",
         domain: ".tv.thericksmithshow.adfontesmedia.com",
         reliability_mean: 24.000001666666666,
@@ -35337,7 +35355,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 3923,
+        id: 3925,
         moniker_name: "The Stephanie Miller Show",
         domain: ".pod.thestephaniemillershow.adfontesmedia.com",
         reliability_mean: 20.000001111111107,
@@ -35346,7 +35364,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 3924,
+        id: 3926,
         moniker_name: "This Week In White Supremacy",
         domain: ".pod.thisweekinwhitesupremacy.adfontesmedia.com",
         reliability_mean: 22.38889,
@@ -35355,7 +35373,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 3925,
+        id: 3927,
         moniker_name: "Al Jazeera: Fault Lines",
         domain: ".tv.aljazeerafaultlines.adfontesmedia.com",
         reliability_mean: 31.0833325,
@@ -35364,7 +35382,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 3926,
+        id: 3928,
         moniker_name: "The Weather Channel: Pattrn",
         domain: ".tv.pattrn.adfontesmedia.com",
         reliability_mean: 41.666666666666664,
@@ -35373,7 +35391,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 3927,
+        id: 3929,
         moniker_name: "Modernity News",
         domain: ".modernity.news",
         reliability_mean: 16.962263396226415,
@@ -35382,7 +35400,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 3928,
+        id: 3930,
         moniker_name: "The Gold Report",
         domain: ".thegoldreport.com",
         reliability_mean: 15.05,
@@ -35391,7 +35409,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 3929,
+        id: 3931,
         moniker_name: "WLT Report",
         domain: ".wltreport.com",
         reliability_mean: 21.97368315789474,
@@ -35400,7 +35418,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 3930,
+        id: 3932,
         moniker_name: "NOTUS",
         domain: ".notus.org",
         reliability_mean: 41.708333749999994,
@@ -35409,7 +35427,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3931,
+        id: 3933,
         moniker_name: "The Dissenter",
         domain: ".thedissenter.org",
         reliability_mean: 39.00000066666667,
@@ -35418,7 +35436,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 3932,
+        id: 3934,
         moniker_name: "Global News (YouTube)",
         domain: ".tv.globalnews-youtube.adfontesmedia.com",
         reliability_mean: 42.577235853658536,
@@ -35427,7 +35445,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3933,
+        id: 3935,
         moniker_name:
             "OCCRP - Organized Crime and Corruption Reporting Project",
         domain: ".occrp.org",
@@ -35437,7 +35455,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3934,
+        id: 3936,
         moniker_name: "TIMES NOW (YouTube)",
         domain: ".tv.timesnow-youtube.adfontesmedia.com",
         reliability_mean: 31.40579739130435,
@@ -35446,7 +35464,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3935,
+        id: 3937,
         moniker_name: "The Comments Section (YouTube) with Reagan Conrad",
         domain: ".tv.thecommentssection.adfontesmedia.com",
         reliability_mean: 26.138889583333334,
@@ -35455,7 +35473,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 3936,
+        id: 3938,
         moniker_name: "Sky News Australia (YouTube)",
         domain: ".tv.skynewsaustralia-youtube.adfontesmedia.com",
         reliability_mean: 24.098485454545457,
@@ -35464,7 +35482,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 3937,
+        id: 3939,
         moniker_name: "Democracy Docket",
         domain: ".democracydocket.com",
         reliability_mean: 36.00000111111112,
@@ -35473,7 +35491,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 3938,
+        id: 3940,
         moniker_name: "Pittsburgh Union Progress",
         domain: ".unionprogress.com",
         reliability_mean: 42.88888933333333,
@@ -35482,7 +35500,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3939,
+        id: 3941,
         moniker_name: "UNBIASED Politics with Jordan Berman",
         domain: ".pod.unbiasedwithjordanismylawyer.adfontesmedia.com",
         reliability_mean: 44.5,
@@ -35491,7 +35509,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3940,
+        id: 3942,
         moniker_name: "Head in the Office",
         domain: ".pod.headintheoffice.adfontesmedia.com",
         reliability_mean: 23.629627777777777,
@@ -35500,7 +35518,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 3941,
+        id: 3943,
         moniker_name: "MeidasTouch (YouTube)",
         domain: ".tv.meidastouch-youtube.adfontesmedia.com",
         reliability_mean: 25.111110476190476,
@@ -35509,7 +35527,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 3942,
+        id: 3944,
         moniker_name: "Just Asking Questions",
         domain: ".pod.justaskingquestions.adfontesmedia.com",
         reliability_mean: 39,
@@ -35518,7 +35536,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 3943,
+        id: 3945,
         moniker_name: "WACH FOX",
         domain: ".wach.com",
         reliability_mean: 35.5312509375,
@@ -35527,7 +35545,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3944,
+        id: 3946,
         moniker_name: "Drop Site News",
         domain: ".dropsitenews.com",
         reliability_mean: 38.249998125,
@@ -35536,8 +35554,8 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 3945,
-        moniker_name: "RT: Perspective with Scottie Nell Hughes",
+        id: 3947,
+        moniker_name: "RT: America First with Scottie Nell Hughes",
         domain: ".tv.rtperspective.adfontesmedia.com",
         reliability_mean: 26.11111166666667,
         reliability_label: "Mixed Reliability/Opinion OR Other Issues",
@@ -35545,7 +35563,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 3946,
+        id: 3948,
         moniker_name: "CW 7 Arizona KAZT",
         domain: ".cw7az.com",
         reliability_mean: 40.98484863636364,
@@ -35554,7 +35572,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3947,
+        id: 3949,
         moniker_name: "WGN Radio 720",
         domain: ".wgnradio.com",
         reliability_mean: 42.84126904761904,
@@ -35563,7 +35581,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3948,
+        id: 3950,
         moniker_name: "KGUN 9 Tucson",
         domain: ".kgun9.com",
         reliability_mean: 43.31111,
@@ -35572,7 +35590,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3949,
+        id: 3951,
         moniker_name: "WSFL TV",
         domain: ".wsfltv.com",
         reliability_mean: 42.2833335,
@@ -35581,7 +35599,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3950,
+        id: 3952,
         moniker_name: "Idaho News 6 Boise Twin Falls KIVI",
         domain: ".kivitv.com",
         reliability_mean: 44.11111111111112,
@@ -35590,7 +35608,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3951,
+        id: 3953,
         moniker_name: "2 News Oklahoma KJRH",
         domain: ".kjrh.com",
         reliability_mean: 43.166666875000004,
@@ -35599,7 +35617,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3952,
+        id: 3954,
         moniker_name: "KZTV Action 10 News Corpus Christi",
         domain: ".kztv10.com",
         reliability_mean: 43.400001333333336,
@@ -35608,7 +35626,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3953,
+        id: 3955,
         moniker_name: "TV20 Detroit - WMYD",
         domain: ".tv20detroit.com",
         reliability_mean: 44.645834375,
@@ -35617,7 +35635,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3954,
+        id: 3956,
         moniker_name: "Faithwire",
         domain: ".faithwire.com",
         reliability_mean: 31.729166875,
@@ -35626,7 +35644,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 3955,
+        id: 3957,
         moniker_name: "Shawn Ryan Show",
         domain: ".pod.shawnryanshow.adfontesmedia.com",
         reliability_mean: 22.153843846153844,
@@ -35635,7 +35653,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 3956,
+        id: 3958,
         moniker_name: "KUSI San Diego: Good Evening San Diego at 6:00 p.m.",
         domain: ".tv.kusigoodeveningsandiegoat6pm.adfontesmedia.com",
         reliability_mean: 45.333333333333336,
@@ -35644,7 +35662,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3957,
+        id: 3959,
         moniker_name: "The Blade of Perseus | Victor Davis Hanson",
         domain: ".victorhanson.com",
         reliability_mean: 20.30833375,
@@ -35653,7 +35671,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 3958,
+        id: 3960,
         moniker_name: "Tom Bilyeu's Impact Theory",
         domain: ".pod.tombilyeusimpacttheory.adfontesmedia.com",
         reliability_mean: 31.75,
@@ -35662,7 +35680,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 3959,
+        id: 3961,
         moniker_name: "Scamala: Kamala Harris Unmasked",
         domain: ".pod.scamalakamalaharrisunmasked.adfontesmedia.com",
         reliability_mean: 17.25,
@@ -35671,7 +35689,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 3960,
+        id: 3962,
         moniker_name: "NTD: Newsroom",
         domain: ".tv.ntdnewsroom.adfontesmedia.com",
         reliability_mean: 46.333333333333336,
@@ -35680,7 +35698,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3961,
+        id: 3963,
         moniker_name: "NTD: International Roundtable",
         domain: ".tv.ntdinternationalreportersroundtable.adfontesmedia.com",
         reliability_mean: 34.333333333333336,
@@ -35689,7 +35707,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 3962,
+        id: 3964,
         moniker_name: "The Thom Hartmann Program",
         domain: ".pod.thethomhartmannprogram.adfontesmedia.com",
         reliability_mean: 15.607841764705881,
@@ -35698,7 +35716,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 3963,
+        id: 3965,
         moniker_name: "The Healthcare Policy Podcast",
         domain: ".pod.thehealthcarepolicypodcast.adfontesmedia.com",
         reliability_mean: 35.44444666666667,
@@ -35707,7 +35725,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 3964,
+        id: 3966,
         moniker_name: "Candace",
         domain: ".pod.candace.adfontesmedia.com",
         reliability_mean: 11.181818181818182,
@@ -35716,7 +35734,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 3965,
+        id: 3967,
         moniker_name: "Tri-City Record | New Mexico",
         domain: ".tricityrecordnm.com",
         reliability_mean: 44.3125,
@@ -35725,7 +35743,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3966,
+        id: 3968,
         moniker_name: "Laura Loomer (Rumble)",
         domain: ".tv.lauraloomer-rumble.adfontesmedia.com",
         reliability_mean: 5.777776666666667,
@@ -35734,7 +35752,7 @@ const sampleData = [
         bias_label: "Most Extreme Right",
     },
     {
-        id: 3967,
+        id: 3969,
         moniker_name: "Puck News",
         domain: ".puck.news",
         reliability_mean: 38.555554666666666,
@@ -35743,7 +35761,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3968,
+        id: 3970,
         moniker_name: "OAN: Fine Point with Chanel Rion",
         domain: ".tv.finepointwithchanelrion.adfontesmedia.com",
         reliability_mean: 16,
@@ -35752,7 +35770,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 3969,
+        id: 3971,
         moniker_name: "Benny Johnson (YouTube)",
         domain: ".tv.bennyjohnson-youtube.adfontesmedia.com",
         reliability_mean: 16.3802084375,
@@ -35761,7 +35779,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 3970,
+        id: 3972,
         moniker_name: "Destiny (YouTube)",
         domain: ".tv.destiny-youtube.adfontesmedia.com",
         reliability_mean: 22.03703555555556,
@@ -35770,7 +35788,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 3971,
+        id: 3973,
         moniker_name: "American Fever Dream - V. Spehar with Betches Media",
         domain: ".pod.americanfeverdream.adfontesmedia.com",
         reliability_mean: 33.111110000000004,
@@ -35779,7 +35797,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 3972,
+        id: 3974,
         moniker_name: "The Sage Steele Show",
         domain: ".pod.thesagesteeleshow.adfontesmedia.com",
         reliability_mean: 29.111113333333332,
@@ -35788,7 +35806,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 3973,
+        id: 3975,
         moniker_name: "The Peter McCormack Show",
         domain: ".pod.thepetermccormackshow.adfontesmedia.com",
         reliability_mean: 32.55555333333333,
@@ -35797,7 +35815,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 3974,
+        id: 3976,
         moniker_name: "Choice Words with Samantha Bee",
         domain: ".pod.choicewordswithsamanthabee.adfontesmedia.com",
         reliability_mean: 32.88889,
@@ -35806,7 +35824,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 3975,
+        id: 3977,
         moniker_name: "The Coffee Klatch with Robert Reich",
         domain: ".pod.thecoffeeklatchwithrobertreich.adfontesmedia.com",
         reliability_mean: 23.333334444444443,
@@ -35815,7 +35833,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 3976,
+        id: 3978,
         moniker_name: "The Way I Heard It with Mike Rowe",
         domain: ".pod.thewayihearditwithmikerowe.adfontesmedia.com",
         reliability_mean: 31.555556666666664,
@@ -35824,7 +35842,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 3977,
+        id: 3979,
         moniker_name: "Keeping It Real Podcast with Jillian Michaels",
         domain: ".pod.keepingitrealpodcastwithjillianmichaels.adfontesmedia.com",
         reliability_mean: 33.25,
@@ -35833,7 +35851,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 3978,
+        id: 3980,
         moniker_name: "Risky Business with Nate Silver and Maria Konnikova",
         domain: ".pod.riskybusinesswithnatesilverandmariakonnikova.adfontesmedia.com",
         reliability_mean: 32.416664999999995,
@@ -35842,7 +35860,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 3979,
+        id: 3981,
         moniker_name: "Scene on Radio",
         domain: ".pod.sceneonradio.adfontesmedia.com",
         reliability_mean: 37.8,
@@ -35851,7 +35869,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 3980,
+        id: 3982,
         moniker_name: "The Vancouver Sun",
         domain: ".vancouversun.com",
         reliability_mean: 41.888889999999996,
@@ -35860,7 +35878,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3981,
+        id: 3983,
         moniker_name: "AccuWeather",
         domain: ".accuweather.com",
         reliability_mean: 44.03921647058823,
@@ -35869,7 +35887,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3982,
+        id: 3984,
         moniker_name: "Outrage Overload with David Beckemeyer",
         domain: ".pod.outrageoverload.adfontesmedia.com",
         reliability_mean: 39.3333325,
@@ -35878,7 +35896,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3983,
+        id: 3985,
         moniker_name: "HBO: Stopping The Steal",
         domain: ".tv.stoppingthesteal.adfontesmedia.com",
         reliability_mean: 47.16667,
@@ -35887,7 +35905,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 3984,
+        id: 3986,
         moniker_name: "RealLifeLore (YouTube)",
         domain: ".tv.reallifelore-youtube.adfontesmedia.com",
         reliability_mean: 41.11111,
@@ -35896,7 +35914,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3985,
+        id: 3987,
         moniker_name: "Colion Noir (YouTube)",
         domain: ".tv.colionnoir-youtube.adfontesmedia.com",
         reliability_mean: 25.064516774193546,
@@ -35905,7 +35923,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 3986,
+        id: 3988,
         moniker_name: "Occupy Democrats (YouTube)",
         domain: ".tv.occupydemocrats-youtube.adfontesmedia.com",
         reliability_mean: 21.52820523076923,
@@ -35914,7 +35932,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 3987,
+        id: 3989,
         moniker_name: "This Is Not A Drill with Gavin Esler",
         domain: ".pod.thisisnotadrill.adfontesmedia.com",
         reliability_mean: 41.55555666666667,
@@ -35923,7 +35941,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3988,
+        id: 3990,
         moniker_name: "WOMAN Magazine",
         domain: ".womanmagazine.co.nz",
         reliability_mean: 39.791666875000004,
@@ -35932,7 +35950,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3989,
+        id: 3991,
         moniker_name: "Newstalk ZB",
         domain: ".newstalkzb.co.nz",
         reliability_mean: 40.733334,
@@ -35941,7 +35959,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3990,
+        id: 3992,
         moniker_name: "Rural News Group",
         domain: ".ruralnewsgroup.co.nz",
         reliability_mean: 42.76086913043478,
@@ -35950,7 +35968,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3991,
+        id: 3993,
         moniker_name: "Scoop News",
         domain: ".scoop.co.nz",
         reliability_mean: 40.96078470588237,
@@ -35959,7 +35977,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3992,
+        id: 3994,
         moniker_name: "Jewish Journal",
         domain: ".jewishjournal.com",
         reliability_mean: 23.626260909090913,
@@ -35968,7 +35986,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 3993,
+        id: 3995,
         moniker_name: "Stuff",
         domain: ".stuff.co.nz",
         reliability_mean: 42.895833125,
@@ -35977,7 +35995,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3994,
+        id: 3996,
         moniker_name: "SunLive",
         domain: ".sunlive.co.nz",
         reliability_mean: 42.97916625,
@@ -35986,7 +36004,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3995,
+        id: 3997,
         moniker_name: "Times Online | East Auckland",
         domain: ".times.co.nz",
         reliability_mean: 40.57777733333333,
@@ -35995,7 +36013,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3996,
+        id: 3998,
         moniker_name: "Otago Daily Times",
         domain: ".odt.co.nz",
         reliability_mean: 43.555556,
@@ -36004,7 +36022,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3997,
+        id: 3999,
         moniker_name: "Wairarapa Times-Age",
         domain: ".times-age.co.nz",
         reliability_mean: 43.04444533333333,
@@ -36013,7 +36031,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 3998,
+        id: 4000,
         moniker_name: "Mary Trump Media (YouTube)",
         domain: ".tv.marytrumpmedia-youtube.adfontesmedia.com",
         reliability_mean: 22.063492857142858,
@@ -36022,7 +36040,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 3999,
+        id: 4001,
         moniker_name: "2000 Mules",
         domain: ".tv.2000mules.adfontesmedia.com",
         reliability_mean: 5.33333,
@@ -36031,7 +36049,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 4000,
+        id: 4002,
         moniker_name: "Assembly Required with Stacey Abrams",
         domain: ".pod.assemblyrequiredwithstaceyabrams.adfontesmedia.com",
         reliability_mean: 38.44444333333333,
@@ -36040,7 +36058,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 4001,
+        id: 4003,
         moniker_name: "The Weekly Show with Jon Stewart",
         domain: ".pod.theweeklyshowwithjonstewart.adfontesmedia.com",
         reliability_mean: 32.333333333333336,
@@ -36049,7 +36067,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 4002,
+        id: 4004,
         moniker_name: "Morning Meeting",
         domain: ".pod.morningmeeting.adfontesmedia.com",
         reliability_mean: 33.22222,
@@ -36058,7 +36076,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 4003,
+        id: 4005,
         moniker_name: "The Political Risk Brief",
         domain: ".pod.thepoliticalriskbrief.adfontesmedia.com",
         reliability_mean: 42.44444333333333,
@@ -36067,7 +36085,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4004,
+        id: 4006,
         moniker_name: "Politics Weekly America",
         domain: ".pod.politicsweeklyamerica.adfontesmedia.com",
         reliability_mean: 35.77778000000001,
@@ -36076,7 +36094,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 4005,
+        id: 4007,
         moniker_name: "Nikki Haley Live",
         domain: ".pod.nikkihaleylive.adfontesmedia.com",
         reliability_mean: 37.22222333333334,
@@ -36085,7 +36103,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 4006,
+        id: 4008,
         moniker_name:
             "Thirst Gap: Learning to live with less on the Colorado River",
         domain: ".pod.thirstgap.adfontesmedia.com",
@@ -36095,7 +36113,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4007,
+        id: 4009,
         moniker_name:
             "I've Had It Podcast with Jennifer Welch and Angie Sullivan",
         domain: ".pod.ivehaditpodcast.adfontesmedia.com",
@@ -36105,7 +36123,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 4008,
+        id: 4010,
         moniker_name: "9 News Australia",
         domain: ".9news.com.au",
         reliability_mean: 42.437499375,
@@ -36114,7 +36132,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4009,
+        id: 4011,
         moniker_name: "Next Question with Katie Couric",
         domain: ".pod.nextquestionwithkatiecouric.adfontesmedia.com",
         reliability_mean: 32.22222333333334,
@@ -36123,7 +36141,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 4010,
+        id: 4012,
         moniker_name: "George Conway Explains It All (To Sarah Longwell)",
         domain: ".pod.georgeconwayexplainsitall.adfontesmedia.com",
         reliability_mean: 24.277778333333334,
@@ -36132,7 +36150,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 4011,
+        id: 4013,
         moniker_name: "How to Fix It with John Avlon",
         domain: ".pod.howtofixitwithjohnavlon.adfontesmedia.com",
         reliability_mean: 36.55555333333333,
@@ -36141,7 +36159,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 4012,
+        id: 4014,
         moniker_name: "Shield of the Republic",
         domain: ".pod.shieldoftherepublic.adfontesmedia.com",
         reliability_mean: 35.11111333333333,
@@ -36150,7 +36168,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4013,
+        id: 4015,
         moniker_name: "Science Feedback",
         domain: ".feedback.org",
         reliability_mean: 46.583333125,
@@ -36159,7 +36177,16 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4014,
+        id: 4016,
+        moniker_name: "Your Local Epidemiologist",
+        domain: ".yourlocalepidemiologist.substack.com",
+        reliability_mean: 40.97777733333334,
+        reliability_label: "Reliable; Analysis/Fact Reporting",
+        bias_mean: -6.255556333333334,
+        bias_label: "Skews Left",
+    },
+    {
+        id: 4017,
         moniker_name: "Economics Explained",
         domain: ".pod.economicsexplained.adfontesmedia.com",
         reliability_mean: 43.22222333333334,
@@ -36168,7 +36195,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4015,
+        id: 4018,
         moniker_name: "The Lever: MASTER PLAN - David Sirota",
         domain: ".pod.thelevermasterplan.adfontesmedia.com",
         reliability_mean: 26.166665,
@@ -36177,7 +36204,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 4016,
+        id: 4019,
         moniker_name: "NYT: The Opinions",
         domain: ".pod.nyttheopinions.adfontesmedia.com",
         reliability_mean: 34.44444666666667,
@@ -36186,7 +36213,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 4017,
+        id: 4020,
         moniker_name: "Reuters: The Big View",
         domain: ".pod.reutersthebigview.adfontesmedia.com",
         reliability_mean: 41.11111,
@@ -36195,7 +36222,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 4018,
+        id: 4021,
         moniker_name: "Reuters: Econ World",
         domain: ".pod.reuterseconworld.adfontesmedia.com",
         reliability_mean: 45.333333333333336,
@@ -36204,7 +36231,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4019,
+        id: 4022,
         moniker_name: "Am I Racist?",
         domain: ".tv.amiracist.adfontesmedia.com",
         reliability_mean: 28.83333,
@@ -36213,7 +36240,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 4020,
+        id: 4023,
         moniker_name: "User Mag - Taylor Lorenz",
         domain: ".usermag.co",
         reliability_mean: 35.17777866666667,
@@ -36222,7 +36249,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 4021,
+        id: 4024,
         moniker_name: "Washington Reporter",
         domain: ".washingtonreporter.news",
         reliability_mean: 26.853332,
@@ -36231,7 +36258,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 4022,
+        id: 4025,
         moniker_name: "MS NOW: From Russia With Lev (MSNBC)",
         domain: ".tv.fromrussiawithlev.adfontesmedia.com",
         reliability_mean: 26.5,
@@ -36240,7 +36267,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 4023,
+        id: 4026,
         moniker_name: "Shoe0nHead (YouTube)",
         domain: ".tv.shoe0nhead-youtube.adfontesmedia.com",
         reliability_mean: 19.357142142857146,
@@ -36249,7 +36276,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 4024,
+        id: 4027,
         moniker_name: "True North: The Daily Brief",
         domain: ".pod.truenorththedailybrief.adfontesmedia.com",
         reliability_mean: 40.11111333333334,
@@ -36258,7 +36285,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 4025,
+        id: 4028,
         moniker_name: "OSV News",
         domain: ".osvnews.com",
         reliability_mean: 42.26666533333333,
@@ -36267,7 +36294,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4026,
+        id: 4029,
         moniker_name: "IHIP News (YouTube)",
         domain: ".tv.ihipnews-youtube.adfontesmedia.com",
         reliability_mean: 19.90090027027027,
@@ -36276,7 +36303,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 4027,
+        id: 4030,
         moniker_name: "The Great White Hoax",
         domain: ".tv.thegreatwhitehoax.adfontesmedia.com",
         reliability_mean: 26.16667,
@@ -36285,7 +36312,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 4028,
+        id: 4031,
         moniker_name: "The Rebooting",
         domain: ".therebooting.com",
         reliability_mean: 37.266666,
@@ -36294,7 +36321,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4029,
+        id: 4032,
         moniker_name: "Armageddon Prose - Benjamin Bartee",
         domain: ".armageddonprose.substack.com",
         reliability_mean: 17.925925370370372,
@@ -36303,7 +36330,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 4030,
+        id: 4033,
         moniker_name: "The War Horse",
         domain: ".thewarhorse.org",
         reliability_mean: 47.57777600000001,
@@ -36312,7 +36339,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4031,
+        id: 4034,
         moniker_name: "The Horn News",
         domain: ".thehornnews.com",
         reliability_mean: 17.908495098039214,
@@ -36321,7 +36348,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 4032,
+        id: 4035,
         moniker_name: "All In: The Fight for Democracy",
         domain: ".tv.alliinthefightfordemocracy.adfontesmedia.com",
         reliability_mean: 37.33333,
@@ -36330,7 +36357,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 4033,
+        id: 4036,
         moniker_name: "GlobalPost",
         domain: ".globalpost.com",
         reliability_mean: 44.888889333333324,
@@ -36339,7 +36366,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4034,
+        id: 4037,
         moniker_name: "AL24 News",
         domain: ".al24news.com",
         reliability_mean: 33.015873333333325,
@@ -36348,7 +36375,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 4035,
+        id: 4038,
         moniker_name: "Thinking About... by Timothy Snyder",
         domain: ".snyder.substack.com",
         reliability_mean: 25.34722208333333,
@@ -36357,7 +36384,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 4036,
+        id: 4039,
         moniker_name: "Der Spiegel",
         domain: ".spiegel.de",
         reliability_mean: 44.269841428571425,
@@ -36366,7 +36393,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4037,
+        id: 4040,
         moniker_name: "Netflix: Get Me Roger Stone",
         domain: ".tv.getmerogerstone.adfontesmedia.com",
         reliability_mean: 43.33333,
@@ -36375,7 +36402,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 4038,
+        id: 4041,
         moniker_name: "The Coddling of the American Mind",
         domain: ".tv.thecoddlingoftheamericanmind.adfontesmedia.com",
         reliability_mean: 34.33333,
@@ -36384,7 +36411,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4039,
+        id: 4042,
         moniker_name: "Independent Sentinel",
         domain: ".independentsentinel.com",
         reliability_mean: 14.095890821917807,
@@ -36393,7 +36420,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 4040,
+        id: 4043,
         moniker_name: "OAN: The Matt Gaetz Show",
         domain: ".tv.themattgaetzshow.adfontesmedia.com",
         reliability_mean: 23.111108333333334,
@@ -36402,7 +36429,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 4041,
+        id: 4044,
         moniker_name: "Just The Facts With Jill Wine Banks",
         domain: "pod.justthefactswithjillwinebanks.adfontesmedia.com",
         reliability_mean: 32.55555333333333,
@@ -36411,7 +36438,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 4042,
+        id: 4045,
         moniker_name: "Amala Ekpunobi (YouTube)",
         domain: ".tv.amalaekpunobi-youtube.adfontesmedia.com",
         reliability_mean: 29.818181818181817,
@@ -36420,7 +36447,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 4043,
+        id: 4046,
         moniker_name: "Netflix: Knock Down the House",
         domain: ".tv.knockdownthehouse.adfontesmedia.com",
         reliability_mean: 49.66667,
@@ -36429,7 +36456,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 4044,
+        id: 4047,
         moniker_name: "Zeteo - Mehdi Hasan",
         domain: ".zeteo.com",
         reliability_mean: 25.98611,
@@ -36438,7 +36465,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 4045,
+        id: 4048,
         moniker_name: "2WAY: The Morning Meeting",
         domain: ".tv.2waythemorningmeeting.adfontesmedia.com",
         reliability_mean: 35.55555333333333,
@@ -36447,7 +36474,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4046,
+        id: 4049,
         moniker_name: "The Edwardsville Intelligencer",
         domain: ".theintelligencer.com",
         reliability_mean: 42.14583375,
@@ -36456,7 +36483,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4047,
+        id: 4050,
         moniker_name: "Floodlight",
         domain: ".floodlightnews.org",
         reliability_mean: 38.018518888888885,
@@ -36465,7 +36492,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 4048,
+        id: 4051,
         moniker_name: "Writing from London by Nick Cohen",
         domain: ".nickcohen.substack.com",
         reliability_mean: 29.46666733333333,
@@ -36474,7 +36501,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 4049,
+        id: 4052,
         moniker_name: "To the Contrary by Charlie Sykes",
         domain: ".charliesykes.substack.com",
         reliability_mean: 27.59259111111111,
@@ -36483,7 +36510,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 4050,
+        id: 4053,
         moniker_name: "Notes from the Middleground by Damon Linker",
         domain: ".damonlinker.substack.com",
         reliability_mean: 35.53333333333333,
@@ -36492,7 +36519,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 4051,
+        id: 4054,
         moniker_name: "Hip-Hop and the White House",
         domain: ".tv.hiphopandthewhitehouse.adfontesmedia.com",
         reliability_mean: 37.16667,
@@ -36501,7 +36528,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 4052,
+        id: 4055,
         moniker_name: "Blaze TV: Countdown to the Next Aviation Disaster",
         domain: ".tv.countdowntothenextaviationdisaster.adfontesmedia.com",
         reliability_mean: 17.33333,
@@ -36510,7 +36537,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 4053,
+        id: 4056,
         moniker_name: "Olivia of Troye",
         domain: ".livingitwitholiviatroye.com",
         reliability_mean: 27.13492047619048,
@@ -36519,7 +36546,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 4054,
+        id: 4057,
         moniker_name: "So What by Chris Cillizza",
         domain: ".chriscillizza.substack.com",
         reliability_mean: 32.266666,
@@ -36528,7 +36555,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4055,
+        id: 4058,
         moniker_name: "Latino USA",
         domain: ".pod.latinousa.adfontesmedia.com",
         reliability_mean: 33,
@@ -36537,7 +36564,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 4056,
+        id: 4059,
         moniker_name: "Vaush (YouTube)",
         domain: ".tv.vaush-youtube.adfontesmedia.com",
         reliability_mean: 20.541665416666667,
@@ -36546,7 +36573,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 4057,
+        id: 4060,
         moniker_name: "Fox News: The Will Cain Show",
         domain: ".tv.thewillcainshow.adfontesmedia.com",
         reliability_mean: 23.166665,
@@ -36555,7 +36582,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 4058,
+        id: 4061,
         moniker_name: "Skeptical Inquirer",
         domain: ".skepticalinquirer.org",
         reliability_mean: 38.877778000000006,
@@ -36564,7 +36591,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4059,
+        id: 4062,
         moniker_name: "The Telepathy Tapes",
         domain: ".pod.thetelepathytapes.adfontesmedia.com",
         reliability_mean: 21.862317391304348,
@@ -36573,7 +36600,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4060,
+        id: 4063,
         moniker_name: "Normally - Mary Katharine Ham and Karol Markowicz",
         domain: ".pod.normally.adfontesmedia.com",
         reliability_mean: 31.555553333333332,
@@ -36582,7 +36609,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 4061,
+        id: 4064,
         moniker_name: "Impolitic with John Heilemann",
         domain: ".tv.impoliticwithjohnheilemann.adfontesmedia.com",
         reliability_mean: 32.44444333333333,
@@ -36591,7 +36618,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 4062,
+        id: 4065,
         moniker_name: "The Playbook Podcast",
         domain: ".pod.theplaybookpodcast.adfontesmedia.com",
         reliability_mean: 36.083335000000005,
@@ -36600,7 +36627,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4063,
+        id: 4066,
         moniker_name: "Forbes Newsroom",
         domain: ".pod.forbesnewsroom.adfontesmedia.com",
         reliability_mean: 39.55555666666667,
@@ -36609,7 +36636,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4064,
+        id: 4067,
         moniker_name: "The Washington Spectator",
         domain: ".washingtonspectator.org",
         reliability_mean: 26.250000833333335,
@@ -36618,7 +36645,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 4065,
+        id: 4068,
         moniker_name: "NTD: Primetime",
         domain: ".tv.ntdprimetime.adfontesmedia.com",
         reliability_mean: 32.55555666666667,
@@ -36627,7 +36654,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 4066,
+        id: 4069,
         moniker_name: "CBS: Evening News",
         domain: ".tv.cbseveningnews.adfontesmedia.com",
         reliability_mean: 43.11111,
@@ -36636,7 +36663,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 4067,
+        id: 4070,
         moniker_name: "New to The Street",
         domain: ".tv.newtothestreet.adfontesmedia.com",
         reliability_mean: 37,
@@ -36645,7 +36672,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4068,
+        id: 4071,
         moniker_name: "Political Fix",
         domain: ".pod.politicalfix.adfontesmedia.com",
         reliability_mean: 37.77778,
@@ -36654,7 +36681,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 4069,
+        id: 4072,
         moniker_name: "Trailblaze with Nayyera Haq & Jamal Simmons",
         domain: ".pod.trailblazewithnayyerahaqandjamalsimmons.adfontesmedia.com",
         reliability_mean: 28.444446666666664,
@@ -36663,7 +36690,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 4070,
+        id: 4073,
         moniker_name: "The Jim Acosta Show",
         domain: ".tv.thejimacostashow.adfontesmedia.com",
         reliability_mean: 28.444443333333336,
@@ -36672,7 +36699,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 4071,
+        id: 4074,
         moniker_name: "The Don Lemon Show",
         domain: ".tv.donlemon-youtube.adfontesmedia.com",
         reliability_mean: 19.370373333333333,
@@ -36681,7 +36708,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 4072,
+        id: 4075,
         moniker_name: "MS NOW: Way Too Early with Ali Vitali (MSNBC)",
         domain: ".tv.waytooearlywithalivitali.adfontesmedia.com",
         reliability_mean: 39.44444666666667,
@@ -36690,7 +36717,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 4073,
+        id: 4076,
         moniker_name: "OAN: The Real Story with Riley Lewis",
         domain: ".tv.therealstorywithrileylewis.adfontesmedia.com",
         reliability_mean: 21.111114444444443,
@@ -36699,7 +36726,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 4074,
+        id: 4077,
         moniker_name: "The Preamble",
         domain: ".thepreamble.com",
         reliability_mean: 38.13333266666667,
@@ -36708,7 +36735,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 4075,
+        id: 4078,
         moniker_name: "What Is a Woman?",
         domain: ".tv.whatisawoman.adfontesmedia.com",
         reliability_mean: 28,
@@ -36717,7 +36744,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 4076,
+        id: 4079,
         moniker_name: "The Reuters 60",
         domain: ".tv.reuters60.adfontesmedia.com",
         reliability_mean: 46.88888666666666,
@@ -36726,7 +36753,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 4077,
+        id: 4080,
         moniker_name: "Netflix: Buy Now! The Shopping Conspiracy",
         domain: ".tv.buynowtheshoppingconspiracy.adfontesmedia.com",
         reliability_mean: 37,
@@ -36735,7 +36762,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 4078,
+        id: 4081,
         moniker_name: "HBO: Surveilled",
         domain: ".tv.surveilled.adfontesmedia.com",
         reliability_mean: 50.16667,
@@ -36744,7 +36771,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4079,
+        id: 4082,
         moniker_name: "MS NOW: Separated (MSNBC)",
         domain: ".tv.msnow-separated.adfontesmedia.com",
         reliability_mean: 26.5,
@@ -36753,7 +36780,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 4080,
+        id: 4083,
         moniker_name: "CNN: CNN This Morning with Audie Cornish",
         domain: ".tv.cnnthismorningwithaudiecornish.adfontesmedia.com",
         reliability_mean: 39.333333333333336,
@@ -36762,7 +36789,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 4081,
+        id: 4084,
         moniker_name: "Fox News: My View with Lara Trump",
         domain: ".tv.myviewwithlaratrump.adfontesmedia.com",
         reliability_mean: 29,
@@ -36771,7 +36798,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 4082,
+        id: 4085,
         moniker_name: "No Other Land",
         domain: ".tv.nootherland.adfontesmedia.com",
         reliability_mean: 35.33333,
@@ -36780,7 +36807,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 4083,
+        id: 4086,
         moniker_name: "FiercePharma",
         domain: ".fiercepharma.com",
         reliability_mean: 43.26666733333333,
@@ -36789,7 +36816,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4084,
+        id: 4087,
         moniker_name: "CNN: The Arena with Kasie Hunt",
         domain: ".tv.thearenawithkasiehunt.adfontesmedia.com",
         reliability_mean: 36.66667,
@@ -36798,7 +36825,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 4085,
+        id: 4088,
         moniker_name: "This is Gavin Newsom",
         domain: ".pod.thisisgavinnewsom.adfontesmedia.com",
         reliability_mean: 32.75,
@@ -36807,7 +36834,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 4086,
+        id: 4089,
         moniker_name: "Frankfurter Rundschau",
         domain: ".fr.de",
         reliability_mean: 41.45833250000001,
@@ -36816,7 +36843,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4087,
+        id: 4090,
         moniker_name: "Munchner Merkur",
         domain: ".merkur.de",
         reliability_mean: 42.84444466666666,
@@ -36825,7 +36852,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4088,
+        id: 4091,
         moniker_name: "Bild",
         domain: ".bild.de",
         reliability_mean: 32.691666500000004,
@@ -36834,7 +36861,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4089,
+        id: 4092,
         moniker_name: "HNA Hessische/Niedersächsische Allgemeine",
         domain: ".hna.de",
         reliability_mean: 42.388888999999985,
@@ -36843,7 +36870,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4090,
+        id: 4093,
         moniker_name: "Le Parisien",
         domain: ".leparisien.fr",
         reliability_mean: 42.95454477272728,
@@ -36852,7 +36879,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4091,
+        id: 4094,
         moniker_name: "Corriere della Sera",
         domain: ".corriere.it",
         reliability_mean: 40.955556,
@@ -36861,7 +36888,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4092,
+        id: 4095,
         moniker_name: "Libero Quotidiano",
         domain: ".liberoquotidiano.it",
         reliability_mean: 38.655556000000004,
@@ -36870,7 +36897,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4093,
+        id: 4096,
         moniker_name: "The Mona Charen Show",
         domain: ".pod.themonacharenshow.adfontesmedia.com",
         reliability_mean: 30.777776666666668,
@@ -36879,7 +36906,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4094,
+        id: 4097,
         moniker_name: "Spolitics with Jemele Hill",
         domain: ".pod.spolitics.adfontesmedia.com",
         reliability_mean: 32.22222333333334,
@@ -36888,7 +36915,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 4095,
+        id: 4098,
         moniker_name: "So to Speak: The Free Speech Podcast with Nico Perrino",
         domain: ".pod.sotospeakthefreespeechpodcast.adfontesmedia.com",
         reliability_mean: 35.22222333333334,
@@ -36897,7 +36924,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4096,
+        id: 4099,
         moniker_name: "The American Saga by Zaid Jilani",
         domain: ".theamericansaga.com",
         reliability_mean: 32.866665999999995,
@@ -36906,7 +36933,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 4097,
+        id: 4100,
         moniker_name: "Virgilio Notizie",
         domain: ".virgilio.it",
         reliability_mean: 41.48888833333332,
@@ -36915,7 +36942,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4098,
+        id: 4101,
         moniker_name: "Adnkronos",
         domain: ".adnkronos.com",
         reliability_mean: 41.911110666666666,
@@ -36924,7 +36951,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4099,
+        id: 4102,
         moniker_name: "Irish Star US",
         domain: ".irishstar.com",
         reliability_mean: 24.678571785714286,
@@ -36933,7 +36960,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 4100,
+        id: 4103,
         moniker_name: "The American Compass Podcast",
         domain: ".pod.theamericancompasspodcast.adfontesmedia.com",
         reliability_mean: 38.11111,
@@ -36942,7 +36969,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4101,
+        id: 4104,
         moniker_name: "Erick Erickson Show",
         domain: ".pod.erickericksonshow.adfontesmedia.com",
         reliability_mean: 28,
@@ -36951,7 +36978,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 4102,
+        id: 4105,
         moniker_name: "The Brett Cooper Show",
         domain: ".tv.brettcooper-youtube.adfontesmedia.com",
         reliability_mean: 31.333333333333332,
@@ -36960,7 +36987,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 4103,
+        id: 4106,
         moniker_name: "Mehdi Unfiltered",
         domain: ".pod.mehdiunfiltered.adfontesmedia.com",
         reliability_mean: 24.222221666666666,
@@ -36969,7 +36996,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 4104,
+        id: 4107,
         moniker_name: "2WAY: TONIGHT",
         domain: ".tv.2waytonight.adfontesmedia.com",
         reliability_mean: 37.666666666666664,
@@ -36978,7 +37005,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4105,
+        id: 4108,
         moniker_name: "Tagesspiegel",
         domain: ".tagesspiegel.de",
         reliability_mean: 41.392155882352945,
@@ -36987,7 +37014,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4106,
+        id: 4109,
         moniker_name: "Le Point",
         domain: ".lepoint.fr",
         reliability_mean: 38.77777866666667,
@@ -36996,7 +37023,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4107,
+        id: 4110,
         moniker_name: "London South East",
         domain: ".lse.co.uk",
         reliability_mean: 43.87499875,
@@ -37005,7 +37032,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4108,
+        id: 4111,
         moniker_name: "MyLondon",
         domain: ".mylondon.news",
         reliability_mean: 42.933335333333325,
@@ -37014,7 +37041,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4109,
+        id: 4112,
         moniker_name: "Imprimis",
         domain: ".hillsdale.edu",
         reliability_mean: 21.74712551724138,
@@ -37023,7 +37050,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 4110,
+        id: 4113,
         moniker_name: "CNN: Early Start with Rahel Solomon",
         domain: ".tv.earlystartwithrahelsolomon.adfontesmedia.com",
         reliability_mean: 40.11111,
@@ -37032,7 +37059,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 4111,
+        id: 4114,
         moniker_name: "CNN: Saturday Morning Table for Five",
         domain: ".tv.cnnsaturdaymorningtableforfive.adfontesmedia.com",
         reliability_mean: 32.55555666666667,
@@ -37041,7 +37068,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 4112,
+        id: 4115,
         moniker_name: "NTD: Good Morning with Stefania Cox & Cary Dunst",
         domain: ".tv.ntdgoodmorningwithstefaniacoxandcarydunst.adfontesmedia.com",
         reliability_mean: 35.22222333333334,
@@ -37050,7 +37077,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 4113,
+        id: 4116,
         moniker_name: "Imprimis Podcast",
         domain: ".pod.imprimis.adfontesmedia.com",
         reliability_mean: 32.11111,
@@ -37059,7 +37086,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 4114,
+        id: 4117,
         moniker_name: "Wyoming Tribune Eagle",
         domain: ".wyomingnews.com",
         reliability_mean: 44.55555600000001,
@@ -37068,7 +37095,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4115,
+        id: 4118,
         moniker_name: "Collinsville Daily News",
         domain: ".collinsvilledailynews.com",
         reliability_mean: 27.59091090909091,
@@ -37077,7 +37104,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4116,
+        id: 4119,
         moniker_name: "Evie Magazine",
         domain: ".eviemagazine.com",
         reliability_mean: 34.437500625,
@@ -37086,7 +37113,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4117,
+        id: 4120,
         moniker_name: "20 Minutes",
         domain: ".20minutes.fr",
         reliability_mean: 41.86666666666667,
@@ -37095,7 +37122,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4118,
+        id: 4121,
         moniker_name: "Die Welt",
         domain: ".welt.de",
         reliability_mean: 42.45,
@@ -37104,7 +37131,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4119,
+        id: 4122,
         moniker_name: "FOCUS online",
         domain: ".focus.de",
         reliability_mean: 41.377778000000006,
@@ -37113,7 +37140,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4120,
+        id: 4123,
         moniker_name: "Der Westen",
         domain: ".derwesten.de",
         reliability_mean: 38.422222000000005,
@@ -37122,7 +37149,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4121,
+        id: 4124,
         moniker_name: "Westfälischer Anzeiger | WA",
         domain: ".wa.de",
         reliability_mean: 42.666666,
@@ -37131,7 +37158,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4122,
+        id: 4125,
         moniker_name: "ntv Nachrichten",
         domain: ".n-tv.de",
         reliability_mean: 43.488889333333326,
@@ -37140,7 +37167,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4123,
+        id: 4126,
         moniker_name: "News38",
         domain: ".news38.de",
         reliability_mean: 41.73333266666667,
@@ -37149,7 +37176,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4124,
+        id: 4127,
         moniker_name: "RTL",
         domain: ".rtl.fr",
         reliability_mean: 41.73333333333333,
@@ -37158,7 +37185,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4125,
+        id: 4128,
         moniker_name: "Lancs Live",
         domain: ".lancs.live",
         reliability_mean: 42.955555999999994,
@@ -37167,7 +37194,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4126,
+        id: 4129,
         moniker_name: "Government Gangsters",
         domain: ".tv.governmentgangsters.adfontesmedia.com",
         reliability_mean: 23.16667,
@@ -37176,7 +37203,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 4127,
+        id: 4130,
         moniker_name: "The News, Portsmouth",
         domain: ".portsmouth.co.uk",
         reliability_mean: 42.377777333333334,
@@ -37185,7 +37212,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4128,
+        id: 4131,
         moniker_name: "Le Figaro",
         domain: ".lefigaro.fr",
         reliability_mean: 40.733333333333334,
@@ -37194,7 +37221,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4129,
+        id: 4132,
         moniker_name: "Die Zeit",
         domain: ".zeit.de",
         reliability_mean: 42.577777999999995,
@@ -37203,7 +37230,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4130,
+        id: 4133,
         moniker_name: "Rheinische Post",
         domain: ".rp-online.de",
         reliability_mean: 43.39999933333334,
@@ -37212,7 +37239,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4131,
+        id: 4134,
         moniker_name: "Süddeutsche Zeitung",
         domain: ".sueddeutsche.de",
         reliability_mean: 42.90740777777778,
@@ -37221,7 +37248,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4132,
+        id: 4135,
         moniker_name: "TF1 INFO",
         domain: ".tf1info.fr",
         reliability_mean: 42.64444399999999,
@@ -37230,7 +37257,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4133,
+        id: 4136,
         moniker_name: "San Antonio Express-News",
         domain: ".expressnews.com",
         reliability_mean: 43.625,
@@ -37239,7 +37266,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4134,
+        id: 4137,
         moniker_name: "TMZ on TV",
         domain: ".tv.tmzontv.adfontesmedia.com",
         reliability_mean: 34,
@@ -37248,7 +37275,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4135,
+        id: 4138,
         moniker_name: "Libération",
         domain: ".liberation.fr",
         reliability_mean: 42.583333749999994,
@@ -37257,7 +37284,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 4136,
+        id: 4139,
         moniker_name: "Il Messaggero",
         domain: ".ilmessaggero.it",
         reliability_mean: 41.066666000000005,
@@ -37266,7 +37293,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4137,
+        id: 4140,
         moniker_name: "Dylan Page (YouTube)",
         domain: ".tv.dylanpage-youtube.adfontesmedia.com",
         reliability_mean: 34.33333285714286,
@@ -37275,7 +37302,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4138,
+        id: 4141,
         moniker_name: "Sud Ouest",
         domain: ".sudouest.fr",
         reliability_mean: 42.56862705882353,
@@ -37284,7 +37311,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4139,
+        id: 4142,
         moniker_name: "Soul Boom",
         domain: ".pod.soulboom.adfontesmedia.com",
         reliability_mean: 38,
@@ -37293,7 +37320,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4140,
+        id: 4143,
         moniker_name: "Headlines From The Times",
         domain: ".pod.headlinesfromthelatimes.adfontesmedia.com",
         reliability_mean: 41.55555666666667,
@@ -37302,7 +37329,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4141,
+        id: 4144,
         moniker_name: "BBC: Louis Theroux: The Settlers",
         domain: ".tv.louistherouxthesettlers.adfontesmedia.com",
         reliability_mean: 45.16667,
@@ -37311,7 +37338,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 4142,
+        id: 4145,
         moniker_name: "MS NOW: King of the Apocalypse (MSNBC)",
         domain: ".tv.kingoftheapocalypse.adfontesmedia.com",
         reliability_mean: 40.16667,
@@ -37320,7 +37347,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 4143,
+        id: 4146,
         moniker_name: "WXII 12",
         domain: ".wxii12.com",
         reliability_mean: 42.541665,
@@ -37329,7 +37356,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4144,
+        id: 4147,
         moniker_name: "FAZ | Frankfurter Allgemeine Zeitung",
         domain: ".faz.net",
         reliability_mean: 40.800000666666655,
@@ -37338,7 +37365,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4145,
+        id: 4148,
         moniker_name: "Il Sole 24 ORE",
         domain: ".ilsole24ore.com",
         reliability_mean: 42.55555533333334,
@@ -37347,7 +37374,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4146,
+        id: 4149,
         moniker_name: "MS NOW: The Briefing with Jen Psaki (MSNBC)",
         domain: ".tv.thebriefingwithjenpsaki.adfontesmedia.com",
         reliability_mean: 26.33333428571429,
@@ -37356,7 +37383,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 4147,
+        id: 4150,
         moniker_name: "MS NOW: The Weeknight (MSNBC)",
         domain: ".tv.theweekenight.adfontesmedia.com",
         reliability_mean: 25.380954285714285,
@@ -37365,7 +37392,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 4148,
+        id: 4151,
         moniker_name: "CNN International: The Brief with Jim Sciutto",
         domain: ".tv.thebriefwithjimsciutto.adfontesmedia.com",
         reliability_mean: 39.55555666666667,
@@ -37374,7 +37401,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 4149,
+        id: 4152,
         moniker_name: "CNN: The War on Government: A Fareed Zakaria Special",
         domain: ".tv.thewarongovernmentafareedzakariaspecial.adfontesmedia.com",
         reliability_mean: 36.66667,
@@ -37383,7 +37410,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 4150,
+        id: 4153,
         moniker_name: "CNN: America First: A Fareed Zakaria Special",
         domain: ".tv.americafirstafareedzakariaspecial.adfontesmedia.com",
         reliability_mean: 43.66667,
@@ -37392,7 +37419,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 4151,
+        id: 4154,
         moniker_name: "Manistee News Advocate",
         domain: ".manisteenews.com",
         reliability_mean: 42.958332500000004,
@@ -37401,7 +37428,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4152,
+        id: 4155,
         moniker_name: "Midland Daily News",
         domain: ".ourmidland.com",
         reliability_mean: 42.70833437499999,
@@ -37410,7 +37437,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4153,
+        id: 4156,
         moniker_name: "The Ridgefield Press",
         domain: ".theridgefieldpress.com",
         reliability_mean: 43.062499375,
@@ -37419,7 +37446,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4154,
+        id: 4157,
         moniker_name: "Real America's Voice: Bolling!",
         domain: ".tv.ravbolling.adfontesmedia.com",
         reliability_mean: 16.615381538461538,
@@ -37428,7 +37455,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 4155,
+        id: 4158,
         moniker_name: "My NBC5 WPTZ",
         domain: ".mynbc5.com",
         reliability_mean: 42.60416562500001,
@@ -37437,7 +37464,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4156,
+        id: 4159,
         moniker_name: "Register Citizen",
         domain: ".registercitizen.com",
         reliability_mean: 42.041666875000004,
@@ -37446,7 +37473,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4157,
+        id: 4160,
         moniker_name: "The Middletown Press",
         domain: ".middletownpress.com",
         reliability_mean: 42.354166875000004,
@@ -37455,7 +37482,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4158,
+        id: 4161,
         moniker_name: "Big Rapids Pioneer",
         domain: ".bigrapidsnews.com",
         reliability_mean: 42.84313764705882,
@@ -37464,7 +37491,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4159,
+        id: 4162,
         moniker_name: "Huron Daily Tribune",
         domain: ".michigansthumb.com",
         reliability_mean: 42.833333749999994,
@@ -37473,7 +37500,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4160,
+        id: 4163,
         moniker_name: "Plainview Herald",
         domain: ".myplainview.com",
         reliability_mean: 42.27083375,
@@ -37482,7 +37509,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4161,
+        id: 4164,
         moniker_name: "The Courier of Montgomery County",
         domain: ".yourconroenews.com",
         reliability_mean: 42.58333375,
@@ -37491,7 +37518,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4162,
+        id: 4165,
         moniker_name: "WYFF News 4",
         domain: ".wyff4.com",
         reliability_mean: 42.624999375,
@@ -37500,7 +37527,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4163,
+        id: 4166,
         moniker_name: "EXPRESS",
         domain: ".express.de",
         reliability_mean: 40.36666666666667,
@@ -37509,7 +37536,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4164,
+        id: 4167,
         moniker_name: "Berliner Morgenpost",
         domain: ".morgenpost.de",
         reliability_mean: 43.05882352941177,
@@ -37518,7 +37545,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4165,
+        id: 4168,
         moniker_name: "Il Mattino",
         domain: ".ilmattino.it",
         reliability_mean: 42.53333266666667,
@@ -37527,7 +37554,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4166,
+        id: 4169,
         moniker_name: "Il Tempo",
         domain: ".iltempo.it",
         reliability_mean: 37.46666749999999,
@@ -37536,7 +37563,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 4167,
+        id: 4170,
         moniker_name: "Investireoggi",
         domain: ".investireoggi.it",
         reliability_mean: 42.48888933333333,
@@ -37545,7 +37572,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4168,
+        id: 4171,
         moniker_name: "Il Gazzettino",
         domain: ".ilgazzettino.it",
         reliability_mean: 42.288889333333344,
@@ -37554,7 +37581,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4169,
+        id: 4172,
         moniker_name: "Hamburger Morgenpost",
         domain: ".mopo.de",
         reliability_mean: 41.64705882352941,
@@ -37563,7 +37590,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4170,
+        id: 4173,
         moniker_name: "Newsmax: Finnerty",
         domain: ".tv.newsmaxfinnerty.adfontesmedia.com",
         reliability_mean: 21.611108333333334,
@@ -37572,7 +37599,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 4171,
+        id: 4174,
         moniker_name: "Talk Easy with Sam Fragoso",
         domain: ".pod.talkeasywithsamfragoso.adfontesmedia.com",
         reliability_mean: 32,
@@ -37581,7 +37608,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 4172,
+        id: 4175,
         moniker_name: "MS NOW: The Weekend (MSNBC)",
         domain: ".tv.msnowtheweekend.adfontesmedia.com",
         reliability_mean: 30.333333333333332,
@@ -37590,7 +37617,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 4173,
+        id: 4176,
         moniker_name: "Leggo",
         domain: ".leggo.it",
         reliability_mean: 41.46666633333334,
@@ -37599,7 +37626,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4174,
+        id: 4177,
         moniker_name: "Taylor Lorenz (YouTube)",
         domain: ".tv.taylorlorenz-youtube.adfontesmedia.com",
         reliability_mean: 23.166666666666668,
@@ -37608,7 +37635,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 4175,
+        id: 4178,
         moniker_name: "Le Dauphiné Libéré",
         domain: ".ledauphine.com",
         reliability_mean: 42.51111200000001,
@@ -37617,7 +37644,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4176,
+        id: 4179,
         moniker_name: "Andrew Schulz's Flagrant with Akaash Singh",
         domain: ".pod.andrewschulzsflagrantwithakaashsingh.adfontesmedia.com",
         reliability_mean: 25.809522857142856,
@@ -37626,7 +37653,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 4177,
+        id: 4180,
         moniker_name: "We Live Here Now",
         domain: ".pod.weliveherenow.adfontesmedia.com",
         reliability_mean: 38.55555666666667,
@@ -37635,7 +37662,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 4178,
+        id: 4181,
         moniker_name: "Autocracy in America",
         domain: ".pod.autocracyinamerica.adfontesmedia.com",
         reliability_mean: 44.59999799999999,
@@ -37644,7 +37671,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 4179,
+        id: 4182,
         moniker_name: "Le Télégramme",
         domain: ".letelegramme.fr",
         reliability_mean: 43.02222266666666,
@@ -37653,7 +37680,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4180,
+        id: 4183,
         moniker_name: "Next Up with Mark Halperin",
         domain: ".pod.nextupwithmarkhalperin.adfontesmedia.com",
         reliability_mean: 33.666666666666664,
@@ -37662,7 +37689,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4181,
+        id: 4184,
         moniker_name: "The Milford Mirror",
         domain: ".milfordmirror.com",
         reliability_mean: 42.77777799999999,
@@ -37671,7 +37698,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4182,
+        id: 4185,
         moniker_name: "Shelton Herald",
         domain: ".sheltonherald.com",
         reliability_mean: 42.42222266666667,
@@ -37680,7 +37707,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4183,
+        id: 4186,
         moniker_name: "The Darien Times",
         domain: ".darientimes.com",
         reliability_mean: 42.04444466666667,
@@ -37689,7 +37716,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4184,
+        id: 4187,
         moniker_name: "The Trumbull Times",
         domain: ".trumbulltimes.com",
         reliability_mean: 42.199999333333345,
@@ -37698,7 +37725,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4185,
+        id: 4188,
         moniker_name: "New Canaan Advertiser",
         domain: ".ncadvertiser.com",
         reliability_mean: 42.222222,
@@ -37707,7 +37734,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4186,
+        id: 4189,
         moniker_name: "40/29 News KHBS",
         domain: ".4029tv.com",
         reliability_mean: 42.333333125,
@@ -37716,7 +37743,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4187,
+        id: 4190,
         moniker_name: "The Herald Review",
         domain: ".theheraldreview.com",
         reliability_mean: 41.84444466666666,
@@ -37725,7 +37752,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4188,
+        id: 4191,
         moniker_name: "WBAL NewsRadio 1090 and FM 101.5",
         domain: ".wbal.com",
         reliability_mean: 41.577777999999995,
@@ -37734,7 +37761,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4189,
+        id: 4192,
         moniker_name: "The Wilton Bulletin",
         domain: ".wiltonbulletin.com",
         reliability_mean: 42.08888866666666,
@@ -37743,7 +37770,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4190,
+        id: 4193,
         moniker_name: "Hardball with Chris Matthews",
         domain: ".tv.hardballwithchrismatthews.adfontesmedia.com",
         reliability_mean: 34.11111,
@@ -37752,7 +37779,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 4191,
+        id: 4194,
         moniker_name: "MS NOW: The Weekend: Primetime (MSNBC)",
         domain: ".tv.theweekendprimetime.adfontesmedia.com",
         reliability_mean: 29.111113333333336,
@@ -37761,7 +37788,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 4192,
+        id: 4195,
         moniker_name: "Reality Check with Ross Coulthart",
         domain: ".pod.realitycheckwithrosscoulthart.adfontesmedia.com",
         reliability_mean: 11.873012857142859,
@@ -37770,7 +37797,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4193,
+        id: 4196,
         moniker_name: "The Red Folder",
         domain: ".redfoldernews.org",
         reliability_mean: 39.80392176470588,
@@ -37779,7 +37806,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4194,
+        id: 4197,
         moniker_name: "Ken Klippenstein",
         domain: ".kenklippenstein.com",
         reliability_mean: 33.84444333333333,
@@ -37788,7 +37815,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 4195,
+        id: 4198,
         moniker_name: "Byline Times",
         domain: ".bylinetimes.com",
         reliability_mean: 32.85185222222223,
@@ -37797,7 +37824,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 4196,
+        id: 4199,
         moniker_name: "Good Authority",
         domain: ".goodauthority.org",
         reliability_mean: 41.955555333333336,
@@ -37806,7 +37833,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4197,
+        id: 4200,
         moniker_name: "Benzie County Record Patriot",
         domain: ".recordpatriot.com",
         reliability_mean: 42.022223333333336,
@@ -37815,7 +37842,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4198,
+        id: 4201,
         moniker_name: "Lake County Star",
         domain: ".lakecountystar.com",
         reliability_mean: 42.266666666666666,
@@ -37824,7 +37851,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4199,
+        id: 4202,
         moniker_name: "MOR-TV Tampa Bay",
         domain: ".mor-tv.com",
         reliability_mean: 39.53333266666667,
@@ -37833,7 +37860,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4200,
+        id: 4203,
         moniker_name: "The Kewanee Voice",
         domain: ".kewaneevoice.com",
         reliability_mean: 42.311111333333336,
@@ -37842,7 +37869,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4201,
+        id: 4204,
         moniker_name: "The Intercept Briefing",
         domain: ".pod.theinterceptbriefing.adfontesmedia.com",
         reliability_mean: 31,
@@ -37851,7 +37878,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 4202,
+        id: 4205,
         moniker_name: "Unf*cking The Republic® (UNFTR)",
         domain: ".pod.unf*ckingtherepublic.adfontesmedia.com",
         reliability_mean: 30.111113333333332,
@@ -37860,7 +37887,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 4203,
+        id: 4206,
         moniker_name: "RealClearPolitics Podcast",
         domain: ".pod.realclearpoliticspodcast.adfontesmedia.com",
         reliability_mean: 32.77778,
@@ -37869,7 +37896,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 4204,
+        id: 4207,
         moniker_name: "Le Progrès",
         domain: ".leprogres.fr",
         reliability_mean: 42.133334,
@@ -37878,7 +37905,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4205,
+        id: 4208,
         moniker_name: "Status",
         domain: ".status.news",
         reliability_mean: 33.51851888888889,
@@ -37887,7 +37914,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 4206,
+        id: 4209,
         moniker_name: "The Roseanne Barr Podcast",
         domain: ".pod.theroseanebarrpodcast.adfontesmedia.com",
         reliability_mean: 12.784312352941175,
@@ -37896,7 +37923,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 4207,
+        id: 4210,
         moniker_name: "Capital",
         domain: ".capital.fr",
         reliability_mean: 39.84444333333333,
@@ -37905,7 +37932,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4208,
+        id: 4211,
         moniker_name: "Barrett Media",
         domain: ".barrettmedia.com",
         reliability_mean: 37.57777733333332,
@@ -37914,7 +37941,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4209,
+        id: 4212,
         moniker_name: "Slow Boring | Matthew Yglesias",
         domain: ".slowboring.com",
         reliability_mean: 35.46666733333333,
@@ -37923,7 +37950,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 4210,
+        id: 4213,
         moniker_name: "BZ Berlin B.Z.",
         domain: ".bz-berlin.de",
         reliability_mean: 37.01010181818182,
@@ -37932,7 +37959,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4211,
+        id: 4214,
         moniker_name: "Tz",
         domain: ".tz.de",
         reliability_mean: 42.044444666666664,
@@ -37941,7 +37968,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4212,
+        id: 4215,
         moniker_name: "The Liberal Patriot",
         domain: ".liberalpatriot.com",
         reliability_mean: 35.866666,
@@ -37950,7 +37977,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4213,
+        id: 4216,
         moniker_name: "NBC Nightly News with Tom Llamas",
         domain: ".tv.nbcnightlynewswithtomllamas.adfontesmedia.com",
         reliability_mean: 44.666664999999995,
@@ -37959,7 +37986,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4214,
+        id: 4217,
         moniker_name: "Factually! with Adam Conover",
         domain: ".pod.factuallywithadamconover.adfontesmedia.com",
         reliability_mean: 31.555556666666664,
@@ -37968,7 +37995,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 4215,
+        id: 4218,
         moniker_name: "Unsafe with Ann Coulter",
         domain: ".pod.unsafewithanncoulter.adfontesmedia.com",
         reliability_mean: 20.555556666666664,
@@ -37977,7 +38004,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 4216,
+        id: 4219,
         moniker_name: "Shane Smith Has Questions",
         domain: ".pod.shanesmithhasquestions.adfontesmedia.com",
         reliability_mean: 35.55555666666667,
@@ -37986,7 +38013,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4217,
+        id: 4220,
         moniker_name: "WSJ's Take On the Week",
         domain: ".pod.wsjstakeontheweek.adfontesmedia.com",
         reliability_mean: 38.88889,
@@ -37995,7 +38022,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4218,
+        id: 4221,
         moniker_name: "Beyond the Polls with Henry Olsen",
         domain: ".pod.beyondthepollswithhenryolsen.adfontesmedia.com",
         reliability_mean: 40.66666333333333,
@@ -38004,7 +38031,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4219,
+        id: 4222,
         moniker_name: "Heritage Explains",
         domain: ".pod.heritageexplains.adfontesmedia.com",
         reliability_mean: 34.88888666666667,
@@ -38013,7 +38040,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 4220,
+        id: 4223,
         moniker_name: "WSJ: Opinion: Free Expression",
         domain: ".pod.opinionfreeexpression.adfontesmedia.com",
         reliability_mean: 36.44444666666667,
@@ -38022,7 +38049,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4221,
+        id: 4224,
         moniker_name: "UnJustified with Allison Gill & Andrew McCabe",
         domain: ".pod.unjustifiedwithallisongillandandrewmccabe.adfontesmedia.com",
         reliability_mean: 33.888886666666664,
@@ -38031,7 +38058,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 4222,
+        id: 4225,
         moniker_name: "Il Giornale",
         domain: ".ilgiornale.it",
         reliability_mean: 39.20000066666667,
@@ -38040,7 +38067,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4223,
+        id: 4226,
         moniker_name: "echo24.de",
         domain: ".echo24.de",
         reliability_mean: 40.377778666666664,
@@ -38049,7 +38076,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4224,
+        id: 4227,
         moniker_name: "The Daily Blast with Greg Sargent",
         domain: ".pod.thedailyblastwithgregsargent.adfontesmedia.com",
         reliability_mean: 28,
@@ -38058,7 +38085,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 4225,
+        id: 4228,
         moniker_name: "The Liberal Patriot with Ruy Teixeira",
         domain: ".pod.theliberalpatriotwithruyteixeira.adfontesmedia.com",
         reliability_mean: 34.11111,
@@ -38067,7 +38094,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4226,
+        id: 4229,
         moniker_name: "The David Frum Show",
         domain: ".pod.thedavidfrumshow.adfontesmedia.com",
         reliability_mean: 33.66667,
@@ -38076,7 +38103,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 4227,
+        id: 4230,
         moniker_name: "NYT: The Headlines",
         domain: ".pod.theheadlines.adfontesmedia.com",
         reliability_mean: 43.11111,
@@ -38085,7 +38112,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4228,
+        id: 4231,
         moniker_name: "Screams Before Silence",
         domain: ".tv.screamsbeforesilence.adfontesmedia.com",
         reliability_mean: 42.5,
@@ -38094,7 +38121,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4229,
+        id: 4232,
         moniker_name: "Chicago Contrarian",
         domain: ".chicagocontrarian.com",
         reliability_mean: 21.178861707317076,
@@ -38103,7 +38130,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 4230,
+        id: 4233,
         moniker_name:
             "CNN: The Road to War in the Middle East: A Fareed Zakaria Special",
         domain: ".tv.theroadtowarinthemiddleeastafareedzakariaspecial.adfontesmedia.com",
@@ -38113,7 +38140,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4231,
+        id: 4234,
         moniker_name: "The Bibi Files",
         domain: ".tv.thebibifiles.adfontesmedia.com",
         reliability_mean: 29.83333,
@@ -38122,7 +38149,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 4232,
+        id: 4235,
         moniker_name: "Kreiszeitung",
         domain: ".kreiszeitung.de",
         reliability_mean: 42.311111999999994,
@@ -38131,7 +38158,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4233,
+        id: 4236,
         moniker_name: "The Chris Stigall Show",
         domain: ".pod.thechrisstigallshow.adfontesmedia.com",
         reliability_mean: 14.416667499999999,
@@ -38140,7 +38167,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 4234,
+        id: 4237,
         moniker_name: "GD POLITICS with Galen Druke",
         domain: ".pod.gdpoliticswithgalendruke.adfontesmedia.com",
         reliability_mean: 35.77777666666666,
@@ -38149,7 +38176,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 4235,
+        id: 4238,
         moniker_name: "Karlsruhe Insider | ka-insider",
         domain: ".karlsruhe-insider.de",
         reliability_mean: 39.3333325,
@@ -38158,7 +38185,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4236,
+        id: 4239,
         moniker_name: "NTD TV Network",
         domain: ".tv.ntdtvnetwork.adfontesmedia.com",
         reliability_mean: 37.83333,
@@ -38167,7 +38194,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 4237,
+        id: 4240,
         moniker_name: "PBS TV Network",
         domain: ".tv.pbstvnetwork.adfontesmedia.com",
         reliability_mean: 42.5,
@@ -38176,7 +38203,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 4238,
+        id: 4241,
         moniker_name: "MOIN.DE",
         domain: ".moin.de",
         reliability_mean: 36.29166625,
@@ -38185,7 +38212,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4239,
+        id: 4242,
         moniker_name: "Gaza: Doctors Under Attack",
         domain: ".tv.gazadoctorsunderattack.adfontesmedia.com",
         reliability_mean: 38.66667,
@@ -38194,7 +38221,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 4240,
+        id: 4243,
         moniker_name: "The Bitchuation Room (with Francesca Fiorentini)",
         domain: ".pod.thebitchuationroomwithfrancescafiorentini.adfontesmedia.com",
         reliability_mean: 23.000003333333336,
@@ -38203,7 +38230,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 4241,
+        id: 4244,
         moniker_name:
             "Case in Point: The Legal Show for Regular People with Hans von Spakovsky",
         domain: ".pod.caseinpointthelegalshowforregularpeople.adfontesmedia.com",
@@ -38213,7 +38240,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 4242,
+        id: 4245,
         moniker_name: "WSJ: Bold Names",
         domain: ".pod.boldnames.adfontesmedia.com",
         reliability_mean: 38.333333333333336,
@@ -38222,7 +38249,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4243,
+        id: 4246,
         moniker_name: "Investopedia",
         domain: ".investopedia.com",
         reliability_mean: 42.27083312500001,
@@ -38231,7 +38258,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4244,
+        id: 4247,
         moniker_name: "The Mike Gallagher Show",
         domain: ".pod.themikegallaghershow.adfontesmedia.com",
         reliability_mean: 23.55555222222222,
@@ -38240,7 +38267,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 4245,
+        id: 4248,
         moniker_name: "Cato Podcast",
         domain: ".pod.catopodcast.adfontesmedia.com",
         reliability_mean: 37.66666333333333,
@@ -38249,7 +38276,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 4246,
+        id: 4249,
         moniker_name: "Vantage by Palki Sharma",
         domain: ".tv.vantagebypalkisharma.adfontesmedia.com",
         reliability_mean: 30.444446666666664,
@@ -38258,7 +38285,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 4247,
+        id: 4250,
         moniker_name: "Actu.fr",
         domain: ".actu.fr",
         reliability_mean: 40.288888,
@@ -38267,7 +38294,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4248,
+        id: 4251,
         moniker_name: "Il Tirreno",
         domain: ".iltirreno.it",
         reliability_mean: 40.666666666666664,
@@ -38276,7 +38303,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4249,
+        id: 4252,
         moniker_name: "KSTA | Kölner Stadt-Anzeiger",
         domain: ".ksta.de",
         reliability_mean: 42.46666666666667,
@@ -38285,7 +38312,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4250,
+        id: 4253,
         moniker_name: "PNP | Passauer Neue Presse",
         domain: ".pnp.de",
         reliability_mean: 42.6666675,
@@ -38294,7 +38321,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4251,
+        id: 4254,
         moniker_name: "Schwäbische Zeitung",
         domain: ".schwaebische.de",
         reliability_mean: 41.599999333333336,
@@ -38303,7 +38330,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4252,
+        id: 4255,
         moniker_name: "NPR Podcasts",
         domain: ".pod.nprpodcasts.adfontesmedia.com",
         reliability_mean: 40.66667,
@@ -38312,7 +38339,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 4253,
+        id: 4256,
         moniker_name: "Red Menace",
         domain: ".pod.redmenace.adfontesmedia.com",
         reliability_mean: 23.166663333333332,
@@ -38321,7 +38348,7 @@ const sampleData = [
         bias_label: "Most Extreme Left",
     },
     {
-        id: 4254,
+        id: 4257,
         moniker_name: "L'Indépendant",
         domain: ".lindependant.fr",
         reliability_mean: 41.155556000000004,
@@ -38330,7 +38357,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4255,
+        id: 4258,
         moniker_name: "NewsNation: NewsNation Live Weekend with Laura Ingle",
         domain: ".tv.newsnationliveweekendwithlauraingle.adfontesmedia.com",
         reliability_mean: 29.277779999999996,
@@ -38339,7 +38366,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 4256,
+        id: 4259,
         moniker_name: "Stuttgarter Zeitung",
         domain: ".stuttgarter-zeitung.de",
         reliability_mean: 41.71111133333333,
@@ -38348,7 +38375,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4257,
+        id: 4260,
         moniker_name: "America Unfiltered: Portraits and Voices of a Nation",
         domain: ".tv.americaunfilteredportraitsandvoicesofanation.adfontesmedia.com",
         reliability_mean: 38.66667,
@@ -38357,7 +38384,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 4258,
+        id: 4261,
         moniker_name: "BFMTV",
         domain: ".bfmtv.com",
         reliability_mean: 40.79999999999999,
@@ -38366,7 +38393,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4259,
+        id: 4262,
         moniker_name: "AM Update with Megyn Kelly",
         domain: ".pod.amupdate.adfontesmedia.com",
         reliability_mean: 39.11111,
@@ -38375,7 +38402,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 4260,
+        id: 4263,
         moniker_name: "The Joy Reid Show",
         domain: ".pod.thejoyreidshow.adfontesmedia.com",
         reliability_mean: 17.88889,
@@ -38384,7 +38411,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 4261,
+        id: 4264,
         moniker_name: "Pod Force One with Miranda Devine",
         domain: ".pod.podforceone.adfontesmedia.com",
         reliability_mean: 33,
@@ -38393,7 +38420,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 4262,
+        id: 4265,
         moniker_name: "agrarheute",
         domain: ".agrarheute.com",
         reliability_mean: 42.68888866666668,
@@ -38402,7 +38429,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4263,
+        id: 4266,
         moniker_name:
             "This Week On Capitol Hill with Tony Perkins and Mike Johnson",
         domain: ".tv.thisweekoncapitolhill.adfontesmedia.com",
@@ -38412,7 +38439,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 4264,
+        id: 4267,
         moniker_name: "Charente Libre",
         domain: ".charentelibre.fr",
         reliability_mean: 42.399999333333334,
@@ -38421,7 +38448,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4265,
+        id: 4268,
         moniker_name: "Reclaim The Flag",
         domain: ".tv.reclaimtheflag.adfontesmedia.com",
         reliability_mean: 34.16667,
@@ -38430,7 +38457,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 4266,
+        id: 4269,
         moniker_name: "The Encampments",
         domain: ".tv.theencampments.adfontesmedia.com",
         reliability_mean: 24.83333,
@@ -38439,7 +38466,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 4267,
+        id: 4270,
         moniker_name: "Frankfurter Neue Presse | FNP",
         domain: ".fnp.de",
         reliability_mean: 43.377777333333334,
@@ -38448,7 +38475,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4268,
+        id: 4271,
         moniker_name: "The Prof G Pod with Scott Galloway",
         domain: ".pod.theprofgpod.adfontesmedia.com",
         reliability_mean: 36.11111,
@@ -38457,7 +38484,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 4269,
+        id: 4272,
         moniker_name: "Yascha Mounk",
         domain: ".yaschamounk.com",
         reliability_mean: 34.444443333333325,
@@ -38466,7 +38493,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 4270,
+        id: 4273,
         moniker_name: "HBO: The Truth vs. Alex Jones",
         domain: ".tv.thetruthvsalexjones.adfontesmedia.com",
         reliability_mean: 46.16667,
@@ -38475,7 +38502,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4271,
+        id: 4274,
         moniker_name: "RT: Divided America: The People’s Vote",
         domain: ".tv.dividedamericathepeoplesvote.adfontesmedia.com",
         reliability_mean: 21.66667,
@@ -38484,7 +38511,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4272,
+        id: 4275,
         moniker_name: "RT: An American’s Russian Dream",
         domain: ".tv.anamericansrussiandream.adfontesmedia.com",
         reliability_mean: 21.33333,
@@ -38493,7 +38520,7 @@ const sampleData = [
         bias_label: "Most Extreme Right",
     },
     {
-        id: 4273,
+        id: 4276,
         moniker_name: "The Scott Jennings Show",
         domain: ".pod.thescottjenningsshow.adfontesmedia.com",
         reliability_mean: 25,
@@ -38502,7 +38529,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 4274,
+        id: 4277,
         moniker_name: "Leicestershire Live",
         domain: ".leicestermercury.co.uk",
         reliability_mean: 42.311110666666664,
@@ -38511,7 +38538,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4275,
+        id: 4278,
         moniker_name: "LeedsLive",
         domain: ".leeds-live.co.uk",
         reliability_mean: 40.83333375,
@@ -38520,7 +38547,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4276,
+        id: 4279,
         moniker_name: "Yorkshire Live",
         domain: ".examinerlive.co.uk",
         reliability_mean: 42.600000666666666,
@@ -38529,7 +38556,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4277,
+        id: 4280,
         moniker_name: "Candace Owens: Becoming Brigitte",
         domain: ".tv.becomingbrigitte.adfontesmedia.com",
         reliability_mean: 12.722222499999999,
@@ -38538,7 +38565,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 4278,
+        id: 4281,
         moniker_name: "Fox News: Perino on Politics",
         domain: ".pod.perinoonpolitics.adfontesmedia.com",
         reliability_mean: 34.66667,
@@ -38547,7 +38574,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 4279,
+        id: 4282,
         moniker_name: "The Conversation with Dasha Burns",
         domain: ".pod.theconversationwithdashaburns.adfontesmedia.com",
         reliability_mean: 35.50000250000001,
@@ -38556,7 +38583,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 4280,
+        id: 4283,
         moniker_name: "Come-on.de | Lüdenscheider Nachrichten",
         domain: ".come-on.de",
         reliability_mean: 41.62222266666666,
@@ -38565,7 +38592,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4281,
+        id: 4284,
         moniker_name: "CNN International: What We Know with Max Foster",
         domain: ".tv.whatweknowwithmaxfoster.adfontesmedia.com",
         reliability_mean: 44.11111,
@@ -38574,7 +38601,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 4282,
+        id: 4285,
         moniker_name: "My UP Now | WJMN Local 3 | WBUP",
         domain: ".myupnow.com",
         reliability_mean: 41.688888666666664,
@@ -38583,7 +38610,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4283,
+        id: 4286,
         moniker_name: "Soester Anzeiger",
         domain: ".soester-anzeiger.de",
         reliability_mean: 41.95555533333333,
@@ -38592,7 +38619,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4284,
+        id: 4287,
         moniker_name: "Osthessen News",
         domain: ".osthessen-news.de",
         reliability_mean: 42.229168125,
@@ -38601,7 +38628,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4285,
+        id: 4288,
         moniker_name: "Grimsby Live",
         domain: ".grimsbytelegraph.co.uk",
         reliability_mean: 43.00000066666666,
@@ -38610,7 +38637,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4286,
+        id: 4289,
         moniker_name: "Breakthrough News",
         domain: ".breakthroughnews.org",
         reliability_mean: 32.51851777777778,
@@ -38619,7 +38646,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 4287,
+        id: 4290,
         moniker_name: "The Golden Age with Andrew Zucker",
         domain: ".pod.thegoldenagewithandrewzucker.adfontesmedia.com",
         reliability_mean: 34.55555666666667,
@@ -38628,7 +38655,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 4288,
+        id: 4291,
         moniker_name: "HBO: The Dark Money Game",
         domain: ".tv.thedarkmoneygame.adfontesmedia.com",
         reliability_mean: 38.75,
@@ -38637,7 +38664,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 4289,
+        id: 4292,
         moniker_name: "MANNHEIM24",
         domain: ".mannheim24.de",
         reliability_mean: 39.71111133333333,
@@ -38646,7 +38673,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4290,
+        id: 4293,
         moniker_name: "Il Foglio",
         domain: ".ilfoglio.it",
         reliability_mean: 35.822222000000004,
@@ -38655,7 +38682,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 4291,
+        id: 4294,
         moniker_name: "Schwarzwälder Bote",
         domain: ".schwarzwaelder-bote.de",
         reliability_mean: 41.288888,
@@ -38664,7 +38691,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4292,
+        id: 4295,
         moniker_name: "t-online",
         domain: ".t-online.de",
         reliability_mean: 41.75555599999999,
@@ -38673,7 +38700,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4293,
+        id: 4296,
         moniker_name: "Cheddar",
         domain: ".cheddar.com",
         reliability_mean: 40.79999999999999,
@@ -38682,7 +38709,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4294,
+        id: 4297,
         moniker_name: "Stuttgarter Nachrichten",
         domain: ".stuttgarter-nachrichten.de",
         reliability_mean: 42.041666875000004,
@@ -38691,7 +38718,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4295,
+        id: 4298,
         moniker_name: "Devon Live",
         domain: ".devonlive.com",
         reliability_mean: 41.333333125,
@@ -38700,7 +38727,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4296,
+        id: 4299,
         moniker_name: "Newsmax: Ed Henry: The Briefing",
         domain: ".tv.edhenrythebriefing.adfontesmedia.com",
         reliability_mean: 20.592592222222223,
@@ -38709,7 +38736,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 4297,
+        id: 4300,
         moniker_name: "Westfalenpost",
         domain: ".wp.de",
         reliability_mean: 40.73333266666667,
@@ -38718,7 +38745,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4298,
+        id: 4301,
         moniker_name: "RUHR24",
         domain: ".ruhr24.de",
         reliability_mean: 41.777778,
@@ -38727,7 +38754,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4299,
+        id: 4302,
         moniker_name: "Volksstimme",
         domain: ".volksstimme.de",
         reliability_mean: 42.37777866666667,
@@ -38736,7 +38763,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4300,
+        id: 4303,
         moniker_name: "Presseportal",
         domain: ".presseportal.de",
         reliability_mean: 36.77777666666666,
@@ -38745,7 +38772,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 4301,
+        id: 4304,
         moniker_name: "Netflix: The Truth About Jussie Smollett?",
         domain: ".tv.thetruthaboutjussiesmollett.adfontesmedia.com",
         reliability_mean: 47.66667,
@@ -38754,7 +38781,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4302,
+        id: 4305,
         moniker_name: "Edinburgh Live",
         domain: ".edinburghlive.co.uk",
         reliability_mean: 36.508772105263155,
@@ -38763,7 +38790,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4303,
+        id: 4306,
         moniker_name: "CNN: Big, Beautiful Tariffs: A Fareed Zakaria Special",
         domain: ".tv.bigbeautifultariffs.adfontesmedia.com",
         reliability_mean: 35.83333,
@@ -38772,7 +38799,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 4304,
+        id: 4307,
         moniker_name: "NewsNation: NewsNation Live Weekend with Keleigh Beeson",
         domain: ".tv.newsnationlivewithkeleighbeeson.adfontesmedia.com",
         reliability_mean: 43.55555666666667,
@@ -38781,7 +38808,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4305,
+        id: 4308,
         moniker_name: "Newsmax: David Harris Jr. The Pulse",
         domain: ".tv.davidharrisjrthepulse.adfontesmedia.com",
         reliability_mean: 20.555556666666664,
@@ -38790,7 +38817,16 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 4306,
+        id: 4309,
+        moniker_name: "Your Undivided Attention",
+        domain: ".pod.yourundividedattention.adfontesmedia.com",
+        reliability_mean: 44.55555333333333,
+        reliability_label: "Reliable; Analysis/Fact Reporting",
+        bias_mean: 0,
+        bias_label: "Middle",
+    },
+    {
+        id: 4310,
         moniker_name: "The Katie Miller Podcast",
         domain: ".pod.thekatiemillerpodcast.adfontesmedia.com",
         reliability_mean: 34.11111,
@@ -38799,7 +38835,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4307,
+        id: 4311,
         moniker_name: "The Best People with Nicolle Wallace",
         domain: ".pod.thebestpeoplewithnicollewallace.adfontesmedia.com",
         reliability_mean: 30.11111,
@@ -38808,7 +38844,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 4308,
+        id: 4312,
         moniker_name: "Inside Trump's Head with Michael Wolff & Joanna Coles",
         domain: ".pod.insidetrumpshead.adfontesmedia.com",
         reliability_mean: 25,
@@ -38817,7 +38853,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 4309,
+        id: 4313,
         moniker_name: "2WAY: The Group Chat​",
         domain: ".tv.2waythegroupchat.adfontesmedia.com",
         reliability_mean: 35.22222333333334,
@@ -38826,7 +38862,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4310,
+        id: 4314,
         moniker_name: "Big League Politics | Substack",
         domain: ".bigleaguepolitics.substack.com",
         reliability_mean: 8.273332533333333,
@@ -38835,7 +38871,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 4311,
+        id: 4315,
         moniker_name: "Finding the Money",
         domain: ".tv.findingmoneyfilm.adfontesmedia.com",
         reliability_mean: 30,
@@ -38844,7 +38880,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 4312,
+        id: 4316,
         moniker_name: "Al Jazeera: The Silencing of Anas al-Sharif",
         domain: ".tv.thesilencingofanasalsharif-youtube.adfontesmedia.com",
         reliability_mean: 38.33333,
@@ -38853,7 +38889,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 4313,
+        id: 4317,
         moniker_name: "Mitteldeutsche Zeitung",
         domain: ".mz.de",
         reliability_mean: 42.422222000000005,
@@ -38862,7 +38898,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4314,
+        id: 4318,
         moniker_name: "NPR: Sources & Methods",
         domain: ".pod.nprsourcesandmethods.adfontesmedia.com",
         reliability_mean: 40.666666666666664,
@@ -38871,7 +38907,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4315,
+        id: 4319,
         moniker_name: "RT: Sanchez Effect with Rick Sanchez",
         domain: ".tv.sanchezeffect.adfontesmedia.com",
         reliability_mean: 13.56410153846154,
@@ -38880,7 +38916,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4316,
+        id: 4320,
         moniker_name: "Electric Vehicles: The Good, The Bad and The Ugly",
         domain: ".tv.larryevfilm.adfontesmedia.com",
         reliability_mean: 28.33333,
@@ -38889,7 +38925,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 4317,
+        id: 4321,
         moniker_name: "A Faith Under Siege",
         domain: ".faithundersiege.com",
         reliability_mean: 35,
@@ -38898,7 +38934,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4318,
+        id: 4322,
         moniker_name: "Race War",
         domain: ".tv.racewar.adfontesmedia.com",
         reliability_mean: 31.208334999999998,
@@ -38907,7 +38943,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 4319,
+        id: 4323,
         moniker_name:
             "CNN: The United States vs. Iran: A Fareed Zakaria Special",
         domain: ".tv.theunitedstatvsiranafareedzakariaspecial.adfontesmedia.com",
@@ -38917,7 +38953,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4320,
+        id: 4324,
         moniker_name: "Yorkshire Evening Post",
         domain: ".yorkshireeveningpost.co.uk",
         reliability_mean: 41.91111133333333,
@@ -38926,7 +38962,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4321,
+        id: 4325,
         moniker_name: "stern",
         domain: ".stern.de",
         reliability_mean: 40.77777866666666,
@@ -38935,7 +38971,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4322,
+        id: 4326,
         moniker_name: "Abendzeitung München",
         domain: ".abendzeitung-muenchen.de",
         reliability_mean: 41.75555533333333,
@@ -38944,7 +38980,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4323,
+        id: 4327,
         moniker_name: "EWTN: EWTN News Nightly",
         domain: ".tv.ewtnnewsnightly.adfontesmedia.com",
         reliability_mean: 43.77777666666666,
@@ -38953,7 +38989,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4324,
+        id: 4328,
         moniker_name: "Newsmax: Wake Up America Early",
         domain: ".tv.newsmaxwakeupamericaearly.adfontesmedia.com",
         reliability_mean: 17.809525,
@@ -38962,7 +38998,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 4325,
+        id: 4329,
         moniker_name: "Glasgow Live",
         domain: ".glasgowlive.co.uk",
         reliability_mean: 42.02222266666666,
@@ -38971,7 +39007,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4326,
+        id: 4330,
         moniker_name: "Stoke-on-Trent Live",
         domain: ".stokesentinel.co.uk",
         reliability_mean: 36.42592555555555,
@@ -38980,7 +39016,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4327,
+        id: 4331,
         moniker_name: "Surrey Live",
         domain: ".getsurrey.co.uk",
         reliability_mean: 40.89583375,
@@ -38989,7 +39025,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4328,
+        id: 4332,
         moniker_name: "WBIR Channel 10",
         domain: ".wbir.com",
         reliability_mean: 42.64583375,
@@ -38998,7 +39034,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4329,
+        id: 4333,
         moniker_name: "KCEN 6 News | Central Texas",
         domain: ".kcentv.com",
         reliability_mean: 43.00000000000001,
@@ -39007,7 +39043,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4330,
+        id: 4334,
         moniker_name: "The Parnas Perspective",
         domain: ".aaronparnas.substack.com",
         reliability_mean: 36.911111999999996,
@@ -39016,7 +39052,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 4331,
+        id: 4335,
         moniker_name: "Here’s The Scoop",
         domain: ".pod.heresthescoop.adfontesmedia.com",
         reliability_mean: 40.00000333333333,
@@ -39025,7 +39061,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 4332,
+        id: 4336,
         moniker_name: "GB News: The Late Show Live",
         domain: ".tv.gbnthelateshowlive.adfontesmedia.com",
         reliability_mean: 25.333331666666666,
@@ -39034,7 +39070,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 4333,
+        id: 4337,
         moniker_name: "CBC: About That with Andrew Chang",
         domain: ".pod.aboutthatwithandrewchang.adfontesmedia.com",
         reliability_mean: 43.22222333333334,
@@ -39043,7 +39079,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4334,
+        id: 4338,
         moniker_name: "The Editorial Board - John Stoehr",
         domain: ".editorialboard.com",
         reliability_mean: 25.65277875,
@@ -39052,7 +39088,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 4335,
+        id: 4339,
         moniker_name: "FOX 54 WZDX Huntsville",
         domain: ".rocketcitynow.com",
         reliability_mean: 41.62499937500001,
@@ -39061,7 +39097,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4336,
+        id: 4340,
         moniker_name: "THV11 Arkansas KTHV",
         domain: ".thv11.com",
         reliability_mean: 42.499999375,
@@ -39070,7 +39106,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4337,
+        id: 4341,
         moniker_name: "The Adam Friedland Show",
         domain: ".pod.theadamfriedlandshow.adfontesmedia.com",
         reliability_mean: 28.555556666666664,
@@ -39079,7 +39115,16 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 4338,
+        id: 4342,
+        moniker_name: "AllMusic",
+        domain: ".allmusic.com",
+        reliability_mean: 37.777778,
+        reliability_label: "Generally Reliable/Analysis OR Other Issues",
+        bias_mean: -3.925926666666667,
+        bias_label: "Middle",
+    },
+    {
+        id: 4343,
         moniker_name: "Politix Podcast with Brian Beutler & Matthew Yglesias",
         domain: ".pod.politixfm.adfontesmedia.com",
         reliability_mean: 25.166668333333334,
@@ -39088,7 +39133,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 4339,
+        id: 4344,
         moniker_name: "HBO: Agents of Chaos",
         domain: ".tv.agentsofchaos.adfontesmedia.com",
         reliability_mean: 35.25,
@@ -39097,7 +39142,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 4340,
+        id: 4345,
         moniker_name: "CNN: American Pulse",
         domain: ".tv.cnnamericanpulse.adfontesmedia.com",
         reliability_mean: 43.22221999999999,
@@ -39106,7 +39151,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4341,
+        id: 4346,
         moniker_name: "Al Arabiya English: Global News Today",
         domain: ".tv.alarabiyaenglishgnt.adfontesmedia.com",
         reliability_mean: 35.66666333333333,
@@ -39115,7 +39160,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4342,
+        id: 4347,
         moniker_name: "Al Arabiya English: Counterpoints",
         domain: ".tv.alarabiyaenglishcounterpoints.adfontesmedia.com",
         reliability_mean: 35.333333333333336,
@@ -39124,7 +39169,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4343,
+        id: 4348,
         moniker_name: "Sherwood News",
         domain: ".sherwood.news",
         reliability_mean: 41.60000133333334,
@@ -39133,7 +39178,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4344,
+        id: 4349,
         moniker_name: "MinistryWatch",
         domain: ".ministrywatch.com",
         reliability_mean: 42.066666000000005,
@@ -39142,7 +39187,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4345,
+        id: 4350,
         moniker_name: "Steady with Dan Rather",
         domain: ".steady.substack.com",
         reliability_mean: 31.82222133333333,
@@ -39151,7 +39196,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 4346,
+        id: 4351,
         moniker_name: "Al Arabiya English: W News",
         domain: ".tv.alarabiyaenglishwnews.adfontesmedia.com",
         reliability_mean: 38.44444333333333,
@@ -39160,7 +39205,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4347,
+        id: 4352,
         moniker_name: "NewsNation: Batya!",
         domain: ".tv.batya.adfontesmedia.com",
         reliability_mean: 26.11111166666667,
@@ -39169,7 +39214,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 4348,
+        id: 4353,
         moniker_name: "Patriot Journal",
         domain: ".patriotjournal.org",
         reliability_mean: 21.793651904761905,
@@ -39178,7 +39223,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 4349,
+        id: 4354,
         moniker_name: "7NEWS Australia",
         domain: ".7news.com.au",
         reliability_mean: 40.99999866666666,
@@ -39187,7 +39232,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4350,
+        id: 4355,
         moniker_name: "Fox News: The Sunday Briefing",
         domain: ".tv.thesundaybriefing.adfontesmedia.com",
         reliability_mean: 32.5833325,
@@ -39196,7 +39241,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 4351,
+        id: 4356,
         moniker_name: "El Nacional.cat",
         domain: ".elnacional.cat",
         reliability_mean: 42.022222000000006,
@@ -39205,7 +39250,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4352,
+        id: 4357,
         moniker_name: "La Vanguardia",
         domain: ".lavanguardia.com",
         reliability_mean: 42.77083375,
@@ -39214,7 +39259,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4353,
+        id: 4358,
         moniker_name: "The Tim Dillon Show (YouTube)",
         domain: ".tv.thetimdillonshow-youtube.adfontesmedia.com",
         reliability_mean: 17.794873846153845,
@@ -39223,7 +39268,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 4354,
+        id: 4359,
         moniker_name: "ABC (Australia): ABC News Daily",
         domain: ".pod.abcnewsdaily.adfontesmedia.com",
         reliability_mean: 36.666666666666664,
@@ -39232,7 +39277,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 4355,
+        id: 4360,
         moniker_name: "Paramount+: Bodyguard of Lies",
         domain: ".tv.bodyguardoflies.adfontesmedia.com",
         reliability_mean: 31.16667,
@@ -39241,7 +39286,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4356,
+        id: 4361,
         moniker_name: "Zurawski v Texas",
         domain: ".tv.zurawskivtexas.adfontesmedia.com",
         reliability_mean: 34.16667,
@@ -39250,7 +39295,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 4357,
+        id: 4362,
         moniker_name: "HBO: The Devil Is Busy",
         domain: ".tv.thedevilisbusy.adfontesmedia.com",
         reliability_mean: 28.83333,
@@ -39259,7 +39304,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 4358,
+        id: 4363,
         moniker_name: "God & Country",
         domain: ".tv.godandcountry.adfontesmedia.com",
         reliability_mean: 27.5,
@@ -39268,7 +39313,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 4359,
+        id: 4364,
         moniker_name:
             "NewsNation: Cuomo Town Hall Live from the Kennedy Center - October 15, 2025",
         domain: ".tv.newsnationcuomotownhall251015.adfontesmedia.com",
@@ -39278,7 +39323,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4360,
+        id: 4365,
         moniker_name:
             "Shutdown America: A CNN Town Hall With Bernie Sanders and Alexandria Ocasio-Cortez - October 15, 2025",
         domain: ".tv.shutdownamericaacnntownhall.adfontesmedia.com",
@@ -39288,7 +39333,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 4361,
+        id: 4366,
         moniker_name: "Nine.com.au",
         domain: ".nine.com.au",
         reliability_mean: 38.955556,
@@ -39297,7 +39342,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4362,
+        id: 4367,
         moniker_name: "Fox News: Saturday In America w/ Kayleigh McEnany",
         domain: ".tv.saturdayinamericawkayleighmcenany.adfontesmedia.com",
         reliability_mean: 23.81481222222222,
@@ -39306,7 +39351,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 4363,
+        id: 4368,
         moniker_name: "NYT: Interesting Times with Ross Douthat",
         domain: ".pod.interestingtimeswithrossdouthat.adfontesmedia.com",
         reliability_mean: 37.11111,
@@ -39315,7 +39360,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 4364,
+        id: 4369,
         moniker_name: "America First with Nicholas J. Fuentes",
         domain: ".pod.americafirstwithnicholasjfuentes.adfontesmedia.com",
         reliability_mean: 12.933333999999999,
@@ -39324,7 +39369,7 @@ const sampleData = [
         bias_label: "Most Extreme Right",
     },
     {
-        id: 4365,
+        id: 4370,
         moniker_name: "NPR: All Things Considered",
         domain: ".pod.allthingsconsidered.adfontesmedia.com",
         reliability_mean: 39.22222333333334,
@@ -39333,7 +39378,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 4366,
+        id: 4371,
         moniker_name: "The Mishal Husain Show",
         domain: ".pod.themishalhusainshow.adfontesmedia.com",
         reliability_mean: 39.88889,
@@ -39342,7 +39387,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 4367,
+        id: 4372,
         moniker_name: "elEconomista",
         domain: ".eleconomista.es",
         reliability_mean: 42.125000625000006,
@@ -39351,7 +39396,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4368,
+        id: 4373,
         moniker_name:
             "15 Days: The Real Story of America's Pandemic School Closures",
         domain: ".tv.15daysfilm.adfontesmedia.com",
@@ -39361,7 +39406,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 4369,
+        id: 4374,
         moniker_name: "El Debate",
         domain: ".eldebate.com",
         reliability_mean: 38.02222400000001,
@@ -39370,7 +39415,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 4370,
+        id: 4375,
         moniker_name: "The Contrarian",
         domain: ".contrarian.substack.com",
         reliability_mean: 28.682540476190475,
@@ -39379,7 +39424,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 4371,
+        id: 4376,
         moniker_name: "Wake Up To Politics - Gabe Fleisher",
         domain: ".wakeuptopolitics.com",
         reliability_mean: 39.93333266666666,
@@ -39388,7 +39433,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4372,
+        id: 4377,
         moniker_name: "Diario de Cádiz",
         domain: ".diariodecadiz.es",
         reliability_mean: 42.622222,
@@ -39397,7 +39442,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4373,
+        id: 4378,
         moniker_name: "C-SPAN: Ceasefire",
         domain: ".tv.cspanceasefire.adfontesmedia.com",
         reliability_mean: 38.44444333333333,
@@ -39406,7 +39451,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4374,
+        id: 4379,
         moniker_name: "CBS News: The Daily Report",
         domain: ".tv.cbsnewsthedailyreport.adfontesmedia.com",
         reliability_mean: 44.666666666666664,
@@ -39415,7 +39460,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4375,
+        id: 4380,
         moniker_name: "The Leonard Files",
         domain: ".pod.theleonardfiles.adfontesmedia.com",
         reliability_mean: 44.55555666666667,
@@ -39424,7 +39469,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4376,
+        id: 4381,
         moniker_name: "That Can't Be True with Chelsea Clinton",
         domain: ".pod.thatcantbetruewithchelseaclinton.adfontesmedia.com",
         reliability_mean: 35.333333333333336,
@@ -39433,7 +39478,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 4377,
+        id: 4382,
         moniker_name: "The Age of Disclosure",
         domain: ".tv.theageofdisclosure-youtube.adfontesmedia.com",
         reliability_mean: 15,
@@ -39442,7 +39487,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4378,
+        id: 4383,
         moniker_name: "The White House Effect",
         domain: ".tv.thewhitehouseeffect.adfontesmedia.com",
         reliability_mean: 42.83333,
@@ -39451,16 +39496,16 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 4379,
+        id: 4384,
         moniker_name: "2000 Meters to Andriivka",
         domain: ".tv.2000meterstoandriivka.adfontesmedia.com",
         reliability_mean: 60.6,
-        reliability_label: "Reliable; Original Fact Reporting",
+        reliability_label: "Reliable; Fact Reporting",
         bias_mean: -1.4,
         bias_label: "Middle",
     },
     {
-        id: 4380,
+        id: 4385,
         moniker_name: "The New Liberal Podcast",
         domain: ".pod.thenewliberalpodcast.adfontesmedia.com",
         reliability_mean: 36,
@@ -39469,7 +39514,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 4381,
+        id: 4386,
         moniker_name: "Science, Public Health Policy & the Law",
         domain: ".publichealthpolicyjournal.com",
         reliability_mean: 22.837837297297295,
@@ -39478,7 +39523,7 @@ const sampleData = [
         bias_label: "Strong Right",
     },
     {
-        id: 4382,
+        id: 4387,
         moniker_name:
             "60 Minutes Overtime - November 2, 2025 - President Donald Trump's extended 60 Minutes interview",
         domain: ".tv.trumpextended60minutesinterview.adfontesmedia.com",
@@ -39488,7 +39533,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4383,
+        id: 4388,
         moniker_name: "The Dragon's Prophecy",
         domain: ".tv.thedragonsprophecy.adfontesmedia.com",
         reliability_mean: 20.66667,
@@ -39497,16 +39542,16 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 4384,
+        id: 4389,
         moniker_name: "HBO: The Alabama Solution",
         domain: ".tv.thealabamasolution.adfontesmedia.com",
         reliability_mean: 57.33333,
-        reliability_label: "Reliable; Original Fact Reporting",
+        reliability_label: "Reliable; Fact Reporting",
         bias_mean: -6,
         bias_label: "Middle",
     },
     {
-        id: 4385,
+        id: 4390,
         moniker_name: "Mr Nobody Against Putin",
         domain: ".tv.mrnobodyagainstputin.adfontesmedia.com",
         reliability_mean: 49.83333,
@@ -39515,7 +39560,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4386,
+        id: 4391,
         moniker_name: "The Librarians",
         domain: ".tv.thelibrarians.adfontesmedia.com",
         reliability_mean: 35.5,
@@ -39524,7 +39569,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 4387,
+        id: 4392,
         moniker_name: "Thank You, Dr. Fauci",
         domain: ".tv.thankyoudrfauci.adfontesmedia.com",
         reliability_mean: 15,
@@ -39533,7 +39578,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Right",
     },
     {
-        id: 4388,
+        id: 4393,
         moniker_name: "Plymouth Live",
         domain: ".plymouthherald.co.uk",
         reliability_mean: 42.20833375,
@@ -39542,7 +39587,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4389,
+        id: 4394,
         moniker_name: "The Diary Of A CEO",
         domain: ".pod.thediaryofaceo.adfontesmedia.com",
         reliability_mean: 39.55555666666667,
@@ -39551,7 +39596,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4390,
+        id: 4395,
         moniker_name: "CBS Texas KTVT",
         domain: ".cbsnews.com/texas",
         reliability_mean: 43.111110666666676,
@@ -39560,7 +39605,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4391,
+        id: 4396,
         moniker_name: "American Police Beat",
         domain: ".apbweb.com",
         reliability_mean: 37.91111133333334,
@@ -39569,7 +39614,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4392,
+        id: 4397,
         moniker_name: "The Argument",
         domain: ".theargumentmag.com",
         reliability_mean: 34.259259444444446,
@@ -39578,7 +39623,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4393,
+        id: 4398,
         moniker_name: "Investigative Post",
         domain: ".investigativepost.org",
         reliability_mean: 42.15555466666667,
@@ -39587,7 +39632,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4394,
+        id: 4399,
         moniker_name: "PerthNow",
         domain: ".perthnow.com.au",
         reliability_mean: 40.51111133333334,
@@ -39596,7 +39641,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4395,
+        id: 4400,
         moniker_name: "Rovina's Choice",
         domain: ".tv.rovinaschoice.adfontesmedia.com",
         reliability_mean: 33.33333,
@@ -39605,7 +39650,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 4396,
+        id: 4401,
         moniker_name: "The New Daily",
         domain: ".thenewdaily.com.au",
         reliability_mean: 40.79166625,
@@ -39614,7 +39659,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4397,
+        id: 4402,
         moniker_name: "CNN: The Story Is with Elex Michaelson",
         domain: ".tv.thestoryiswithelexmichaelson.adfontesmedia.com",
         reliability_mean: 37.77777666666666,
@@ -39623,7 +39668,25 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 4398,
+        id: 4403,
+        moniker_name: "Magic + Loss | Virginia Heffernan",
+        domain: ".virginiaheffernan.substack.com",
+        reliability_mean: 25.654320000000002,
+        reliability_label: "Mixed Reliability/Opinion OR Other Issues",
+        bias_mean: -16.65,
+        bias_label: "Strong Left",
+    },
+    {
+        id: 4404,
+        moniker_name: "Oligarch Watch",
+        domain: ".oligarchwatch.substack.com",
+        reliability_mean: 36.4,
+        reliability_label: "Generally Reliable/Analysis OR Other Issues",
+        bias_mean: -14.016948305084746,
+        bias_label: "Strong Left",
+    },
+    {
+        id: 4405,
         moniker_name:
             "HBO: Thoughts & Prayers: How to Survive an Active Shooter in America",
         domain: ".tv.thoughtsandprayershowtosurviveanactiveshooterinamerica.adfontesmedia.com",
@@ -39633,7 +39696,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 4399,
+        id: 4406,
         moniker_name: "The Nightly",
         domain: ".thenightly.com.au",
         reliability_mean: 39.88235235294117,
@@ -39642,7 +39705,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4400,
+        id: 4407,
         moniker_name: "Teesside Live",
         domain: ".gazettelive.co.uk",
         reliability_mean: 42.479166250000006,
@@ -39651,7 +39714,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4401,
+        id: 4408,
         moniker_name: "The Star | Sheffield",
         domain: ".thestar.co.uk",
         reliability_mean: 42.82222200000001,
@@ -39660,7 +39723,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4402,
+        id: 4409,
         moniker_name: "Harrogate Informer",
         domain: ".harrogate-news.co.uk",
         reliability_mean: 42.000000666666665,
@@ -39669,7 +39732,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4403,
+        id: 4410,
         moniker_name: "The Australian",
         domain: ".theaustralian.com.au",
         reliability_mean: 34.263158947368424,
@@ -39678,7 +39741,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 4404,
+        id: 4411,
         moniker_name: "Tasmanian Times",
         domain: ".tasmaniantimes.com",
         reliability_mean: 36.416666250000006,
@@ -39687,7 +39750,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 4405,
+        id: 4412,
         moniker_name: "Mediaweek",
         domain: ".mediaweek.com.au",
         reliability_mean: 41.74444533333333,
@@ -39696,7 +39759,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4406,
+        id: 4413,
         moniker_name: "CBS Atlanta WUPA",
         domain: ".cbsnews.com/atlanta",
         reliability_mean: 43.04444466666667,
@@ -39705,7 +39768,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4407,
+        id: 4414,
         moniker_name: "Netflix: Apocalypse in the Tropics",
         domain: ".tv.apocalypseinthetropics.adfontesmedia.com",
         reliability_mean: 37.83333,
@@ -39714,7 +39777,7 @@ const sampleData = [
         bias_label: "Strong Left",
     },
     {
-        id: 4408,
+        id: 4415,
         moniker_name: "FOX 7 Austin KTBC",
         domain: ".fox7austin.com",
         reliability_mean: 43.511112000000004,
@@ -39723,7 +39786,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4409,
+        id: 4416,
         moniker_name: "FOX 26 Houston KRIV",
         domain: ".fox26houston.com",
         reliability_mean: 42.444444,
@@ -39732,7 +39795,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4410,
+        id: 4417,
         moniker_name: "The Find Out Podcast",
         domain: ".pod.thefindoutpodcast.adfontesmedia.com",
         reliability_mean: 26.444443333333336,
@@ -39741,7 +39804,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 4411,
+        id: 4418,
         moniker_name: "The Sun-Gazette",
         domain: ".thesungazette.com",
         reliability_mean: 42.62222133333333,
@@ -39750,7 +39813,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4412,
+        id: 4419,
         moniker_name: "Rachel Maddow Presents: Burn Order",
         domain: ".pod.rachelmaddowpresentsburnorder.adfontesmedia.com",
         reliability_mean: 41.05555666666667,
@@ -39759,7 +39822,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 4413,
+        id: 4420,
         moniker_name: "Herald Sun | Australia",
         domain: ".heraldsun.com.au",
         reliability_mean: 38.921568823529405,
@@ -39768,7 +39831,16 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4414,
+        id: 4421,
+        moniker_name: "El Periódico de Aragón",
+        domain: ".elperiodicodearagon.com",
+        reliability_mean: 42.688888000000006,
+        reliability_label: "Reliable; Analysis/Fact Reporting",
+        bias_mean: -0.7111113333333333,
+        bias_label: "Middle",
+    },
+    {
+        id: 4422,
         moniker_name: "Orwell: 2+2=5",
         domain: ".tv.orwell2+2=5.adfontesmedia.com",
         reliability_mean: 23,
@@ -39777,7 +39849,7 @@ const sampleData = [
         bias_label: "Hyper-Partisan Left",
     },
     {
-        id: 4415,
+        id: 4423,
         moniker_name:
             "Armed Only With a Camera: The Life and Death of Brent Renaud",
         domain: ".tv.armedonlywithacamerathelifeanddeathofbrentrenaud.adfontesmedia.com",
@@ -39787,7 +39859,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4416,
+        id: 4424,
         moniker_name: "All The Empty Rooms",
         domain: ".tv.alltheemptyrooms.adfontesmedia.com",
         reliability_mean: 55.66667,
@@ -39796,7 +39868,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4417,
+        id: 4425,
         moniker_name: "The Advertiser",
         domain: ".adelaidenow.com.au",
         reliability_mean: 36.633333,
@@ -39805,7 +39877,7 @@ const sampleData = [
         bias_label: "Skews Right",
     },
     {
-        id: 4418,
+        id: 4426,
         moniker_name: "Netflix: The Perfect Neighbor",
         domain: ".tv.netflixtheperfectneighbor.adfontesmedia.com",
         reliability_mean: 51,
@@ -39814,7 +39886,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 4419,
+        id: 4427,
         moniker_name: "Hulu: Hoops, Hopes & Dreams",
         domain: ".tv.hoopshopesanddreams.adfontesmedia.com",
         reliability_mean: 42,
@@ -39823,7 +39895,7 @@ const sampleData = [
         bias_label: "Skews Left",
     },
     {
-        id: 4420,
+        id: 4428,
         moniker_name: "Just Women's Sports",
         domain: ".justwomenssports.com",
         reliability_mean: 41.17777733333333,
@@ -39832,7 +39904,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4421,
+        id: 4429,
         moniker_name: "Martha Stewart",
         domain: ".marthastewart.com",
         reliability_mean: 39.911110666666666,
@@ -39841,7 +39913,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4422,
+        id: 4430,
         moniker_name: "Oprah Daily",
         domain: ".oprahdaily.com",
         reliability_mean: 37.13333333333333,
@@ -39850,7 +39922,7 @@ const sampleData = [
         bias_label: "Middle",
     },
     {
-        id: 4423,
+        id: 4431,
         moniker_name: "What To Expect",
         domain: ".whattoexpect.com",
         reliability_mean: 40.644444666666665,
